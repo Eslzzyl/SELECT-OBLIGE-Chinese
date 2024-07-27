@@ -1,0 +1,1 @@
+.\tools\VNTextPatch\VNTextPatch.exe insertlocal .\script_jp\ .\json_cn_gpt4omini\ .\script\
