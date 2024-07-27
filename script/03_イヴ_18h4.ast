@@ -1,0 +1,3539 @@
+astver = 2.0
+astname = "ast"
+ast = {
+    block_00000 = {
+        {"savetitle", text = "比翼連理"},
+        {"cgdel", id = -1},
+        {"bg", time = 1000, file = "white", path = ":bg/"},
+        {"bgm", file = "bgm16"},
+        {"bg", speed = 3000, file = "zev_ivu_h07_01", path = ":ev/ev_ivu_h07/", x2 = 80, y2 = -250, x = -300, y = 250, set = "ev_ivu_h07", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"ex", time = 1000, func = "wait"},
+        {"bg", file = "ev_ivu_h07_01", path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "隔着衣服，温柔地抚摸着那对丰满的乳房。",
+                    {"rt2"},
+                    "另一只手则放在了两腿之间。"
+                }
+            }
+        },
+        linknext = "block_00001",
+        line = 22
+    },
+    block_00001 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「咦……？」"
+                }
+            }
+        },
+        linkback = "block_00000",
+        linknext = "block_00002",
+        line = 25
+    },
+    block_00002 = {
+        {"bg", x = -100, y = 180, zoom = 90, file = "zev_ivu_h07_01", path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            ja = {
+                {"胸部比平时要柔软。"}
+            }
+        },
+        linkback = "block_00001",
+        linknext = "block_00003",
+        line = 29
+    },
+    block_00003 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我并没有感到任何的阻碍，",
+                    {"rt2"},
+                    "或许应该说，是没有任何的顾虑吧？"
+                }
+            }
+        },
+        linkback = "block_00002",
+        linknext = "block_00004",
+        line = 32
+    },
+    block_00004 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "啊，原来如此。",
+                    {"rt2"},
+                    "因为没有那个东西。"
+                }
+            }
+        },
+        linkback = "block_00003",
+        linknext = "block_00005",
+        line = 35
+    },
+    block_00005 = {
+        {"bg", time = 500, file = "ev_ivu_h07_01", path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02859", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「嗯？　怎么了？」"
+                }
+            }
+        },
+        linkback = "block_00004",
+        linknext = "block_00006",
+        line = 40
+    },
+    block_00006 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「没，因为没有胸罩，吓了一跳」"
+                }
+            }
+        },
+        linkback = "block_00005",
+        linknext = "block_00007",
+        line = 43
+    },
+    block_00007 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_03", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02860", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「因为我洗完澡了啊？",
+                    {"rt2"},
+                    "反正也没出门，没必要穿」"
+                }
+            }
+        },
+        linkback = "block_00006",
+        linknext = "block_00008",
+        line = 49
+    },
+    block_00008 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_02", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02861", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「而且……我想马上摸凪」"
+                }
+            }
+        },
+        linkback = "block_00007",
+        linknext = "block_00009",
+        line = 54
+    },
+    block_00009 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「…………」"
+                }
+            }
+        },
+        linkback = "block_00008",
+        linknext = "block_00010",
+        line = 57
+    },
+    block_00010 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_04", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02862", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊，难道说……",
+                    {"rt2"},
+                    "没有脱胸罩的步骤，就不会兴奋吗？」"
+                }
+            }
+        },
+        linkback = "block_00009",
+        linknext = "block_00011",
+        line = 63
+    },
+    block_00011 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「……不，倒也不是」"
+                }
+            }
+        },
+        linkback = "block_00010",
+        linknext = "block_00012",
+        line = 66
+    },
+    block_00012 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「只是单纯地吓了一跳，",
+                    {"rt2"},
+                    "然后又觉得你想要我，所以很开心」"
+                }
+            }
+        },
+        linkback = "block_00011",
+        linknext = "block_00013",
+        line = 70
+    },
+    block_00013 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_03", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02863", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「呵呵，事到如今还说这些做什么呢」"
+                }
+            }
+        },
+        linkback = "block_00012",
+        linknext = "block_00014",
+        line = 75
+    },
+    block_00014 = {
+        {"text"},
+        text = {
+            ja = {
+                {"因为对方是我，所以她才会毫无防备地表现出来。"}
+            }
+        },
+        linkback = "block_00013",
+        linknext = "block_00015",
+        line = 77
+    },
+    block_00015 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "正因为如此，所以就连那种小小的举动，",
+                    {"rt2"},
+                    "都能让我感受到心动。"
+                }
+            }
+        },
+        linkback = "block_00014",
+        linknext = "block_00016",
+        line = 80
+    },
+    block_00016 = {
+        {"lvo", ch = "eve", file = "fem_eve_03774", loop = 1},
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_05", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02864", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「嗯嗯……一边被摸胸，一边隔着内裤",
+                    {"rt2"},
+                    "被爱抚，好兴奋……」"
+                }
+            }
+        },
+        linkback = "block_00015",
+        linknext = "block_00017",
+        line = 87
+    },
+    block_00017 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_02", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02865", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「哈啊……身体已经热起来了。",
+                    {"rt2"},
+                    "明明都洗过澡了，却感觉又要出汗了」"
+                }
+            }
+        },
+        linkback = "block_00016",
+        linknext = "block_00018",
+        line = 93
+    },
+    block_00018 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「反正等开始做爱的时候，你就会满身大汗了」"
+                }
+            }
+        },
+        linkback = "block_00017",
+        linknext = "block_00019",
+        line = 96
+    },
+    block_00019 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「而且，我会让你没有余力去",
+                    {"rt2"},
+                    "在意那种事情的」"
+                }
+            }
+        },
+        linkback = "block_00018",
+        linknext = "block_00020",
+        line = 100
+    },
+    block_00020 = {
+        {"bg", x = -100, y = 180, zoom = 90, file = "zev_ivu_h07_03", path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02866", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「呵呵……你说的话真让人开心。",
+                    {"rt2"},
+                    "我都期待起来了」"
+                }
+            }
+        },
+        linkback = "block_00019",
+        linknext = "block_00021",
+        line = 106
+    },
+    block_00021 = {
+        {"bg", sync = 0, face = 1, file = "zev_ivu_h07_05", time = 400, path = ":ev/ev_ivu_h07/", zoom = 90, set = "ev_ivu_h07", ax = 1280, ay = 720, bx = -640, by = -360, x = -100, y = 180},
+        {"text"},
+        text = {
+            ja = {
+                {"伊舞的呼吸渐渐变得甜美起来。"}
+            }
+        },
+        linkback = "block_00020",
+        linknext = "block_00022",
+        line = 110
+    },
+    block_00022 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "为了听到伊舞的色情声音，",
+                    {"rt2"},
+                    "我双手的爱抚没有放缓，继续责难着。"
+                }
+            }
+        },
+        linkback = "block_00021",
+        linknext = "block_00023",
+        line = 113
+    },
+    block_00023 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02867", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「嗯，啊……哈啊……。",
+                    {"rt2"},
+                    "我……已经湿了……嗯，嗯」"
+                }
+            }
+        },
+        linkback = "block_00022",
+        linknext = "block_00024",
+        line = 117
+    },
+    block_00024 = {
+        {"text"},
+        text = {
+            ja = {
+                {"听到这句话，我用手指在阴道口附近游走。"}
+            }
+        },
+        linkback = "block_00023",
+        linknext = "block_00025",
+        line = 120
+    },
+    block_00025 = {
+        {"bg", time = 500, file = "ev_ivu_h07_02", path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02868", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「呀……嗯……」"
+                }
+            }
+        },
+        linkback = "block_00024",
+        linknext = "block_00026",
+        line = 125
+    },
+    block_00026 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02869", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊啊……哈啊……凪，拜托了。",
+                    {"rt2"},
+                    "再多摸摸我……让我舒服起来……？」"
+                }
+            }
+        },
+        linkback = "block_00025",
+        linknext = "block_00027",
+        line = 129
+    },
+    block_00027 = {
+        {"se", file = "se衣擦れ", id = 1},
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_06", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我顺从地挪开衣服，",
+                    {"rt2"},
+                    "爱抚着裸露出来的胸部。"
+                }
+            }
+        },
+        linkback = "block_00026",
+        linknext = "block_00028",
+        line = 136
+    },
+    block_00028 = {
+        {"se", stop = 1, time = 500, id = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02870", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊，哈啊……嗯嗯，啊嗯……」"
+                }
+            }
+        },
+        linkback = "block_00027",
+        linknext = "block_00029",
+        line = 141
+    },
+    block_00029 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02871", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「哈啊，唔……啊嗯，凪的手……好舒服……。",
+                    {"rt2"},
+                    "感觉……紧紧地吸附着……」"
+                }
+            }
+        },
+        linkback = "block_00028",
+        linknext = "block_00030",
+        line = 145
+    },
+    block_00030 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02872", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「我们，很合得来呢……不仅仅是快感，",
+                    {"rt2"},
+                    "还让我充满了活力和勇气……」"
+                }
+            }
+        },
+        linkback = "block_00029",
+        linknext = "block_00031",
+        line = 149
+    },
+    block_00031 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_07", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02873", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「嗯……啊啊……和凪这样，",
+                    {"rt2"},
+                    "我，感觉什么都做得到……」"
+                }
+            }
+        },
+        linkback = "block_00030",
+        linknext = "block_00032",
+        line = 155
+    },
+    block_00032 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「能听你这么说我很开心」"
+                }
+            }
+        },
+        linkback = "block_00031",
+        linknext = "block_00033",
+        line = 158
+    },
+    block_00033 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02874", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊啊……啊嗯，啊……唔唔，嗯！",
+                    {"rt2"},
+                    "唔，啊啊……」"
+                }
+            }
+        },
+        linkback = "block_00032",
+        linknext = "block_00034",
+        line = 162
+    },
+    block_00034 = {
+        {"se", file = "se衣擦れ", id = 1},
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_10", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我撩起睡衣的下摆，",
+                    {"rt2"},
+                    "隔着内裤玩弄着她的下体。"
+                }
+            }
+        },
+        linkback = "block_00033",
+        linknext = "block_00035",
+        line = 169
+    },
+    block_00035 = {
+        {"se", stop = 1, time = 500, id = 1},
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_09", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02875", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊嗯！　真是的，凪今天很会吊人胃口呢……。",
+                    {"rt2"},
+                    "啊，唔唔……嗯……」"
+                }
+            }
+        },
+        linkback = "block_00034",
+        linknext = "block_00036",
+        line = 177
+    },
+    block_00036 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "阴蒂已经勃起，",
+                    {"rt2"},
+                    "隔着内裤也能清楚地看到突起。"
+                }
+            }
+        },
+        linkback = "block_00035",
+        linknext = "block_00037",
+        line = 180
+    },
+    block_00037 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_10", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02876", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「唔唔唔，哈啊……啊啊……嗯……。",
+                    {"rt2"},
+                    "好着急，凪……」"
+                }
+            }
+        },
+        linkback = "block_00036",
+        linknext = "block_00038",
+        line = 186
+    },
+    block_00038 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「少しでもこの時間を長く続けていたくて、つい……」"
+                }
+            }
+        },
+        linkback = "block_00037",
+        linknext = "block_00039",
+        line = 189
+    },
+    block_00039 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_11", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02877", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「嗯，啊……我也是这么想的……。",
+                    {"rt2"},
+                    "感觉快要忍不住了……」"
+                }
+            }
+        },
+        linkback = "block_00038",
+        linknext = "block_00040",
+        line = 195
+    },
+    block_00040 = {
+        {"text"},
+        text = {
+            ja = {
+                {"伊舞扭动着腰部。"}
+            }
+        },
+        linkback = "block_00039",
+        linknext = "block_00041",
+        line = 197
+    },
+    block_00041 = {
+        {"bg", x = -400, y = 380, zoom = 120, time = 500, file = "zev_ivu_h07_08", path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02878", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「伊舞扭动着腰部。<reserved_0>」"
+                }
+            }
+        },
+        linkback = "block_00040",
+        linknext = "block_00042",
+        line = 203
+    },
+    block_00042 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "<reserved_107>伊舞撒娇般地央求着我。",
+                    {"rt2"},
+                    "但是，现在还不能满足她。"
+                }
+            }
+        },
+        linkback = "block_00041",
+        linknext = "block_00043",
+        line = 206
+    },
+    block_00043 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我再摸一会儿」"
+                }
+            }
+        },
+        linkback = "block_00042",
+        linknext = "block_00044",
+        line = 209
+    },
+    block_00044 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02879", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「嗯……？哈啊……",
+                    {"rt2"},
+                    "今天的凪，感觉好坏心眼……」"
+                }
+            }
+        },
+        linkback = "block_00043",
+        linknext = "block_00045",
+        line = 213
+    },
+    block_00045 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我不是故意的。",
+                    {"rt2"},
+                    "只是在好好地注入勇气的途中」"
+                }
+            }
+        },
+        linkback = "block_00044",
+        linknext = "block_00046",
+        line = 217
+    },
+    block_00046 = {
+        {"bg", sync = 0, face = 1, file = "zev_ivu_h07_09", time = 400, path = ":ev/ev_ivu_h07/", zoom = 120, set = "ev_ivu_h07", ax = 1280, ay = 720, bx = -640, by = -360, x = -400, y = 380},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02880", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊……嗯嗯……真会说话。",
+                    {"rt2"},
+                    "真是的……哈，嗯……」"
+                }
+            }
+        },
+        linkback = "block_00045",
+        linknext = "block_00047",
+        line = 223
+    },
+    block_00047 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "突然，我将手指从突起上移开",
+                    {"rt2"},
+                    "滑溜溜的感觉缠绕上来。"
+                }
+            }
+        },
+        linkback = "block_00046",
+        linknext = "block_00048",
+        line = 226
+    },
+    block_00048 = {
+        {"bg", time = 500, file = "ev_ivu_h07_12", path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"se", file = "seエロ_挿入、ヌメリ1", id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「这已经不是渗出的程度了。",
+                    {"rt2"},
+                    "内裤都湿透了」"
+                }
+            }
+        },
+        linkback = "block_00047",
+        linknext = "block_00049",
+        line = 236
+    },
+    block_00049 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_13", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02881", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「讨，讨厌……别说这种话。",
+                    {"rt2"},
+                    "好害羞」"
+                }
+            }
+        },
+        linkback = "block_00048",
+        linknext = "block_00050",
+        line = 242
+    },
+    block_00050 = {
+        {"se", stop = 1, time = 500, id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我高兴所以想说」"
+                }
+            }
+        },
+        linkback = "block_00049",
+        linknext = "block_00051",
+        line = 247
+    },
+    block_00051 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「それだけ俺とのことを期待していたってことだろ？」"
+                }
+            }
+        },
+        linkback = "block_00050",
+        linknext = "block_00052",
+        line = 250
+    },
+    block_00052 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_12", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02882", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「嗯，从淋浴的时候开始就湿了……。",
+                    {"rt2"},
+                    "或许，是因为这样才很快就湿了……嗯，啊啊」"
+                }
+            }
+        },
+        linkback = "block_00051",
+        linknext = "block_00053",
+        line = 256
+    },
+    block_00053 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "原来如此，我一边想着，",
+                    {"rt2"},
+                    "一边继续玩弄着阴道口。"
+                }
+            }
+        },
+        linkback = "block_00052",
+        linknext = "block_00054",
+        line = 259
+    },
+    block_00054 = {
+        {"text"},
+        text = {
+            ja = {
+                {"在玩弄的过程中，我清楚地感受到伊舞的蜜穴正在分泌着爱液。"}
+            }
+        },
+        linkback = "block_00053",
+        linknext = "block_00055",
+        line = 261
+    },
+    block_00055 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_14", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"lvo", ch = "eve", file = "fem_eve_03775", loop = 1},
+        {"se", file = "seエロ_愛撫：中", id = 1, loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02883", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊呜呜呜！」"
+                }
+            }
+        },
+        linkback = "block_00054",
+        linknext = "block_00056",
+        line = 271
+    },
+    block_00056 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我挪开她的内裤，直接爱抚起她的女性器。"}
+            }
+        },
+        linkback = "block_00055",
+        linknext = "block_00057",
+        line = 273
+    },
+    block_00057 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "当我特别刺激她的阴蒂时，",
+                    {"rt2"},
+                    "伊舞舒服地叫出声来。"
+                }
+            }
+        },
+        linkback = "block_00056",
+        linknext = "block_00058",
+        line = 276
+    },
+    block_00058 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_16", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02884", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊嗯，啊，啊，啊，啊……啊，噫，呜呜……」"
+                }
+            }
+        },
+        linkback = "block_00057",
+        linknext = "block_00059",
+        line = 281
+    },
+    block_00059 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02885", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「呀啊……突然就做这种事，",
+                    {"rt2"},
+                    "啊啊，啊嗯……」"
+                }
+            }
+        },
+        linkback = "block_00058",
+        linknext = "block_00060",
+        line = 285
+    },
+    block_00060 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_15", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02886", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「嗯嗯，啊，啊……不公平……。",
+                    {"rt2"},
+                    "凪……哈呜，啊，啊啊啊」"
+                }
+            }
+        },
+        linkback = "block_00059",
+        linknext = "block_00061",
+        line = 291
+    },
+    block_00061 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「刚刚还说很着急的不是伊舞吗？」"
+                }
+            }
+        },
+        linkback = "block_00060",
+        linknext = "block_00062",
+        line = 294
+    },
+    block_00062 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02887", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊啊啊……啊呜……是这样没错……！",
+                    {"rt2"},
+                    "但是，好麻！嗯，啊，啊……」"
+                }
+            }
+        },
+        linkback = "block_00061",
+        linknext = "block_00063",
+        line = 298
+    },
+    block_00063 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我刺激着伊舞的乳头和阴蒂，",
+                    {"rt2"},
+                    "她也配合着我发出娇喘，让我沉迷其中。"
+                }
+            }
+        },
+        linkback = "block_00062",
+        linknext = "block_00064",
+        line = 301
+    },
+    block_00064 = {
+        {"text"},
+        text = {
+            ja = {
+                {"感觉我好像在随心所欲地操纵着伊舞一样。"}
+            }
+        },
+        linkback = "block_00063",
+        linknext = "block_00065",
+        line = 304
+    },
+    block_00065 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_16", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02888", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊，啊……呀，嗯，",
+                    {"rt2"},
+                    "嗯嗯，不行……嗯，呀，啊啊啊」"
+                }
+            }
+        },
+        linkback = "block_00064",
+        linknext = "block_00066",
+        line = 310
+    },
+    block_00066 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_19", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            ja = {
+                {"水滴落在地板上发出啪嗒啪嗒的声音。"}
+            }
+        },
+        linkback = "block_00065",
+        linknext = "block_00067",
+        line = 316
+    },
+    block_00067 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我沿着裂缝抚摸着，",
+                    {"rt2"},
+                    "发现那里正不断流出黏糊糊的爱液。"
+                }
+            }
+        },
+        linkback = "block_00066",
+        linknext = "block_00068",
+        line = 319
+    },
+    block_00068 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_17", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02889", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「哈啊啊啊啊嗯……啊啊……。",
+                    {"rt2"},
+                    "咕啾咕啾的……」"
+                }
+            }
+        },
+        linkback = "block_00067",
+        linknext = "block_00069",
+        line = 325
+    },
+    block_00069 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我用手指沾满爱液，反复揉搓着伊舞的乳头和阴蒂，",
+                    {"rt2"},
+                    "她扭动着腰，舒服地叫出声来。"
+                }
+            }
+        },
+        linkback = "block_00068",
+        linknext = "block_00070",
+        line = 328
+    },
+    block_00070 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02890", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「呀啊，啊，啊，啊啊啊……。",
+                    {"rt2"},
+                    "这样，好舒服……哈啊，啊啊嗯」"
+                }
+            }
+        },
+        linkback = "block_00069",
+        linknext = "block_00071",
+        line = 332
+    },
+    block_00071 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02891", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊啊，啊，嗯嗯，嗯嗯……。",
+                    {"rt2"},
+                    "哈啊……啊呜呜……」"
+                }
+            }
+        },
+        linkback = "block_00070",
+        linknext = "block_00072",
+        line = 336
+    },
+    block_00072 = {
+        {"se", stop = 1, id = 1, time = 500},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "就像弹开手指一样",
+                    {"rt2"},
+                    "阴蒂猛然膨胀变硬。"
+                }
+            }
+        },
+        linkback = "block_00071",
+        linknext = "block_00073",
+        line = 341
+    },
+    block_00073 = {
+        {"se", file = "seエロ_愛撫：強", id = 2, loop = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我行我素地责难着那敏感的部位",
+                    {"rt2"},
+                    "一点集中地持续着。"
+                }
+            }
+        },
+        linkback = "block_00072",
+        linknext = "block_00074",
+        line = 346
+    },
+    block_00074 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_20", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"lvo", ch = "eve", file = "fem_eve_03776", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02892", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「哈呜呜呜，啊啊啊……！",
+                    {"rt2"},
+                    "感觉，要来了……！　嗯嗯，嗯嗯！」"
+                }
+            }
+        },
+        linkback = "block_00073",
+        linknext = "block_00075",
+        line = 353
+    },
+    block_00075 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "伊舞的腰在颤抖，",
+                    {"rt2"},
+                    "告知着她即将高潮。"
+                }
+            }
+        },
+        linkback = "block_00074",
+        linknext = "block_00076",
+        line = 356
+    },
+    block_00076 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我激烈地摩擦着乳头和阴蒂，",
+                    {"rt2"},
+                    "将她引导至高潮。"
+                }
+            }
+        },
+        linkback = "block_00075",
+        linknext = "block_00077",
+        line = 359
+    },
+    block_00077 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_18", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02893", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊啊啊啊……嗯呜，哈啊，啊啊！",
+                    {"rt2"},
+                    "从身体深处，嗯，嗯，涌上来了……！」"
+                }
+            }
+        },
+        linkback = "block_00076",
+        linknext = "block_00078",
+        line = 365
+    },
+    block_00078 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02894", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「凪……要去了……！",
+                    {"rt2"},
+                    "呀啊，啊啊，啊，啊，啊啊啊啊！」"
+                }
+            }
+        },
+        linkback = "block_00077",
+        linknext = "block_00079",
+        line = 369
+    },
+    block_00079 = {
+        {"bg", id = 9, lv = 9, sync = 1, time = 1000, file = "white", path = ":bg/"},
+        {"cgdel", id = 9, lv = 9},
+        {"bg", file = "ev_ivu_h07_21", sync = 1, time = 1000, vague = 100, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"se", stop = 1, id = 2, time = 500},
+        {"lvo", ch = "eve", stop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02895", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊啊啊啊啊啊啊啊啊啊啊……！」"
+                }
+            }
+        },
+        linkback = "block_00078",
+        linknext = "block_00080",
+        line = 378
+    },
+    block_00080 = {
+        {"text"},
+        text = {
+            ja = {
+                {"伊舞迎来高潮的同时，潮吹了。"}
+            }
+        },
+        linkback = "block_00079",
+        linknext = "block_00081",
+        line = 380
+    },
+    block_00081 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "发出啪嗒啪嗒的声音",
+                    {"rt2"},
+                    "向地板上洒下雨水。"
+                }
+            }
+        },
+        linkback = "block_00080",
+        linknext = "block_00082",
+        line = 383
+    },
+    block_00082 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "四处飞溅，我的手",
+                    {"rt2"},
+                    "也湿得像是溺水了一样。"
+                }
+            }
+        },
+        linkback = "block_00081",
+        linknext = "block_00083",
+        line = 386
+    },
+    block_00083 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02896", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「哈啊啊啊……哈啊……哈啊……！",
+                    {"rt2"},
+                    "啊……啊啊啊……！」"
+                }
+            }
+        },
+        linkback = "block_00082",
+        linknext = "block_00084",
+        line = 390
+    },
+    block_00084 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_25", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02897", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「哈啊，嗯……哈啊，哈啊……",
+                    {"rt2"},
+                    "高潮了……」"
+                }
+            }
+        },
+        linkback = "block_00083",
+        linknext = "block_00085",
+        line = 397
+    },
+    block_00085 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_24", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02898", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「我，我一个人舒服起来了……对不起」"
+                }
+            }
+        },
+        linkback = "block_00084",
+        linknext = "block_00086",
+        line = 402
+    },
+    block_00086 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「你没必要道歉。",
+                    {"rt2"},
+                    "伊舞有感觉我很开心」"
+                }
+            }
+        },
+        linkback = "block_00085",
+        linknext = "block_00087",
+        line = 406
+    },
+    block_00087 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02899", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「你没必要道歉。\n伊舞有感觉我很开心」<reserved_0><reser",
+                    {"rt2"},
+                    "ved_107>凪「诶嘿嘿，是吗……那就好」"
+                }
+            }
+        },
+        linkback = "block_00086",
+        linknext = "block_00088",
+        line = 409
+    },
+    block_00088 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_23", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02900", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「不过，凪的摸法，好厉害啊……」"
+                }
+            }
+        },
+        linkback = "block_00087",
+        linknext = "block_00089",
+        line = 414
+    },
+    block_00089 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02901", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「明明只是被爱抚，",
+                    {"rt2"},
+                    "却舒服得像被插入一样……」"
+                }
+            }
+        },
+        linkback = "block_00088",
+        linknext = "block_00090",
+        line = 418
+    },
+    block_00090 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_22", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02902", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「呐……凪也脱吧？",
+                    {"rt2"},
+                    "这次轮到我们一起舒服了」"
+                }
+            }
+        },
+        linkback = "block_00089",
+        linknext = "block_00091",
+        line = 424
+    },
+    block_00091 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我默默地把肉棒露出来，代替了回答。"}
+            }
+        },
+        linkback = "block_00090",
+        linknext = "block_00092",
+        line = 426
+    },
+    block_00092 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_26", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02903", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「哇啊……已经变大了」"
+                }
+            }
+        },
+        linkback = "block_00091",
+        linknext = "block_00093",
+        line = 432
+    },
+    block_00093 = {
+        {"text"},
+        text = {
+            ja = {
+                {"伊舞发出开心的声音。"}
+            }
+        },
+        linkback = "block_00092",
+        linknext = "block_00094",
+        line = 434
+    },
+    block_00094 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02904", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「明明还没摸……。",
+                    {"rt2"},
+                    "只是爱抚就兴奋起来了？」"
+                }
+            }
+        },
+        linkback = "block_00093",
+        linknext = "block_00095",
+        line = 438
+    },
+    block_00095 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「那当然。毕竟听到了很多可爱的声音」"
+                }
+            }
+        },
+        linkback = "block_00094",
+        linknext = "block_00096",
+        line = 441
+    },
+    block_00096 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_27", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"lvo", ch = "eve", file = "fem_eve_03774", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02905", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「好开心……啊，但是……还在摸阴蒂吗？",
+                    {"rt2"},
+                    "啊，啊啊……」"
+                }
+            }
+        },
+        linkback = "block_00095",
+        linknext = "block_00097",
+        line = 448
+    },
+    block_00097 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02906", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「你没必要道歉。",
+                    {"rt2"},
+                    "伊舞有感觉我很开心」<reserved_0><reserved_107>凪「唔唔，",
+                    {"rt2"},
+                    "嗯……才刚高潮过就做那种事的话",
+                    {"rt2"},
+                    "我会忍不住的……」"
+                }
+            }
+        },
+        linkback = "block_00096",
+        linknext = "block_00098",
+        line = 452
+    },
+    block_00098 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02907", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「呐……凪，拜托了」"
+                }
+            }
+        },
+        linkback = "block_00097",
+        linknext = "block_00099",
+        line = 455
+    },
+    block_00099 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「拜托什么？」"
+                }
+            }
+        },
+        linkback = "block_00098",
+        linknext = "block_00100",
+        line = 458
+    },
+    block_00100 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02908", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「诶诶……你明明知道的……啊，嗯嗯……」"
+                }
+            }
+        },
+        linkback = "block_00099",
+        linknext = "block_00101",
+        line = 461
+    },
+    block_00101 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「不，你不说清楚我怎么知道呢」"
+                }
+            }
+        },
+        linkback = "block_00100",
+        linknext = "block_00102",
+        line = 464
+    },
+    block_00102 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我继续责难着阴蒂，同时在她耳边轻声说道。"}
+            }
+        },
+        linkback = "block_00101",
+        linknext = "block_00103",
+        line = 466
+    },
+    block_00103 = {
+        {"bg", x = -400, y = 380, zoom = 120, file = "zev_ivu_h07_28", path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02909", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「真是的，凪真是的……就这么想听我说吗？」"
+                }
+            }
+        },
+        linkback = "block_00102",
+        linknext = "block_00104",
+        line = 471
+    },
+    block_00104 = {
+        {"bg", sync = 0, face = 1, file = "zev_ivu_h07_29", time = 400, path = ":ev/ev_ivu_h07/", zoom = 120, set = "ev_ivu_h07", ax = 1280, ay = 720, bx = -640, by = -360, x = -400, y = 380},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02910", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「凪的，变硬的肉棒，",
+                    {"rt2"},
+                    "插进我的小穴里……？」"
+                }
+            }
+        },
+        linkback = "block_00103",
+        linknext = "block_00105",
+        line = 477
+    },
+    block_00105 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "伊舞红着脸向我撒娇，",
+                    {"rt2"},
+                    "我也不由得兴奋起来。"
+                }
+            }
+        },
+        linkback = "block_00104",
+        linknext = "block_00106",
+        line = 480
+    },
+    block_00106 = {
+        {"lvo", ch = "eve", stop = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「你很会嘛」"
+                }
+            }
+        },
+        linkback = "block_00105",
+        linknext = "block_00107",
+        line = 485
+    },
+    block_00107 = {
+        {"se", file = "seエロ_ペニス挿入", id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "凪「你这人真是的，",
+                    {"rt2"},
+                    "我明明都说了让你别再道歉了」<reserved_0><reserved_107>凪",
+                    {"rt2"},
+                    "「啊，嗯……啊，嗯……啊嗯……！」"
+                }
+            }
+        },
+        linkback = "block_00106",
+        linknext = "block_00108",
+        line = 490
+    },
+    block_00108 = {
+        {"bg", time = 500, file = "ev_ivu_h07_31", path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"lvo", ch = "eve", file = "fem_eve_03782", loop = 1},
+        {"se", stop = 1, id = 1, time = 500},
+        {"se", file = "seエロ_ピストン：弱", id = 2, loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02911", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊唔唔……嗯！」"
+                }
+            }
+        },
+        linkback = "block_00107",
+        linknext = "block_00109",
+        line = 500
+    },
+    block_00109 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_30", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02912", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「果然，凪的很舒服……！",
+                    {"rt2"},
+                    "啊啊，好热……嗯嗯，呼啊……」"
+                }
+            }
+        },
+        linkback = "block_00108",
+        linknext = "block_00110",
+        line = 506
+    },
+    block_00110 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02913", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「和凪合为一体……啊啊……哈啊，啊……！",
+                    {"rt2"},
+                    "心里，暖暖的……啊，啊」"
+                }
+            }
+        },
+        linkback = "block_00109",
+        linknext = "block_00111",
+        line = 510
+    },
+    block_00111 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02914", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊，嗯嗯……感觉，被满足了，",
+                    {"rt2"},
+                    "好充实……啊啊，啊，嗯唔唔……！」"
+                }
+            }
+        },
+        linkback = "block_00110",
+        linknext = "block_00112",
+        line = 514
+    },
+    block_00112 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02915", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊嗯……再，再……动动腰吧，",
+                    {"rt2"},
+                    "我想感受凪更多……呀唔」"
+                }
+            }
+        },
+        linkback = "block_00111",
+        linknext = "block_00113",
+        line = 518
+    },
+    block_00113 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我回应她的要求，",
+                    {"rt2"},
+                    "一边摇晃着腰，一边爱抚着胸部和阴蒂。"
+                }
+            }
+        },
+        linkback = "block_00112",
+        linknext = "block_00114",
+        line = 521
+    },
+    block_00114 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_32", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02916", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊啊，啊嗯……哈……啊嗯……！",
+                    {"rt2"},
+                    "可以哦……啊，嗯，再……再多做点」"
+                }
+            }
+        },
+        linkback = "block_00113",
+        linknext = "block_00115",
+        line = 527
+    },
+    block_00115 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「你这人真是的，\n都说了别再道歉了」<reserved_0><reserve",
+                    {"rt2"},
+                    "d_107>凪「啊，嗯……啊，嗯……啊嗯……！」"
+                }
+            }
+        },
+        linkback = "block_00114",
+        linknext = "block_00116",
+        line = 530
+    },
+    block_00116 = {
+        {"lvo", ch = "eve", file = "fem_eve_03783", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02917", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「嗯嗯……因为，因为……哈唔，嗯唔！」"
+                }
+            }
+        },
+        linkback = "block_00115",
+        linknext = "block_00117",
+        line = 535
+    },
+    block_00117 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02918", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊嗯，嗯啊，嗯啊……！",
+                    {"rt2"},
+                    "哈啊，哈啊，哈啊……！」"
+                }
+            }
+        },
+        linkback = "block_00116",
+        linknext = "block_00118",
+        line = 539
+    },
+    block_00118 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02919", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊啊，呼啊，好像已经，不行了……！",
+                    {"rt2"},
+                    "变得好敏感……啊，哈啊嗯……！」"
+                }
+            }
+        },
+        linkback = "block_00117",
+        linknext = "block_00119",
+        line = 543
+    },
+    block_00119 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_31", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02920", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊，啊啊……啊嗯！　骗，骗人……！",
+                    {"rt2"},
+                    "又要去了，感觉又要去了……！」"
+                }
+            }
+        },
+        linkback = "block_00118",
+        linknext = "block_00120",
+        line = 549
+    },
+    block_00120 = {
+        {"bg", id = 9, lv = 9, sync = 1, time = 1000, file = "white", path = ":bg/"},
+        {"cgdel", id = 9, lv = 9},
+        {"bg", file = "ev_ivu_h07_33", sync = 1, time = 1000, vague = 100, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"lvo", ch = "eve", stop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02921", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「嗯，嗯啊啊啊啊啊啊啊……！」"
+                }
+            }
+        },
+        linkback = "block_00119",
+        linknext = "block_00121",
+        line = 555
+    },
+    block_00121 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "小穴紧紧地收缩着。",
+                    {"rt2"},
+                    "配合着收缩，伊舞的身体也跳动起来。"
+                }
+            }
+        },
+        linkback = "block_00120",
+        linknext = "block_00122",
+        line = 558
+    },
+    block_00122 = {
+        {"lvo", ch = "eve", file = "fem_eve_03783", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02922", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊呜……啊，呼……呜，嗯嗯！」"
+                }
+            }
+        },
+        linkback = "block_00121",
+        linknext = "block_00123",
+        line = 563
+    },
+    block_00123 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02923", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊啊，啊，啊……今天的我好奇怪……！",
+                    {"rt2"},
+                    "是不是太兴奋了……！」"
+                }
+            }
+        },
+        linkback = "block_00122",
+        linknext = "block_00124",
+        line = 567
+    },
+    block_00124 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_31", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02924", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「感觉，又要马上去了……！",
+                    {"rt2"},
+                    "咿，呜……啊啊啊……！」"
+                }
+            }
+        },
+        linkback = "block_00123",
+        linknext = "block_00125",
+        line = 573
+    },
+    block_00125 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02925", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「明明想和凪一起，变得舒服的……！",
+                    {"rt2"},
+                    "却只有我……啊啊，啊……哈啊啊……！」"
+                }
+            }
+        },
+        linkback = "block_00124",
+        linknext = "block_00126",
+        line = 577
+    },
+    block_00126 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「没事的……我也，很舒服」"
+                }
+            }
+        },
+        linkback = "block_00125",
+        linknext = "block_00127",
+        line = 580
+    },
+    block_00127 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_33", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02926", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊啊……嗯，真的吗？",
+                    {"rt2"},
+                    "啊嗯，呀……去了……！　呼，啊啊啊！」"
+                }
+            }
+        },
+        linkback = "block_00126",
+        linknext = "block_00128",
+        line = 586
+    },
+    block_00128 = {
+        {"bg", id = 9, lv = 9, sync = 1, time = 1000, file = "white", path = ":bg/"},
+        {"cgdel", id = 9, lv = 9},
+        {"bg", file = "ev_ivu_h07_31", sync = 1, time = 1000, vague = 100, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"lvo", ch = "eve", stop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02927", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「あぅううぅうぅううううっ……！」"
+                }
+            }
+        },
+        linkback = "block_00127",
+        linknext = "block_00129",
+        line = 592
+    },
+    block_00129 = {
+        {"lvo", ch = "eve", file = "fem_eve_03783", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02928", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊啊，哈啊，哈啊……嗯，哈啊……！」"
+                }
+            }
+        },
+        linkback = "block_00128",
+        linknext = "block_00130",
+        line = 597
+    },
+    block_00130 = {
+        {"se", stop = 1, id = 2, time = 500},
+        {"se", file = "seエロ_ピストン：中", id = 3, loop = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "伊舞的身体越来越热，",
+                    {"rt2"},
+                    "跟一开始说的一样，两个人都开始流汗。"
+                }
+            }
+        },
+        linkback = "block_00129",
+        linknext = "block_00131",
+        line = 603
+    },
+    block_00131 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "沐浴露和汗水混在一起的味道刺激着鼻腔，",
+                    {"rt2"},
+                    "更加挑动着兴奋感。"
+                }
+            }
+        },
+        linkback = "block_00130",
+        linknext = "block_00132",
+        line = 606
+    },
+    block_00132 = {
+        {"bg", x = -400, y = 380, zoom = 120, file = "zev_ivu_h07_34", path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02929", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊呼，哈啊……嗯……好厉害！",
+                    {"rt2"},
+                    "凪的事，已经让我满脑子都是了……！」"
+                }
+            }
+        },
+        linkback = "block_00131",
+        linknext = "block_00133",
+        line = 612
+    },
+    block_00133 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02930", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「呐，凪也射出来吧……把你的精液，",
+                    {"rt2"},
+                    "尽情地射到里面来吧……！」"
+                }
+            }
+        },
+        linkback = "block_00132",
+        linknext = "block_00134",
+        line = 616
+    },
+    block_00134 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02931", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「嗯，啊，呀，啊啊……哈唔，嗯！",
+                    {"rt2"},
+                    "哈啊，是的，嗯，啊！！」"
+                }
+            }
+        },
+        linkback = "block_00133",
+        linknext = "block_00135",
+        line = 620
+    },
+    block_00135 = {
+        {"bg", time = 500, file = "ev_ivu_h07_34", path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02932", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「噫，唔……嗯，啊啊啊，好舒服！",
+                    {"rt2"},
+                    "继续顶我……呼，啊啊！」"
+                }
+            }
+        },
+        linkback = "block_00134",
+        linknext = "block_00136",
+        line = 626
+    },
+    block_00136 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02933", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「唔，嗯嗯，啊，在里面膨胀起来了……！",
+                    {"rt2"},
+                    "射吧！　凪！」"
+                }
+            }
+        },
+        linkback = "block_00135",
+        linknext = "block_00137",
+        line = 630
+    },
+    block_00137 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「啊啊，就这样射出来！」"
+                }
+            }
+        },
+        linkback = "block_00136",
+        linknext = "block_00138",
+        line = 633
+    },
+    block_00138 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_31", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02934", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊，嗯，就这样一起……！",
+                    {"rt2"},
+                    "啊啊啊，哈啊……嗯，嗯嗯！」"
+                }
+            }
+        },
+        linkback = "block_00137",
+        linknext = "block_00139",
+        line = 639
+    },
+    block_00139 = {
+        {"se", stop = 1, id = 3, time = 500},
+        {"lvo", ch = "eve", stop = 1},
+        {"bg", id = 9, lv = 9, sync = 1, time = 100, file = "white", path = ":bg/"},
+        {"bg", id = 9, lv = 9, sync = 1, time = 300, alpha = 0, file = "white", path = ":bg/"},
+        {"bg", id = 9, lv = 9, sync = 1, time = 500, alpha = 255, file = "white", path = ":bg/"},
+        {"cgdel", id = 9, lv = 9},
+        {"bg", file = "ev_ivu_h07_35", sync = 0, time = 1000, vague = 100, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"se", file = "seエロ_射精中出し5", id = 9, time = 0, vol = 100, pan = 0},
+        {"ex", time = 100, func = "wait"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02935", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「呀啊啊啊啊啊啊啊啊啊啊……！」"
+                }
+            }
+        },
+        linkback = "block_00138",
+        linknext = "block_00140",
+        line = 650
+    },
+    block_00140 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我按照伊舞的期望，尽情地把精液射了进去。"}
+            }
+        },
+        linkback = "block_00139",
+        linknext = "block_00141",
+        line = 652
+    },
+    block_00141 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "伊舞好像也跟我一起高潮了，",
+                    {"rt2"},
+                    "在我的怀里，轻微地痉挛着。"
+                }
+            }
+        },
+        linkback = "block_00140",
+        linknext = "block_00142",
+        line = 655
+    },
+    block_00142 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_37", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02936", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊啊，啊……凪的，好热……。",
+                    {"rt2"},
+                    "哈啊……哈啊，啊啊，唔……啊啊……」"
+                }
+            }
+        },
+        linkback = "block_00141",
+        linknext = "block_00143",
+        line = 661
+    },
+    block_00143 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_39", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02937", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「哈啊……唔……对不起……稍微，等一下。",
+                    {"rt2"},
+                    "我喘不过气来……哈啊，哈呼……」"
+                }
+            }
+        },
+        linkback = "block_00142",
+        linknext = "block_00144",
+        line = 667
+    },
+    block_00144 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「嗯，慢慢来就好」"
+                }
+            }
+        },
+        linkback = "block_00143",
+        linknext = "block_00145",
+        line = 670
+    },
+    block_00145 = {
+        {"bg", x = -400, y = 380, zoom = 120, file = "zev_ivu_h07_37", path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02938", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「嗯嗯，谢谢……好厉害，呢。",
+                    {"rt2"},
+                    "我能感觉到，你射了好多进来哦……诶嘿嘿」"
+                }
+            }
+        },
+        linkback = "block_00144",
+        linknext = "block_00146",
+        line = 676
+    },
+    block_00146 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02939", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「和凪做的爱，怎么说呢……。",
+                    {"rt2"},
+                    "好开心……也很消耗体力呢……呵呵」"
+                }
+            }
+        },
+        linkback = "block_00145",
+        linknext = "block_00147",
+        line = 680
+    },
+    block_00147 = {
+        {"bg", sync = 0, face = 1, file = "zev_ivu_h07_36", time = 400, path = ":ev/ev_ivu_h07/", zoom = 120, set = "ev_ivu_h07", ax = 1280, ay = 720, bx = -640, by = -360, x = -400, y = 380},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02940", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「不过，咦……？",
+                    {"rt2"},
+                    "凪的，还是这么大啊……」"
+                }
+            }
+        },
+        linkback = "block_00146",
+        linknext = "block_00148",
+        line = 686
+    },
+    block_00148 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02941", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「你还想做吧？",
+                    {"rt2"},
+                    "可以哦……尽管来吧」"
+                }
+            }
+        },
+        linkback = "block_00147",
+        linknext = "block_00149",
+        line = 690
+    },
+    block_00149 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「嗯……」"
+                }
+            }
+        },
+        linkback = "block_00148",
+        linknext = "block_00150",
+        line = 693
+    },
+    block_00150 = {
+        {"bg", sync = 0, face = 1, file = "zev_ivu_h07_37", time = 400, path = ":ev/ev_ivu_h07/", zoom = 120, set = "ev_ivu_h07", ax = 1280, ay = 720, bx = -640, by = -360, x = -400, y = 380},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02942", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「嗯……我也还想，继续做」"
+                }
+            }
+        },
+        linkback = "block_00149",
+        linknext = "block_00151",
+        line = 698
+    },
+    block_00151 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "听到伊舞这么可爱的话，",
+                    {"rt2"},
+                    "我怎么可能退缩。"
+                }
+            }
+        },
+        linkback = "block_00150",
+        linknext = "block_00152",
+        line = 701
+    },
+    block_00152 = {
+        {"se", file = "seエロ_ピストン：中", id = 3, loop = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我再次开始抽插，",
+                    {"rt2"},
+                    "再次享受伊舞的内部。"
+                }
+            }
+        },
+        linkback = "block_00151",
+        linknext = "block_00153",
+        line = 706
+    },
+    block_00153 = {
+        {"bg", time = 500, file = "ev_ivu_h07_37", path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"lvo", ch = "eve", file = "fem_eve_03782", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02943", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊嗯……嗯……凪的，还是这么硬。",
+                    {"rt2"},
+                    "无论射多少次，还是这么……雄伟……」"
+                }
+            }
+        },
+        linkback = "block_00152",
+        linknext = "block_00154",
+        line = 713
+    },
+    block_00154 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02944", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「嗯，哈，啊啊……其实凪，",
+                    {"rt2"},
+                    "体力，可能比我，还要好呢……哈，唔，嗯」"
+                }
+            }
+        },
+        linkback = "block_00153",
+        linknext = "block_00155",
+        line = 717
+    },
+    block_00155 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「是吗」"
+                }
+            }
+        },
+        linkback = "block_00154",
+        linknext = "block_00156",
+        line = 720
+    },
+    block_00156 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02945", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊嗯，是啊……哈呼，啊，啊啊……！",
+                    {"rt2"},
+                    "能和凪交往，真是太好了……」"
+                }
+            }
+        },
+        linkback = "block_00155",
+        linknext = "block_00157",
+        line = 724
+    },
+    block_00157 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02946", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「这么……啊呼，嗯，",
+                    {"rt2"},
+                    "爱着我……」"
+                }
+            }
+        },
+        linkback = "block_00156",
+        linknext = "block_00158",
+        line = 728
+    },
+    block_00158 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「因为伊舞爱着我啊……！」"
+                }
+            }
+        },
+        linkback = "block_00157",
+        linknext = "block_00159",
+        line = 731
+    },
+    block_00159 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_38", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"lvo", ch = "eve", file = "fem_eve_03783", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02947", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「哈啊……！　凪……凪……！」"
+                }
+            }
+        },
+        linkback = "block_00158",
+        linknext = "block_00160",
+        line = 737
+    },
+    block_00160 = {
+        {"text"},
+        text = {
+            ja = {
+                {"伊舞像梦话一样喊着我的名字。"}
+            }
+        },
+        linkback = "block_00159",
+        linknext = "block_00161",
+        line = 739
+    },
+    block_00161 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02948", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「呀唔……啊，啊啊啊……啊唔唔……！",
+                    {"rt2"},
+                    "喜欢，我喜欢你……啊，啊啊啊」"
+                }
+            }
+        },
+        linkback = "block_00160",
+        linknext = "block_00162",
+        line = 743
+    },
+    block_00162 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_39", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02949", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「呼，啊唔啊，啊，啊，啊啊啊……！",
+                    {"rt2"},
+                    "呼……嗯嗯……啊唔唔！」"
+                }
+            }
+        },
+        linkback = "block_00161",
+        linknext = "block_00163",
+        line = 749
+    },
+    block_00163 = {
+        {"se", stop = 1, id = 3, time = 500},
+        {"se", file = "seエロ_ピストン：強", id = 4, loop = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我只顾着沉迷地挺腰抽插，",
+                    {"rt2"},
+                    "射精感已经涌上来了。"
+                }
+            }
+        },
+        linkback = "block_00162",
+        linknext = "block_00164",
+        line = 755
+    },
+    block_00164 = {
+        {"select", label = "selecta", text = "select"},
+        {"select", label = "selectb", text = "select"},
+        {"select", name = "03_18h", mode = "sys", auto = 1},
+        {"text"},
+        select = {
+            ja = {"中出", "射在外面"}
+        },
+        linkback = "block_00163",
+        linknext = "block_00165",
+        line = 779
+    },
+    block_00165 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我，我感觉好像快射了……」"
+                }
+            }
+        },
+        linkback = "block_00164",
+        linknext = "block_00166",
+        line = 792
+    },
+    block_00166 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02950", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「呀，啊，啊啊……凪，可以哦！",
+                    {"rt2"},
+                    "在我里面射吧……！」"
+                }
+            }
+        },
+        linkback = "block_00165",
+        linknext = "block_00167",
+        line = 796
+    },
+    block_00167 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_40", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02951", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊，啊嗯……呼，啊啊！",
+                    {"rt2"},
+                    "我也，又要去了……！」"
+                }
+            }
+        },
+        linkback = "block_00166",
+        linknext = "block_00168",
+        line = 802
+    },
+    block_00168 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02952", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊嗯……啊，呀，呀啊！",
+                    {"rt2"},
+                    "呀，啊，啊啊，啊啊啊啊啊……！！」"
+                }
+            }
+        },
+        linkback = "block_00167",
+        linknext = "block_00169",
+        line = 806
+    },
+    block_00169 = {
+        {"se", stop = 1, id = 4, time = 500},
+        {"lvo", ch = "eve", stop = 1},
+        {"bg", id = 9, lv = 9, sync = 1, time = 100, file = "white", path = ":bg/"},
+        {"bg", id = 9, lv = 9, sync = 1, time = 300, alpha = 0, file = "white", path = ":bg/"},
+        {"bg", id = 9, lv = 9, sync = 1, time = 500, alpha = 255, file = "white", path = ":bg/"},
+        {"cgdel", id = 9, lv = 9},
+        {"bg", file = "ev_ivu_h07_41", sync = 0, time = 1000, vague = 100, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"se", file = "seエロ_射精中出し5", id = 9, time = 0, vol = 100, pan = 0},
+        {"ex", time = 100, func = "wait"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02953", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「去了……！」"
+                }
+            }
+        },
+        linkback = "block_00168",
+        linknext = "block_00170",
+        line = 814
+    },
+    block_00170 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_45", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02954", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊啊啊……被凪内射着……！",
+                    {"rt2"},
+                    "高潮了……！」"
+                }
+            }
+        },
+        linkback = "block_00169",
+        linknext = "block_00171",
+        line = 820
+    },
+    block_00171 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02955", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「唔唔唔唔……呼，啊……！",
+                    {"rt2"},
+                    "哈啊，嗯，嗯嗯……哈，哈……！」"
+                }
+            }
+        },
+        linkback = "block_00170",
+        linknext = "block_00172",
+        line = 824
+    },
+    block_00172 = {
+        {"text"},
+        text = {
+            ja = {
+                {"伊舞高潮得厉害，身体弓成了一团。"}
+            }
+        },
+        linkback = "block_00171",
+        linknext = "block_00173",
+        line = 826
+    },
+    block_00173 = {
+        {"bg", x = -100, y = 180, zoom = 90, file = "zev_ivu_h07_45", path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02956", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊啊啊……哈啊，唔……",
+                    {"rt2"},
+                    "啊啊……哈啊，啊，啊唔唔唔……」"
+                }
+            }
+        },
+        linkback = "block_00172",
+        linknext = "block_00174",
+        line = 832
+    },
+    block_00174 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02957", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「哈啊啊，啊，啊啊啊啊啊……」"
+                }
+            }
+        },
+        linkback = "block_00173",
+        linknext = "block_00175",
+        line = 835
+    },
+    block_00175 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "然后快乐的浪潮退去，",
+                    {"rt2"},
+                    "伊舞就这样把体重压在我身上。"
+                }
+            }
+        },
+        linkback = "block_00174",
+        linknext = "block_00176",
+        line = 838
+    },
+    block_00176 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02958", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「哈呼，哈啊……哈呼，哈啊，啊啊……」"
+                }
+            }
+        },
+        linkback = "block_00175",
+        linknext = "block_00177",
+        line = 841
+    },
+    block_00177 = {
+        {"bg", file = "ev_ivu_h07_44", path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02959", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊啊，好热……哈啊……好厉害」"
+                }
+            }
+        },
+        linkback = "block_00176",
+        linknext = "block_00178",
+        line = 846
+    },
+    block_00178 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02960", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「你刚才射得那么猛，现在还动不了吗……诶嘿嘿」"
+                }
+            }
+        },
+        linkback = "block_00177",
+        linknext = "block_00179",
+        line = 849
+    },
+    block_00179 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「啊啊，你到最后都很可爱哦」"
+                }
+            }
+        },
+        linkback = "block_00178",
+        linknext = "block_00180",
+        line = 852
+    },
+    block_00180 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_42", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02961", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「那就好……",
+                    {"rt2"},
+                    "嘶，哈啊啊啊——……」"
+                }
+            }
+        },
+        linkback = "block_00179",
+        linknext = "block_00181",
+        line = 858
+    },
+    block_00181 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「在你冷静下来之前，就先这样吧」"
+                }
+            }
+        },
+        linkback = "block_00180",
+        linknext = "block_00182",
+        line = 861
+    },
+    block_00182 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_43", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02962", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「嗯，伊舞……谢谢你……。",
+                    {"rt2"},
+                    "给了我很多勇气」"
+                }
+            }
+        },
+        linkback = "block_00181",
+        linknext = "block_00183",
+        line = 867
+    },
+    block_00183 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02963", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「多亏了你……。",
+                    {"rt2"},
+                    "我今后也能……比以前更加努力了」"
+                }
+            }
+        },
+        linkback = "block_00182",
+        linknext = "block_00184",
+        line = 871
+    },
+    block_00184 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我更加用力地抱紧了满足地笑着的伊舞。"}
+            }
+        },
+        linkback = "block_00183",
+        linknext = "block_00185",
+        line = 873
+    },
+    block_00185 = {
+        {"scene", file = "scene09"},
+        {"bgm", stop = 1},
+        {"cgdel", id = -1},
+        {"bg", time = 1000, file = "white", path = ":bg/"},
+        {"excall", file = "03_イヴ_19"},
+        {"text"},
+        linkback = "block_00184",
+        linknext = "block_00186",
+        line = 881
+    },
+    block_00186 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我，我可能要射了……」"
+                }
+            }
+        },
+        linkback = "block_00185",
+        linknext = "block_00187",
+        line = 894
+    },
+    block_00187 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02950", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「呀，啊，啊啊……凪，可以哦！",
+                    {"rt2"},
+                    "在我里面射吧……！」"
+                }
+            }
+        },
+        linkback = "block_00186",
+        linknext = "block_00188",
+        line = 898
+    },
+    block_00188 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_40", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02951", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊，啊嗯……呼，啊啊！",
+                    {"rt2"},
+                    "我也，又要去了……！」"
+                }
+            }
+        },
+        linkback = "block_00187",
+        linknext = "block_00189",
+        line = 904
+    },
+    block_00189 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02952", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊嗯……啊，呀，呀啊！",
+                    {"rt2"},
+                    "呀，啊，啊啊，啊啊啊啊……！！」"
+                }
+            }
+        },
+        linkback = "block_00188",
+        linknext = "block_00190",
+        line = 908
+    },
+    block_00190 = {
+        {"se", stop = 1, id = 4, time = 500},
+        {"lvo", ch = "eve", stop = 1},
+        {"bg", id = 9, lv = 9, sync = 1, time = 100, file = "white", path = ":bg/"},
+        {"bg", id = 9, lv = 9, sync = 1, time = 300, alpha = 0, file = "white", path = ":bg/"},
+        {"bg", id = 9, lv = 9, sync = 1, time = 500, alpha = 255, file = "white", path = ":bg/"},
+        {"cgdel", id = 9, lv = 9},
+        {"bg", file = "ev_ivu_h07_46", sync = 0, time = 1000, vague = 100, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"se", file = "seエロ_射精外出し2", id = 9, time = 0, vol = 100, pan = 0},
+        {"ex", time = 100, func = "wait"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02964", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「呼啊啊啊啊！？」"
+                }
+            }
+        },
+        linkback = "block_00189",
+        linknext = "block_00191",
+        line = 915
+    },
+    block_00191 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "在高潮前一刻猛地拔出来，",
+                    {"rt2"},
+                    "直接把精液射在了伊舞的身体上。"
+                }
+            }
+        },
+        linkback = "block_00190",
+        linknext = "block_00192",
+        line = 918
+    },
+    block_00192 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_47", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02965", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「嗯，哈啊……好热，啊啊啊……！」"
+                }
+            }
+        },
+        linkback = "block_00191",
+        linknext = "block_00193",
+        line = 923
+    },
+    block_00193 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02966", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊呼，哈啊……哈啊……哈啊啊……」"
+                }
+            }
+        },
+        linkback = "block_00192",
+        linknext = "block_00194",
+        line = 926
+    },
+    block_00194 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_51", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02967", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「身体里……凪的精液都满了。",
+                    {"rt2"},
+                    "嗅嗅……」"
+                }
+            }
+        },
+        linkback = "block_00193",
+        linknext = "block_00195",
+        line = 932
+    },
+    block_00195 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「闻味道有什么用，",
+                    {"rt2"},
+                    "又不是什么好东西……」"
+                }
+            }
+        },
+        linkback = "block_00194",
+        linknext = "block_00196",
+        line = 936
+    },
+    block_00196 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_48", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02968", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「我只是想闻闻而已。",
+                    {"rt2"},
+                    "我最喜欢凪的味道了……」"
+                }
+            }
+        },
+        linkback = "block_00195",
+        linknext = "block_00197",
+        line = 942
+    },
+    block_00197 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "伊舞「凪，你今天也好好地释放了呢……\n看来你也很舒服的样",
+                    {"rt2"},
+                    "子」"
+                }
+            }
+        },
+        linkback = "block_00196",
+        linknext = "block_00198",
+        line = 944
+    },
+    block_00198 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_50", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02969", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「你射了好多呢……",
+                    {"rt2"},
+                    "看来凪也舒服起来了，太好了」"
+                }
+            }
+        },
+        linkback = "block_00197",
+        linknext = "block_00199",
+        line = 950
+    },
+    block_00199 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02970", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「谢谢你，这么用力地抱我……",
+                    {"rt2"},
+                    "我感觉，勇气都得到了」"
+                }
+            }
+        },
+        linkback = "block_00198",
+        linknext = "block_00200",
+        line = 954
+    },
+    block_00200 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「要是你又变得没精神，",
+                    {"rt2"},
+                    "或是没有勇气的话，一定要告诉我哦」"
+                }
+            }
+        },
+        linkback = "block_00199",
+        linknext = "block_00201",
+        line = 958
+    },
+    block_00201 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我一定会回应伊舞的期待的」"
+                }
+            }
+        },
+        linkback = "block_00200",
+        linknext = "block_00202",
+        line = 961
+    },
+    block_00202 = {
+        {"bg", sync = 0, face = 1, file = "ev_ivu_h07_49", time = 400, path = ":ev/ev_ivu_h07/", set = "ev_ivu_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_02971", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「嗯，谢谢你……！　我最喜欢你了，凪！」"
+                }
+            }
+        },
+        linkback = "block_00201",
+        linknext = "block_00203",
+        line = 966
+    },
+    block_00203 = {
+        {"text"},
+        text = {
+            ja = {
+                {"伊舞对我寄予了全身心的信任。"}
+            }
+        },
+        linkback = "block_00202",
+        linknext = "block_00204",
+        line = 968
+    },
+    block_00204 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我紧紧地抱住了我心爱的她。"}
+            }
+        },
+        linkback = "block_00203",
+        linknext = "block_00205",
+        line = 970
+    },
+    block_00205 = {
+        {"scene", file = "scene09"},
+        {"bgm", stop = 1},
+        {"cgdel", id = -1},
+        {"bg", time = 1000, file = "white", path = ":bg/"},
+        {"excall", file = "03_イヴ_19"},
+        {"text"},
+        linkback = "block_00204",
+        line = 979
+    },
+    label = {
+        scene = {block = "block_00000", label = 2},
+        top = {block = "block_00000", label = 1},
+        selecta = {block = "block_00165", label = 1},
+        selectb = {block = "block_00186", label = 1}
+    }
+}

@@ -1,0 +1,175 @@
+astver = 2.0
+astname = "ast"
+ast = {
+    block_00000 = {
+        {"savetitle", text = "願ってもない話だが……"},
+        {"bgm", file = "bgm13"},
+        {"bg", x = 600, y = 150, time = 500, file = "zev_kan_c02_06", path = ":ev/ev_kan_c02/", set = "ev_kan_c02", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「这虽然是我所希望的事……但现在我没有那个心情」"
+                }
+            }
+        },
+        linknext = "block_00001",
+        line = 14
+    },
+    block_00001 = {
+        {"bg", sync = 0, face = 1, file = "zev_kan_c02_08", time = 400, path = ":ev/ev_kan_c02/", set = "ev_kan_c02", ax = 1280, ay = 720, bx = -640, by = -360, x = 600, y = 150},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_00579", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯……好吧」"
+                }
+            }
+        },
+        linkback = "block_00000",
+        linknext = "block_00002",
+        line = 19
+    },
+    block_00002 = {
+        {"bg", sync = 0, face = 1, file = "zev_kan_c02_07", time = 400, path = ":ev/ev_kan_c02/", set = "ev_kan_c02", ax = 1280, ay = 720, bx = -640, by = -360, x = 600, y = 150},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_00580", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「你似乎对其他人也很感兴趣呢」"
+                }
+            }
+        },
+        linkback = "block_00001",
+        linknext = "block_00003",
+        line = 24
+    },
+    block_00003 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「不，没那回事……」"
+                }
+            }
+        },
+        linkback = "block_00002",
+        linknext = "block_00004",
+        line = 27
+    },
+    block_00004 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「这不是随便答应或拖延的事」"
+                }
+            }
+        },
+        linkback = "block_00003",
+        linknext = "block_00005",
+        line = 31
+    },
+    block_00005 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「如果要表现出有意的话，",
+                    {"rt2"},
+                    "我觉得至少得有这样的觉悟」"
+                }
+            }
+        },
+        linkback = "block_00004",
+        linknext = "block_00006",
+        line = 35
+    },
+    block_00006 = {
+        {"bg", time = 500, file = "ev_kan_c02_09", path = ":ev/ev_kan_c02/", set = "ev_kan_c02"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_00581", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「没想到你还挺认真呢。如果拖着的话，之后",
+                    {"rt2"},
+                    "就可以根据情况方便地改变答案了」"
+                }
+            }
+        },
+        linkback = "block_00005",
+        linknext = "block_00007",
+        line = 41
+    },
+    block_00007 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「如果真这样做的话，会长会怎么做呢？」"
+                }
+            }
+        },
+        linkback = "block_00006",
+        linknext = "block_00008",
+        line = 44
+    },
+    block_00008 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_c02_10", time = 400, path = ":ev/ev_kan_c02/", set = "ev_kan_c02"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_00582", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「那我就立刻断绝关系了呢。嘻嘻嘻」"
+                }
+            }
+        },
+        linkback = "block_00007",
+        linknext = "block_00009",
+        line = 49
+    },
+    block_00009 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「你真是个可怕的人啊，真让人害怕」"
+                }
+            }
+        },
+        linkback = "block_00008",
+        linknext = "block_00010",
+        line = 52
+    },
+    block_00010 = {
+        {"excall", file = "01_06奏命編_12"},
+        {"text"},
+        linkback = "block_00009",
+        line = 55
+    },
+    label = {
+        top = {block = "block_00000", label = 1}
+    }
+}

@@ -1,0 +1,4768 @@
+astver = 2.0
+astname = "ast"
+ast = {
+    block_00000 = {
+        {"savetitle", text = "自然体な二人"},
+        {"cgdel", id = -1},
+        {"bg", time = 1000, file = "white", path = ":bg/"},
+        {"bg", zoom = 100, speed = 10000, file = "zev_kuk_h06_07", path = ":ev/ev_kuk_h06/", x2 = 400, y2 = -360, x = -360, y = 330, set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"ex", time = 5000, func = "wait"},
+        {"bg", file = "ev_kuk_h06_07", path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"lvo", ch = "kuk", file = "fem_kuk_03098", loop = 1},
+        {"bgm", file = "bgm16"},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "从后面抱住她，",
+                    {"rt2"},
+                    "揉着胸部的同时吸吮着玖玖瑠的嘴唇。"
+                }
+            }
+        },
+        linknext = "block_00001",
+        line = 24
+    },
+    block_00001 = {
+        {"lvo", ch = "kuk", stop = 1},
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_07", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02495", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯……啾，啾姆……",
+                    {"rt2"},
+                    "哈呼……哈啊……哈啊……」"
+                }
+            }
+        },
+        linkback = "block_00000",
+        linknext = "block_00002",
+        line = 31
+    },
+    block_00002 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_02", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02496", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「心跳得好快。",
+                    {"rt2"},
+                    "虽然以前也是这样……但这次，感觉不一样」"
+                }
+            }
+        },
+        linkback = "block_00001",
+        linknext = "block_00003",
+        line = 37
+    },
+    block_00003 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02497", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「或许是因为我决定要和凪一直在一起生活下去吧……？」"
+                }
+            }
+        },
+        linkback = "block_00002",
+        linknext = "block_00004",
+        line = 41
+    },
+    block_00004 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_01", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02498", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「只是心情不同，感觉也会有这么大的变化，",
+                    {"rt2"},
+                    "真是不可思议……」"
+                }
+            }
+        },
+        linkback = "block_00003",
+        linknext = "block_00005",
+        line = 47
+    },
+    block_00005 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "眼前，玖玖瑠那双大大的眼睛",
+                    {"rt2"},
+                    "直勾勾地盯着我。"
+                }
+            }
+        },
+        linkback = "block_00004",
+        linknext = "block_00006",
+        line = 50
+    },
+    block_00006 = {
+        {"lvo", ch = "kuk", file = "fem_kuk_03098", loop = 1},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"bg", sync = 0, face = 1, file = "ev_kuk_h06_04", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02499", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「我看着她，她也看着我，我们四目相对，彼此都满脸通红。",
+                    {"rt2"},
+                    "嗯唔！？　嗯啾，唔唔……」"
+                }
+            }
+        },
+        linkback = "block_00005",
+        linknext = "block_00007",
+        line = 57
+    },
+    block_00007 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_08", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02500", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「呼，啊啊……啾，唔唔，啾唔……。",
+                    {"rt2"},
+                    "啾噗，嗯，哈啊……啾唔……」"
+                }
+            }
+        },
+        linkback = "block_00006",
+        linknext = "block_00008",
+        line = 63
+    },
+    block_00008 = {
+        {"lvo", ch = "kuk", stop = 1},
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_05", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02501", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「哈啊……哈呼……呼唔唔，",
+                    {"rt2"},
+                    "突然，这么激烈的接吻……」"
+                }
+            }
+        },
+        linkback = "block_00007",
+        linknext = "block_00009",
+        line = 70
+    },
+    block_00009 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我也，想要玖玖瑠，",
+                    {"rt2"},
+                    "所以当然会激烈起来啊」"
+                }
+            }
+        },
+        linkback = "block_00008",
+        linknext = "block_00010",
+        line = 74
+    },
+    block_00010 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_06", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02502", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「呼，啊啊……啾，唔唔，啾唔……。\n啾噗，嗯，哈啊……啾",
+                    {"rt2"},
+                    "唔……」"
+                }
+            }
+        },
+        linkback = "block_00009",
+        linknext = "block_00011",
+        line = 79
+    },
+    block_00011 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_03", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02503", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「哈啊……哈呼……呼唔唔，",
+                    {"rt2"},
+                    "突然，这么激烈的接吻……」"
+                }
+            }
+        },
+        linkback = "block_00010",
+        linknext = "block_00012",
+        line = 85
+    },
+    block_00012 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_01", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02504", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「唔，嗯嗯……胸部……摸着，",
+                    {"rt2"},
+                    "再继续亲吻我吧……」"
+                }
+            }
+        },
+        linkback = "block_00011",
+        linknext = "block_00013",
+        line = 91
+    },
+    block_00013 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我按照玖玖瑠的要求，堵住她的嘴唇，",
+                    {"rt2"},
+                    "一边用舌头缠绕着她，一边隔着衣服抚摸她的胸部。"
+                }
+            }
+        },
+        linkback = "block_00012",
+        linknext = "block_00014",
+        line = 94
+    },
+    block_00014 = {
+        {"bg", zoom = 90, x = -290, y = 260, time = 500, file = "zev_kuk_h06_08", path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"lvo", ch = "kuk", file = "fem_kuk_03098", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02505", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「哈，嗯嗯唔……嗯，啊呼，嗯嗯……。",
+                    {"rt2"},
+                    "啾，唔唔，唔唔……啾唔……嗯」"
+                }
+            }
+        },
+        linkback = "block_00013",
+        linknext = "block_00015",
+        line = 101
+    },
+    block_00015 = {
+        {"lvo", ch = "kuk", stop = 1},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"bg", sync = 0, face = 1, file = "zev_kuk_h06_02", time = 400, path = ":ev/ev_kuk_h06/", zoom = 90, set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -290, y = 260}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02506", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯，哈唔……啾噜，嗯呼……。",
+                    {"rt2"},
+                    "今天的凪，好积极啊……」"
+                }
+            }
+        },
+        linkback = "block_00014",
+        linknext = "block_00016",
+        line = 108
+    },
+    block_00016 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「今天我感觉停不下来了，",
+                    {"rt2"},
+                    "要是觉得讨厌的话就告诉我」"
+                }
+            }
+        },
+        linkback = "block_00015",
+        linknext = "block_00017",
+        line = 112
+    },
+    block_00017 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h06_01", time = 400, path = ":ev/ev_kuk_h06/", zoom = 90, set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -290, y = 260},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02507", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「不……就保持凪现在的样子吧」"
+                }
+            }
+        },
+        linkback = "block_00016",
+        linknext = "block_00018",
+        line = 117
+    },
+    block_00018 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h06_07", time = 400, path = ":ev/ev_kuk_h06/", zoom = 90, set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -290, y = 260},
+        {"lvo", ch = "kuk", file = "fem_kuk_03098", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02508", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「再，再更加渴求我一点吧……。",
+                    {"rt2"},
+                    "嗯唔，唔唔，唔唔……」"
+                }
+            }
+        },
+        linkback = "block_00017",
+        linknext = "block_00019",
+        line = 124
+    },
+    block_00019 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "明明隔着衣服，玖玖瑠的胸部",
+                    {"rt2"},
+                    "却有着极高的敏感度，爱抚起来很有成就感。"
+                }
+            }
+        },
+        linkback = "block_00018",
+        linknext = "block_00020",
+        line = 127
+    },
+    block_00020 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h06_08", time = 400, path = ":ev/ev_kuk_h06/", zoom = 90, set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -290, y = 260},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02509", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「呼，啊啊……啾，唔唔，啾唔……。",
+                    {"rt2"},
+                    "啾噗，嗯，哈啊……啾唔……」"
+                }
+            }
+        },
+        linkback = "block_00019",
+        linknext = "block_00021",
+        line = 133
+    },
+    block_00021 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我想让玖玖瑠更加有感觉。"}
+            }
+        },
+        linkback = "block_00020",
+        linknext = "block_00022",
+        line = 135
+    },
+    block_00022 = {
+        {"text"},
+        text = {
+            ja = {
+                {"回过神来，我的另一只手已经伸向了她的内裤。"}
+            }
+        },
+        linkback = "block_00021",
+        linknext = "block_00023",
+        line = 137
+    },
+    block_00023 = {
+        {"se", file = "se衣擦れ", id = 1},
+        {"bg", time = 500, file = "ev_kuk_h06_10", path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"se", stop = 1, id = 1, time = 500},
+        {"se", file = "seエロ_愛撫：弱", id = 2, loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02510", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯，唔唔……！？」"
+                }
+            }
+        },
+        linkback = "block_00022",
+        linknext = "block_00024",
+        line = 148
+    },
+    block_00024 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "脱下她的裙子，隔着内裤",
+                    {"rt2"},
+                    "爱抚着她那丰满的突起。"
+                }
+            }
+        },
+        linkback = "block_00023",
+        linknext = "block_00025",
+        line = 151
+    },
+    block_00025 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_11", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02511", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「唔唔，那里，被摸的话很敏感……",
+                    {"rt2"},
+                    "嗯……啾唔，舔……」"
+                }
+            }
+        },
+        linkback = "block_00024",
+        linknext = "block_00026",
+        line = 157
+    },
+    block_00026 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "对于现在的我来说，",
+                    {"rt2"},
+                    "敏感这个词只能理解为责难。"
+                }
+            }
+        },
+        linkback = "block_00025",
+        linknext = "block_00027",
+        line = 160
+    },
+    block_00027 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_13", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02512", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「哈，唔，嗯嗯！　啾唔，舔舔，",
+                    {"rt2"},
+                    "哈呼，嗯嗯……！　嗯嗯！」"
+                }
+            }
+        },
+        linkback = "block_00026",
+        linknext = "block_00028",
+        line = 166
+    },
+    block_00028 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_12", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02513", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「哈啊……嗯唔，啾唔，啾噗……。",
+                    {"rt2"},
+                    "啾唔……嗯唔啊」"
+                }
+            }
+        },
+        linkback = "block_00027",
+        linknext = "block_00029",
+        line = 172
+    },
+    block_00029 = {
+        {"lvo", ch = "kuk", stop = 1},
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_11", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02514", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「哈啊，哈啊……。凪摸过的地方，",
+                    {"rt2"},
+                    "全部都好热……好舒服……」"
+                }
+            }
+        },
+        linkback = "block_00028",
+        linknext = "block_00030",
+        line = 179
+    },
+    block_00030 = {
+        {"se", stop = 1, id = 2, time = 500},
+        {"bg", zoom = 120, x = -540, y = 500, time = 500, file = "zev_kuk_h06_09", path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02515", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「凪，你真是不可思议。真的」"
+                }
+            }
+        },
+        linkback = "block_00029",
+        linknext = "block_00031",
+        line = 185
+    },
+    block_00031 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「嗯……？」"
+                }
+            }
+        },
+        linkback = "block_00030",
+        linknext = "block_00032",
+        line = 188
+    },
+    block_00032 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02516", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「我能变得这么奇怪，",
+                    {"rt2"},
+                    "毫无疑问是凪的功劳……」"
+                }
+            }
+        },
+        linkback = "block_00031",
+        linknext = "block_00033",
+        line = 192
+    },
+    block_00033 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02517", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「如果对象是别人的话，",
+                    {"rt2"},
+                    "我绝对不会像这样爱上对方」"
+                }
+            }
+        },
+        linkback = "block_00032",
+        linknext = "block_00034",
+        line = 196
+    },
+    block_00034 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02518", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「我甚至不会想结婚」"
+                }
+            }
+        },
+        linkback = "block_00033",
+        linknext = "block_00035",
+        line = 199
+    },
+    block_00035 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「玖玖瑠觉得现在的自己好吗？」"
+                }
+            }
+        },
+        linkback = "block_00034",
+        linknext = "block_00036",
+        line = 202
+    },
+    block_00036 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02519", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「当然……能和凪相遇，真是太好了……」"
+                }
+            }
+        },
+        linkback = "block_00035",
+        linknext = "block_00037",
+        line = 205
+    },
+    block_00037 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「嗯，我也是……」"
+                }
+            }
+        },
+        linkback = "block_00036",
+        linknext = "block_00038",
+        line = 208
+    },
+    block_00038 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h06_10", time = 400, path = ":ev/ev_kuk_h06/", zoom = 120, set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -540, y = 500},
+        {"se", file = "seエロ_愛撫：弱", id = 2, loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02520", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「呀……呀，啊嗯……",
+                    {"rt2"},
+                    "同时说话，和手指……太有感觉了」"
+                }
+            }
+        },
+        linkback = "block_00037",
+        linknext = "block_00039",
+        line = 215
+    },
+    block_00039 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h06_11", time = 400, path = ":ev/ev_kuk_h06/", zoom = 120, set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -540, y = 500},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02521", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「哈啊，嗯……呼……",
+                    {"rt2"},
+                    "凪……，再摸摸我……」"
+                }
+            }
+        },
+        linkback = "block_00038",
+        linknext = "block_00040",
+        line = 221
+    },
+    block_00040 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "玖玖瑠不停地用手压着我的腰，",
+                    {"rt2"},
+                    "央求我让她更加舒服。"
+                }
+            }
+        },
+        linkback = "block_00039",
+        linknext = "block_00041",
+        line = 224
+    },
+    block_00041 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h06_12", time = 400, path = ":ev/ev_kuk_h06/", zoom = 120, set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -540, y = 500},
+        {"lvo", ch = "kuk", file = "fem_kuk_03098", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02522", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯，啾，嗯，嗯啊……。",
+                    {"rt2"},
+                    "啾……舔……啾啪……」"
+                }
+            }
+        },
+        linkback = "block_00040",
+        linknext = "block_00042",
+        line = 231
+    },
+    block_00042 = {
+        {"se", stop = 1, id = 2, time = 500},
+        {"bg", time = 500, file = "ev_kuk_h06_15", path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"se", file = "seエロ_愛撫：中", id = 2, loop = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "玖玖瑠「嗯，啾，嗯，嗯啊……。",
+                    {"rt2"},
+                    "啾……舔……啾啪……」<reserved_0>"
+                }
+            }
+        },
+        linkback = "block_00041",
+        linknext = "block_00043",
+        line = 240
+    },
+    block_00043 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_14", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"quake", mode = "mw"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02523", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯唔啊……！」"
+                }
+            }
+        },
+        linkback = "block_00042",
+        linknext = "block_00044",
+        line = 246
+    },
+    block_00044 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「已经湿了呢。",
+                    {"rt2"},
+                    "那里贴着内裤呢」"
+                }
+            }
+        },
+        linkback = "block_00043",
+        linknext = "block_00045",
+        line = 250
+    },
+    block_00045 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02524", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯，嗯，呜呜，别说了……。",
+                    {"rt2"},
+                    "呀，声音……哈啊……嗯……」"
+                }
+            }
+        },
+        linkback = "block_00044",
+        linknext = "block_00046",
+        line = 254
+    },
+    block_00046 = {
+        {"lvo", ch = "kuk", stop = 1},
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_15", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"lvo", ch = "kuk", file = "fem_kuk_03099", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02525", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯，舔，啾啪，啾呜，",
+                    {"rt2"},
+                    "啾，啾呜，嗯，嗯嗯……」"
+                }
+            }
+        },
+        linkback = "block_00045",
+        linknext = "block_00047",
+        line = 262
+    },
+    block_00047 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_16", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02526", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯唔啊，亲吻，好激烈……！",
+                    {"rt2"},
+                    "啾，啾噜，舔，啾，舔」"
+                }
+            }
+        },
+        linkback = "block_00046",
+        linknext = "block_00048",
+        line = 268
+    },
+    block_00048 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "想要给予她更多的刺激，",
+                    {"rt2"},
+                    "我脱掉了玖玖瑠的上衣。"
+                }
+            }
+        },
+        linkback = "block_00047",
+        linknext = "block_00049",
+        line = 271
+    },
+    block_00049 = {
+        {"se", file = "se衣擦れ", id = 1},
+        {"bg", time = 500, file = "ev_kuk_h06_17", path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"se", stop = 1, id = 1, time = 500},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02527", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯唔！　嗯，嗯，啾呜！",
+                    {"rt2"},
+                    "啾啪，啾呜……呼，啊嗯，嗯嗯……！」"
+                }
+            }
+        },
+        linkback = "block_00048",
+        linknext = "block_00050",
+        line = 281
+    },
+    block_00050 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "隔着胸罩爱抚胸部后，",
+                    {"rt2"},
+                    "反应比刚才更好了。"
+                }
+            }
+        },
+        linkback = "block_00049",
+        linknext = "block_00051",
+        line = 284
+    },
+    block_00051 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "能让她有这么大的反应，",
+                    {"rt2"},
+                    "确实很有成就感。"
+                }
+            }
+        },
+        linkback = "block_00050",
+        linknext = "block_00052",
+        line = 287
+    },
+    block_00052 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_18", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02528", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯，唔唔……哈呼，啊啊……嗯嗯……。",
+                    {"rt2"},
+                    "好，舒服……嗯，啊嗯……」"
+                }
+            }
+        },
+        linkback = "block_00051",
+        linknext = "block_00053",
+        line = 293
+    },
+    block_00053 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我揉着胸部的手没有停下，手指沿着裂缝滑动，",
+                    {"rt2"},
+                    "不规则地刺激着阴核。"
+                }
+            }
+        },
+        linkback = "block_00052",
+        linknext = "block_00054",
+        line = 296
+    },
+    block_00054 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_19", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02529", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啾啪，嗯嗯，啾，唔唔，",
+                    {"rt2"},
+                    "啊啊，啾唔唔，啾唔唔」"
+                }
+            }
+        },
+        linkback = "block_00053",
+        linknext = "block_00055",
+        line = 302
+    },
+    block_00055 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_20", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02530", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯，嗯唔，啊呼……唔唔……」"
+                }
+            }
+        },
+        linkback = "block_00054",
+        linknext = "block_00056",
+        line = 307
+    },
+    block_00056 = {
+        {"text"},
+        text = {
+            ja = {
+                {"她用舌头缠住我的舌头，吸吮着。"}
+            }
+        },
+        linkback = "block_00055",
+        linknext = "block_00057",
+        line = 309
+    },
+    block_00057 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我也不服输地用舌头缠住她的舌头，",
+                    {"rt2"},
+                    "仔细地品味着彼此的舌头。"
+                }
+            }
+        },
+        linkback = "block_00056",
+        linknext = "block_00058",
+        line = 312
+    },
+    block_00058 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_19", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02531", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯啾……哈啊，哈啊……啊呼，嗯」"
+                }
+            }
+        },
+        linkback = "block_00057",
+        linknext = "block_00059",
+        line = 317
+    },
+    block_00059 = {
+        {"lvo", ch = "kuk", stop = 1},
+        {"se", stop = 1, id = 2, time = 500},
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_18", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02532", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「凪……我，我也想摸摸你的胸」"
+                }
+            }
+        },
+        linkback = "block_00058",
+        linknext = "block_00060",
+        line = 324
+    },
+    block_00060 = {
+        {"text"},
+        text = {
+            ja = {
+                {"玖玖瑠「嗯……嗯嗯……嗯嗯……」"}
+            }
+        },
+        linkback = "block_00059",
+        linknext = "block_00061",
+        line = 326
+    },
+    block_00061 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我再次把手指伸向胸部，捏住乳头。"}
+            }
+        },
+        linkback = "block_00060",
+        linknext = "block_00062",
+        line = 328
+    },
+    block_00062 = {
+        {"se", file = "se衣擦れ", id = 1},
+        {"bg", zoom = 90, x = -290, y = 260, time = 500, file = "zev_kuk_h06_23", path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"se", stop = 1, id = 1, time = 500},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "那乳头，就像被吸引过去一样，",
+                    {"rt2"},
+                    "被我的手指吸住了。"
+                }
+            }
+        },
+        linkback = "block_00061",
+        linknext = "block_00063",
+        line = 337
+    },
+    block_00063 = {
+        {"text"},
+        text = {
+            ja = {
+                {"用拇指和食指夹住两乳头，来回揉捏。"}
+            }
+        },
+        linkback = "block_00062",
+        linknext = "block_00064",
+        line = 339
+    },
+    block_00064 = {
+        {"lvo", ch = "kuk", file = "fem_kuk_03099", loop = 1},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"bg", sync = 0, face = 1, file = "zev_kuk_h06_26", time = 400, path = ":ev/ev_kuk_h06/", zoom = 90, set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -290, y = 260}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02533", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啊，啊，啊，啊啊啊啊啊……！",
+                    {"rt2"},
+                    "嗯，啾，啾啪……嗯，呼，啊」"
+                }
+            }
+        },
+        linkback = "block_00063",
+        linknext = "block_00065",
+        line = 346
+    },
+    block_00065 = {
+        {"text"},
+        text = {
+            ja = {
+                {"玖玖瑠的身体不住地颤抖。"}
+            }
+        },
+        linkback = "block_00064",
+        linknext = "block_00066",
+        line = 348
+    },
+    block_00066 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「嗯……果然隔着胸罩摸和直接摸完全不一样吗？」"
+                }
+            }
+        },
+        linkback = "block_00065",
+        linknext = "block_00067",
+        line = 351
+    },
+    block_00067 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h06_23", time = 400, path = ":ev/ev_kuk_h06/", zoom = 90, set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -290, y = 260},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02534", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯……下面，和被摸一样，",
+                    {"rt2"},
+                    "很舒服……！」"
+                }
+            }
+        },
+        linkback = "block_00066",
+        linknext = "block_00068",
+        line = 357
+    },
+    block_00068 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「光是乳头就那么有感觉，",
+                    {"rt2"},
+                    "你变得相当淫荡了啊」"
+                }
+            }
+        },
+        linkback = "block_00067",
+        linknext = "block_00069",
+        line = 361
+    },
+    block_00069 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「这也是因为我而改变的原因之一吗？」"
+                }
+            }
+        },
+        linkback = "block_00068",
+        linknext = "block_00070",
+        line = 364
+    },
+    block_00070 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h06_21", time = 400, path = ":ev/ev_kuk_h06/", zoom = 90, set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -290, y = 260},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02535", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「当然……因为凪在玩弄，",
+                    {"rt2"},
+                    "才会变成这样的，肯定的……」"
+                }
+            }
+        },
+        linkback = "block_00069",
+        linknext = "block_00071",
+        line = 370
+    },
+    block_00071 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h06_25", time = 400, path = ":ev/ev_kuk_h06/", zoom = 90, set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -290, y = 260},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02536", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啊啊啊嗯，啊，啊，啊啊啊……！",
+                    {"rt2"},
+                    "咿，呜呜呜……！」"
+                }
+            }
+        },
+        linkback = "block_00070",
+        linknext = "block_00072",
+        line = 376
+    },
+    block_00072 = {
+        {"se", file = "seエロ_愛撫：弱", id = 2, loop = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我重点玩弄胸部，",
+                    {"rt2"},
+                    "她每次都会发出甜美的声音。"
+                }
+            }
+        },
+        linkback = "block_00071",
+        linknext = "block_00073",
+        line = 381
+    },
+    block_00073 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "不过，如果变成这样的契机是我的话，",
+                    {"rt2"},
+                    "我必须感谢自己的所作所为。"
+                }
+            }
+        },
+        linkback = "block_00072",
+        linknext = "block_00074",
+        line = 384
+    },
+    block_00074 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h06_22", time = 400, path = ":ev/ev_kuk_h06/", zoom = 90, set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -290, y = 260},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02537", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯，啊嗯……嗯嗯，啾……。",
+                    {"rt2"},
+                    "舔舔……嗯，呼，啊……啊呜……」"
+                }
+            }
+        },
+        linkback = "block_00073",
+        linknext = "block_00075",
+        line = 390
+    },
+    block_00075 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "爱液从阴道里不断溢出，",
+                    {"rt2"},
+                    "缠绕在手指上。"
+                }
+            }
+        },
+        linkback = "block_00074",
+        linknext = "block_00076",
+        line = 393
+    },
+    block_00076 = {
+        {"text"},
+        text = {
+            ja = {
+                {"玖玖瑠露出痛苦的表情，非常煽情。"}
+            }
+        },
+        linkback = "block_00075",
+        linknext = "block_00077",
+        line = 395
+    },
+    block_00077 = {
+        {"se", stop = 1, id = 2, time = 500},
+        {"se", file = "seエロ_愛撫：強", id = 2},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "捏住她完全肿胀的阴核，",
+                    {"rt2"},
+                    "她发出了娇喘。"
+                }
+            }
+        },
+        linkback = "block_00076",
+        linknext = "block_00078",
+        line = 401
+    },
+    block_00078 = {
+        {"lvo", ch = "kuk", stop = 1},
+        {"se", stop = 1, id = 2, time = 500},
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h06_24", time = 400, path = ":ev/ev_kuk_h06/", zoom = 90, set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -290, y = 260},
+        {"quake", mode = "mw"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02538", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「呀！？　嗯，唔……不行，要去了……",
+                    {"rt2"},
+                    "哈啊……哈啊……稍微休息一下」"
+                }
+            }
+        },
+        linkback = "block_00077",
+        linknext = "block_00079",
+        line = 410
+    },
+    block_00079 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「休息，吗。我知道了」"
+                }
+            }
+        },
+        linkback = "block_00078",
+        linknext = "block_00080",
+        line = 413
+    },
+    block_00080 = {
+        {"bg", time = 500, file = "zev_kuk_h06_28", path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -290, y = 260, zoom = 90},
+        {"quake", mode = "mw"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02539", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啊，嗯……！？」"
+                }
+            }
+        },
+        linkback = "block_00079",
+        linknext = "block_00081",
+        line = 421
+    },
+    block_00081 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "双手抓住她的胸部，",
+                    {"rt2"},
+                    "一边揉搓一边堵住她的嘴。"
+                }
+            }
+        },
+        linkback = "block_00080",
+        linknext = "block_00082",
+        line = 424
+    },
+    block_00082 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h06_29", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -290, y = 260, zoom = 90},
+        {"lvo", ch = "kuk", file = "fem_kuk_03099", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02540", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯嗯，啾呜……啾，啾啪……。",
+                    {"rt2"},
+                    "嗯，呣啊……哈啊，哈啊……」"
+                }
+            }
+        },
+        linkback = "block_00081",
+        linknext = "block_00083",
+        line = 431
+    },
+    block_00083 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h06_27", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -290, y = 260, zoom = 90},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02541", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「明明说要休息的，",
+                    {"rt2"},
+                    "嗯，嗯……唔，嗯……」"
+                }
+            }
+        },
+        linkback = "block_00082",
+        linknext = "block_00084",
+        line = 437
+    },
+    block_00084 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「你不是说继续玩弄阴蒂的话就会高潮吗？",
+                    {"rt2"},
+                    "我还以为胸部就没问题了呢」"
+                }
+            }
+        },
+        linkback = "block_00083",
+        linknext = "block_00085",
+        line = 441
+    },
+    block_00085 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02542", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「怎么可能没事……啊，嗯嗯，",
+                    {"rt2"},
+                    "光是这样就感觉到了……」"
+                }
+            }
+        },
+        linkback = "block_00084",
+        linknext = "block_00086",
+        line = 445
+    },
+    block_00086 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「这样，会更好吗？」"
+                }
+            }
+        },
+        linkback = "block_00085",
+        linknext = "block_00087",
+        line = 448
+    },
+    block_00087 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h06_28", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -290, y = 260, zoom = 90},
+        {"quake", size = 2},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02543", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「呀嗯……！」"
+                }
+            }
+        },
+        linkback = "block_00086",
+        linknext = "block_00088",
+        line = 454
+    },
+    block_00088 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我来回揉捏着两边的乳头，",
+                    {"rt2"},
+                    "玖玖瑠发出了甜美的声音。"
+                }
+            }
+        },
+        linkback = "block_00087",
+        linknext = "block_00089",
+        line = 457
+    },
+    block_00089 = {
+        {"lvo", ch = "kuk", stop = 1},
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h06_27", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -290, y = 260, zoom = 90},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02544", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯，唔唔……哈，唔……啊啊啊，",
+                    {"rt2"},
+                    "啊嗯……嗯，啊啊……」"
+                }
+            }
+        },
+        linkback = "block_00088",
+        linknext = "block_00090",
+        line = 464
+    },
+    block_00090 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02545", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啊唔，已经，不行了……」"
+                }
+            }
+        },
+        linkback = "block_00089",
+        linknext = "block_00091",
+        line = 467
+    },
+    block_00091 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02546", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「我，身体已经……。",
+                    {"rt2"},
+                    "只要凪一碰，就会变得很舒服……」"
+                }
+            }
+        },
+        linkback = "block_00090",
+        linknext = "block_00092",
+        line = 471
+    },
+    block_00092 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "皱着眉头喘息着的玖玖瑠太可爱了，",
+                    {"rt2"},
+                    "我再次吻了上去。"
+                }
+            }
+        },
+        linkback = "block_00091",
+        linknext = "block_00093",
+        line = 474
+    },
+    block_00093 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h06_30", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -290, y = 260, zoom = 90},
+        {"lvo", ch = "kuk", file = "fem_kuk_03099", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02547", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯啾……舔舔……嗯，嗯，",
+                    {"rt2"},
+                    "啾哔……啾呜……舔，嗯，呼」"
+                }
+            }
+        },
+        linkback = "block_00092",
+        linknext = "block_00094",
+        line = 481
+    },
+    block_00094 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h06_27", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -290, y = 260, zoom = 90},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02548", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「哈啊，哈啊……嗯，嗯嗯……。",
+                    {"rt2"},
+                    "不行，变得好敏感……」"
+                }
+            }
+        },
+        linkback = "block_00093",
+        linknext = "block_00095",
+        line = 487
+    },
+    block_00095 = {
+        {"text"},
+        delay = {
+            vl01 = {
+                {"bg", sync = 0, face = 1, file = "zev_kuk_h06_29", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -290, y = 260, zoom = 90}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02549", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「光是乳头责难，感觉就要不行了……。",
+                    {"rt2"},
+                    "嗯，啾呜，嗯……唔……嗯嗯嗯」"
+                }
+            }
+        },
+        linkback = "block_00094",
+        linknext = "block_00096",
+        line = 493
+    },
+    block_00096 = {
+        {"text"},
+        text = {
+            ja = {
+                {"玖玖瑠「这样，会更好吗？」"}
+            }
+        },
+        linkback = "block_00095",
+        linknext = "block_00097",
+        line = 496
+    },
+    block_00097 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h06_27", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -290, y = 260, zoom = 90},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02550", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啾啪……哈呼，啊啊啊……。",
+                    {"rt2"},
+                    "唔唔，变得好奇怪……唔唔，唔唔～……」"
+                }
+            }
+        },
+        linkback = "block_00096",
+        linknext = "block_00098",
+        line = 502
+    },
+    block_00098 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "看来光是乳头责难是无法让她高潮的，",
+                    {"rt2"},
+                    "玖玖瑠焦急地扭动着身体。"
+                }
+            }
+        },
+        linkback = "block_00097",
+        linknext = "block_00099",
+        line = 505
+    },
+    block_00099 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "既然如此，我将一只手伸向了她的股间，",
+                    {"rt2"},
+                    "试图让她达到高潮。"
+                }
+            }
+        },
+        linkback = "block_00098",
+        linknext = "block_00100",
+        line = 508
+    },
+    block_00100 = {
+        {"lvo", ch = "kuk", stop = 1},
+        {"bg", time = 500, file = "ev_kuk_h06_32", path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"se", file = "seエロ_愛撫：強", id = 2, loop = 1},
+        {"quake", mode = "mw"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02551", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「咿，啊啊啊嗯！」"
+                }
+            }
+        },
+        linkback = "block_00099",
+        linknext = "block_00101",
+        line = 518
+    },
+    block_00101 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_31", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02552", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯嗯唔唔，嗯，嗯，啊啊啊啊……！",
+                    {"rt2"},
+                    "凪，亲我……！」"
+                }
+            }
+        },
+        linkback = "block_00100",
+        linknext = "block_00102",
+        line = 526
+    },
+    block_00102 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_33", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"lvo", ch = "kuk", file = "fem_kuk_03100", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02553", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯啾呜，啾啪，啾，",
+                    {"rt2"},
+                    "啾呜呜，啾，啾，啾呜，呼呜」"
+                }
+            }
+        },
+        linkback = "block_00101",
+        linknext = "block_00103",
+        line = 533
+    },
+    block_00103 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "内裤比刚才还要湿得厉害，",
+                    {"rt2"},
+                    "每次摩擦都会发出激烈的水声。"
+                }
+            }
+        },
+        linkback = "block_00102",
+        linknext = "block_00104",
+        line = 536
+    },
+    block_00104 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "从听到的声音和触感来判断，",
+                    {"rt2"},
+                    "很容易就能想象到她已经做好了准备。"
+                }
+            }
+        },
+        linkback = "block_00103",
+        linknext = "block_00105",
+        line = 539
+    },
+    block_00105 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_31", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02554", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯啊，啊嗯……哈，啊啊……。",
+                    {"rt2"},
+                    "哈啊，哈唔唔……好，棒……」"
+                }
+            }
+        },
+        linkback = "block_00104",
+        linknext = "block_00106",
+        line = 545
+    },
+    block_00106 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_34", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02555", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「凪……凪……啊啊，啊呜……。",
+                    {"rt2"},
+                    "啾，啾啪，唔唔，啾，啾呜」"
+                }
+            }
+        },
+        linkback = "block_00105",
+        linknext = "block_00107",
+        line = 551
+    },
+    block_00107 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_31", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02556", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯唔，唔唔……我，要去了……」"
+                }
+            }
+        },
+        linkback = "block_00106",
+        linknext = "block_00108",
+        line = 556
+    },
+    block_00108 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「啊啊，尽情地去吧……嗯！」"
+                }
+            }
+        },
+        linkback = "block_00107",
+        linknext = "block_00109",
+        line = 559
+    },
+    block_00109 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_34", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02557", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯，啾呜，啾啪，啾啪，",
+                    {"rt2"},
+                    "啾，唔唔，唔唔……！」"
+                }
+            }
+        },
+        linkback = "block_00108",
+        linknext = "block_00110",
+        line = 568
+    },
+    block_00110 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02558", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「唔……啾呜，哈呼……嗯，嗯……！",
+                    {"rt2"},
+                    "唔唔，啾啪，嗯，啾呜……嗯嗯！！」"
+                }
+            }
+        },
+        linkback = "block_00109",
+        linknext = "block_00111",
+        line = 572
+    },
+    block_00111 = {
+        {"lvo", ch = "kuk", stop = 1},
+        {"se", stop = 1, id = 2, time = 500},
+        {"bg", id = 9, lv = 9, sync = 1, time = 1000, file = "white", path = ":bg/"},
+        {"cgdel", id = 9, lv = 9},
+        {"bg", file = "ev_kuk_h06_35", sync = 1, time = 1000, vague = 100, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02559", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯嗯呜呜呜呜呜呜呜～～……！？」"
+                }
+            }
+        },
+        linkback = "block_00110",
+        linknext = "block_00112",
+        line = 581
+    },
+    block_00112 = {
+        {"text"},
+        text = {
+            ja = {
+                {"身体颤抖着达到高潮。"}
+            }
+        },
+        linkback = "block_00111",
+        linknext = "block_00113",
+        line = 583
+    },
+    block_00113 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "玖玖瑠瞪大了眼睛，",
+                    {"rt2"},
+                    "潮水哗啦哗啦地飞溅出来。"
+                }
+            }
+        },
+        linkback = "block_00112",
+        linknext = "block_00114",
+        line = 586
+    },
+    block_00114 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_38", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02560", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯嗯唔……嗯唔……！",
+                    {"rt2"},
+                    "嗯唔啊，哈呼……哈啊……哈啊啊……」"
+                }
+            }
+        },
+        linkback = "block_00113",
+        linknext = "block_00115",
+        line = 592
+    },
+    block_00115 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02561", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「潮吹了……嗯嗯……呜呜……",
+                    {"rt2"},
+                    "自从，自慰以来……」"
+                }
+            }
+        },
+        linkback = "block_00114",
+        linknext = "block_00116",
+        line = 596
+    },
+    block_00116 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「……初めてじゃないのか、潮吹き」"
+                }
+            }
+        },
+        linkback = "block_00115",
+        linknext = "block_00117",
+        line = 599
+    },
+    block_00117 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h06_37", time = 400, path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02562", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「凪，你好像很不满。怎么了？」"
+                }
+            }
+        },
+        linkback = "block_00116",
+        linknext = "block_00118",
+        line = 604
+    },
+    block_00118 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「不……没什么」"
+                }
+            }
+        },
+        linkback = "block_00117",
+        linknext = "block_00119",
+        line = 607
+    },
+    block_00119 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我怎么可能说是因为嫉妒过去的玖玖瑠而吃醋呢，",
+                    {"rt2"},
+                    "那也太丢人了。"
+                }
+            }
+        },
+        linkback = "block_00118",
+        linknext = "block_00120",
+        line = 610
+    },
+    block_00120 = {
+        {"bg", zoom = 120, x = -540, y = 500, time = 500, file = "zev_kuk_h06_36", path = ":ev/ev_kuk_h06/", set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02563", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯？　哈啊……话说回来，",
+                    {"rt2"},
+                    "比自己吹的时候更舒服……」"
+                }
+            }
+        },
+        linkback = "block_00119",
+        linknext = "block_00121",
+        line = 616
+    },
+    block_00121 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「嗯……」"
+                }
+            }
+        },
+        linkback = "block_00120",
+        linknext = "block_00122",
+        line = 619
+    },
+    block_00122 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我真是单纯啊。"}
+            }
+        },
+        linkback = "block_00121",
+        linknext = "block_00123",
+        line = 621
+    },
+    block_00123 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "刚才那句话，让我那无聊的嫉妒",
+                    {"rt2"},
+                    "一下子烟消云散。"
+                }
+            }
+        },
+        linkback = "block_00122",
+        linknext = "block_00124",
+        line = 624
+    },
+    block_00124 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h06_37", time = 400, path = ":ev/ev_kuk_h06/", zoom = 120, set = "ev_kuk_h06", ax = 1280, ay = 720, bx = -640, by = -360, x = -540, y = 500},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02564", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「但是，还不够……。",
+                    {"rt2"},
+                    "凪，光是用手我可忍不住……来做吧？」"
+                }
+            }
+        },
+        linkback = "block_00123",
+        linknext = "block_00125",
+        line = 630
+    },
+    block_00125 = {
+        {"text"},
+        text = {
+            ja = {
+                {"她直直地，用被情欲蒙蔽的双眼注视着我。"}
+            }
+        },
+        linkback = "block_00124",
+        linknext = "block_00126",
+        line = 632
+    },
+    block_00126 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我的肉棒已经快要爆发了。"}
+            }
+        },
+        linkback = "block_00125",
+        linknext = "block_00127",
+        line = 634
+    },
+    block_00127 = {
+        {"cgdel", id = -1},
+        {"bg", time = 1000, file = "white", path = ":bg/"},
+        {"bg", zoom = 100, speed = 8000, file = "zev_kuk_h07_01", path = ":ev/ev_kuk_h07/", x2 = -330, y2 = -360, x = 200, y = 230, set = "ev_kuk_h07", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"ex", time = 5000, func = "wait"},
+        {"bg", file = "ev_kuk_h07_01", path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"text"},
+        text = {
+            ja = {
+                {"为了接下来的性爱，玖玖瑠调整着呼吸。"}
+            }
+        },
+        linkback = "block_00126",
+        linknext = "block_00128",
+        line = 646
+    },
+    block_00128 = {
+        {"text"},
+        text = {
+            ja = {
+                {"而我则向她展示着自己那硬邦邦的肉棒。"}
+            }
+        },
+        linkback = "block_00127",
+        linknext = "block_00129",
+        line = 648
+    },
+    block_00129 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h07_04", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02565", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「…………」"
+                }
+            }
+        },
+        linkback = "block_00128",
+        linknext = "block_00130",
+        line = 653
+    },
+    block_00130 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "玖玖瑠盯着它看了一会儿，",
+                    {"rt2"},
+                    "红着脸移开了视线。"
+                }
+            }
+        },
+        linkback = "block_00129",
+        linknext = "block_00131",
+        line = 656
+    },
+    block_00131 = {
+        {"bg", zoom = 100, x = 240, y = 230, time = 500, file = "zev_kuk_h07_02", path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02566", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「我再次觉得……凪的那个，",
+                    {"rt2"},
+                    "真的好下流」"
+                }
+            }
+        },
+        linkback = "block_00130",
+        linknext = "block_00132",
+        line = 662
+    },
+    block_00132 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「那个是？」"
+                }
+            }
+        },
+        linkback = "block_00131",
+        linknext = "block_00133",
+        line = 665
+    },
+    block_00133 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "让害羞的女孩子说出性器的名字，",
+                    {"rt2"},
+                    "这可是约定俗成的套路。"
+                }
+            }
+        },
+        linkback = "block_00132",
+        linknext = "block_00134",
+        line = 668
+    },
+    block_00134 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02567", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「…………」"
+                }
+            }
+        },
+        linkback = "block_00133",
+        linknext = "block_00135",
+        line = 671
+    },
+    block_00135 = {
+        {"text"},
+        text = {
+            ja = {
+                {"玖玖瑠红着脸，沉默不语。"}
+            }
+        },
+        linkback = "block_00134",
+        linknext = "block_00136",
+        line = 673
+    },
+    block_00136 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "说起来，玖玖瑠一次也没有",
+                    {"rt2"},
+                    "用过小穴和鸡鸡之类的隐语。"
+                }
+            }
+        },
+        linkback = "block_00135",
+        linknext = "block_00137",
+        line = 676
+    },
+    block_00137 = {
+        {"text"},
+        text = {
+            ja = {
+                {"顶多就是阴蒂。"}
+            }
+        },
+        linkback = "block_00136",
+        linknext = "block_00138",
+        line = 678
+    },
+    block_00138 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h07_01", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07", ax = 1280, ay = 720, bx = -640, by = -360, x = 240, y = 230, zoom = 100},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02568", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「那个，凪」"
+                }
+            }
+        },
+        linkback = "block_00137",
+        linknext = "block_00139",
+        line = 683
+    },
+    block_00139 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02569", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「我该怎么说才好？",
+                    {"rt2"},
+                    "你是想让我兴奋起来，才让我这么说的吧？」"
+                }
+            }
+        },
+        linkback = "block_00138",
+        linknext = "block_00140",
+        line = 687
+    },
+    block_00140 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「那个……」"
+                }
+            }
+        },
+        linkback = "block_00139",
+        linknext = "block_00141",
+        line = 690
+    },
+    block_00141 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我觉得，用「肉棒」这种比较安全的说法比较好」"
+                }
+            }
+        },
+        linkback = "block_00140",
+        linknext = "block_00142",
+        line = 693
+    },
+    block_00142 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h07_02", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07", ax = 1280, ay = 720, bx = -640, by = -360, x = 240, y = 230, zoom = 100},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02570", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「我知道了。那个……肉棒？」"
+                }
+            }
+        },
+        linkback = "block_00141",
+        linknext = "block_00143",
+        line = 698
+    },
+    block_00143 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「…………」"
+                }
+            }
+        },
+        linkback = "block_00142",
+        linknext = "block_00144",
+        line = 701
+    },
+    block_00144 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "她害羞地小声嘟囔的样子，",
+                    {"rt2"},
+                    "让人觉得十分可爱，我的性欲也高涨了起来。"
+                }
+            }
+        },
+        linkback = "block_00143",
+        linknext = "block_00145",
+        line = 704
+    },
+    block_00145 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h07_03", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07", ax = 1280, ay = 720, bx = -640, by = -360, x = 240, y = 230, zoom = 100},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02571", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啊，又变大了。",
+                    {"rt2"},
+                    "你有感到兴奋吗？」"
+                }
+            }
+        },
+        linkback = "block_00144",
+        linknext = "block_00146",
+        line = 710
+    },
+    block_00146 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「唔……」"
+                }
+            }
+        },
+        linkback = "block_00145",
+        linknext = "block_00147",
+        line = 713
+    },
+    block_00147 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "明明是想让玖玖瑠说出色情的词语来进攻她的，",
+                    {"rt2"},
+                    "但不知不觉间攻守就逆转了……。"
+                }
+            }
+        },
+        linkback = "block_00146",
+        linknext = "block_00148",
+        line = 716
+    },
+    block_00148 = {
+        {"se", file = "seエロ_挿入、ヌメリ1", id = 1},
+        {"bg", time = 500, file = "ev_kuk_h07_03", path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"se", stop = 1, id = 1, time = 500},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「可以插进去了吗……？」"
+                }
+            }
+        },
+        linkback = "block_00147",
+        linknext = "block_00149",
+        line = 723
+    },
+    block_00149 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "为了掩饰害羞，",
+                    {"rt2"},
+                    "我用肉棒摩擦着阴道口。"
+                }
+            }
+        },
+        linkback = "block_00148",
+        linknext = "block_00150",
+        line = 729
+    },
+    block_00150 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02572", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「想要让别人说出色情的话的本人",
+                    {"rt2"},
+                    "居然害羞了」"
+                }
+            }
+        },
+        linkback = "block_00149",
+        linknext = "block_00151",
+        line = 733
+    },
+    block_00151 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「吵，吵死了！",
+                    {"rt2"},
+                    "总之我要插进去了……！」"
+                }
+            }
+        },
+        linkback = "block_00150",
+        linknext = "block_00152",
+        line = 737
+    },
+    block_00152 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h07_01", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02573", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯，随时都可以哦……」"
+                }
+            }
+        },
+        linkback = "block_00151",
+        linknext = "block_00153",
+        line = 742
+    },
+    block_00153 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02574", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「那么大的肉棒，",
+                    {"rt2"},
+                    "真想快点插进我的里面」"
+                }
+            }
+        },
+        linkback = "block_00152",
+        linknext = "block_00154",
+        line = 746
+    },
+    block_00154 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「……！」"
+                }
+            }
+        },
+        linkback = "block_00153",
+        linknext = "block_00155",
+        line = 749
+    },
+    block_00155 = {
+        {"se", file = "seエロ_ペニス挿入前", id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "终于忍不住了，我朝着玖玖瑠那渴望的颤抖着的私处",
+                    {"rt2"},
+                    "侵入了进去。"
+                }
+            }
+        },
+        linkback = "block_00154",
+        linknext = "block_00156",
+        line = 754
+    },
+    block_00156 = {
+        {"se", stop = 1, id = 1, time = 500},
+        {"se", file = "seエロ_ペニス挿入", id = 1},
+        {"bg", time = 500, file = "ev_kuk_h07_07", path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"se", stop = 1, id = 1, time = 500},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02575", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯，嗯嗯嗯嗯嗯嗯……！」"
+                }
+            }
+        },
+        linkback = "block_00155",
+        linknext = "block_00157",
+        line = 764
+    },
+    block_00157 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "因为爱液而变得粘稠的阴道，",
+                    {"rt2"},
+                    "将我的肉棒轻易吞了进去。"
+                }
+            }
+        },
+        linkback = "block_00156",
+        linknext = "block_00158",
+        line = 767
+    },
+    block_00158 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "阴道壁比平时更加缠绕上来的感觉……。",
+                    {"rt2"},
+                    "紧紧地缠住肉棒，刺激着肉棒。"
+                }
+            }
+        },
+        linkback = "block_00157",
+        linknext = "block_00159",
+        line = 770
+    },
+    block_00159 = {
+        {"bg", zoom = 100, x = 240, y = 230, time = 500, file = "zev_kuk_h07_07", path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02576", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「哈啊……哈呜，嗯嗯……。",
+                    {"rt2"},
+                    "果然……插入的瞬间，好厉害」"
+                }
+            }
+        },
+        linkback = "block_00158",
+        linknext = "block_00160",
+        line = 776
+    },
+    block_00160 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「厉害，哪里厉害？」"
+                }
+            }
+        },
+        linkback = "block_00159",
+        linknext = "block_00161",
+        line = 779
+    },
+    block_00161 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h07_06", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07", ax = 1280, ay = 720, bx = -640, by = -360, x = 240, y = 230, zoom = 100},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02577", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯，呜呜……被扩张的感觉……",
+                    {"rt2"},
+                    "被凪征服的感觉……」"
+                }
+            }
+        },
+        linkback = "block_00160",
+        linknext = "block_00162",
+        line = 785
+    },
+    block_00162 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02578", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「明明很害羞，却舒服得不得了……",
+                    {"rt2"},
+                    "哈啊……嗯嗯……哈啊……」"
+                }
+            }
+        },
+        linkback = "block_00161",
+        linknext = "block_00163",
+        line = 789
+    },
+    block_00163 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「被你这么一说，我马上就要射了……」"
+                }
+            }
+        },
+        linkback = "block_00162",
+        linknext = "block_00164",
+        line = 792
+    },
+    block_00164 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h07_05", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07", ax = 1280, ay = 720, bx = -640, by = -360, x = 240, y = 230, zoom = 100},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02579", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「呵呵，凪……好可爱……」"
+                }
+            }
+        },
+        linkback = "block_00163",
+        linknext = "block_00165",
+        line = 797
+    },
+    block_00165 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02580", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「凪，快点动起来……用你的肉棒，",
+                    {"rt2"},
+                    "让我的小穴更舒服」"
+                }
+            }
+        },
+        linkback = "block_00164",
+        linknext = "block_00166",
+        line = 801
+    },
+    block_00166 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「……！」"
+                }
+            }
+        },
+        linkback = "block_00165",
+        linknext = "block_00167",
+        line = 804
+    },
+    block_00167 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我按照她的要求开始摆动起腰来。"}
+            }
+        },
+        linkback = "block_00166",
+        linknext = "block_00168",
+        line = 806
+    },
+    block_00168 = {
+        {"bg", zoom = 100, speed = 80000, file = "zev_kuk_h07_08", path = ":ev/ev_kuk_h07/", x2 = -330, y2 = -360, x = 200, y = 230, set = "ev_kuk_h07", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"se", file = "seエロ_ピストン：弱", id = 2, loop = 1},
+        {"lvo", ch = "kuk", file = "fem_kuk_03101", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02581", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「哈啊……哈啊……嗯嗯嗯，嗯嗯，嗯嗯，嗯嗯",
+                    {"rt2"},
+                    "哈啊……哈啊……」"
+                }
+            }
+        },
+        linkback = "block_00167",
+        linknext = "block_00169",
+        line = 814
+    },
+    block_00169 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02582", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啊……嗯……嗯，我的小穴，",
+                    {"rt2"},
+                    "好像已经变成凪的形状了……哈啊，嗯……」"
+                }
+            }
+        },
+        linkback = "block_00168",
+        linknext = "block_00170",
+        line = 818
+    },
+    block_00170 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "每次抽插，",
+                    {"rt2"},
+                    "爱液就会从结合处滴落下来。"
+                }
+            }
+        },
+        linkback = "block_00169",
+        linknext = "block_00171",
+        line = 821
+    },
+    block_00171 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02583", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啊呜呜，嗯……嗯，啊，啊啊啊，",
+                    {"rt2"},
+                    "啊嗯，啊啊啊……」"
+                }
+            }
+        },
+        linkback = "block_00170",
+        linknext = "block_00172",
+        line = 825
+    },
+    block_00172 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02584", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「哈呜，嗯……嗯嗯嗯……。",
+                    {"rt2"},
+                    "被凪抱着……啊嗯，我好幸福……」"
+                }
+            }
+        },
+        linkback = "block_00171",
+        linknext = "block_00173",
+        line = 829
+    },
+    block_00173 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02585", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「哈啊……哈，啊啊，咕，嗯嗯……",
+                    {"rt2"},
+                    "再往，里面……咚咚地，顶进去……」"
+                }
+            }
+        },
+        linkback = "block_00172",
+        linknext = "block_00174",
+        line = 833
+    },
+    block_00174 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02586", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯啊啊啊啊……哈，啊啊……嗯呜呜……」"
+                }
+            }
+        },
+        linkback = "block_00173",
+        linknext = "block_00175",
+        line = 836
+    },
+    block_00175 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02587", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啊，啊嗯……再，再多爱我一点……！",
+                    {"rt2"},
+                    "让我，无法思考其他事情……！」"
+                }
+            }
+        },
+        linkback = "block_00174",
+        linknext = "block_00176",
+        line = 840
+    },
+    block_00176 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「玖玖瑠……」"
+                }
+            }
+        },
+        linkback = "block_00175",
+        linknext = "block_00177",
+        line = 843
+    },
+    block_00177 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "只是结合在一起，",
+                    {"rt2"},
+                    "就感受到疯狂的爱意。"
+                }
+            }
+        },
+        linkback = "block_00176",
+        linknext = "block_00178",
+        line = 846
+    },
+    block_00178 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我想让这孩子，更加舒服。",
+                    {"rt2"},
+                    "我一心一意地，激烈地动着腰。"
+                }
+            }
+        },
+        linkback = "block_00177",
+        linknext = "block_00179",
+        line = 849
+    },
+    block_00179 = {
+        {"lvo", ch = "kuk", stop = 1},
+        {"se", stop = 1, id = 2, time = 500},
+        {"bg", time = 500, file = "ev_kuk_h07_08", path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"se", file = "seエロ_ピストン：中", id = 2, loop = 1},
+        {"lvo", ch = "kuk", file = "fem_kuk_03102", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02588", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啊嗯……啊，啊，啊啊！",
+                    {"rt2"},
+                    "呼……嗯嗯，哈呜，嗯啊，哈啊……啊啊」"
+                }
+            }
+        },
+        linkback = "block_00178",
+        linknext = "block_00180",
+        line = 859
+    },
+    block_00180 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02589", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啊，呜，嗯嗯……嗯嗯，",
+                    {"rt2"},
+                    "啊呜，啊嗯，啊，啊，啊……」"
+                }
+            }
+        },
+        linkback = "block_00179",
+        linknext = "block_00181",
+        line = 863
+    },
+    block_00181 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02590", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯嗯，啊呜，嗯嗯，可以高潮吗……？",
+                    {"rt2"},
+                    "我……已经变得太敏感了……啊，啊，啊」"
+                }
+            }
+        },
+        linkback = "block_00180",
+        linknext = "block_00182",
+        line = 867
+    },
+    block_00182 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02591", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「哈啊，啊，啊啊……啊嗯，呼，呜呜呜嗯」"
+                }
+            }
+        },
+        linkback = "block_00181",
+        linknext = "block_00183",
+        line = 870
+    },
+    block_00183 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我没有回答，",
+                    {"rt2"},
+                    "而是更加用力地顶向玖玖瑠的深处。"
+                }
+            }
+        },
+        linkback = "block_00182",
+        linknext = "block_00184",
+        line = 873
+    },
+    block_00184 = {
+        {"lvo", ch = "kuk", stop = 1},
+        {"se", stop = 1, id = 2, time = 500},
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h07_09", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"se", file = "seエロ_ピストン：強", id = 2, loop = 1},
+        {"lvo", ch = "kuk", file = "fem_kuk_03103", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02592", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「噫呜呜！　嗯嗯！",
+                    {"rt2"},
+                    "啊啊，啊啊啊，啊呜，啊啊啊啊嗯！」"
+                }
+            }
+        },
+        linkback = "block_00183",
+        linknext = "block_00185",
+        line = 883
+    },
+    block_00185 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02593", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯呜呜，嗯！　凪的肉棒，",
+                    {"rt2"},
+                    "变得好大好硬，啊嗯，呼，啊啊！」"
+                }
+            }
+        },
+        linkback = "block_00184",
+        linknext = "block_00186",
+        line = 887
+    },
+    block_00186 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02594", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「凪也，哈，啊啊，快要去了吧？",
+                    {"rt2"},
+                    "呜，嗯，嗯，呼啊啊！」"
+                }
+            }
+        },
+        linkback = "block_00185",
+        linknext = "block_00187",
+        line = 891
+    },
+    block_00187 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02595", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「凪也一起高潮吧……！　啊，啊，啊啊！",
+                    {"rt2"},
+                    "嗯，啊，啊啊啊，啊嗯……」"
+                }
+            }
+        },
+        linkback = "block_00186",
+        linknext = "block_00188",
+        line = 895
+    },
+    block_00188 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "玖玖瑠似乎察觉到我的极限了。",
+                    {"rt2"},
+                    "为了能一起高潮，我忘我地抽插着。"
+                }
+            }
+        },
+        linkback = "block_00187",
+        linknext = "block_00189",
+        line = 898
+    },
+    block_00189 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h07_08", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02596", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啊，啊呜，嗯！　啊，啊啊！",
+                    {"rt2"},
+                    "啊嗯！　嗯，嗯，嗯呜呜……！」"
+                }
+            }
+        },
+        linkback = "block_00188",
+        linknext = "block_00190",
+        line = 904
+    },
+    block_00190 = {
+        {"lvo", ch = "kuk", stop = 1},
+        {"se", stop = 1, id = 2, time = 500},
+        {"bg", id = 9, lv = 9, sync = 1, time = 100, file = "white", path = ":bg/"},
+        {"bg", id = 9, lv = 9, sync = 1, time = 300, alpha = 0, file = "white", path = ":bg/"},
+        {"bg", id = 9, lv = 9, sync = 1, time = 500, alpha = 255, file = "white", path = ":bg/"},
+        {"cgdel", id = 9, lv = 9},
+        {"bg", file = "ev_kuk_h07_11", sync = 0, time = 1000, vague = 100, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"se", file = "seエロ_射精中出し5", id = 9, time = 0, vol = 100, pan = 0},
+        {"ex", time = 100, func = "wait"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02597", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啊啊啊啊啊啊啊……！",
+                    {"rt2"},
+                    "要……要去了……！」"
+                }
+            }
+        },
+        linkback = "block_00189",
+        linknext = "block_00191",
+        line = 915
+    },
+    block_00191 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我朝着玖玖瑠的最深处，猛烈地射出精液。"}
+            }
+        },
+        linkback = "block_00190",
+        linknext = "block_00192",
+        line = 917
+    },
+    block_00192 = {
+        {"se", file = "seエロ_ピストン：弱", id = 2, loop = 1},
+        {"se", stop = 1, time = 500, id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "一边微微地摇动着腰，",
+                    {"rt2"},
+                    "一边像野兽一样享受着射精。"
+                }
+            }
+        },
+        linkback = "block_00191",
+        linknext = "block_00193",
+        line = 923
+    },
+    block_00193 = {
+        {"lvo", ch = "kuk", file = "fem_kuk_03102", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02598", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯嗯，嗯嗯，啊啊啊啊啊啊！",
+                    {"rt2"},
+                    "啊呜，里面……好热……呼啊啊……！」"
+                }
+            }
+        },
+        linkback = "block_00192",
+        linknext = "block_00194",
+        line = 929
+    },
+    block_00194 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02599", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啊，呜呜嗯……！",
+                    {"rt2"},
+                    "一边射精，一边抽插……」"
+                }
+            }
+        },
+        linkback = "block_00193",
+        linknext = "block_00195",
+        line = 933
+    },
+    block_00195 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02600", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「好像在让我怀孕一样……」"
+                }
+            }
+        },
+        linkback = "block_00194",
+        linknext = "block_00196",
+        line = 936
+    },
+    block_00196 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h07_10", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02601", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「噫呜……，呀啊……啊，啊，啊啊……",
+                    {"rt2"},
+                    "那种动作，又会，感觉到了……」"
+                }
+            }
+        },
+        linkback = "block_00195",
+        linknext = "block_00197",
+        line = 942
+    },
+    block_00197 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02602", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啊啊啊啊，啊，哈啊……嗯呜……",
+                    {"rt2"},
+                    "咕，呜呜……哈呼，嗯……嗯……」"
+                }
+            }
+        },
+        linkback = "block_00196",
+        linknext = "block_00198",
+        line = 946
+    },
+    block_00198 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我一边用力地顶向深处，",
+                    {"rt2"},
+                    "一边把剩下的精液都注入进去。"
+                }
+            }
+        },
+        linkback = "block_00197",
+        linknext = "block_00199",
+        line = 949
+    },
+    block_00199 = {
+        {"lvo", ch = "kuk", stop = 1},
+        {"se", stop = 1, id = 2, time = 500},
+        {"bg", time = 500, file = "ev_kuk_h07_12", path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02603", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啊啊啊啊，啊，哈啊……嗯，嗯嗯……",
+                    {"rt2"},
+                    "哈，哈啊……哈啊……」"
+                }
+            }
+        },
+        linkback = "block_00198",
+        linknext = "block_00200",
+        line = 957
+    },
+    block_00200 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h07_14", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02604", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「凪……我又，又开始燥热起来了……",
+                    {"rt2"},
+                    "可以，再来一次吗？」"
+                }
+            }
+        },
+        linkback = "block_00199",
+        linknext = "block_00201",
+        line = 963
+    },
+    block_00201 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「嗯，当然了。我也还想继续」"
+                }
+            }
+        },
+        linkback = "block_00200",
+        linknext = "block_00202",
+        line = 966
+    },
+    block_00202 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02605", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「好开心……。就算我高潮了也不要停下来。",
+                    {"rt2"},
+                    "凪，直到你满足为止，都不要停」"
+                }
+            }
+        },
+        linkback = "block_00201",
+        linknext = "block_00203",
+        line = 970
+    },
+    block_00203 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「玖玖瑠……！」"
+                }
+            }
+        },
+        linkback = "block_00202",
+        linknext = "block_00204",
+        line = 973
+    },
+    block_00204 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h07_15", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"se", file = "seエロ_ピストン：中", id = 2, loop = 1},
+        {"lvo", ch = "kuk", file = "fem_kuk_03102", loop = 1},
+        {"quake"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02606", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯嗯，啊啊啊啊，啊啊啊，啊啊嗯……！」"
+                }
+            }
+        },
+        linkback = "block_00203",
+        linknext = "block_00205",
+        line = 981
+    },
+    block_00205 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "啪啪啪地肉与肉碰撞着，",
+                    {"rt2"},
+                    "我顺从着欲望责难着玖玖瑠。"
+                }
+            }
+        },
+        linkback = "block_00204",
+        linknext = "block_00206",
+        line = 984
+    },
+    block_00206 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h07_13", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02607", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啊啊啊嗯，那里……我，",
+                    {"rt2"},
+                    "啊，啊，啊啊……！」"
+                }
+            }
+        },
+        linkback = "block_00205",
+        linknext = "block_00207",
+        line = 990
+    },
+    block_00207 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "重点地责难着深处，",
+                    {"rt2"},
+                    "玖玖瑠的身体开始小幅度地痉挛。"
+                }
+            }
+        },
+        linkback = "block_00206",
+        linknext = "block_00208",
+        line = 993
+    },
+    block_00208 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我像是要压住她纤细的身体一样，",
+                    {"rt2"},
+                    "集中地顶向深处。"
+                }
+            }
+        },
+        linkback = "block_00207",
+        linknext = "block_00209",
+        line = 996
+    },
+    block_00209 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h07_15", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02608", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「呀，呜呜呜呜呜嗯，",
+                    {"rt2"},
+                    "啊，啊，啊，啊啊啊啊……！」"
+                }
+            }
+        },
+        linkback = "block_00208",
+        linknext = "block_00210",
+        line = 1002
+    },
+    block_00210 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02609", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「呀，呜呜呜呜嗯，",
+                    {"rt2"},
+                    "啊，啊，啊，啊啊啊啊……！」<reserved_0>」"
+                }
+            }
+        },
+        linkback = "block_00209",
+        linknext = "block_00211",
+        line = 1006
+    },
+    block_00211 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h07_16", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"quake", mode = "mw"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02610", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啊啊啊啊啊啊啊啊啊啊啊……！」"
+                }
+            }
+        },
+        linkback = "block_00210",
+        linknext = "block_00212",
+        line = 1012
+    },
+    block_00212 = {
+        {"text"},
+        text = {
+            ja = {
+                {"狭窄的阴道内紧紧地收缩着。"}
+            }
+        },
+        linkback = "block_00211",
+        linknext = "block_00213",
+        line = 1014
+    },
+    block_00213 = {
+        {"bg", zoom = 100, x = 240, y = 230, time = 500, file = "zev_kuk_h07_16", path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「要高潮了吗……？」"
+                }
+            }
+        },
+        linkback = "block_00212",
+        linknext = "block_00214",
+        line = 1019
+    },
+    block_00214 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h07_14", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07", ax = 1280, ay = 720, bx = -640, by = -360, x = 240, y = 230, zoom = 100},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02611", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯，嗯……哈啊，嗯嗯！",
+                    {"rt2"},
+                    "一直，一颤一颤的，脑袋一片空白……！」"
+                }
+            }
+        },
+        linkback = "block_00213",
+        linknext = "block_00215",
+        line = 1025
+    },
+    block_00215 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02612", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「哈啊啊啊，啊，啊，啊啊啊……！",
+                    {"rt2"},
+                    "嗯，嗯，呀，呜呜呜呜嗯嗯……！」"
+                }
+            }
+        },
+        linkback = "block_00214",
+        linknext = "block_00216",
+        line = 1029
+    },
+    block_00216 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h07_13", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07", ax = 1280, ay = 720, bx = -640, by = -360, x = 240, y = 230, zoom = 100},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02613", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「我……还在高潮……！",
+                    {"rt2"},
+                    "咕，呜呜呜呜嗯……！」"
+                }
+            }
+        },
+        linkback = "block_00215",
+        linknext = "block_00217",
+        line = 1035
+    },
+    block_00217 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「要怎么做，休息一下吗？」"
+                }
+            }
+        },
+        linkback = "block_00216",
+        linknext = "block_00218",
+        line = 1038
+    },
+    block_00218 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h07_14", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07", ax = 1280, ay = 720, bx = -640, by = -360, x = 240, y = 230, zoom = 100},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02614", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啊啊啊，嗯嗯……刚才也说过了，就那样……！",
+                    {"rt2"},
+                    "凪，直到你满意为止……啊啊啊，嗯嗯！」"
+                }
+            }
+        },
+        linkback = "block_00217",
+        linknext = "block_00219",
+        line = 1044
+    },
+    block_00219 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02615", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「要是休息的话……我可，不原谅你……！",
+                    {"rt2"},
+                    "啊啊嗯，啊啊呜，嗯啊……！」"
+                }
+            }
+        },
+        linkback = "block_00218",
+        linknext = "block_00220",
+        line = 1048
+    },
+    block_00220 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我按照她的要求，对着阴道深处顶弄着龟头。"}
+            }
+        },
+        linkback = "block_00219",
+        linknext = "block_00221",
+        line = 1050
+    },
+    block_00221 = {
+        {"lvo", ch = "kuk", stop = 1},
+        {"se", stop = 1, id = 2, time = 500},
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h07_13", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07", ax = 1280, ay = 720, bx = -640, by = -360, x = 240, y = 230, zoom = 100},
+        {"se", file = "seエロ_ピストン：強", id = 2, loop = 1},
+        {"lvo", ch = "kuk", file = "fem_kuk_03103", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02616", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啊，呜……嗯嗯……哈啊，哈啊，",
+                    {"rt2"},
+                    "啊呜，呜呜呜……！」"
+                }
+            }
+        },
+        linkback = "block_00220",
+        linknext = "block_00222",
+        line = 1060
+    },
+    block_00222 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "喘息着的玖玖瑠看起来很惹人怜爱，",
+                    {"rt2"},
+                    "让我快要控制不住自己了。"
+                }
+            }
+        },
+        linkback = "block_00221",
+        linknext = "block_00223",
+        line = 1063
+    },
+    block_00223 = {
+        {"bg", time = 500, file = "ev_kuk_h07_13", path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02617", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯唔唔，唔唔！　哈，啊啊！",
+                    {"rt2"},
+                    "啊嗯！　啊，啊啊，唔唔……啊啊啊！」"
+                }
+            }
+        },
+        linkback = "block_00222",
+        linknext = "block_00224",
+        line = 1069
+    },
+    block_00224 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h07_15", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02618", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啊啊，啊，啊啊！　嗯嗯嗯嗯！",
+                    {"rt2"},
+                    "啊，啊，啊唔唔……！」"
+                }
+            }
+        },
+        linkback = "block_00223",
+        linknext = "block_00225",
+        line = 1075
+    },
+    block_00225 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02619", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啊啊，啊，啊啊！　嗯嗯嗯嗯！\n啊，啊，啊唔唔……！」<r",
+                    {"rt2"},
+                    "eserved_凪><reserved_107>玖玖瑠「来了，来了……！　要高",
+                    {"rt2"},
+                    "潮了……！」"
+                }
+            }
+        },
+        linkback = "block_00224",
+        linknext = "block_00226",
+        line = 1078
+    },
+    block_00226 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「可以高潮哦，玖玖瑠……！」"
+                }
+            }
+        },
+        linkback = "block_00225",
+        linknext = "block_00227",
+        line = 1081
+    },
+    block_00227 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h07_14", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02620", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「凪也，凪也来吧！",
+                    {"rt2"},
+                    "啊，啊，啊，啊啊啊！」"
+                }
+            }
+        },
+        linkback = "block_00226",
+        linknext = "block_00228",
+        line = 1087
+    },
+    block_00228 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「呜，呜呜……！」"
+                }
+            }
+        },
+        linkback = "block_00227",
+        linknext = "block_00229",
+        line = 1090
+    },
+    block_00229 = {
+        {"text"},
+        text = {
+            ja = {
+                {"阴道内突然收缩，变得狭窄。"}
+            }
+        },
+        linkback = "block_00228",
+        linknext = "block_00230",
+        line = 1092
+    },
+    block_00230 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "肉棒被阴道内收缩的挤压，",
+                    {"rt2"},
+                    "射精感一下子涌了上来。"
+                }
+            }
+        },
+        linkback = "block_00229",
+        linknext = "block_00231",
+        line = 1095
+    },
+    block_00231 = {
+        {"text"},
+        text = {
+            ja = {
+                {"像是被引诱一般，一起奔向高潮。"}
+            }
+        },
+        linkback = "block_00230",
+        linknext = "block_00232",
+        line = 1097
+    },
+    block_00232 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h07_16", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02621", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯，嗯，啊啊！　啊呜，嗯嗯！",
+                    {"rt2"},
+                    "哈，啊啊啊，啊呜，嗯，呼，啊啊……！」"
+                }
+            }
+        },
+        linkback = "block_00231",
+        linknext = "block_00233",
+        line = 1103
+    },
+    block_00233 = {
+        {"text"},
+        text = {
+            ja = {
+                {"精液从睾丸里源源不断地涌出――"}
+            }
+        },
+        linkback = "block_00232",
+        linknext = "block_00234",
+        line = 1105
+    },
+    block_00234 = {
+        {"select", label = "selecta", text = "select"},
+        {"select", label = "selectb", text = "select"},
+        {"select", name = "04_20h", mode = "sys", auto = 1},
+        {"text"},
+        select = {
+            ja = {"射在里面", "射在外面"}
+        },
+        linkback = "block_00233",
+        linknext = "block_00235",
+        line = 1112
+    },
+    block_00235 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「唔……射了！！」"
+                }
+            }
+        },
+        linkback = "block_00234",
+        linknext = "block_00236",
+        line = 1146
+    },
+    block_00236 = {
+        {"lvo", ch = "kuk", stop = 1},
+        {"se", stop = 1, id = 2, time = 500},
+        {"bg", id = 9, lv = 9, sync = 1, time = 100, file = "white", path = ":bg/"},
+        {"bg", id = 9, lv = 9, sync = 1, time = 300, alpha = 0, file = "white", path = ":bg/"},
+        {"bg", id = 9, lv = 9, sync = 1, time = 500, alpha = 255, file = "white", path = ":bg/"},
+        {"cgdel", id = 9, lv = 9},
+        {"bg", file = "ev_kuk_h07_17", sync = 0, time = 1000, vague = 100, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"se", file = "seエロ_射精中出し5", id = 9, time = 0, vol = 100, pan = 0},
+        {"ex", time = 100, func = "wait"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02622", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯啊啊啊啊啊啊啊啊啊啊……！」"
+                }
+            }
+        },
+        linkback = "block_00235",
+        linknext = "block_00237",
+        line = 1153
+    },
+    block_00237 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "在插入最深处的时候释放欲望，",
+                    {"rt2"},
+                    "将精液注入其中。"
+                }
+            }
+        },
+        linkback = "block_00236",
+        linknext = "block_00238",
+        line = 1156
+    },
+    block_00238 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "不输刚才的精子，",
+                    {"rt2"},
+                    "支配着玖玖瑠的最深处。"
+                }
+            }
+        },
+        linkback = "block_00237",
+        linknext = "block_00239",
+        line = 1159
+    },
+    block_00239 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02623", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯嗯嗯，嗯，嗯，嗯嗯唔……」"
+                }
+            }
+        },
+        linkback = "block_00238",
+        linknext = "block_00240",
+        line = 1164
+    },
+    block_00240 = {
+        {"se", stop = 1, time = 500, id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "配合着肉棒的跳动，",
+                    {"rt2"},
+                    "玖玖瑠的身体也跟着抽搐。"
+                }
+            }
+        },
+        linkback = "block_00239",
+        linknext = "block_00241",
+        line = 1169
+    },
+    block_00241 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h07_22", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02624", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「哈啊……啊啊……啊……」"
+                }
+            }
+        },
+        linkback = "block_00240",
+        linknext = "block_00242",
+        line = 1174
+    },
+    block_00242 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02625", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「啊啊……肚子里，被填满了」"
+                }
+            }
+        },
+        linkback = "block_00241",
+        linknext = "block_00243",
+        line = 1177
+    },
+    block_00243 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02626", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯嗯，怎么办……。",
+                    {"rt2"},
+                    "塞不进去，溢出来了……」"
+                }
+            }
+        },
+        linkback = "block_00242",
+        linknext = "block_00244",
+        line = 1181
+    },
+    block_00244 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「……精液滴落下来的样子，好色情啊」"
+                }
+            }
+        },
+        linkback = "block_00243",
+        linknext = "block_00245",
+        line = 1184
+    },
+    block_00245 = {
+        {"bg", zoom = 100, x = 240, y = 230, time = 500, file = "zev_kuk_h07_19", path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02627", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「呜呜呜……不要一直盯着看啦……」"
+                }
+            }
+        },
+        linkback = "block_00244",
+        linknext = "block_00246",
+        line = 1189
+    },
+    block_00246 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「明明是我射的，不行吗？」"
+                }
+            }
+        },
+        linkback = "block_00245",
+        linknext = "block_00247",
+        line = 1193
+    },
+    block_00247 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02628", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「虽然是这样……。",
+                    {"rt2"},
+                    "但是被你盯着看，又兴奋起来了，又想要了……」"
+                }
+            }
+        },
+        linkback = "block_00246",
+        linknext = "block_00248",
+        line = 1197
+    },
+    block_00248 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h07_21", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07", ax = 1280, ay = 720, bx = -640, by = -360, x = 240, y = 230, zoom = 100},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02629", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「今天的性爱已经结束了吧？",
+                    {"rt2"},
+                    "所以，不能一直盯着看……」"
+                }
+            }
+        },
+        linkback = "block_00247",
+        linknext = "block_00249",
+        line = 1203
+    },
+    block_00249 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「你这么说的话，我反而想",
+                    {"rt2"},
+                    "再努力一次了」"
+                }
+            }
+        },
+        linkback = "block_00248",
+        linknext = "block_00250",
+        line = 1207
+    },
+    block_00250 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h07_18", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07", ax = 1280, ay = 720, bx = -640, by = -360, x = 240, y = 230, zoom = 100},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02630", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「禁止太宠我。",
+                    {"rt2"},
+                    "还有很多时间，今天就到此为止」"
+                }
+            }
+        },
+        linkback = "block_00249",
+        linknext = "block_00251",
+        line = 1213
+    },
+    block_00251 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「那我会忍耐的，今天就让我来",
+                    {"rt2"},
+                    "帮你擦掉精液吧」"
+                }
+            }
+        },
+        linkback = "block_00250",
+        linknext = "block_00252",
+        line = 1217
+    },
+    block_00252 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h07_20", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07", ax = 1280, ay = 720, bx = -640, by = -360, x = 240, y = 230, zoom = 100},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02631", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「……凪好色」"
+                }
+            }
+        },
+        linkback = "block_00251",
+        linknext = "block_00253",
+        line = 1222
+    },
+    block_00253 = {
+        {"text"},
+        text = {
+            ja = {
+                {"玖玖瑠一边说着一边把体重压了过来。"}
+            }
+        },
+        linkback = "block_00252",
+        linknext = "block_00254",
+        line = 1224
+    },
+    block_00254 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "然后我们直到呼吸平静下来，",
+                    {"rt2"},
+                    "互相确认着彼此的体温。"
+                }
+            }
+        },
+        linkback = "block_00253",
+        linknext = "block_00255",
+        line = 1227
+    },
+    block_00255 = {
+        {"scene", file = "scene14"},
+        {"bgm", stop = 1, time = 1000},
+        {"se", stop = 1, id = -1, time = 1000},
+        {"vostop", stop = 1, time = 1000},
+        {"ntclear"},
+        {"cgdel", id = -1},
+        {"bg", time = 1000, file = "black", path = ":bg/"},
+        {"cacheclear"},
+        {"ex", time = 1000, func = "wait"},
+        {"excall", file = "04_くくる_21"},
+        {"text"},
+        linkback = "block_00254",
+        linknext = "block_00256",
+        line = 1234
+    },
+    block_00256 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「唔……要射了！！」"
+                }
+            }
+        },
+        linkback = "block_00255",
+        linknext = "block_00257",
+        line = 1247
+    },
+    block_00257 = {
+        {"lvo", ch = "kuk", stop = 1},
+        {"se", stop = 1, id = 2, time = 500},
+        {"bg", id = 9, lv = 9, sync = 1, time = 100, file = "white", path = ":bg/"},
+        {"bg", id = 9, lv = 9, sync = 1, time = 300, alpha = 0, file = "white", path = ":bg/"},
+        {"bg", id = 9, lv = 9, sync = 1, time = 500, alpha = 255, file = "white", path = ":bg/"},
+        {"cgdel", id = 9, lv = 9},
+        {"bg", file = "ev_kuk_h07_23", sync = 0, time = 1000, vague = 100, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"se", file = "seエロ_射精外出し2", id = 9, time = 0, vol = 100, pan = 0},
+        {"ex", time = 100, func = "wait"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02632", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「唔……唔唔唔唔唔唔！」"
+                }
+            }
+        },
+        linkback = "block_00256",
+        linknext = "block_00258",
+        line = 1254
+    },
+    block_00258 = {
+        {"text"},
+        text = {
+            ja = {
+                {"凪「嗯嗯嗯嗯！」"}
+            }
+        },
+        linkback = "block_00257",
+        linknext = "block_00259",
+        line = 1256
+    },
+    block_00259 = {
+        {"se", stop = 1, time = 500, id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {"凪「啊，啊，啊，啊，啊，啊，啊，啊，啊」"}
+            }
+        },
+        linkback = "block_00258",
+        linknext = "block_00260",
+        line = 1261
+    },
+    block_00260 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02633", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「哈呜，嗯嗯……飞过来，好多……！」"
+                }
+            }
+        },
+        linkback = "block_00259",
+        linknext = "block_00261",
+        line = 1264
+    },
+    block_00261 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h07_27", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02634", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「哈呜，嗯嗯……飞过来，好多……！」<reserved_0>」"
+                }
+            }
+        },
+        linkback = "block_00260",
+        linknext = "block_00262",
+        line = 1269
+    },
+    block_00262 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h07_25", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02635", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「正常位……我好像喜欢」"
+                }
+            }
+        },
+        linkback = "block_00261",
+        linknext = "block_00263",
+        line = 1274
+    },
+    block_00263 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_h07_26", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02636", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「能清楚地看到凪的脸，从正面拥抱在一起",
+                    {"rt2"},
+                    "感觉好暖和……」"
+                }
+            }
+        },
+        linkback = "block_00262",
+        linknext = "block_00264",
+        line = 1280
+    },
+    block_00264 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「是啊……。",
+                    {"rt2"},
+                    "我也一样，和玖玖瑠抱在一起时，很安心」"
+                }
+            }
+        },
+        linkback = "block_00263",
+        linknext = "block_00265",
+        line = 1284
+    },
+    block_00265 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "因为玖玖瑠比较矮，",
+                    {"rt2"},
+                    "被我抱在怀里完全没压力。"
+                }
+            }
+        },
+        linkback = "block_00264",
+        linknext = "block_00266",
+        line = 1287
+    },
+    block_00266 = {
+        {"text"},
+        text = {
+            ja = {
+                {"所以被我抱住的时候才那么舒服吧。"}
+            }
+        },
+        linkback = "block_00265",
+        linknext = "block_00267",
+        line = 1289
+    },
+    block_00267 = {
+        {"bg", zoom = 100, x = 240, y = 230, time = 500, file = "zev_kuk_h07_24", path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02637", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「刚才，我说过和凪做爱的时候",
+                    {"rt2"},
+                    "能够了解凪自己都不知道的一面」"
+                }
+            }
+        },
+        linkback = "block_00266",
+        linknext = "block_00268",
+        line = 1295
+    },
+    block_00268 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02638", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「但是，正常位的话就能清楚地看到对方，",
+                    {"rt2"},
+                    "能发现凪隐藏的一面很有趣」"
+                }
+            }
+        },
+        linkback = "block_00267",
+        linknext = "block_00269",
+        line = 1299
+    },
+    block_00269 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02639", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「比如做爱的时候是这样的表情……",
+                    {"rt2"},
+                    "抱着我的时候的手臂好强壮之类的……」"
+                }
+            }
+        },
+        linkback = "block_00268",
+        linknext = "block_00270",
+        line = 1303
+    },
+    block_00270 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「没想到，你居然观察得这么仔细……」"
+                }
+            }
+        },
+        linkback = "block_00269",
+        linknext = "block_00271",
+        line = 1306
+    },
+    block_00271 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我担心你会不会被看到奇怪的地方……",
+                    {"rt2"},
+                    "啊，我担心你啊……？」"
+                }
+            }
+        },
+        linkback = "block_00270",
+        linknext = "block_00272",
+        line = 1310
+    },
+    block_00272 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02640", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「就算看到那种地方，",
+                    {"rt2"},
+                    "我也不会讨厌玖玖瑠的」"
+                }
+            }
+        },
+        linkback = "block_00271",
+        linknext = "block_00273",
+        line = 1314
+    },
+    block_00273 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_h07_26", time = 400, path = ":ev/ev_kuk_h07/", set = "ev_kuk_h07", ax = 1280, ay = 720, bx = -640, by = -360, x = 240, y = 230, zoom = 100},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_02641", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「所以，让我看看你不知道的地方吧？",
+                    {"rt2"},
+                    "我会更加喜欢你的」"
+                }
+            }
+        },
+        linkback = "block_00272",
+        linknext = "block_00274",
+        line = 1320
+    },
+    block_00274 = {
+        {"text"},
+        text = {
+            ja = {
+                {"玖玖瑠的这句话让我无比开心。"}
+            }
+        },
+        linkback = "block_00273",
+        linknext = "block_00275",
+        line = 1322
+    },
+    block_00275 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我沉浸在性爱的余韵中，",
+                    {"rt2"},
+                    "用力地抱紧了我心爱的玖玖瑠。"
+                }
+            }
+        },
+        linkback = "block_00274",
+        linknext = "block_00276",
+        line = 1325
+    },
+    block_00276 = {
+        {"scene", file = "scene14"},
+        {"bgm", stop = 1, time = 1000},
+        {"se", stop = 1, id = -1, time = 1000},
+        {"vostop", stop = 1, time = 1000},
+        {"ntclear"},
+        {"cgdel", id = -1},
+        {"bg", time = 1000, file = "black", path = ":bg/"},
+        {"cacheclear"},
+        {"ex", time = 1000, func = "wait"},
+        {"excall", file = "04_くくる_21"},
+        {"text"},
+        linkback = "block_00275",
+        line = 1333
+    },
+    label = {
+        scene = {block = "block_00000", label = 2},
+        top = {block = "block_00000", label = 1},
+        selecta = {block = "block_00235", label = 1},
+        selectb = {block = "block_00256", label = 1}
+    }
+}

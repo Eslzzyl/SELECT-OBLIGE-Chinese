@@ -1,0 +1,2702 @@
+astver = 2.0
+astname = "ast"
+ast = {
+    block_00000 = {
+        {"savetitle", text = "教え込んであげる"},
+        {"cgdel", id = -1},
+        {"bg", time = 1000, file = "white", path = ":bg/"},
+        {"se", file = "se衣擦れ", id = 1},
+        {"bg", speed = 3000, file = "zev_kan_h03_04", path = ":ev/ev_kan_h03/", x2 = -600, y2 = -300, x = 600, y = -50, set = "ev_kan_h03", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"ex", time = 2000, func = "wait"},
+        {"bg", file = "ev_kan_h03_04", path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"bgm", file = "bgm16"},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我按照她的命令拿出肉棒，",
+                    {"rt2"},
+                    "奏命便把身体探进我的股间。"
+                }
+            }
+        },
+        linknext = "block_00001",
+        line = 28
+    },
+    block_00001 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01508", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「明明说要惩罚你的，",
+                    {"rt2"},
+                    "却已经变得这么大了……」"
+                }
+            }
+        },
+        linkback = "block_00000",
+        linknext = "block_00002",
+        line = 32
+    },
+    block_00002 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_02", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01509", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嘶……哈啊……，嗯，哈啊……。",
+                    {"rt2"},
+                    "发情了呢，雄性的气味好浓」"
+                }
+            }
+        },
+        linkback = "block_00001",
+        linknext = "block_00003",
+        line = 38
+    },
+    block_00003 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我……我……！」"
+                }
+            }
+        },
+        linkback = "block_00002",
+        linknext = "block_00004",
+        line = 41
+    },
+    block_00004 = {
+        {"se", stop = 1, time = 500, id = 1},
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_04", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01510", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「害羞吗？」"
+                }
+            }
+        },
+        linkback = "block_00003",
+        linknext = "block_00005",
+        line = 48
+    },
+    block_00005 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「不是那样的……，唔……」"
+                }
+            }
+        },
+        linkback = "block_00004",
+        linknext = "block_00006",
+        line = 51
+    },
+    block_00006 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01511", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「那么，难道说，",
+                    {"rt2"},
+                    "你也想被惩罚吗」"
+                }
+            }
+        },
+        linkback = "block_00005",
+        linknext = "block_00007",
+        line = 55
+    },
+    block_00007 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_03", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01512", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嘶……哈啊……」"
+                }
+            }
+        },
+        linkback = "block_00006",
+        linknext = "block_00008",
+        line = 60
+    },
+    block_00008 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_01", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01513", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「对我的呼吸有反应呢……",
+                    {"rt2"},
+                    "非常敏感又可爱呢……」"
+                }
+            }
+        },
+        linkback = "block_00007",
+        linknext = "block_00009",
+        line = 66
+    },
+    block_00009 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_05", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01514", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「但是……能看见这副模样的只有我。",
+                    {"rt2"},
+                    "我不允许你让其他女人看见」"
+                }
+            }
+        },
+        linkback = "block_00008",
+        linknext = "block_00010",
+        line = 72
+    },
+    block_00010 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「那是当然的吧。",
+                    {"rt2"},
+                    "空和花的事情也是我擅自意识的……」"
+                }
+            }
+        },
+        linkback = "block_00009",
+        linknext = "block_00011",
+        line = 76
+    },
+    block_00011 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01515", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「当然，我并不认为",
+                    {"rt2"},
+                    "你和她们两人之间发生过那种事情」"
+                }
+            }
+        },
+        linkback = "block_00010",
+        linknext = "block_00012",
+        line = 80
+    },
+    block_00012 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_02", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01516", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「即使如此还是不爽。",
+                    {"rt2"},
+                    "如果是你的话，会接受我的吧？」"
+                }
+            }
+        },
+        linkback = "block_00011",
+        linknext = "block_00013",
+        line = 86
+    },
+    block_00013 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「啊……",
+                    {"rt2"},
+                    "如果是这种请求的话，我非常乐意……」"
+                }
+            }
+        },
+        linkback = "block_00012",
+        linknext = "block_00014",
+        line = 90
+    },
+    block_00014 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_05", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01517", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「这不是请求，是命令哦」"
+                }
+            }
+        },
+        linkback = "block_00013",
+        linknext = "block_00015",
+        line = 95
+    },
+    block_00015 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01518", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「为了今后你不再意识其他女人，",
+                    {"rt2"},
+                    "我要好好惩罚调教你」"
+                }
+            }
+        },
+        linkback = "block_00014",
+        linknext = "block_00016",
+        line = 99
+    },
+    block_00016 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「调教……」"
+                }
+            }
+        },
+        linkback = "block_00015",
+        linknext = "block_00017",
+        line = 102
+    },
+    block_00017 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_01", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01519", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「这样做……」"
+                }
+            }
+        },
+        linkback = "block_00016",
+        linknext = "block_00018",
+        line = 107
+    },
+    block_00018 = {
+        {"se", file = "seエロ_挿入、ヌメリ3", id = 1},
+        {"bg", file = "ev_kan_h03_06", path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"lvo", ch = "kan", file = "fem_kan_03263", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01520", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯噗，啾噜，嗯噗噗……」"
+                }
+            }
+        },
+        linkback = "block_00017",
+        linknext = "block_00019",
+        line = 116
+    },
+    block_00019 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「――唔哦！？」"
+                }
+            }
+        },
+        linkback = "block_00018",
+        linknext = "block_00020",
+        line = 119
+    },
+    block_00020 = {
+        {"text"},
+        text = {
+            ja = {
+                {"奏命慢慢地含住肉棒，开始动起头来。"}
+            }
+        },
+        linkback = "block_00019",
+        linknext = "block_00021",
+        line = 121
+    },
+    block_00021 = {
+        {"se", stop = 1, time = 500, id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "突然，被毫不留情地刺激，",
+                    {"rt2"},
+                    "发出了奇怪的声音。"
+                }
+            }
+        },
+        linkback = "block_00020",
+        linknext = "block_00022",
+        line = 126
+    },
+    block_00022 = {
+        {"bg", file = "zev_kan_h03_09", x = 100, y = -100, zoom = 80, time = 500, path = ":ev/ev_kan_h03/", set = "ev_kan_h03", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01521", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯噗……嗯啾……嗯哼哼……好棒的声音呢。",
+                    {"rt2"},
+                    "你只要看着我就可以了」"
+                }
+            }
+        },
+        linkback = "block_00021",
+        linknext = "block_00023",
+        line = 132
+    },
+    block_00023 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01522", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「哈啊……嗯……噜噜……啾，啾噜",
+                    {"rt2"},
+                    "呼……噜噜噜……啾，啾，啾噜」"
+                }
+            }
+        },
+        linkback = "block_00022",
+        linknext = "block_00024",
+        line = 136
+    },
+    block_00024 = {
+        {"bg", sync = 0, face = 1, file = "zev_kan_h03_07", time = 400, path = ":ev/ev_kan_h03/", zoom = 80, set = "ev_kan_h03", ax = 1280, ay = 720, bx = -640, by = -360, x = 100, y = -100},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01523", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「呵呵，还在变大呢……。",
+                    {"rt2"},
+                    "多么淫荡啊」"
+                }
+            }
+        },
+        linkback = "block_00023",
+        linknext = "block_00025",
+        line = 142
+    },
+    block_00025 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01524", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯噜……噜噜，啾，",
+                    {"rt2"},
+                    "啾噗，啾，噜噜……」"
+                }
+            }
+        },
+        linkback = "block_00024",
+        linknext = "block_00026",
+        line = 146
+    },
+    block_00026 = {
+        {"bg", sync = 0, face = 1, file = "zev_kan_h03_10", time = 400, path = ":ev/ev_kan_h03/", zoom = 80, set = "ev_kan_h03", ax = 1280, ay = 720, bx = -640, by = -360, x = 100, y = -100},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01525", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「你看，前列腺液也流出来了哦……。",
+                    {"rt2"},
+                    "嗯噜噜……很舒服吧？」"
+                }
+            }
+        },
+        linkback = "block_00025",
+        linknext = "block_00027",
+        line = 152
+    },
+    block_00027 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「唔……唔唔……」"
+                }
+            }
+        },
+        linkback = "block_00026",
+        linknext = "block_00028",
+        line = 155
+    },
+    block_00028 = {
+        {"bg", sync = 0, face = 1, file = "zev_kan_h03_08", time = 400, path = ":ev/ev_kan_h03/", zoom = 80, set = "ev_kan_h03", ax = 1280, ay = 720, bx = -640, by = -360, x = 100, y = -100},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01526", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「快说，很舒服哦，凪。",
+                    {"rt2"},
+                    "嗯噜，舔舔，舔噜……」"
+                }
+            }
+        },
+        linkback = "block_00027",
+        linknext = "block_00029",
+        line = 161
+    },
+    block_00029 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「唔，唔……很舒服……但……",
+                    {"rt2"},
+                    "但还是请稍微控制一下力道……」"
+                }
+            }
+        },
+        linkback = "block_00028",
+        linknext = "block_00030",
+        line = 165
+    },
+    block_00030 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我小心翼翼地，用敬语向她请求。",
+                    {"rt2"},
+                    "因为我觉得如果不这样，她肯定不会听的。"
+                }
+            }
+        },
+        linkback = "block_00029",
+        linknext = "block_00031",
+        line = 168
+    },
+    block_00031 = {
+        {"se", file = "seエロ_ペニス抜く", id = 1},
+        {"bg", file = "zev_kan_h03_04", path = ":ev/ev_kan_h03/", set = "ev_kan_h03", ax = 1280, ay = 720, bx = -640, by = -360, x = 100, y = -100, zoom = 80},
+        {"lvo", ch = "kan", stop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01527", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯……哈啊……看来你稍微考虑了一下呢」"
+                }
+            }
+        },
+        linkback = "block_00030",
+        linknext = "block_00032",
+        line = 175
+    },
+    block_00032 = {
+        {"text"},
+        text = {
+            ja = {
+                {"奏命将嘴从龟头上移开，满意地微笑着。"}
+            }
+        },
+        linkback = "block_00031",
+        linknext = "block_00033",
+        line = 177
+    },
+    block_00033 = {
+        {"bg", sync = 0, face = 1, file = "zev_kan_h03_03", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03", ax = 1280, ay = 720, bx = -640, by = -360, x = 100, y = -100, zoom = 80},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01528", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「原谅你——你以为我会这么说吗？」"
+                }
+            }
+        },
+        linkback = "block_00032",
+        linknext = "block_00034",
+        line = 182
+    },
+    block_00034 = {
+        {"bg", sync = 0, face = 1, file = "zev_kan_h03_04", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03", ax = 1280, ay = 720, bx = -640, by = -360, x = 100, y = -100, zoom = 80},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01529", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「虽然你用敬语，但我不允许你命令我」"
+                }
+            }
+        },
+        linkback = "block_00033",
+        linknext = "block_00035",
+        line = 187
+    },
+    block_00035 = {
+        {"se", stop = 1, time = 500, id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「……！？」"
+                }
+            }
+        },
+        linkback = "block_00034",
+        linknext = "block_00036",
+        line = 192
+    },
+    block_00036 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01530", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「我说过这是惩罚吧？",
+                    {"rt2"},
+                    "我想让你比现在更舒服」"
+                }
+            }
+        },
+        linkback = "block_00035",
+        linknext = "block_00037",
+        line = 196
+    },
+    block_00037 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01531", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「不过，我可以允许你像这样发出声音。",
+                    {"rt2"},
+                    "因为这样我就能感受到效果」"
+                }
+            }
+        },
+        linkback = "block_00036",
+        linknext = "block_00038",
+        line = 200
+    },
+    block_00038 = {
+        {"bg", sync = 0, face = 1, file = "zev_kan_h03_03", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03", ax = 1280, ay = 720, bx = -640, by = -360, x = 100, y = -100, zoom = 80},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01532", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「这里被责难很舒服吧？",
+                    {"rt2"},
+                    "我会更加欺负你的」"
+                }
+            }
+        },
+        linkback = "block_00037",
+        linknext = "block_00039",
+        line = 206
+    },
+    block_00039 = {
+        {"se", file = "seエロ_挿入、ヌメリ3", id = 1},
+        {"bg", time = 500, file = "ev_kan_h03_09", path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"lvo", ch = "kan", file = "fem_kan_03263", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01533", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「舔舔舔，嗯啾，啾噗……",
+                    {"rt2"},
+                    "啾……啾噜噜，舔，舔……」"
+                }
+            }
+        },
+        linkback = "block_00038",
+        linknext = "block_00040",
+        line = 216
+    },
+    block_00040 = {
+        {"text"},
+        text = {
+            ja = {
+                {"意思是要我继续忍耐吗……。"}
+            }
+        },
+        linkback = "block_00039",
+        linknext = "block_00041",
+        line = 218
+    },
+    block_00041 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "虽然我不擅长忍耐，",
+                    {"rt2"},
+                    "但今天我并不觉得难受。"
+                }
+            }
+        },
+        linkback = "block_00040",
+        linknext = "block_00042",
+        line = 221
+    },
+    block_00042 = {
+        {"se", stop = 1, time = 500, id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {"奏命所展现出来的就是独占欲。"}
+            }
+        },
+        linkback = "block_00041",
+        linknext = "block_00043",
+        line = 225
+    },
+    block_00043 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "一想到奏命对我展现出来的独占欲，",
+                    {"rt2"},
+                    "我就觉得就算被她这样对待也挺开心的。"
+                }
+            }
+        },
+        linkback = "block_00042",
+        linknext = "block_00044",
+        line = 228
+    },
+    block_00044 = {
+        {"lvo", ch = "kan", stop = 1},
+        {"bg", file = "ev_kan_h03_04", path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01534", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「惩罚都能让你这么愉悦，真是个坏孩子。",
+                    {"rt2"},
+                    "看来我得再欺负你一下才行呢」"
+                }
+            }
+        },
+        linkback = "block_00043",
+        linknext = "block_00045",
+        line = 236
+    },
+    block_00045 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_03", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"lvo", ch = "kan", file = "fem_kan_03260", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01535", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「后庭也，舔……我来帮你舔……。",
+                    {"rt2"},
+                    "舔，啾，啾……嗯，呣啊……」"
+                }
+            }
+        },
+        linkback = "block_00044",
+        linknext = "block_00046",
+        line = 244
+    },
+    block_00046 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「唔唔，唔唔唔……！」"
+                }
+            }
+        },
+        linkback = "block_00045",
+        linknext = "block_00047",
+        line = 247
+    },
+    block_00047 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01536", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯哈啊，好丢脸的声音……」"
+                }
+            }
+        },
+        linkback = "block_00046",
+        linknext = "block_00048",
+        line = 250
+    },
+    block_00048 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_04", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01537", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「呐，如果被我以外的女人做了同样的事，",
+                    {"rt2"},
+                    "你会发出这种声音吗……？」"
+                }
+            }
+        },
+        linkback = "block_00047",
+        linknext = "block_00049",
+        line = 256
+    },
+    block_00049 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「哈啊……？　你在说什么……」"
+                }
+            }
+        },
+        linkback = "block_00048",
+        linknext = "block_00050",
+        line = 259
+    },
+    block_00050 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01538", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「别管了，你好好想想再老实回答我……。",
+                    {"rt2"},
+                    "舔……啾噜，嗯呣，啾呜呜……」"
+                }
+            }
+        },
+        linkback = "block_00049",
+        linknext = "block_00051",
+        line = 263
+    },
+    block_00051 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「唔唔，或许会吧……。",
+                    {"rt2"},
+                    "不过，那只是单纯的反射，吧……」"
+                }
+            }
+        },
+        linkback = "block_00050",
+        linknext = "block_00052",
+        line = 267
+    },
+    block_00052 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_05", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"lvo", ch = "kan", stop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01539", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「…………」"
+                }
+            }
+        },
+        linkback = "block_00051",
+        linknext = "block_00053",
+        line = 273
+    },
+    block_00053 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01540", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「原来如此……所以才会做出同样的反应是吧」"
+                }
+            }
+        },
+        linkback = "block_00052",
+        linknext = "block_00054",
+        line = 276
+    },
+    block_00054 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我老老实实的回答后，奏命的表情明显变得阴沉。"}
+            }
+        },
+        linkback = "block_00053",
+        linknext = "block_00055",
+        line = 278
+    },
+    block_00055 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「奏，奏命……？」"
+                }
+            }
+        },
+        linkback = "block_00054",
+        linknext = "block_00056",
+        line = 281
+    },
+    block_00056 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01541", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「既然这样……那我就教育你一下，让你",
+                    {"rt2"},
+                    "除了我以外的人刺激你，你都不会有感觉」"
+                }
+            }
+        },
+        linkback = "block_00055",
+        linknext = "block_00057",
+        line = 285
+    },
+    block_00057 = {
+        {"se", file = "seエロ_挿入、ヌメリ3", id = 2},
+        {"bg", file = "ev_kan_h03_09", path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"lvo", ch = "kan", file = "fem_kan_03264", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01542", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯啊呣，啾啵……！",
+                    {"rt2"},
+                    "啾，啾，啾啵啵……！」"
+                }
+            }
+        },
+        linkback = "block_00056",
+        linknext = "block_00058",
+        line = 293
+    },
+    block_00058 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01543", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯噗，嗯，嗯呣，啾啵啵，嗯嗯嗯」"
+                }
+            }
+        },
+        linkback = "block_00057",
+        linknext = "block_00059",
+        line = 296
+    },
+    block_00059 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「――！」"
+                }
+            }
+        },
+        linkback = "block_00058",
+        linknext = "block_00060",
+        line = 299
+    },
+    block_00060 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "她将肉棒连根含住，",
+                    {"rt2"},
+                    "像真空泵一样吸吮着。"
+                }
+            }
+        },
+        linkback = "block_00059",
+        linknext = "block_00061",
+        line = 302
+    },
+    block_00061 = {
+        {"se", stop = 1, id = 2, time = 500},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01544", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯，啾噜噜噜，啾啵！",
+                    {"rt2"},
+                    "啾，啾啵……！」"
+                }
+            }
+        },
+        linkback = "block_00060",
+        linknext = "block_00062",
+        line = 308
+    },
+    block_00062 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01545", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯，呼，啾噜噜，啾，啾啵！」"
+                }
+            }
+        },
+        linkback = "block_00061",
+        linknext = "block_00063",
+        line = 311
+    },
+    block_00063 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "在怒涛般的责难下，精液以自己都惊讶的速度",
+                    {"rt2"},
+                    "从尿道喷射而出。"
+                }
+            }
+        },
+        linkback = "block_00062",
+        linknext = "block_00064",
+        line = 314
+    },
+    block_00064 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「啊，啊，啊啊啊……！」"
+                }
+            }
+        },
+        linkback = "block_00063",
+        linknext = "block_00065",
+        line = 317
+    },
+    block_00065 = {
+        {"lvo", ch = "kan", stop = 1},
+        {"bg", id = 9, lv = 9, sync = 1, time = 100, file = "white", path = ":bg/"},
+        {"bg", id = 9, lv = 9, sync = 1, time = 300, alpha = 0, file = "white", path = ":bg/"},
+        {"bg", id = 9, lv = 9, sync = 1, time = 500, alpha = 255, file = "white", path = ":bg/"},
+        {"cgdel", id = 9, lv = 9},
+        {"bg", file = "ev_kan_h03_12", sync = 0, time = 1000, vague = 100, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"se", file = "seエロ_射精中出し5", id = 9, time = 0, vol = 100, pan = 0},
+        {"ex", time = 100, func = "wait"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01546", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯噗……嗯，嗯啾，嗯噗……！",
+                    {"rt2"},
+                    "啾噜噜噜噜，嗯，嗯，嗯呜呜……！」"
+                }
+            }
+        },
+        linkback = "block_00064",
+        linknext = "block_00066",
+        line = 327
+    },
+    block_00066 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "尽管我正在射精，舌头的动作却丝毫没有停歇，",
+                    {"rt2"},
+                    "毫不留情地持续给予我快感。"
+                }
+            }
+        },
+        linkback = "block_00065",
+        linknext = "block_00067",
+        line = 330
+    },
+    block_00067 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_11", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"lvo", ch = "kan", file = "fem_kan_03262", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01547", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「啾……啾，啾噗……！",
+                    {"rt2"},
+                    "嗯啾呜呜……嗯，呼呜呜呜……！」"
+                }
+            }
+        },
+        linkback = "block_00066",
+        linknext = "block_00068",
+        line = 337
+    },
+    block_00068 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_18", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01548", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯，嗯咕……咕噜……咕噜……」"
+                }
+            }
+        },
+        linkback = "block_00067",
+        linknext = "block_00069",
+        line = 342
+    },
+    block_00069 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「唔……！？」"
+                }
+            }
+        },
+        linkback = "block_00068",
+        linknext = "block_00070",
+        line = 345
+    },
+    block_00070 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我射精了，本以为结束了，",
+                    {"rt2"},
+                    "却从奏命的喉咙里传来了盛大的声音。"
+                }
+            }
+        },
+        linkback = "block_00069",
+        linknext = "block_00071",
+        line = 348
+    },
+    block_00071 = {
+        {"text"},
+        text = {
+            ja = {
+                {"说实话，我有点意外。"}
+            }
+        },
+        linkback = "block_00070",
+        linknext = "block_00072",
+        line = 350
+    },
+    block_00072 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "因为她说这是惩罚，",
+                    {"rt2"},
+                    "我还以为她会嫌弃地吐出一句好脏。"
+                }
+            }
+        },
+        linkback = "block_00071",
+        linknext = "block_00073",
+        line = 353
+    },
+    block_00073 = {
+        {"lvo", ch = "kan", stop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01549", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯呜……嗯……嗯呜～，啾噜……」"
+                }
+            }
+        },
+        linkback = "block_00072",
+        linknext = "block_00074",
+        line = 358
+    },
+    block_00074 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「奏命……全部喝下去了吗？」"
+                }
+            }
+        },
+        linkback = "block_00073",
+        linknext = "block_00075",
+        line = 364
+    },
+    block_00075 = {
+        {"se", file = "seエロ_ペニス抜く", id = 1},
+        {"bg", file = "ev_kan_h03_15", path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01550", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯咕……嗯噗啊，嗯嗯……。",
+                    {"rt2"},
+                    "感觉，味道很奇妙呢……」"
+                }
+            }
+        },
+        linkback = "block_00074",
+        linknext = "block_00076",
+        line = 371
+    },
+    block_00076 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「喝下去了吧……？」"
+                }
+            }
+        },
+        linkback = "block_00075",
+        linknext = "block_00077",
+        line = 374
+    },
+    block_00077 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_14", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01551", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「别问两次同样的问题。",
+                    {"rt2"},
+                    "我说味道很奇妙的时候，就等同于回答了」"
+                }
+            }
+        },
+        linkback = "block_00076",
+        linknext = "block_00078",
+        line = 380
+    },
+    block_00078 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「对，对不起」"
+                }
+            }
+        },
+        linkback = "block_00077",
+        linknext = "block_00079",
+        line = 383
+    },
+    block_00079 = {
+        {"se", stop = 1, time = 500, id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "她理所当然般地咽下了精液，",
+                    {"rt2"},
+                    "我的心里既困惑又高兴。"
+                }
+            }
+        },
+        linkback = "block_00078",
+        linknext = "block_00080",
+        line = 388
+    },
+    block_00080 = {
+        {"bg", x = 100, y = -100, zoom = 80, time = 500, file = "zev_kan_h03_13", path = ":ev/ev_kan_h03/", set = "ev_kan_h03", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01552", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「哎呀……别说萎了，",
+                    {"rt2"},
+                    "这不是马上就硬起来了嘛」"
+                }
+            }
+        },
+        linkback = "block_00079",
+        linknext = "block_00081",
+        line = 394
+    },
+    block_00081 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01553", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「受到惩罚却这么高兴，你真是无药可救了呢」"
+                }
+            }
+        },
+        linkback = "block_00080",
+        linknext = "block_00082",
+        line = 397
+    },
+    block_00082 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01554", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「这说明你已经对我着迷到这种地步了吗？",
+                    {"rt2"},
+                    "好吧，那我就继续了……」"
+                }
+            }
+        },
+        linkback = "block_00081",
+        linknext = "block_00083",
+        line = 401
+    },
+    block_00083 = {
+        {"se", file = "seエロ_挿入、ヌメリ3", id = 1},
+        {"bg", file = "zev_kan_h03_17", path = ":ev/ev_kan_h03/", set = "ev_kan_h03", ax = 1280, ay = 720, bx = -640, by = -360, x = 100, y = -100, zoom = 80},
+        {"lvo", ch = "kan", file = "fem_kan_03262", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01555", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯，舔……舔……。",
+                    {"rt2"},
+                    "啾，啾噜……嗯舔」"
+                }
+            }
+        },
+        linkback = "block_00082",
+        linknext = "block_00084",
+        line = 412
+    },
+    block_00084 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「……」"
+                }
+            }
+        },
+        linkback = "block_00083",
+        linknext = "block_00085",
+        line = 415
+    },
+    block_00085 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "刚才的口交虽然激烈，",
+                    {"rt2"},
+                    "但这次是被她用舌头舔弄。"
+                }
+            }
+        },
+        linkback = "block_00084",
+        linknext = "block_00086",
+        line = 418
+    },
+    block_00086 = {
+        {"bg", sync = 0, face = 1, file = "zev_kan_h03_18", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03", ax = 1280, ay = 720, bx = -640, by = -360, x = 100, y = -100, zoom = 80},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01556", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「啾……嗯，呼，呣……啾……。",
+                    {"rt2"},
+                    "啾，嗯……啾……」"
+                }
+            }
+        },
+        linkback = "block_00085",
+        linknext = "block_00087",
+        line = 424
+    },
+    block_00087 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「哈啊……」"
+                }
+            }
+        },
+        linkback = "block_00086",
+        linknext = "block_00088",
+        line = 427
+    },
+    block_00088 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "刚刚才射过，现在又被这样责难，",
+                    {"rt2"},
+                    "我忍不住发出喘息。"
+                }
+            }
+        },
+        linkback = "block_00087",
+        linknext = "block_00089",
+        line = 430
+    },
+    block_00089 = {
+        {"bg", speed = 110000, file = "zev_kan_h03_16", path = ":ev/ev_kan_h03/", x2 = 600, y2 = 300, x = -600, y = -350, set = "ev_kan_h03", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01557", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯呣，啾呜呜……呵呵……。",
+                    {"rt2"},
+                    "身体和肉棒都在一颤一颤的呢……」"
+                }
+            }
+        },
+        linkback = "block_00088",
+        linknext = "block_00090",
+        line = 436
+    },
+    block_00090 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01558", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「啾，啾啪……。",
+                    {"rt2"},
+                    "好像舒服到受不了了呢，呵呵……」"
+                }
+            }
+        },
+        linkback = "block_00089",
+        linknext = "block_00091",
+        line = 440
+    },
+    block_00091 = {
+        {"lvo", ch = "kan", file = "fem_kan_03261", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01559", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「那么，接下来就舔这里吧……。",
+                    {"rt2"},
+                    "嗯噜噜……」"
+                }
+            }
+        },
+        linkback = "block_00090",
+        linknext = "block_00092",
+        line = 446
+    },
+    block_00092 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「呃！？」"
+                }
+            }
+        },
+        linkback = "block_00091",
+        linknext = "block_00093",
+        line = 449
+    },
+    block_00093 = {
+        {"text"},
+        text = {
+            ja = {
+                {"舌头终于伸到了金玉那里。"}
+            }
+        },
+        linkback = "block_00092",
+        linknext = "block_00094",
+        line = 451
+    },
+    block_00094 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01560", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯啾……啾，啾啪……呵呵……」"
+                }
+            }
+        },
+        linkback = "block_00093",
+        linknext = "block_00095",
+        line = 454
+    },
+    block_00095 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01561", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「这里，有种不可思议的触感呢……。",
+                    {"rt2"},
+                    "既柔软，又坚硬……」"
+                }
+            }
+        },
+        linkback = "block_00094",
+        linknext = "block_00096",
+        line = 458
+    },
+    block_00096 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01562", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「这里，有你的精液……嗯，噗……。",
+                    {"rt2"},
+                    "啾啪……全部射进来了呢……」"
+                }
+            }
+        },
+        linkback = "block_00095",
+        linknext = "block_00097",
+        line = 462
+    },
+    block_00097 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01563", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯，呼，咧咯……嗯啾噗……」"
+                }
+            }
+        },
+        linkback = "block_00096",
+        linknext = "block_00098",
+        line = 465
+    },
+    block_00098 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「啊，啊，啊……」"
+                }
+            }
+        },
+        linkback = "block_00097",
+        linknext = "block_00099",
+        line = 468
+    },
+    block_00099 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我发出难堪的呻吟。",
+                    {"rt2"},
+                    "完全被奏命的节奏牵着鼻子走。"
+                }
+            }
+        },
+        linkback = "block_00098",
+        linknext = "block_00100",
+        line = 471
+    },
+    block_00100 = {
+        {"bg", file = "ev_kan_h03_15", path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01564", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「从这个蛋蛋的部分……从顶端到前端，",
+                    {"rt2"},
+                    "一口气舔上来……」"
+                }
+            }
+        },
+        linkback = "block_00099",
+        linknext = "block_00101",
+        line = 477
+    },
+    block_00101 = {
+        {"lvo", ch = "kan", file = "fem_kan_03263", loop = 1},
+        {"bg", file = "ev_kan_h03_18", path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01565", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯，噗……啾噗……咧咯咯，",
+                    {"rt2"},
+                    "啾……咧咯……咧咯……」"
+                }
+            }
+        },
+        linkback = "block_00100",
+        linknext = "block_00102",
+        line = 484
+    },
+    block_00102 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "奏命的舌头从蛋蛋到前端，",
+                    {"rt2"},
+                    "一直舔着龟头。"
+                }
+            }
+        },
+        linkback = "block_00101",
+        linknext = "block_00103",
+        line = 487
+    },
+    block_00103 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01566", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯啊唔……啾，啾噗，啾啵……。",
+                    {"rt2"},
+                    "啾噗，咧咯，嗯……啾噜噜噜……」"
+                }
+            }
+        },
+        linkback = "block_00102",
+        linknext = "block_00104",
+        line = 491
+    },
+    block_00104 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "一边含着，一边用舌头重点地",
+                    {"rt2"},
+                    "舔舐着系带和龟头的交界处。"
+                }
+            }
+        },
+        linkback = "block_00103",
+        linknext = "block_00105",
+        line = 494
+    },
+    block_00105 = {
+        {"text"},
+        text = {
+            ja = {
+                {"她的技巧真是高超。"}
+            }
+        },
+        linkback = "block_00104",
+        linknext = "block_00106",
+        line = 496
+    },
+    block_00106 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「唔……！」"
+                }
+            }
+        },
+        linkback = "block_00105",
+        linknext = "block_00107",
+        line = 499
+    },
+    block_00107 = {
+        {"se", file = "seエロ_ペニス抜く", id = 1},
+        {"lvo", ch = "kan", stop = 1},
+        {"bg", file = "ev_kan_h03_15", path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01567", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯哈……突然就……硬起来了呢……",
+                    {"rt2"},
+                    "难道说，要射了吗？」"
+                }
+            }
+        },
+        linkback = "block_00106",
+        linknext = "block_00108",
+        line = 509
+    },
+    block_00108 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「是，是的……」"
+                }
+            }
+        },
+        linkback = "block_00107",
+        linknext = "block_00109",
+        line = 512
+    },
+    block_00109 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_13", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01568", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「呵呵，这次是发自内心的敬语呢……。",
+                    {"rt2"},
+                    "你已经彻底屈服于我了吗？」"
+                }
+            }
+        },
+        linkback = "block_00108",
+        linknext = "block_00110",
+        line = 518
+    },
+    block_00110 = {
+        {"se", stop = 1, id = 1, time = 500},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01569", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「呐，凪……啾啪……。",
+                    {"rt2"},
+                    "我的口交舒服吗？」"
+                }
+            }
+        },
+        linkback = "block_00109",
+        linknext = "block_00111",
+        line = 524
+    },
+    block_00111 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「很舒服……！」"
+                }
+            }
+        },
+        linkback = "block_00110",
+        linknext = "block_00112",
+        line = 527
+    },
+    block_00112 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_15", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01570", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「呼呼……」"
+                }
+            }
+        },
+        linkback = "block_00111",
+        linknext = "block_00113",
+        line = 532
+    },
+    block_00113 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "听到我坦率的发言，",
+                    {"rt2"},
+                    "她露出了心满意足的表情。"
+                }
+            }
+        },
+        linkback = "block_00112",
+        linknext = "block_00114",
+        line = 535
+    },
+    block_00114 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "但是，事实上，",
+                    {"rt2"},
+                    "我真的被她弄得神魂颠倒了。"
+                }
+            }
+        },
+        linkback = "block_00113",
+        linknext = "block_00115",
+        line = 538
+    },
+    block_00115 = {
+        {"bg", file = "ev_kan_h03_17", path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"lvo", ch = "kan", file = "fem_kan_03264", loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01571", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「既然这样，那差不多该让你射了……。",
+                    {"rt2"},
+                    "啾噗，啾噜噜，哈呣……！」"
+                }
+            }
+        },
+        linkback = "block_00114",
+        linknext = "block_00116",
+        line = 545
+    },
+    block_00116 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01572", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「这次，啾……射的时候要说射哦。",
+                    {"rt2"},
+                    "啾噜噜，嗯……呼，啾噗噗……」"
+                }
+            }
+        },
+        linkback = "block_00115",
+        linknext = "block_00117",
+        line = 549
+    },
+    block_00117 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01573", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「你那没出息的声音……！",
+                    {"rt2"},
+                    "再多让我听听吧……！」"
+                }
+            }
+        },
+        linkback = "block_00116",
+        linknext = "block_00118",
+        line = 553
+    },
+    block_00118 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_19", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01574", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯啊呣……啾噜噜，嗯，嗯啾……。",
+                    {"rt2"},
+                    "啾噗噗，嗯呣，嗯啾噜噜，啾……！」"
+                }
+            }
+        },
+        linkback = "block_00117",
+        linknext = "block_00119",
+        line = 559
+    },
+    block_00119 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「啊啊……！」"
+                }
+            }
+        },
+        linkback = "block_00118",
+        linknext = "block_00120",
+        line = 562
+    },
+    block_00120 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_20", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01575", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯，嗯……嗯啾，啾啵！」"
+                }
+            }
+        },
+        linkback = "block_00119",
+        linknext = "block_00121",
+        line = 567
+    },
+    block_00121 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01576", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「啾噜噜，啾呜呜，嗯，啾！",
+                    {"rt2"},
+                    "啾噜噜，嗯啾啵！」"
+                }
+            }
+        },
+        linkback = "block_00120",
+        linknext = "block_00122",
+        line = 571
+    },
+    block_00122 = {
+        {"text"},
+        text = {
+            ja = {
+                {"认真的……。"}
+            }
+        },
+        linkback = "block_00121",
+        linknext = "block_00123",
+        line = 573
+    },
+    block_00123 = {
+        {"text"},
+        text = {
+            ja = {
+                {"奏命是认真地想让我堕入快乐的深渊。"}
+            }
+        },
+        linkback = "block_00122",
+        linknext = "block_00124",
+        line = 575
+    },
+    block_00124 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "面对毫不留情的责难，",
+                    {"rt2"},
+                    "刚才被舔舐的睾丸突然用力收紧。"
+                }
+            }
+        },
+        linkback = "block_00123",
+        linknext = "block_00125",
+        line = 578
+    },
+    block_00125 = {
+        {"text"},
+        text = {
+            ja = {
+                {"——射精了。"}
+            }
+        },
+        linkback = "block_00124",
+        linknext = "block_00126",
+        line = 580
+    },
+    block_00126 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「奏命，要去了……！」"
+                }
+            }
+        },
+        linkback = "block_00125",
+        linknext = "block_00127",
+        line = 583
+    },
+    block_00127 = {
+        {"select", label = "selecta", text = "select"},
+        {"select", label = "selectb", text = "select"},
+        {"select", name = "02_10h", mode = "sys", auto = 1},
+        {"text"},
+        select = {
+            ja = {"射在嘴里", "射在外面"}
+        },
+        linkback = "block_00126",
+        linknext = "block_00128",
+        line = 591
+    },
+    block_00128 = {
+        {"lvo", ch = "kan", stop = 1},
+        {"bg", id = 9, lv = 9, sync = 1, time = 100, file = "white", path = ":bg/"},
+        {"bg", id = 9, lv = 9, sync = 1, time = 300, alpha = 0, file = "white", path = ":bg/"},
+        {"bg", id = 9, lv = 9, sync = 1, time = 500, alpha = 255, file = "white", path = ":bg/"},
+        {"cgdel", id = 9, lv = 9},
+        {"bg", file = "ev_kan_h03_21", sync = 0, time = 1000, vague = 100, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"se", file = "seエロ_射精中出し5", id = 9, time = 0, vol = 100, pan = 0},
+        {"ex", time = 100, func = "wait"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01577", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯嗯嗯嗯……！！！」"
+                }
+            }
+        },
+        linkback = "block_00127",
+        linknext = "block_00129",
+        line = 608
+    },
+    block_00129 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01578", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯咕，嗯咕……嗯咕……嗯咕……！」"
+                }
+            }
+        },
+        linkback = "block_00128",
+        linknext = "block_00130",
+        line = 611
+    },
+    block_00130 = {
+        {"se", file = "seエロ_ペニス抜く", id = 1},
+        {"bg", file = "ev_kan_h03_22", path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01579", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯……又出来了很多……」"
+                }
+            }
+        },
+        linkback = "block_00129",
+        linknext = "block_00131",
+        line = 617
+    },
+    block_00131 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "第二发也理所当然般喝干了精液，",
+                    {"rt2"},
+                    "心满意足地舔了舔舌头。"
+                }
+            }
+        },
+        linkback = "block_00130",
+        linknext = "block_00132",
+        line = 620
+    },
+    block_00132 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_22", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01580", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「呵呵呵呵……。",
+                    {"rt2"},
+                    "这次也很浓厚，很好吃呢」"
+                }
+            }
+        },
+        linkback = "block_00131",
+        linknext = "block_00133",
+        line = 626
+    },
+    block_00133 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「哈啊……哈啊……」"
+                }
+            }
+        },
+        linkback = "block_00132",
+        linknext = "block_00134",
+        line = 629
+    },
+    block_00134 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01581", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「呵呵，呼吸都断断续续的」"
+                }
+            }
+        },
+        linkback = "block_00133",
+        linknext = "block_00135",
+        line = 632
+    },
+    block_00135 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01582", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「这次与其说是惩罚，",
+                    {"rt2"},
+                    "也有可能是给你的奖励」"
+                }
+            }
+        },
+        linkback = "block_00134",
+        linknext = "block_00136",
+        line = 636
+    },
+    block_00136 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01583", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「……不过，你给我听好了」"
+                }
+            }
+        },
+        linkback = "block_00135",
+        linknext = "block_00137",
+        line = 639
+    },
+    block_00137 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "奏命对我投以鄙视的视线，",
+                    {"rt2"},
+                    "微笑着说道。"
+                }
+            }
+        },
+        linkback = "block_00136",
+        linknext = "block_00138",
+        line = 642
+    },
+    block_00138 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_23", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01584", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「如果下次再发生同样的事，",
+                    {"rt2"},
+                    "可不会只有今天这样就结束了」"
+                }
+            }
+        },
+        linkback = "block_00137",
+        linknext = "block_00139",
+        line = 648
+    },
+    block_00139 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01585", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「你看到其他女人也丝毫不会起反应，",
+                    {"rt2"},
+                    "我还会让你暂时勃起不了」"
+                }
+            }
+        },
+        linkback = "block_00138",
+        linknext = "block_00140",
+        line = 652
+    },
+    block_00140 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「哈啊啊……呼……」"
+                }
+            }
+        },
+        linkback = "block_00139",
+        linknext = "block_00141",
+        line = 655
+    },
+    block_00141 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我无法做出回答，只能反复地呼吸，",
+                    {"rt2"},
+                    "只能点头。"
+                }
+            }
+        },
+        linkback = "block_00140",
+        linknext = "block_00142",
+        line = 658
+    },
+    block_00142 = {
+        {"text"},
+        text = {
+            ja = {
+                {"今天的奏命就是如此厉害。"}
+            }
+        },
+        linkback = "block_00141",
+        linknext = "block_00143",
+        line = 660
+    },
+    block_00143 = {
+        {"scene", file = "scene02"},
+        {"bgm", stop = 1},
+        {"cgdel", id = -1},
+        {"bg", time = 1000, file = "white", path = ":bg/"},
+        {"excall", file = "02_奏命_11_1"},
+        {"text"},
+        linkback = "block_00142",
+        linknext = "block_00144",
+        line = 668
+    },
+    block_00144 = {
+        {"lvo", ch = "kan", stop = 1},
+        {"bg", id = 9, lv = 9, sync = 1, time = 100, file = "white", path = ":bg/"},
+        {"bg", id = 9, lv = 9, sync = 1, time = 300, alpha = 0, file = "white", path = ":bg/"},
+        {"bg", id = 9, lv = 9, sync = 1, time = 500, alpha = 255, file = "white", path = ":bg/"},
+        {"cgdel", id = 9, lv = 9},
+        {"bg", file = "ev_kan_h03_24", sync = 0, time = 1000, vague = 100, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"se", file = "seエロ_射精外出し2", id = 9, time = 0, vol = 100, pan = 0},
+        {"ex", time = 100, func = "wait"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01586", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯呣啊……！　啊啊啊啊啊啊……！！」"
+                }
+            }
+        },
+        linkback = "block_00143",
+        linknext = "block_00145",
+        line = 684
+    },
+    block_00145 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "奏命松开嘴巴的同时，",
+                    {"rt2"},
+                    "精液像喷泉一样喷了出来。"
+                }
+            }
+        },
+        linkback = "block_00144",
+        linknext = "block_00146",
+        line = 687
+    },
+    block_00146 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_27", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01587", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯嗯，嗯……！",
+                    {"rt2"},
+                    "好猛的气势……哈啊，啊啊啊……！」"
+                }
+            }
+        },
+        linkback = "block_00145",
+        linknext = "block_00147",
+        line = 693
+    },
+    block_00147 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "转眼间，奏命的脸和头发",
+                    {"rt2"},
+                    "都染上了白色。"
+                }
+            }
+        },
+        linkback = "block_00146",
+        linknext = "block_00148",
+        line = 696
+    },
+    block_00148 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_28", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01588", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「嗯……哈啊……哈啊……」"
+                }
+            }
+        },
+        linkback = "block_00147",
+        linknext = "block_00149",
+        line = 701
+    },
+    block_00149 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_25", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01589", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「呵呵，感觉你都快要喘不过气来了」"
+                }
+            }
+        },
+        linkback = "block_00148",
+        linknext = "block_00150",
+        line = 706
+    },
+    block_00150 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01590", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「这次与其说是惩罚，",
+                    {"rt2"},
+                    "不如说是给你的奖励吧」"
+                }
+            }
+        },
+        linkback = "block_00149",
+        linknext = "block_00151",
+        line = 710
+    },
+    block_00151 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01591", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「那也无所谓。",
+                    {"rt2"},
+                    "……不过，你给我听好了」"
+                }
+            }
+        },
+        linkback = "block_00150",
+        linknext = "block_00152",
+        line = 714
+    },
+    block_00152 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "奏命对我投以轻视的眼神，",
+                    {"rt2"},
+                    "同时露出微笑。"
+                }
+            }
+        },
+        linkback = "block_00151",
+        linknext = "block_00153",
+        line = 717
+    },
+    block_00153 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_h03_26", time = 400, path = ":ev/ev_kan_h03/", set = "ev_kan_h03"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01592", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「如果下次再发生同样的事情，",
+                    {"rt2"},
+                    "可不会像今天这样就了事」"
+                }
+            }
+        },
+        linkback = "block_00152",
+        linknext = "block_00154",
+        line = 723
+    },
+    block_00154 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_01593", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「你看到其他女人也不会有任何感觉，",
+                    {"rt2"},
+                    "甚至会暂时勃起不了」"
+                }
+            }
+        },
+        linkback = "block_00153",
+        linknext = "block_00155",
+        line = 727
+    },
+    block_00155 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「哈啊啊……呼……」"
+                }
+            }
+        },
+        linkback = "block_00154",
+        linknext = "block_00156",
+        line = 730
+    },
+    block_00156 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我无法做出回答，只能反复地呼吸，",
+                    {"rt2"},
+                    "只能点头。"
+                }
+            }
+        },
+        linkback = "block_00155",
+        linknext = "block_00157",
+        line = 733
+    },
+    block_00157 = {
+        {"text"},
+        text = {
+            ja = {
+                {"今天的奏命就是如此厉害。"}
+            }
+        },
+        linkback = "block_00156",
+        linknext = "block_00158",
+        line = 735
+    },
+    block_00158 = {
+        {"scene", file = "scene02"},
+        {"bgm", stop = 1},
+        {"cgdel", id = -1},
+        {"bg", time = 1000, file = "white", path = ":bg/"},
+        {"excall", file = "02_奏命_11_1"},
+        {"text"},
+        linkback = "block_00157",
+        line = 744
+    },
+    label = {
+        scene = {block = "block_00000", label = 2},
+        top = {block = "block_00000", label = 1},
+        selecta = {block = "block_00128", label = 1},
+        selectb = {block = "block_00144", label = 1}
+    }
+}

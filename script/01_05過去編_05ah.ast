@@ -1,0 +1,4927 @@
+astver = 2.0
+astname = "ast"
+ast = {
+    block_00000 = {
+        {"savetitle", text = "トウリをなだめる"},
+        {"bgm", file = "bgm14"},
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", y = 30, zoom = 120, file = "zbg006a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "トウリ", size = "z2", mode = 3, resize = 1, path = ":fg/tou/z2/", file = "tou_z2a0500", face = "a0023h", head = "tou_z2a", ex05 = "tou_z2a0000", lv = 5, id = 13, sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「虽然我觉得很幸福，灯理……」"
+                }
+            }
+        },
+        linknext = "block_00001",
+        line = 21
+    },
+    block_00001 = {
+        {"fg", ch = "トウリ", size = "z2", mode = 3, path = ":fg/tou/z2/", file = "tou_z2a0500", face = "a0026h", head = "tou_z2a", ex05 = "tou_z2a0000", lv = 5, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00392", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「这不是开玩笑，我是认真的」"
+                }
+            }
+        },
+        linkback = "block_00000",
+        linknext = "block_00002",
+        line = 26
+    },
+    block_00002 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「啊……呃……」"
+                }
+            }
+        },
+        linkback = "block_00001",
+        linknext = "block_00003",
+        line = 29
+    },
+    block_00003 = {
+        {"fg", ch = "トウリ", size = "z2", mode = 3, path = ":fg/tou/z2/", file = "tou_z2b0500", face = "b0011h", head = "tou_z2b", ex05 = "tou_z2b0000", lv = 5, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00393", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「……真是的，真是的」"
+                }
+            }
+        },
+        linkback = "block_00002",
+        linknext = "block_00004",
+        line = 34
+    },
+    block_00004 = {
+        {"fg", ch = "トウリ", size = "z2", mode = 3, path = ":fg/tou/z2/", file = "tou_z2b0500", face = "b0027h", head = "tou_z2b", ex05 = "tou_z2b0000", lv = 5, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00394", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「如果你怀疑我，我就给你看证据」"
+                }
+            }
+        },
+        linkback = "block_00003",
+        linknext = "block_00005",
+        line = 39
+    },
+    block_00005 = {
+        {"bg", time = 500, file = "bg006a", path = ":bg/"},
+        {"quake"},
+        {"se", file = "se倒れる(重)", id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「呜哇，等——！」"
+                }
+            }
+        },
+        linkback = "block_00004",
+        linknext = "block_00006",
+        line = 49
+    },
+    block_00006 = {
+        {"fg", ch = "トウリ", size = "z2", mode = 1, path = ":fg/tou/z2/", file = "tou_z2a0500", face = "a0027h", head = "tou_z2a", ex05 = "tou_z2a0000", lv = 5, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00395", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「呀啊啊啊啊啊啊」"
+                }
+            }
+        },
+        linkback = "block_00005",
+        linknext = "block_00007",
+        line = 54
+    },
+    block_00007 = {
+        {"cgdel", id = -1},
+        {"bg", time = 1000, file = "white", path = ":bg/"},
+        {"bgm", stop = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「住手，笨蛋，喂！！」"
+                }
+            }
+        },
+        linkback = "block_00006",
+        linknext = "block_00008",
+        line = 63
+    },
+    block_00008 = {
+        {"fg", ch = "トウリ", size = "z2", mode = 1, path = ":fg/tou/z2/", file = "tou_z2a0500", face = "a0026h", head = "tou_z2a", ex05 = "tou_z2a0000", lv = 5, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00396", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「我才不是笨蛋，",
+                    {"rt2"},
+                    "都是哥哥你怀疑我不好」"
+                }
+            }
+        },
+        linkback = "block_00007",
+        linknext = "block_00009",
+        line = 69
+    },
+    block_00009 = {
+        {"se", stop = 1, time = 500, id = 1},
+        {"fg", ch = "トウリ", size = "z2", mode = 1, path = ":fg/tou/z2/", file = "tou_z2a0500", face = "a0011h", head = "tou_z2a", ex05 = "tou_z2a0000", lv = 5, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00397", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「呀啊啊啊啊啊啊」"
+                }
+            }
+        },
+        linkback = "block_00008",
+        linknext = "block_00010",
+        line = 76
+    },
+    block_00010 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我当然会抵抗的吧！？",
+                    {"rt2"},
+                    "住，住手，真的……」"
+                }
+            }
+        },
+        linkback = "block_00009",
+        linknext = "block_00011",
+        line = 80
+    },
+    block_00011 = {
+        {"fg", ch = "トウリ", size = "z2", mode = 1, path = ":fg/tou/z2/", file = "tou_z2b0500", face = "b0014h", head = "tou_z2b", ex05 = "tou_z2b0000", lv = 5, id = 200},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "トウリ", size = "z2", mode = 1, path = ":fg/tou/z2/", file = "tou_z2b0500", face = "b0027h", head = "tou_z2b", ex05 = "tou_z2b0000", lv = 5, id = 200}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00398", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「我不住手，我也是认真的……。",
+                    {"rt2"},
+                    "这个……嘿咻」"
+                }
+            }
+        },
+        linkback = "block_00010",
+        linknext = "block_00012",
+        line = 87
+    },
+    block_00012 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「呜哇啊啊啊啊啊！？」"
+                }
+            }
+        },
+        linkback = "block_00011",
+        linknext = "block_00013",
+        line = 90
+    },
+    block_00013 = {
+        {"bg", speed = 3000, file = "zev_tou_h01_01", path = ":ev/ev_tou_h01/", x2 = 600, y2 = -250, x = -250, y = 100, set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"ex", time = 2000, func = "wait"},
+        {"bg", file = "ev_tou_h01_01", path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"bgm", file = "bgm15"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00399", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「呼呜，呼呜，呼呜」"
+                }
+            }
+        },
+        linkback = "block_00012",
+        linknext = "block_00014",
+        line = 109
+    },
+    block_00014 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "妹妹喘着粗气压在我身上，",
+                    {"rt2"},
+                    "让我动弹不得。"
+                }
+            }
+        },
+        linkback = "block_00013",
+        linknext = "block_00015",
+        line = 112
+    },
+    block_00015 = {
+        {"text"},
+        text = {
+            ja = {
+                {"再加上脸还被她那沉甸甸的胸部给盖住了。"}
+            }
+        },
+        linkback = "block_00014",
+        linknext = "block_00016",
+        line = 114
+    },
+    block_00016 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "虽然我并不擅长肉搏战，",
+                    {"rt2"},
+                    "但本以为自己可以抵抗灯理。"
+                }
+            }
+        },
+        linkback = "block_00015",
+        linknext = "block_00017",
+        line = 117
+    },
+    block_00017 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "但是……她的手却早早地",
+                    {"rt2"},
+                    "握住了我的肉棒，让我不由得无法动弹。"
+                }
+            }
+        },
+        linkback = "block_00016",
+        linknext = "block_00018",
+        line = 120
+    },
+    block_00018 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00400", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「真是的，哥哥……我不会让你逃走的……」"
+                }
+            }
+        },
+        linkback = "block_00017",
+        linknext = "block_00019",
+        line = 123
+    },
+    block_00019 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「唔……」"
+                }
+            }
+        },
+        linkback = "block_00018",
+        linknext = "block_00020",
+        line = 126
+    },
+    block_00020 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "如果我逃跑的话，她似乎会用力地握住我的肉棒",
+                    {"rt2"},
+                    "然后说看我怎么让你动弹不得。"
+                }
+            }
+        },
+        linkback = "block_00019",
+        linknext = "block_00021",
+        line = 129
+    },
+    block_00021 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "她的手纤细而敏感，",
+                    {"rt2"},
+                    "如果被她粗暴地对待，我肯定不堪一击。"
+                }
+            }
+        },
+        linkback = "block_00020",
+        linknext = "block_00022",
+        line = 132
+    },
+    block_00022 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我觉得现在的灯理很有可能会这么做，",
+                    {"rt2"},
+                    "所以我决定老实服从。"
+                }
+            }
+        },
+        linkback = "block_00021",
+        linknext = "block_00023",
+        line = 135
+    },
+    block_00023 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00401", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「你总算老实了……那么……我会让你",
+                    {"rt2"},
+                    "再也动弹不得的……嘿咻……」"
+                }
+            }
+        },
+        linkback = "block_00022",
+        linknext = "block_00024",
+        line = 139
+    },
+    block_00024 = {
+        {"se", file = "se衣擦れ", id = 1},
+        {"bg", file = "ev_tou_h01_02", path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「呜哇！？」"
+                }
+            }
+        },
+        linkback = "block_00023",
+        linknext = "block_00025",
+        line = 149
+    },
+    block_00025 = {
+        {"text"},
+        text = {
+            ja = {
+                {"毫不犹豫地脱掉衣服后，出现的是什么就不用多说了。"}
+            }
+        },
+        linkback = "block_00024",
+        linknext = "block_00026",
+        line = 151
+    },
+    block_00026 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "女孩子谁都有，柔软的乳房。",
+                    {"rt2"},
+                    "而其中灯理的胸部，重量感更是格外惊人。"
+                }
+            }
+        },
+        linkback = "block_00025",
+        linknext = "block_00027",
+        line = 154
+    },
+    block_00027 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我品味过她的乳沟和触感，",
+                    {"rt2"},
+                    "不由得咽了口口水。"
+                }
+            }
+        },
+        linkback = "block_00026",
+        linknext = "block_00028",
+        line = 157
+    },
+    block_00028 = {
+        {"bg", x = -250, y = 150, time = 500, file = "zev_tou_h01_03", path = ":ev/ev_tou_h01/", set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00402", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「唔……刚，刚才，有意识到了吧……？",
+                    {"rt2"},
+                    "我的，胸部」"
+                }
+            }
+        },
+        linkback = "block_00027",
+        linknext = "block_00029",
+        line = 163
+    },
+    block_00029 = {
+        {"se", stop = 1, time = 500, id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「嗯，我刚才，是有点被震撼到了……」"
+                }
+            }
+        },
+        linkback = "block_00028",
+        linknext = "block_00030",
+        line = 168
+    },
+    block_00030 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00403", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「唔……那，那为什么还这么老实呢？」"
+                }
+            }
+        },
+        linkback = "block_00029",
+        linknext = "block_00031",
+        line = 171
+    },
+    block_00031 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00404", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「你刚刚不是有意识到了吗？",
+                    {"rt2"},
+                    "为什么还能这么老实？」"
+                }
+            }
+        },
+        linkback = "block_00030",
+        linknext = "block_00032",
+        line = 175
+    },
+    block_00032 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「……我，我必须要说吗？」"
+                }
+            }
+        },
+        linkback = "block_00031",
+        linknext = "block_00033",
+        line = 178
+    },
+    block_00033 = {
+        {"bg", sync = 0, face = 1, file = "zev_tou_h01_05", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360, x = -250, y = 150},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00405", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「不～行～。如果你不回答的话……」"
+                }
+            }
+        },
+        linkback = "block_00032",
+        linknext = "block_00034",
+        line = 183
+    },
+    block_00034 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我知道，我知道了啦！",
+                    {"rt2"},
+                    "别捏了，我会回答的」"
+                }
+            }
+        },
+        linkback = "block_00033",
+        linknext = "block_00035",
+        line = 187
+    },
+    block_00035 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「嗯嗯……那个，怎么说呢，好软……。",
+                    {"rt2"},
+                    "感觉很舒服」"
+                }
+            }
+        },
+        linkback = "block_00034",
+        linknext = "block_00036",
+        line = 191
+    },
+    block_00036 = {
+        {"bg", sync = 0, face = 1, file = "zev_tou_h01_03", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360, x = -250, y = 150},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00406", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「这样啊……你心动了吗……？」"
+                }
+            }
+        },
+        linkback = "block_00035",
+        linknext = "block_00037",
+        line = 196
+    },
+    block_00037 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「稍微有一点吧……」"
+                }
+            }
+        },
+        linkback = "block_00036",
+        linknext = "block_00038",
+        line = 199
+    },
+    block_00038 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "稍微有点什么的，太夸张了。",
+                    {"rt2"},
+                    "其实我非常兴奋。"
+                }
+            }
+        },
+        linkback = "block_00037",
+        linknext = "block_00039",
+        line = 202
+    },
+    block_00039 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "因为……是胸部啊！？",
+                    {"rt2"},
+                    "而且还是灯理那对丰满的胸部。"
+                }
+            }
+        },
+        linkback = "block_00038",
+        linknext = "block_00040",
+        line = 205
+    },
+    block_00040 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "就算是妹妹，也是女孩子啊……。",
+                    {"rt2"},
+                    "光是嘴上说说就让我费尽了全力。"
+                }
+            }
+        },
+        linkback = "block_00039",
+        linknext = "block_00041",
+        line = 208
+    },
+    block_00041 = {
+        {"bg", sync = 0, face = 1, file = "zev_tou_h01_07", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360, x = -250, y = 150},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00407", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「太好了……嗯，太好了。",
+                    {"rt2"},
+                    "看来你还是有身为女孩子的魅力的」"
+                }
+            }
+        },
+        linkback = "block_00040",
+        linknext = "block_00042",
+        line = 214
+    },
+    block_00042 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「这有什么好担心的。",
+                    {"rt2"},
+                    "我觉得灯理很可爱啊」"
+                }
+            }
+        },
+        linkback = "block_00041",
+        linknext = "block_00043",
+        line = 218
+    },
+    block_00043 = {
+        {"bg", sync = 0, face = 1, file = "zev_tou_h01_08", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360, x = -250, y = 150},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00408", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「诶……这，这这，这这这，这样啊」"
+                }
+            }
+        },
+        linkback = "block_00042",
+        linknext = "block_00044",
+        line = 223
+    },
+    block_00044 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「客观来看，",
+                    {"rt2"},
+                    "我觉得你也是弟弟妹妹中数一数二的」"
+                }
+            }
+        },
+        linkback = "block_00043",
+        linknext = "block_00045",
+        line = 227
+    },
+    block_00045 = {
+        {"text"},
+        text = {
+            ja = {
+                {"该凸的地方凸，该凹的地方凹。"}
+            }
+        },
+        linkback = "block_00044",
+        linknext = "block_00046",
+        line = 229
+    },
+    block_00046 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "五官端正……。",
+                    {"rt2"},
+                    "而且，现在正处在心情很好的时候。"
+                }
+            }
+        },
+        linkback = "block_00045",
+        linknext = "block_00047",
+        line = 235
+    },
+    block_00047 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "如果她不是在珠贺良区长大的，而是普通家庭的话，",
+                    {"rt2"},
+                    "想必是世间所有男人都不会放过的美少女吧。"
+                }
+            }
+        },
+        linkback = "block_00046",
+        linknext = "block_00048",
+        line = 238
+    },
+    block_00048 = {
+        {"bg", sync = 0, face = 1, file = "zev_tou_h01_07", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360, x = -250, y = 150},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00409", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「……那么，就算是我，",
+                    {"rt2"},
+                    "也能让你心动吗」"
+                }
+            }
+        },
+        linkback = "block_00047",
+        linknext = "block_00049",
+        line = 244
+    },
+    block_00049 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「嗯……嗯嗯，是这样吗」"
+                }
+            }
+        },
+        linkback = "block_00048",
+        linknext = "block_00050",
+        line = 247
+    },
+    block_00050 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00410", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「呵呵呵……太好了……」"
+                }
+            }
+        },
+        linkback = "block_00049",
+        linknext = "block_00051",
+        line = 250
+    },
+    block_00051 = {
+        {"bg", sync = 0, face = 1, file = "zev_tou_h01_04", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360, x = -250, y = 150},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00411", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「因为是妹妹，所以完全不会心动什么的……",
+                    {"rt2"},
+                    "我一直在想，要是你这么说的话，我该怎么办才好」"
+                }
+            }
+        },
+        linkback = "block_00050",
+        linknext = "block_00052",
+        line = 256
+    },
+    block_00052 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「灯理确实是我妹妹之一……但是，这和",
+                    {"rt2"},
+                    "身为女孩子的魅力没有关系吧？」"
+                }
+            }
+        },
+        linkback = "block_00051",
+        linknext = "block_00053",
+        line = 260
+    },
+    block_00053 = {
+        {"bg", sync = 0, face = 1, file = "zev_tou_h01_06", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360, x = -250, y = 150},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00412", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「呵呵呵……哥哥，你已经，",
+                    {"rt2"},
+                    "完全被我迷住了吧？」"
+                }
+            }
+        },
+        linkback = "block_00052",
+        linknext = "block_00054",
+        line = 266
+    },
+    block_00054 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "一边说着，灯理一边晃动着握着那里的",
+                    {"rt2"},
+                    "手。"
+                }
+            }
+        },
+        linkback = "block_00053",
+        linknext = "block_00055",
+        line = 269
+    },
+    block_00055 = {
+        {"bg", time = 500, file = "ev_tou_h01_02", path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00413", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哥哥的这里，好厉害啊……」"
+                }
+            }
+        },
+        linkback = "block_00054",
+        linknext = "block_00056",
+        line = 274
+    },
+    block_00056 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00414", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「像这样摸着就知道了，",
+                    {"rt2"},
+                    "真的感觉像是别的生物一样」"
+                }
+            }
+        },
+        linkback = "block_00055",
+        linknext = "block_00057",
+        line = 278
+    },
+    block_00057 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00415", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「一跳一跳地脉动着，变大……。",
+                    {"rt2"},
+                    "越来越硬了」"
+                }
+            }
+        },
+        linkback = "block_00056",
+        linknext = "block_00058",
+        line = 282
+    },
+    block_00058 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "灯理一边兴致勃勃地摸着，",
+                    {"rt2"},
+                    "一边从妹妹的表情逐渐变成了女人的表情。"
+                }
+            }
+        },
+        linkback = "block_00057",
+        linknext = "block_00059",
+        line = 285
+    },
+    block_00059 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "虽然动作很笨拙，但敏感的",
+                    {"rt2"},
+                    "表面被抚摸着，我也不由得屏住了呼吸。"
+                }
+            }
+        },
+        linkback = "block_00058",
+        linknext = "block_00060",
+        line = 288
+    },
+    block_00060 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「唔……我说，灯理，是我不好」"
+                }
+            }
+        },
+        linkback = "block_00059",
+        linknext = "block_00061",
+        line = 291
+    },
+    block_00061 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「你不用做这种事的。",
+                    {"rt2"},
+                    "所以快让开吧」"
+                }
+            }
+        },
+        linkback = "block_00060",
+        linknext = "block_00062",
+        line = 295
+    },
+    block_00062 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_04", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00416", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「不要。因为，你被欢乐街的大姐姐们诱惑了，",
+                    {"rt2"},
+                    "现在很想要做爱吧？」"
+                }
+            }
+        },
+        linkback = "block_00061",
+        linknext = "block_00063",
+        line = 301
+    },
+    block_00063 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_04", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00417", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「我都知道哦」"
+                }
+            }
+        },
+        linkback = "block_00062",
+        linknext = "block_00064",
+        line = 306
+    },
+    block_00064 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00418", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「男人啊，只要从这里射出白色的液体，",
+                    {"rt2"},
+                    "就会感到很舒服吧……」"
+                }
+            }
+        },
+        linkback = "block_00063",
+        linknext = "block_00065",
+        line = 310
+    },
+    block_00065 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_02", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00419", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「因为是哥哥做的，所以才会有这种想法吧，",
+                    {"rt2"},
+                    "毕竟你很了解哥哥嘛」"
+                }
+            }
+        },
+        linkback = "block_00064",
+        linknext = "block_00066",
+        line = 316
+    },
+    block_00066 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「你，你看了吗？」"
+                }
+            }
+        },
+        linkback = "block_00065",
+        linknext = "block_00067",
+        line = 319
+    },
+    block_00067 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_06", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00420", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「只，只是稍微瞄了一眼哦？",
+                    {"rt2"},
+                    "就瞄了一眼，想说哥哥画的是什么……」"
+                }
+            }
+        },
+        linkback = "block_00066",
+        linknext = "block_00068",
+        line = 325
+    },
+    block_00068 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「是这样啊……那，",
+                    {"rt2"},
+                    "灯理你觉得怎么样？」"
+                }
+            }
+        },
+        linkback = "block_00067",
+        linknext = "block_00069",
+        line = 329
+    },
+    block_00069 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_04", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00421", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「……我觉得画得很好。",
+                    {"rt2"},
+                    "不愧是灯理画的画」"
+                }
+            }
+        },
+        linkback = "block_00068",
+        linknext = "block_00070",
+        line = 335
+    },
+    block_00070 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00422", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「内容的话……",
+                    {"rt2"},
+                    "男人，就是喜欢这种的吧」"
+                }
+            }
+        },
+        linkback = "block_00069",
+        linknext = "block_00071",
+        line = 339
+    },
+    block_00071 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「你根本就没仔细看啊……」"
+                }
+            }
+        },
+        linkback = "block_00070",
+        linknext = "block_00072",
+        line = 342
+    },
+    block_00072 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_03", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00423", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「因为奇怪的也太多了。",
+                    {"rt2"},
+                    "女医生，女老师，OL色情珍奇游记之类的」"
+                }
+            }
+        },
+        linkback = "block_00071",
+        linknext = "block_00073",
+        line = 348
+    },
+    block_00073 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「这样啊……那还是",
+                    {"rt2"},
+                    "把内容改得更大众一点比较好吗……？」"
+                }
+            }
+        },
+        linkback = "block_00072",
+        linknext = "block_00074",
+        line = 352
+    },
+    block_00074 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_04", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00424", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「那个……如果要让像我这样，",
+                    {"rt2"},
+                    "没什么知识的人来看的话，是那样比较好……」"
+                }
+            }
+        },
+        linkback = "block_00073",
+        linknext = "block_00075",
+        line = 358
+    },
+    block_00075 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_05", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00425", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「不对啦，色情书刊的话题一点都不重要啦～」"
+                }
+            }
+        },
+        linkback = "block_00074",
+        linknext = "block_00076",
+        line = 363
+    },
+    block_00076 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00426", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「总之，哥哥的性欲",
+                    {"rt2"},
+                    "就由我来管理。今天，现在开始」"
+                }
+            }
+        },
+        linkback = "block_00075",
+        linknext = "block_00077",
+        line = 367
+    },
+    block_00077 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「你这……」"
+                }
+            }
+        },
+        linkback = "block_00076",
+        linknext = "block_00078",
+        line = 370
+    },
+    block_00078 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_03", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00427", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「你这……",
+                    {"rt2"},
+                    "哥哥，讨厌我吗？」"
+                }
+            }
+        },
+        linkback = "block_00077",
+        linknext = "block_00079",
+        line = 376
+    },
+    block_00079 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「也不是说讨厌……」"
+                }
+            }
+        },
+        linkback = "block_00078",
+        linknext = "block_00080",
+        line = 379
+    },
+    block_00080 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_07", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00428", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「既然不讨厌，那就没问题了」"
+                }
+            }
+        },
+        linkback = "block_00079",
+        linknext = "block_00081",
+        line = 384
+    },
+    block_00081 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_08", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00429", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「那么，我这就……。",
+                    {"rt2"},
+                    "现在开始帮你撸一撸……」"
+                }
+            }
+        },
+        linkback = "block_00080",
+        linknext = "block_00082",
+        line = 390
+    },
+    block_00082 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00430", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「要变得很舒服哦……？」"
+                }
+            }
+        },
+        linkback = "block_00081",
+        linknext = "block_00083",
+        line = 393
+    },
+    block_00083 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「唔……！！」"
+                }
+            }
+        },
+        linkback = "block_00082",
+        linknext = "block_00084",
+        line = 396
+    },
+    block_00084 = {
+        {"bg", speed = 120000, file = "zev_tou_h01_08", path = ":ev/ev_tou_h01/", x2 = -250, y2 = 150, x = 550, y = -350, set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            ja = {
+                {"说实话，我原本以为自己绝对不会对灯理产生欲望。"}
+            }
+        },
+        linkback = "block_00083",
+        linknext = "block_00085",
+        line = 400
+    },
+    block_00085 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "毕竟，她是妹妹。",
+                    {"rt2"},
+                    "不是那种能用有色眼光看待的对象。"
+                }
+            }
+        },
+        linkback = "block_00084",
+        linknext = "block_00086",
+        line = 403
+    },
+    block_00086 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "但是……看着灯理红着脸，抬眼看着我，",
+                    {"rt2"},
+                    "手还放在我的肉棒上，我感到一阵心动。"
+                }
+            }
+        },
+        linkback = "block_00085",
+        linknext = "block_00087",
+        line = 406
+    },
+    block_00087 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「真的，再这样下去……」"
+                }
+            }
+        },
+        linkback = "block_00086",
+        linknext = "block_00088",
+        line = 409
+    },
+    block_00088 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "仔细想想，从灯理压在我身上的胸上，",
+                    {"rt2"},
+                    "能感受到她心脏的跳动。"
+                }
+            }
+        },
+        linkback = "block_00087",
+        linknext = "block_00089",
+        line = 412
+    },
+    block_00089 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "微弱的震动和温度……越是意识到这些，",
+                    {"rt2"},
+                    "就越是能感受到自己的体温在上升。"
+                }
+            }
+        },
+        linkback = "block_00088",
+        linknext = "block_00090",
+        line = 415
+    },
+    block_00090 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00431", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「嗯……哈啊……哈啊……哈啊……」"
+                }
+            }
+        },
+        linkback = "block_00089",
+        linknext = "block_00091",
+        line = 418
+    },
+    block_00091 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "灯理似乎也和我一样兴奋，",
+                    {"rt2"},
+                    "呼吸开始变得湿润起来。"
+                }
+            }
+        },
+        linkback = "block_00090",
+        linknext = "block_00092",
+        line = 421
+    },
+    block_00092 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "工作之后，我确实感到很饥渴……。",
+                    {"rt2"},
+                    "再这样下去，真的会无法回头。"
+                }
+            }
+        },
+        linkback = "block_00091",
+        linknext = "block_00093",
+        line = 424
+    },
+    block_00093 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我挤出最后的理性，",
+                    {"rt2"},
+                    "为了远离灯理而挪动身体。"
+                }
+            }
+        },
+        linkback = "block_00092",
+        linknext = "block_00094",
+        line = 427
+    },
+    block_00094 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00432", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「不行。我不会让你逃走的」"
+                }
+            }
+        },
+        linkback = "block_00093",
+        linknext = "block_00095",
+        line = 430
+    },
+    block_00095 = {
+        {"bg", file = "ev_tou_h01_05", path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            ja = {
+                {"她压了上来——"}
+            }
+        },
+        linkback = "block_00094",
+        linknext = "block_00096",
+        line = 434
+    },
+    block_00096 = {
+        {"text"},
+        text = {
+            ja = {
+                {"正当我这么想的时候，灯理稍稍挪开了身体。"}
+            }
+        },
+        linkback = "block_00095",
+        linknext = "block_00097",
+        line = 436
+    },
+    block_00097 = {
+        {"se", file = "se衣擦れ", id = 1},
+        {"bg", file = "ev_tou_h01_09", path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "然后，这东西让我惊呆了。",
+                    {"rt2"},
+                    "这东西让想要逃跑的我瞬间僵直了。"
+                }
+            }
+        },
+        linkback = "block_00096",
+        linknext = "block_00098",
+        line = 446
+    },
+    block_00098 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00433", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哈……好害羞……啊啊，这种事要是不",
+                    {"rt2"},
+                    "顺着势头做的话，绝对做不下去……」"
+                }
+            }
+        },
+        linkback = "block_00097",
+        linknext = "block_00099",
+        line = 450
+    },
+    block_00099 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "灯理嘟嘟囔囔地不知道在说些什么，",
+                    {"rt2"},
+                    "但我根本听不进去。"
+                }
+            }
+        },
+        linkback = "block_00098",
+        linknext = "block_00100",
+        line = 453
+    },
+    block_00100 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我的全部神经，",
+                    {"rt2"},
+                    "都集中在妹妹那对美妙的胸部上。"
+                }
+            }
+        },
+        linkback = "block_00099",
+        linknext = "block_00101",
+        line = 456
+    },
+    block_00101 = {
+        {"se", stop = 1, time = 500, id = 1},
+        {"bg", x = -330, y = -350, time = 500, file = "zev_tou_h01_09", path = ":ev/ev_tou_h01/", set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00434", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「啊……这样一直盯着看……哥哥，",
+                    {"rt2"},
+                    "你真的很色呢」"
+                }
+            }
+        },
+        linkback = "block_00100",
+        linknext = "block_00102",
+        line = 464
+    },
+    block_00102 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00435", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「怎么样……？　不奇怪吗……？」"
+                }
+            }
+        },
+        linkback = "block_00101",
+        linknext = "block_00103",
+        line = 467
+    },
+    block_00103 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「啊啊……完全，不奇怪」"
+                }
+            }
+        },
+        linkback = "block_00102",
+        linknext = "block_00104",
+        line = 470
+    },
+    block_00104 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「倒不如说，哪里奇怪了……」"
+                }
+            }
+        },
+        linkback = "block_00103",
+        linknext = "block_00105",
+        line = 473
+    },
+    block_00105 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「…………好……好厉害」"
+                }
+            }
+        },
+        linkback = "block_00104",
+        linknext = "block_00106",
+        line = 476
+    },
+    block_00106 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我的目光完全无法从那对丰满的果实上移开。"}
+            }
+        },
+        linkback = "block_00105",
+        linknext = "block_00107",
+        line = 478
+    },
+    block_00107 = {
+        {"text"},
+        text = {
+            ja = {
+                {"灯理的胸部，就是有如此强大的破坏力。"}
+            }
+        },
+        linkback = "block_00106",
+        linknext = "block_00108",
+        line = 480
+    },
+    block_00108 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00436", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「我行我素，我行我素呀。都快被你吸干了」"
+                }
+            }
+        },
+        linkback = "block_00107",
+        linknext = "block_00109",
+        line = 483
+    },
+    block_00109 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「你，你这……」"
+                }
+            }
+        },
+        linkback = "block_00108",
+        linknext = "block_00110",
+        line = 486
+    },
+    block_00110 = {
+        {"bg", time = 500, file = "ev_tou_h01_11", path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00437", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「呜呜，已经可以了吧，看够了吧。",
+                    {"rt2"},
+                    "接下来要继续了，我要撸了」"
+                }
+            }
+        },
+        linkback = "block_00109",
+        linknext = "block_00111",
+        line = 492
+    },
+    block_00111 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「诶，啊！？」"
+                }
+            }
+        },
+        linkback = "block_00110",
+        linknext = "block_00112",
+        line = 495
+    },
+    block_00112 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_09", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"lvo", ch = "tou", file = "fem_tou_02583", loop = 1},
+        {"se", file = "seエロ_手コキ：強", id = 1, loop = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "灯理红着脸再次把体重压在我身上，",
+                    {"rt2"},
+                    "开始上下摩擦她手里的东西。"
+                }
+            }
+        },
+        linkback = "block_00111",
+        linknext = "block_00113",
+        line = 502
+    },
+    block_00113 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00438", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「摩擦摩擦很舒服吧……",
+                    {"rt2"},
+                    "嗯，呼……这样，对吧……嗯，嗯」"
+                }
+            }
+        },
+        linkback = "block_00112",
+        linknext = "block_00114",
+        line = 506
+    },
+    block_00114 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「喂，啊，等……！！」"
+                }
+            }
+        },
+        linkback = "block_00113",
+        linknext = "block_00115",
+        line = 509
+    },
+    block_00115 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_10", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00439", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哥哥你别动，",
+                    {"rt2"},
+                    "我会让你舒服起来的……」"
+                }
+            }
+        },
+        linkback = "block_00114",
+        linknext = "block_00116",
+        line = 515
+    },
+    block_00116 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「不不不！　……唔！？」"
+                }
+            }
+        },
+        linkback = "block_00115",
+        linknext = "block_00117",
+        line = 518
+    },
+    block_00117 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00440", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「嘿嘿嘿……撸起来很舒服吧，太好了」"
+                }
+            }
+        },
+        linkback = "block_00116",
+        linknext = "block_00118",
+        line = 522
+    },
+    block_00118 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_13", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            ja = {
+                {"她是不是想起了情色漫画的知识啊。"}
+            }
+        },
+        linkback = "block_00117",
+        linknext = "block_00119",
+        line = 526
+    },
+    block_00119 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "灯理将视线投向我的双腿之间，",
+                    {"rt2"},
+                    "同时继续动手动脚。"
+                }
+            }
+        },
+        linkback = "block_00118",
+        linknext = "block_00120",
+        line = 529
+    },
+    block_00120 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "与我粗糙的手掌不同，",
+                    {"rt2"},
+                    "她那柔软纤细的手指紧紧地缠绕上来。"
+                }
+            }
+        },
+        linkback = "block_00119",
+        linknext = "block_00121",
+        line = 532
+    },
+    block_00121 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "因为一直握着热热的东西，",
+                    {"rt2"},
+                    "手心渗出了汗水吧。"
+                }
+            }
+        },
+        linkback = "block_00120",
+        linknext = "block_00122",
+        line = 535
+    },
+    block_00122 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "这舒适的摩擦。这刺激从下腹部",
+                    {"rt2"},
+                    "逐渐向上蔓延，令我忍不住仰起下巴。"
+                }
+            }
+        },
+        linkback = "block_00121",
+        linknext = "block_00123",
+        line = 538
+    },
+    block_00123 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「唔，唔，灯理……！」"
+                }
+            }
+        },
+        linkback = "block_00122",
+        linknext = "block_00124",
+        line = 541
+    },
+    block_00124 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_14", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00441", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「嗯，嗯，嗯，嗯……。",
+                    {"rt2"},
+                    "怎，怎么了，哥哥……嗯，嗯，嗯」"
+                }
+            }
+        },
+        linkback = "block_00123",
+        linknext = "block_00125",
+        line = 547
+    },
+    block_00125 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「一开始就这么激烈的话，",
+                    {"rt2"},
+                    "会有点难受的……！」"
+                }
+            }
+        },
+        linkback = "block_00124",
+        linknext = "block_00126",
+        line = 551
+    },
+    block_00126 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_12", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"se", stop = 1, id = 1, time = 500},
+        {"se", file = "seエロ_手コキ：弱", id = 2, loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00442", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「咦，是吗……？抱歉，",
+                    {"rt2"},
+                    "我应该再慢一点比较好……」"
+                }
+            }
+        },
+        linkback = "block_00125",
+        linknext = "block_00127",
+        line = 561
+    },
+    block_00127 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "趁着她动作稍微放缓的空隙，",
+                    {"rt2"},
+                    "我将氧气供给给空空如也的肺部。"
+                }
+            }
+        },
+        linkback = "block_00126",
+        linknext = "block_00128",
+        line = 564
+    },
+    block_00128 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "只是反复深呼吸，",
+                    {"rt2"},
+                    "就因灯理的手交合而感到兴奋。"
+                }
+            }
+        },
+        linkback = "block_00127",
+        linknext = "block_00129",
+        line = 567
+    },
+    block_00129 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_14", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00443", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「果然，不温柔一点是不行的。",
+                    {"rt2"},
+                    "毕竟是男人的重要部位呢……嗯，哈啊……」"
+                }
+            }
+        },
+        linkback = "block_00128",
+        linknext = "block_00130",
+        line = 573
+    },
+    block_00130 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_13", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00444", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「嗯，嗯，嗯，嗯……",
+                    {"rt2"},
+                    "我明白了，我会慢慢来的，哥哥……」"
+                }
+            }
+        },
+        linkback = "block_00129",
+        linknext = "block_00131",
+        line = 579
+    },
+    block_00131 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00445", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「一开始先慢慢地，用大动作，",
+                    {"rt2"},
+                    "等她舒服起来，再用力地摩擦……」"
+                }
+            }
+        },
+        linkback = "block_00130",
+        linknext = "block_00132",
+        line = 583
+    },
+    block_00132 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「啊，嗯，可能吧……唔……」"
+                }
+            }
+        },
+        linkback = "block_00131",
+        linknext = "block_00133",
+        line = 586
+    },
+    block_00133 = {
+        {"se", stop = 1, id = 2, time = 500},
+        {"lvo", ch = "tou", stop = 1},
+        {"bg", x = 500, y = -350, time = 500, file = "zev_tou_h01_15", path = ":ev/ev_tou_h01/", set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00446", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「啊，嗯，好像，流出来了……嗯嗯？",
+                    {"rt2"},
+                    "不是白色的……不是精液？」"
+                }
+            }
+        },
+        linkback = "block_00132",
+        linknext = "block_00134",
+        line = 596
+    },
+    block_00134 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00447", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「我知道了，这个是，前列腺液……",
+                    {"rt2"},
+                    "听说舒服的时候会流出来，是那个吧……」"
+                }
+            }
+        },
+        linkback = "block_00133",
+        linknext = "block_00135",
+        line = 600
+    },
+    block_00135 = {
+        {"bg", time = 500, file = "ev_tou_h01_15", path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00448", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「嗯哼，这样啊，你已经舒服起来了啊……。",
+                    {"rt2"},
+                    "就算是第一次，也是可以做到的呢」"
+                }
+            }
+        },
+        linkback = "block_00134",
+        linknext = "block_00136",
+        line = 606
+    },
+    block_00136 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00449", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「我好开心啊……",
+                    {"rt2"},
+                    "嗯，嗯，我会继续做的」"
+                }
+            }
+        },
+        linkback = "block_00135",
+        linknext = "block_00137",
+        line = 610
+    },
+    block_00137 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "上下移动的手稍微停了一下，",
+                    {"rt2"},
+                    "然后从尿道口里捞出无色的液体。"
+                }
+            }
+        },
+        linkback = "block_00136",
+        linknext = "block_00138",
+        line = 613
+    },
+    block_00138 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "用它作为润滑剂，",
+                    {"rt2"},
+                    "手上的动作也变得更加流畅。"
+                }
+            }
+        },
+        linkback = "block_00137",
+        linknext = "block_00139",
+        line = 619
+    },
+    block_00139 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "灯理在亲身体验中，一个一个地学习，修正",
+                    {"rt2"},
+                    "我兴奋得无法自拔。"
+                }
+            }
+        },
+        linkback = "block_00138",
+        linknext = "block_00140",
+        line = 622
+    },
+    block_00140 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_16", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"lvo", ch = "tou", file = "fem_tou_02583", loop = 1},
+        {"se", file = "seエロ_手コキ：弱", id = 3, loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00450", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「跳了一下……啊……比刚才，",
+                    {"rt2"},
+                    "还要大……嗯嗯，嗯哼，这样啊……」"
+                }
+            }
+        },
+        linkback = "block_00139",
+        linknext = "block_00141",
+        line = 632
+    },
+    block_00141 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_21", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00451", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「快要去了吗，哥哥……",
+                    {"rt2"},
+                    "所以才会变大吗……？」"
+                }
+            }
+        },
+        linkback = "block_00140",
+        linknext = "block_00142",
+        line = 638
+    },
+    block_00142 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「…………」"
+                }
+            }
+        },
+        linkback = "block_00141",
+        linknext = "block_00143",
+        line = 641
+    },
+    block_00143 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_21", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00452", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「不说话的话，就是对的吧……？",
+                    {"rt2"},
+                    "嗯，好，试试看，更激烈一点，哦……」"
+                }
+            }
+        },
+        linkback = "block_00142",
+        linknext = "block_00144",
+        line = 647
+    },
+    block_00144 = {
+        {"se", stop = 1, id = 3, time = 500},
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_19", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"lvo", ch = "tou", file = "fem_tou_02584", loop = 1},
+        {"se", file = "seエロ_手コキ：強", id = 4, loop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00453", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哈啊，嗯嗯……这次，这样子",
+                    {"rt2"},
+                    "看起来没问题呢……呼，哇啊啊……」"
+                }
+            }
+        },
+        linkback = "block_00143",
+        linknext = "block_00145",
+        line = 658
+    },
+    block_00145 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "摩擦的速度加快了，",
+                    {"rt2"},
+                    "强烈的快感让身体麻痹。"
+                }
+            }
+        },
+        linkback = "block_00144",
+        linknext = "block_00146",
+        line = 661
+    },
+    block_00146 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "舒服得身体都快要后仰了，",
+                    {"rt2"},
+                    "灯理看着咬紧牙关的我，脸上露出了笑容。"
+                }
+            }
+        },
+        linkback = "block_00145",
+        linknext = "block_00147",
+        line = 664
+    },
+    block_00147 = {
+        {"bg", x = -250, y = 150, time = 500, file = "zev_tou_h01_10", path = ":ev/ev_tou_h01/", set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00454", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哈啊，哈啊，嗯嗯，嗯嗯，看起来很舒服的样子……",
+                    {"rt2"},
+                    "哥哥，在舒服的时候，是这种表情啊……」"
+                }
+            }
+        },
+        linkback = "block_00146",
+        linknext = "block_00148",
+        line = 670
+    },
+    block_00148 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「唔，唔……」"
+                }
+            }
+        },
+        linkback = "block_00147",
+        linknext = "block_00149",
+        line = 673
+    },
+    block_00149 = {
+        {"bg", sync = 0, face = 1, file = "zev_tou_h01_18", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360, x = -250, y = 150},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00455", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「就算什么都不说我也明白的哦……」"
+                }
+            }
+        },
+        linkback = "block_00148",
+        linknext = "block_00150",
+        line = 678
+    },
+    block_00150 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00456", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「嗯，嗯，嗯，还要更多，对吧……！",
+                    {"rt2"},
+                    "哈啊，哈啊，哈啊」"
+                }
+            }
+        },
+        linkback = "block_00149",
+        linknext = "block_00151",
+        line = 682
+    },
+    block_00151 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "从根部到顶端都毫不留情地",
+                    {"rt2"},
+                    "握着它上下摩擦。"
+                }
+            }
+        },
+        linkback = "block_00150",
+        linknext = "block_00152",
+        line = 685
+    },
+    block_00152 = {
+        {"text"},
+        text = {
+            ja = {
+                {"比其他部位更柔软的小指和拇指的刺激。"}
+            }
+        },
+        linkback = "block_00151",
+        linknext = "block_00153",
+        line = 687
+    },
+    block_00153 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "手指的刺激，不断地在龟头的冠状沟和系带",
+                    {"rt2"},
+                    "摩擦。"
+                }
+            }
+        },
+        linkback = "block_00152",
+        linknext = "block_00154",
+        line = 690
+    },
+    block_00154 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "不断叠加的快感，",
+                    {"rt2"},
+                    "让理性逐渐消散。"
+                }
+            }
+        },
+        linkback = "block_00153",
+        linknext = "block_00155",
+        line = 693
+    },
+    block_00155 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我的大脑已经完全被快乐所占据。"}
+            }
+        },
+        linkback = "block_00154",
+        linknext = "block_00156",
+        line = 695
+    },
+    block_00156 = {
+        {"bg", sync = 0, face = 1, file = "zev_tou_h01_14", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360, x = -250, y = 150},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00457", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哈啊，哈啊，哈啊，嗯，嗯唔……！",
+                    {"rt2"},
+                    "哈啊，哈啊……！」"
+                }
+            }
+        },
+        linkback = "block_00155",
+        linknext = "block_00157",
+        line = 701
+    },
+    block_00157 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "灯理喘着粗气，咽下唾沫，",
+                    {"rt2"},
+                    "她的表情看起来非常淫荡。"
+                }
+            }
+        },
+        linkback = "block_00156",
+        linknext = "block_00158",
+        line = 704
+    },
+    block_00158 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我还是第一次看到妹妹露出这样的表情……。",
+                    {"rt2"},
+                    "正因为如此，我的情欲才会无止境地膨胀。"
+                }
+            }
+        },
+        linkback = "block_00157",
+        linknext = "block_00159",
+        line = 707
+    },
+    block_00159 = {
+        {"bg", time = 500, file = "ev_tou_h01_20", path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00458", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「啊啊，嗯，诶唔！？",
+                    {"rt2"},
+                    "骗人，又变大了……！」"
+                }
+            }
+        },
+        linkback = "block_00158",
+        linknext = "block_00160",
+        line = 713
+    },
+    block_00160 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_19", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00459", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哥哥，哥哥，啊啊，我明白，我明白的哦，",
+                    {"rt2"},
+                    "我也……这个，马上就要，嗯嗯，哈啊！」"
+                }
+            }
+        },
+        linkback = "block_00159",
+        linknext = "block_00161",
+        line = 719
+    },
+    block_00161 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "于是，我被",
+                    {"rt2"},
+                    "加速度地变得色情的灯理所吸引。"
+                }
+            }
+        },
+        linkback = "block_00160",
+        linknext = "block_00162",
+        line = 722
+    },
+    block_00162 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00460", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哈啊啊，哈啊，哈啊嗯，可以哦，要去了……。",
+                    {"rt2"},
+                    "哥哥的色情汁液，全部射出来吧」"
+                }
+            }
+        },
+        linkback = "block_00161",
+        linknext = "block_00163",
+        line = 726
+    },
+    block_00163 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我激烈地动着手，同时将胸部压了上来。"}
+            }
+        },
+        linkback = "block_00162",
+        linknext = "block_00164",
+        line = 728
+    },
+    block_00164 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "灯理摇晃的身体很火热，",
+                    {"rt2"},
+                    "我知道她也和我一样兴奋。"
+                }
+            }
+        },
+        linkback = "block_00163",
+        linknext = "block_00165",
+        line = 731
+    },
+    block_00165 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "灯理居然会变得如此淫荡……。",
+                    {"rt2"},
+                    "至今为止，我从未见过她这样。"
+                }
+            }
+        },
+        linkback = "block_00164",
+        linknext = "block_00166",
+        line = 734
+    },
+    block_00166 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_17", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00461", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「啊啊，啊啊，嗯，变得好硬，嗯，要去了，",
+                    {"rt2"},
+                    "要去了，变大了，可以的就这样！！」"
+                }
+            }
+        },
+        linkback = "block_00165",
+        linknext = "block_00167",
+        line = 740
+    },
+    block_00167 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_19", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00462", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「嗯，嗯，嗯，哥哥的色情模样，",
+                    {"rt2"},
+                    "让我看看！　我从未见过的，模样……！」"
+                }
+            }
+        },
+        linkback = "block_00166",
+        linknext = "block_00168",
+        line = 746
+    },
+    block_00168 = {
+        {"se", stop = 1, id = 4, time = 500},
+        {"lvo", ch = "tou", stop = 1},
+        {"bg", id = 9, lv = 9, sync = 1, time = 100, file = "white", path = ":bg/"},
+        {"bg", id = 9, lv = 9, sync = 1, time = 300, alpha = 0, file = "white", path = ":bg/"},
+        {"bg", id = 9, lv = 9, sync = 1, time = 500, alpha = 255, file = "white", path = ":bg/"},
+        {"cgdel", id = 9, lv = 9},
+        {"bg", file = "ev_tou_h01_22", sync = 0, time = 1000, vague = 100, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"se", file = "seエロ_射精外出し2", id = 9, time = 0, vol = 100, pan = 0},
+        {"ex", time = 100, func = "wait"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00463", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哈啊啊啊啊啊啊啊～～～～……！！！」"
+                }
+            }
+        },
+        linkback = "block_00167",
+        linknext = "block_00169",
+        line = 756
+    },
+    block_00169 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我发出恍惚的声音的同时，",
+                    {"rt2"},
+                    "将涌上来的精液喷射到外面。"
+                }
+            }
+        },
+        linkback = "block_00168",
+        linknext = "block_00170",
+        line = 759
+    },
+    block_00170 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "积攒已久的欲望非常激烈，",
+                    {"rt2"},
+                    "精液大胆地从尿道口喷射出来。"
+                }
+            }
+        },
+        linkback = "block_00169",
+        linknext = "block_00171",
+        line = 762
+    },
+    block_00171 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00464", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「啊……！　啊……！",
+                    {"rt2"},
+                    "咻咻咻地射出来了……啊啊！」"
+                }
+            }
+        },
+        linkback = "block_00170",
+        linknext = "block_00172",
+        line = 766
+    },
+    block_00172 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "即使被灯理的手抓住，",
+                    {"rt2"},
+                    "也像是要摆脱束缚一样剧烈地跳动。"
+                }
+            }
+        },
+        linkback = "block_00171",
+        linknext = "block_00173",
+        line = 769
+    },
+    block_00173 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_24", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00465", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哈啊，哈啊，哈啊，好厉害……。",
+                    {"rt2"},
+                    "好有力，好强壮……」"
+                }
+            }
+        },
+        linkback = "block_00172",
+        linknext = "block_00174",
+        line = 778
+    },
+    block_00174 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00466", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「这就是……让女孩子怀孕的，男人的",
+                    {"rt2"},
+                    "力量……是吧……哈啊，哈啊啊……」"
+                }
+            }
+        },
+        linkback = "block_00173",
+        linknext = "block_00175",
+        line = 782
+    },
+    block_00175 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "虽然射精已经结束，",
+                    {"rt2"},
+                    "但还在跳动。"
+                }
+            }
+        },
+        linkback = "block_00174",
+        linknext = "block_00176",
+        line = 785
+    },
+    block_00176 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "灯理拿着一跳一跳的那东西，",
+                    {"rt2"},
+                    "呵呵地露出妖艳的微笑。"
+                }
+            }
+        },
+        linkback = "block_00175",
+        linknext = "block_00177",
+        line = 788
+    },
+    block_00177 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_23", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00467", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「明明刚才还那么威风……现在却像小孩子一样颤抖着，",
+                    {"rt2"},
+                    "哥哥，你好可爱啊……」"
+                }
+            }
+        },
+        linkback = "block_00176",
+        linknext = "block_00178",
+        line = 794
+    },
+    block_00178 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00468", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「但是，还不够吗……？」"
+                }
+            }
+        },
+        linkback = "block_00177",
+        linknext = "block_00179",
+        line = 797
+    },
+    block_00179 = {
+        {"text"},
+        text = {
+            ja = {
+                {"停在射精期间的手，开始一点一点地动了起来。"}
+            }
+        },
+        linkback = "block_00178",
+        linknext = "block_00180",
+        line = 799
+    },
+    block_00180 = {
+        {"bg", file = "ev_tou_h01_25", path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"lvo", ch = "tou", file = "fem_tou_02583", loop = 1},
+        {"se", file = "seエロ_手コキ：弱", id = 5, loop = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "手指慢慢地向着前端，",
+                    {"rt2"},
+                    "像是在来回舔舐一样缠绕上来。"
+                }
+            }
+        },
+        linkback = "block_00179",
+        linknext = "block_00181",
+        line = 810
+    },
+    block_00181 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「啊，唔……还，还不要动……」"
+                }
+            }
+        },
+        linkback = "block_00180",
+        linknext = "block_00182",
+        line = 813
+    },
+    block_00182 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00469", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「为什么……？　因为我，变得敏感了？」"
+                }
+            }
+        },
+        linkback = "block_00181",
+        linknext = "block_00183",
+        line = 816
+    },
+    block_00183 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「既然你都知道了，就不要做啊……唔唔」"
+                }
+            }
+        },
+        linkback = "block_00182",
+        linknext = "block_00184",
+        line = 819
+    },
+    block_00184 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_26", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00470", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「嗯嗯～……平时的话，我都会听哥哥的话的……",
+                    {"rt2"},
+                    "但现在，不行」"
+                }
+            }
+        },
+        linkback = "block_00183",
+        linknext = "block_00185",
+        line = 825
+    },
+    block_00185 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_25", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00471", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「因为……你看，只是像这样稍微摸一摸，",
+                    {"rt2"},
+                    "你都抖动起来了」"
+                }
+            }
+        },
+        linkback = "block_00184",
+        linknext = "block_00186",
+        line = 831
+    },
+    block_00186 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「可恶……」"
+                }
+            }
+        },
+        linkback = "block_00185",
+        linknext = "block_00187",
+        line = 834
+    },
+    block_00187 = {
+        {"text"},
+        text = {
+            ja = {
+                {"无论如何，我都会发出很丢人的叹息。"}
+            }
+        },
+        linkback = "block_00186",
+        linknext = "block_00188",
+        line = 836
+    },
+    block_00188 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "刚刚射精的龟头实在是太过脆弱，",
+                    {"rt2"},
+                    "手指的刺激无一遗漏地传达到身体里。"
+                }
+            }
+        },
+        linkback = "block_00187",
+        linknext = "block_00189",
+        line = 839
+    },
+    block_00189 = {
+        {"bg", speed = 120000, file = "zev_tou_h01_27", path = ":ev/ev_tou_h01/", x2 = 600, y2 = -250, x = -250, y = 100, set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00472", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哈啊，嗯嗯，咦……明明稍微变软了点",
+                    {"rt2"},
+                    "怎么又……变硬了……？」"
+                }
+            }
+        },
+        linkback = "block_00188",
+        linknext = "block_00190",
+        line = 845
+    },
+    block_00190 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00473", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哥哥，你还真有精神呢……明明刚刚才",
+                    {"rt2"},
+                    "射了那么多出来……现在又变大了……」"
+                }
+            }
+        },
+        linkback = "block_00189",
+        linknext = "block_00191",
+        line = 849
+    },
+    block_00191 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00474", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哥哥，你积攒了那么多吗？」"
+                }
+            }
+        },
+        linkback = "block_00190",
+        linknext = "block_00192",
+        line = 852
+    },
+    block_00192 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「灯理，你再不收敛一点……」"
+                }
+            }
+        },
+        linkback = "block_00191",
+        linknext = "block_00193",
+        line = 855
+    },
+    block_00193 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00475", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「再不收敛的话，会射第二次吗？」"
+                }
+            }
+        },
+        linkback = "block_00192",
+        linknext = "block_00194",
+        line = 858
+    },
+    block_00194 = {
+        {"se", stop = 1, id = 5, time = 500},
+        {"se", file = "seエロ_手コキ：強", id = 6, loop = 1},
+        {"lvo", ch = "tou", file = "fem_tou_02584", loop = 1},
+        {"text"},
+        text = {
+            ja = {
+                {"她的手的动作突然发生了变化。"}
+            }
+        },
+        linkback = "block_00193",
+        linknext = "block_00195",
+        line = 864
+    },
+    block_00195 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "原本只是缠绕着的手指开始蠕动，",
+                    {"rt2"},
+                    "揉搓着前端，进行爱抚。"
+                }
+            }
+        },
+        linkback = "block_00194",
+        linknext = "block_00196",
+        line = 867
+    },
+    block_00196 = {
+        {"text"},
+        text = {
+            ja = {
+                {"过于强烈的刺激，让我一时说不出话来。"}
+            }
+        },
+        linkback = "block_00195",
+        linknext = "block_00197",
+        line = 869
+    },
+    block_00197 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00476", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「嗯，嗯……你看，这个，怎么样……。",
+                    {"rt2"},
+                    "这次，从一开始就可以，很激烈哦……」"
+                }
+            }
+        },
+        linkback = "block_00196",
+        linknext = "block_00198",
+        line = 873
+    },
+    block_00198 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00477", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哈呼，看起来很舒服的样子，好开心……",
+                    {"rt2"},
+                    "哈啊，我的手，能让你露出这样的表情」"
+                }
+            }
+        },
+        linkback = "block_00197",
+        linknext = "block_00199",
+        line = 877
+    },
+    block_00199 = {
+        {"text"},
+        text = {
+            ja = {
+                {"不只是手，灯理的身体也再次摇晃起来。"}
+            }
+        },
+        linkback = "block_00198",
+        linknext = "block_00200",
+        line = 879
+    },
+    block_00200 = {
+        {"text"},
+        text = {
+            ja = {
+                {"她那摩擦着我的样子，让我兴奋得无法自拔。"}
+            }
+        },
+        linkback = "block_00199",
+        linknext = "block_00201",
+        line = 881
+    },
+    block_00201 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「啊……！」"
+                }
+            }
+        },
+        linkback = "block_00200",
+        linknext = "block_00202",
+        line = 884
+    },
+    block_00202 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00478", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「啊哈哈哈哈哈哈好可爱啊我好爱现在的哥哥，",
+                    {"rt2"},
+                    "太可爱了，我受不了……」"
+                }
+            }
+        },
+        linkback = "block_00201",
+        linknext = "block_00203",
+        line = 888
+    },
+    block_00203 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我们忘记了彼此是兄妹，专注于男女之事。"}
+            }
+        },
+        linkback = "block_00202",
+        linknext = "block_00204",
+        line = 891
+    },
+    block_00204 = {
+        {"bg", file = "ev_tou_h01_29", path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00479", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「吱吱作响呢，你听到了吗？」"
+                }
+            }
+        },
+        linkback = "block_00203",
+        linknext = "block_00205",
+        line = 897
+    },
+    block_00205 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00480", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「然后呢，滑溜溜的，",
+                    {"rt2"},
+                    "还有，黏糊糊的……」"
+                }
+            }
+        },
+        linkback = "block_00204",
+        linknext = "block_00206",
+        line = 901
+    },
+    block_00206 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_28", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00481", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「因为手指之间也缠在一起了，",
+                    {"rt2"},
+                    "所以能……尽情地……动起来」"
+                }
+            }
+        },
+        linkback = "block_00205",
+        linknext = "block_00207",
+        line = 907
+    },
+    block_00207 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00482", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「啊，嗯，嗯嗯嗯，嗯嗯嗯，嗯，嗯，嗯，",
+                    {"rt2"},
+                    "啊，啊，啊，啊」"
+                }
+            }
+        },
+        linkback = "block_00206",
+        linknext = "block_00208",
+        line = 911
+    },
+    block_00208 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "不光是摩擦，",
+                    {"rt2"},
+                    "还时而轻缓时而激烈地用手指缠绕龟头。"
+                }
+            }
+        },
+        linkback = "block_00207",
+        linknext = "block_00209",
+        line = 917
+    },
+    block_00209 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我方的快乐被对方的快乐所压倒。"}
+            }
+        },
+        linkback = "block_00208",
+        linknext = "block_00210",
+        line = 919
+    },
+    block_00210 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "这已经不是单方面的快乐了，",
+                    {"rt2"},
+                    "而是快乐的浪潮席卷而来。"
+                }
+            }
+        },
+        linkback = "block_00209",
+        linknext = "block_00211",
+        line = 922
+    },
+    block_00211 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「好，舒服……唔，唔唔……」"
+                }
+            }
+        },
+        linkback = "block_00210",
+        linknext = "block_00212",
+        line = 925
+    },
+    block_00212 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_30", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00483", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「嗯，嗯，是啊？",
+                    {"rt2"},
+                    "啊嗯，好开心……」"
+                }
+            }
+        },
+        linkback = "block_00211",
+        linknext = "block_00213",
+        line = 931
+    },
+    block_00213 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_29", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00484", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「呵呵，我只擅长打扫、洗衣服、做饭，但是……」"
+                }
+            }
+        },
+        linkback = "block_00212",
+        linknext = "block_00214",
+        line = 937
+    },
+    block_00214 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00485", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「我行我素的，随心所欲的，",
+                    {"rt2"},
+                    "但是却能让人感到舒服……啊啊啊，好开心」"
+                }
+            }
+        },
+        linkback = "block_00213",
+        linknext = "block_00215",
+        line = 941
+    },
+    block_00215 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "她吐出的气息热而湿润，",
+                    {"rt2"},
+                    "我想我应该也和她一样在重复着同样的呼吸吧。"
+                }
+            }
+        },
+        linkback = "block_00214",
+        linknext = "block_00216",
+        line = 944
+    },
+    block_00216 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "看着彼此的色情表情，",
+                    {"rt2"},
+                    "我们两人都红着脸埋头于行为之中。"
+                }
+            }
+        },
+        linkback = "block_00215",
+        linknext = "block_00217",
+        line = 947
+    },
+    block_00217 = {
+        {"bg", x = -250, y = 150, time = 500, file = "zev_tou_h01_28", path = ":ev/ev_tou_h01/", set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00486", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「不用顾虑，可以让我弄得湿漉漉的，对吧……。",
+                    {"rt2"},
+                    "嗯，嗯嗯，嗯嗯，哈啊，哈啊……！」"
+                }
+            }
+        },
+        linkback = "block_00216",
+        linknext = "block_00218",
+        line = 953
+    },
+    block_00218 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00487", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「我会比刚才，更用力，更激烈地，给你做，",
+                    {"rt2"},
+                    "让你舒服起来……嗯，嗯！」"
+                }
+            }
+        },
+        linkback = "block_00217",
+        linknext = "block_00219",
+        line = 957
+    },
+    block_00219 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "被她积极地摆弄着的手，",
+                    {"rt2"},
+                    "让我一直保持着后仰的姿势。"
+                }
+            }
+        },
+        linkback = "block_00218",
+        linknext = "block_00220",
+        line = 960
+    },
+    block_00220 = {
+        {"bg", sync = 0, face = 1, file = "zev_tou_h01_29", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360, x = -250, y = 150},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00488", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哈啊，哈啊，嗯嗯嗯，嗯嗯嗯，这样吗，",
+                    {"rt2"},
+                    "嗯嗯，舒服吗，哈啊，哈啊，哈啊啊！」"
+                }
+            }
+        },
+        linkback = "block_00219",
+        linknext = "block_00221",
+        line = 966
+    },
+    block_00221 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "本来以为射过一次之后，",
+                    {"rt2"},
+                    "应该能稍微忍耐一下的。"
+                }
+            }
+        },
+        linkback = "block_00220",
+        linknext = "block_00222",
+        line = 969
+    },
+    block_00222 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "正因为射过一次所以更加敏感，",
+                    {"rt2"},
+                    "强烈的快感袭向了下半身。"
+                }
+            }
+        },
+        linkback = "block_00221",
+        linknext = "block_00223",
+        line = 975
+    },
+    block_00223 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「啊啊啊啊……！」"
+                }
+            }
+        },
+        linkback = "block_00222",
+        linknext = "block_00224",
+        line = 978
+    },
+    block_00224 = {
+        {"bg", sync = 0, face = 1, file = "zev_tou_h01_28", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360, x = -250, y = 150},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00489", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「嗯呼啊，好厉害，声音……！　啊，嗯嗯，嗯嗯，",
+                    {"rt2"},
+                    "这就是哥哥，认真起来的声音，对吧」"
+                }
+            }
+        },
+        linkback = "block_00223",
+        linknext = "block_00225",
+        line = 984
+    },
+    block_00225 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00490", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「那种色情的声音，再多教教我……！",
+                    {"rt2"},
+                    "哥哥，嗯啊，啊，啊，啊，啊，啊……！」"
+                }
+            }
+        },
+        linkback = "block_00224",
+        linknext = "block_00226",
+        line = 988
+    },
+    block_00226 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00491", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哈啊，哈啊，嗯嗯嗯，嗯嗯嗯，哥哥，",
+                    {"rt2"},
+                    "你舒服的话我也很舒服，很兴奋呢！」"
+                }
+            }
+        },
+        linkback = "block_00225",
+        linknext = "block_00227",
+        line = 992
+    },
+    block_00227 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00492", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哈啊，哈啊，嗯嗯嗯，什么时候，都可以，哦……！",
+                    {"rt2"},
+                    "在你喜欢的时机，射出来，也可以哦……！」"
+                }
+            }
+        },
+        linkback = "block_00226",
+        linknext = "block_00228",
+        line = 996
+    },
+    block_00228 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00493", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「啊，嗯，啊，啊，啊……哈啊唔，嗯嗯！」"
+                }
+            }
+        },
+        linkback = "block_00227",
+        linknext = "block_00229",
+        line = 999
+    },
+    block_00229 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "身体互相摩擦的声音，精液被卷入其中的同时",
+                    {"rt2"},
+                    "摩擦着肉棒的声音，灯理口中流露出来的炽热吐息。"
+                }
+            }
+        },
+        linkback = "block_00228",
+        linknext = "block_00230",
+        line = 1002
+    },
+    block_00230 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "这些声音没有停留于耳中，",
+                    {"rt2"},
+                    "而是将我的脑袋染上情色的色彩。"
+                }
+            }
+        },
+        linkback = "block_00229",
+        linknext = "block_00231",
+        line = 1005
+    },
+    block_00231 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「灯理……！」"
+                }
+            }
+        },
+        linkback = "block_00230",
+        linknext = "block_00232",
+        line = 1008
+    },
+    block_00232 = {
+        {"bg", time = 500, file = "ev_tou_h01_30", path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00494", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哥哥，哥哥……哥哥……！」"
+                }
+            }
+        },
+        linkback = "block_00231",
+        linknext = "block_00233",
+        line = 1013
+    },
+    block_00233 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00495", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「嗯，啊，啊啊，来了，又来了……硬硬的！",
+                    {"rt2"},
+                    "嗯嗯嗯，哥哥的，来了，热热的，来了！」"
+                }
+            }
+        },
+        linkback = "block_00232",
+        linknext = "block_00234",
+        line = 1017
+    },
+    block_00234 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00496", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「射出来！　满满地射出来，让我看看！",
+                    {"rt2"},
+                    "啊，啊嗯，嗯嗯，嗯嗯嗯嗯……！！」"
+                }
+            }
+        },
+        linkback = "block_00233",
+        linknext = "block_00235",
+        line = 1021
+    },
+    block_00235 = {
+        {"lvo", ch = "tou", stop = 1},
+        {"se", stop = 1, id = 6, time = 500},
+        {"bg", id = 9, lv = 9, sync = 1, time = 100, file = "white", path = ":bg/"},
+        {"bg", id = 9, lv = 9, sync = 1, time = 300, alpha = 0, file = "white", path = ":bg/"},
+        {"bg", id = 9, lv = 9, sync = 1, time = 500, alpha = 255, file = "white", path = ":bg/"},
+        {"cgdel", id = 9, lv = 9},
+        {"bg", file = "ev_tou_h01_31", sync = 0, time = 1000, vague = 100, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"se", file = "seエロ_射精外出し2", id = 9, time = 0, vol = 100, pan = 0},
+        {"ex", time = 100, func = "wait"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00497", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哈啊啊唔唔唔！！　嗯啊啊啊，射，射出来了……！",
+                    {"rt2"},
+                    "啊，啊，嗯嗯嗯，嗯嗯嗯，好热！」"
+                }
+            }
+        },
+        linkback = "block_00234",
+        linknext = "block_00236",
+        line = 1032
+    },
+    block_00236 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00498", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「啊啊啊啊……啊啊，啊啊，啊……啊啊啊……」"
+                }
+            }
+        },
+        linkback = "block_00235",
+        linknext = "block_00237",
+        line = 1035
+    },
+    block_00237 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我被灯理那颤抖着的吐息所吸引，无法自拔",
+                    {"rt2"},
+                    "她那因高潮而颤抖着的身躯，实在过于煽情。"
+                }
+            }
+        },
+        linkback = "block_00236",
+        linknext = "block_00238",
+        line = 1038
+    },
+    block_00238 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我那高涨的热情，让我在射精时甚至忘记了",
+                    {"rt2"},
+                    "自己还在射精。"
+                }
+            }
+        },
+        linkback = "block_00237",
+        linknext = "block_00239",
+        line = 1041
+    },
+    block_00239 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_33", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00499", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哈啊啊……哈啊啊啊……射了这么多」"
+                }
+            }
+        },
+        linkback = "block_00238",
+        linknext = "block_00240",
+        line = 1046
+    },
+    block_00240 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_37", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00500", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「嗯，嗯哼哼……哥哥的精液，",
+                    {"rt2"},
+                    "感觉……有股男人的味道呢……哈啊，哈啊」"
+                }
+            }
+        },
+        linkback = "block_00239",
+        linknext = "block_00241",
+        line = 1052
+    },
+    block_00241 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_35", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        delay = {
+            lv1 = {
+                {"bg", sync = 0, face = 1, file = "ev_tou_h01_33", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00501", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「怎么说呢，该怎么说才好呢……",
+                    {"rt2"},
+                    "这股色情的味道……让我，感觉有些晕乎乎的……」"
+                }
+            }
+        },
+        linkback = "block_00240",
+        linknext = "block_00242",
+        line = 1059
+    },
+    block_00242 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00502", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「嗯嗯……哈啊……哈啊……」"
+                }
+            }
+        },
+        linkback = "block_00241",
+        linknext = "block_00243",
+        line = 1062
+    },
+    block_00243 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "灯理反复深呼吸，",
+                    {"rt2"},
+                    "脸上浮现出满足的表情。"
+                }
+            }
+        },
+        linkback = "block_00242",
+        linknext = "block_00244",
+        line = 1065
+    },
+    block_00244 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_32", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00503", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「呵呵呵……啊啊……嗯嗯嗯，白色的，好多",
+                    {"rt2"},
+                    "都射出来了……啊哼，嗯嗯……黏黏的呢」"
+                }
+            }
+        },
+        linkback = "block_00243",
+        linknext = "block_00245",
+        line = 1071
+    },
+    block_00245 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_35", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00504", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「……为了纪念，就这样放着吧」"
+                }
+            }
+        },
+        linkback = "block_00244",
+        linknext = "block_00246",
+        line = 1076
+    },
+    block_00246 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「要好好洗掉哦」"
+                }
+            }
+        },
+        linkback = "block_00245",
+        linknext = "block_00247",
+        line = 1079
+    },
+    block_00247 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_36", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00505", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「诶诶——」"
+                }
+            }
+        },
+        linkback = "block_00246",
+        linknext = "block_00248",
+        line = 1084
+    },
+    block_00248 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「诶诶——什么的……」"
+                }
+            }
+        },
+        linkback = "block_00247",
+        linknext = "block_00249",
+        line = 1087
+    },
+    block_00249 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「要是孤儿院的大家，说你身上沾了什么",
+                    {"rt2"},
+                    "你打算怎么解释啊」"
+                }
+            }
+        },
+        linkback = "block_00248",
+        linknext = "block_00250",
+        line = 1091
+    },
+    block_00250 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_34", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00506", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「不说的话就不会被发现啦～」"
+                }
+            }
+        },
+        linkback = "block_00249",
+        linknext = "block_00251",
+        line = 1096
+    },
+    block_00251 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00507", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「我也是，要是没看哥哥的书的话，",
+                    {"rt2"},
+                    "我应该也不会知道这些的」"
+                }
+            }
+        },
+        linkback = "block_00250",
+        linknext = "block_00252",
+        line = 1100
+    },
+    block_00252 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「就算不知道，也一定有闻到吧？」"
+                }
+            }
+        },
+        linkback = "block_00251",
+        linknext = "block_00253",
+        line = 1103
+    },
+    block_00253 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_32", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00508", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「就是有闻到才好啊。",
+                    {"rt2"},
+                    "因为可以随时闻哥哥的味道」"
+                }
+            }
+        },
+        linkback = "block_00252",
+        linknext = "block_00254",
+        line = 1109
+    },
+    block_00254 = {
+        {"bg", sync = 0, face = 1, file = "ev_tou_h01_35", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        delay = {
+            lv1 = {
+                {"bg", sync = 0, face = 1, file = "ev_tou_h01_33", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01"}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00509", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「……啊呜，刚才，我好像有点变态」"
+                }
+            }
+        },
+        linkback = "block_00253",
+        linknext = "block_00255",
+        line = 1115
+    },
+    block_00255 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「不是好像，你就是个变态」"
+                }
+            }
+        },
+        linkback = "block_00254",
+        linknext = "block_00256",
+        line = 1118
+    },
+    block_00256 = {
+        {"bg", x = -250, y = 150, time = 500, file = "zev_tou_h01_34", path = ":ev/ev_tou_h01/", set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00510", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「呣——都是哥哥的色情漫画的错」"
+                }
+            }
+        },
+        linkback = "block_00255",
+        linknext = "block_00257",
+        line = 1123
+    },
+    block_00257 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "灯理虽然生气了，",
+                    {"rt2"},
+                    "但马上又恢复了平时的样子。"
+                }
+            }
+        },
+        linkback = "block_00256",
+        linknext = "block_00258",
+        line = 1126
+    },
+    block_00258 = {
+        {"bg", sync = 0, face = 1, file = "zev_tou_h01_32", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360, x = -250, y = 150},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00511", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「诶嘿嘿，多亏了今天",
+                    {"rt2"},
+                    "哥哥让我舒服起来，我稍微有点自信了」"
+                }
+            }
+        },
+        linkback = "block_00257",
+        linknext = "block_00259",
+        line = 1132
+    },
+    block_00259 = {
+        {"bg", sync = 0, face = 1, file = "zev_tou_h01_29", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360, x = -250, y = 150},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00512", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「所以……以后要是难受的话，",
+                    {"rt2"},
+                    "一定要说哦……？」"
+                }
+            }
+        },
+        linkback = "block_00258",
+        linknext = "block_00260",
+        line = 1138
+    },
+    block_00260 = {
+        {"bg", sync = 0, face = 1, file = "zev_tou_h01_37", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360, x = -250, y = 150},
+        {"text"},
+        delay = {
+            lv1 = {
+                {"bg", sync = 0, face = 1, file = "zev_tou_h01_28", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360, x = -250, y = 150}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00513", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「下次开始，我随时都可以给你做",
+                    {"rt2"},
+                    "我……唔，唔唔……」"
+                }
+            }
+        },
+        linkback = "block_00259",
+        linknext = "block_00261",
+        line = 1145
+    },
+    block_00261 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00514", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「像，像今天一样，让你舒服起来」"
+                }
+            }
+        },
+        linkback = "block_00260",
+        linknext = "block_00262",
+        line = 1148
+    },
+    block_00262 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「哦，哦哦……」"
+                }
+            }
+        },
+        linkback = "block_00261",
+        linknext = "block_00263",
+        line = 1151
+    },
+    block_00263 = {
+        {"bg", sync = 0, face = 1, file = "zev_tou_h01_33", time = 400, path = ":ev/ev_tou_h01/", set = "ev_tou_h01", ax = 1280, ay = 720, bx = -640, by = -360, x = -250, y = 150},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00515", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哈，哈呜……」"
+                }
+            }
+        },
+        linkback = "block_00262",
+        linknext = "block_00264",
+        line = 1156
+    },
+    block_00264 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「…………」"
+                }
+            }
+        },
+        linkback = "block_00263",
+        linknext = "block_00265",
+        line = 1159
+    },
+    block_00265 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00516", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「…………」"
+                }
+            }
+        },
+        linkback = "block_00264",
+        linknext = "block_00266",
+        line = 1162
+    },
+    block_00266 = {
+        {"bg", time = 500, file = "ev_tou_h01_36", path = ":ev/ev_tou_h01/", set = "ev_tou_h01"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00517", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「啊，哥哥，差不多该回去了。",
+                    {"rt2"},
+                    "我得回去工作了」"
+                }
+            }
+        },
+        linkback = "block_00265",
+        linknext = "block_00267",
+        line = 1168
+    },
+    block_00267 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「啊啊，是啊，就这么办吧！」"
+                }
+            }
+        },
+        linkback = "block_00266",
+        linknext = "block_00268",
+        line = 1171
+    },
+    block_00268 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00518", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「唔，嗯」"
+                }
+            }
+        },
+        linkback = "block_00267",
+        linknext = "block_00269",
+        line = 1174
+    },
+    block_00269 = {
+        {"scene", file = "scene16"},
+        {"bg", file = "bg006a", path = ":bg/"},
+        {"se", file = "se衣擦れ", id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {"我们两个匆匆忙忙地收拾着。"}
+            }
+        },
+        linkback = "block_00268",
+        linknext = "block_00270",
+        line = 1188
+    },
+    block_00270 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "整理好之后，",
+                    {"rt2"},
+                    "我们红着脸对视着。"
+                }
+            }
+        },
+        linkback = "block_00269",
+        linknext = "block_00271",
+        line = 1191
+    },
+    block_00271 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", y = 30, file = "zbg006a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "トウリ", size = "z1", mode = 3, resize = 1, path = ":fg/tou/z1/", file = "tou_z1a0500", face = "a0022h", head = "tou_z1a", ex05 = "tou_z1a0000", lv = 4, id = 13, sync = 0},
+        {"extrans", time = 500},
+        {"fgact", ch = "トウリ", act = "おじぎ", lv = 4, id = 13},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0500", face = "a0023h", head = "tou_z1a", ex05 = "tou_z1a0000", lv = 4, id = 13}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00519", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「那——那个……我，我先回去工作了」"
+                }
+            }
+        },
+        linkback = "block_00270",
+        linknext = "block_00272",
+        line = 1204
+    },
+    block_00272 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「哦，哦……谢，谢啦」"
+                }
+            }
+        },
+        linkback = "block_00271",
+        linknext = "block_00273",
+        line = 1207
+    },
+    block_00273 = {
+        {"se", stop = 1, time = 500, id = 1},
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0500", face = "a0009h", head = "tou_z1a", ex05 = "tou_z1a0000", lv = 4, id = 13},
+        {"fgact", ch = "トウリ", act = "いいえ", lv = 4, id = 13},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0500", face = "a0002h", head = "tou_z1a", ex05 = "tou_z1a0000", lv = 4, id = 13}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00520", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「别客气……我玩得很开心，也很高兴。",
+                    {"rt2"},
+                    "而且，我也真的想帮助哥哥」"
+                }
+            }
+        },
+        linkback = "block_00272",
+        linknext = "block_00274",
+        line = 1217
+    },
+    block_00274 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「那，那个……」"
+                }
+            }
+        },
+        linkback = "block_00273",
+        linknext = "block_00275",
+        line = 1220
+    },
+    block_00275 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0500", face = "a0008h", head = "tou_z1a", ex05 = "tou_z1a0000", lv = 4, id = 13},
+        {"fgact", ch = "トウリ", act = "おじぎ", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00521", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「嗯，嗯……」"
+                }
+            }
+        },
+        linkback = "block_00274",
+        linknext = "block_00276",
+        line = 1226
+    },
+    block_00276 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0510", face = "b0011h", head = "tou_z1b", ex05 = "tou_z1b0010", lv = 4, id = 13},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0500", face = "b0014h", head = "tou_z1b", ex05 = "tou_z1b0000", lv = 4, id = 13}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00522", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「那，那个……那么，我先走了～」"
+                }
+            }
+        },
+        linkback = "block_00275",
+        linknext = "block_00277",
+        line = 1232
+    },
+    block_00277 = {
+        {"fg", ch = "トウリ", mx = -40, mode = -1, lv = 4, id = 13},
+        {"se", file = "seドア(マンション、屋上閉じ)", id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「…………」"
+                }
+            }
+        },
+        linkback = "block_00276",
+        linknext = "block_00278",
+        line = 1240
+    },
+    block_00278 = {
+        {"bg", file = "bg006a", path = ":bg/"},
+        {"text"},
+        text = {
+            ja = {
+                {"或许是因为射了好几次的缘故，身体感觉很虚脱。"}
+            }
+        },
+        linkback = "block_00277",
+        linknext = "block_00279",
+        line = 1244
+    },
+    block_00279 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "但不只是这样……",
+                    {"rt2"},
+                    "被灯理照顾了下面的事实，让我感觉就像在做梦一样。"
+                }
+            }
+        },
+        linkback = "block_00278",
+        linknext = "block_00280",
+        line = 1247
+    },
+    block_00280 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "虽说没有血缘关系，",
+                    {"rt2"},
+                    "但是让妹妹来处理自己，真的好吗？"
+                }
+            }
+        },
+        linkback = "block_00279",
+        linknext = "block_00281",
+        line = 1250
+    },
+    block_00281 = {
+        {"se", stop = 1, time = 500, id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {"说到底，这种事情该怎么称呼呢。"}
+            }
+        },
+        linkback = "block_00280",
+        linknext = "block_00282",
+        line = 1254
+    },
+    block_00282 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "恋人之间，或者非工作场合才做，",
+                    {"rt2"},
+                    "我原本是这样认为的。"
+                }
+            }
+        },
+        linkback = "block_00281",
+        linknext = "block_00283",
+        line = 1257
+    },
+    block_00283 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "咦……那么对灯理来说，",
+                    {"rt2"},
+                    "管理哥哥",
+                    {"txruby", text = "相当于"},
+                    "＝",
+                    {"txruby"},
+                    "工作吗……？"
+                }
+            }
+        },
+        linkback = "block_00282",
+        linknext = "block_00284",
+        line = 1260
+    },
+    block_00284 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「或许她真的是这么想的吧。",
+                    {"rt2"},
+                    "毕竟是那家伙……」"
+                }
+            }
+        },
+        linkback = "block_00283",
+        linknext = "block_00285",
+        line = 1264
+    },
+    block_00285 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "灯理是个聪明人，",
+                    {"rt2"},
+                    "我认为她有看穿事物本质的能力。"
+                }
+            }
+        },
+        linkback = "block_00284",
+        linknext = "block_00286",
+        line = 1267
+    },
+    block_00286 = {
+        {"text"},
+        text = {
+            ja = {
+                {"只是有点傻乎乎的……。"}
+            }
+        },
+        linkback = "block_00285",
+        linknext = "block_00287",
+        line = 1269
+    },
+    block_00287 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "她有时会发呆，",
+                    {"rt2"},
+                    "有时会突然想到一些很离谱的事情。"
+                }
+            }
+        },
+        linkback = "block_00286",
+        linknext = "block_00288",
+        line = 1272
+    },
+    block_00288 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "为了哥哥而尽一份力，",
+                    {"rt2"},
+                    "这或许是妹妹的职责。"
+                }
+            }
+        },
+        linkback = "block_00287",
+        linknext = "block_00289",
+        line = 1275
+    },
+    block_00289 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "（……作为哥哥，我得告诉她",
+                    {"rt2"},
+                    "这样是不好的）"
+                }
+            }
+        },
+        linkback = "block_00288",
+        linknext = "block_00290",
+        line = 1279
+    },
+    block_00290 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "虽然她说过只要我开口她就愿意做，",
+                    {"rt2"},
+                    "但过度依赖她也不好。"
+                }
+            }
+        },
+        linkback = "block_00289",
+        linknext = "block_00291",
+        line = 1282
+    },
+    block_00291 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "（而且我也想继续制作小黄书，嗯，这样就好）"
+                }
+            }
+        },
+        linkback = "block_00290",
+        linknext = "block_00292",
+        line = 1285
+    },
+    block_00292 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「好！　出发吧！」"
+                }
+            }
+        },
+        linkback = "block_00291",
+        linknext = "block_00293",
+        line = 1288
+    },
+    block_00293 = {
+        {"text"},
+        text = {
+            ja = {
+                {"也不能一直呆站在这里。"}
+            }
+        },
+        linkback = "block_00292",
+        linknext = "block_00294",
+        line = 1290
+    },
+    block_00294 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我想呼吸一下外面的空气，\n就回去孤儿院吧。"}
+            }
+        },
+        linkback = "block_00293",
+        linknext = "block_00295",
+        line = 1292
+    },
+    block_00295 = {
+        {"bgm", stop = 1},
+        {"cgdel", id = -1},
+        {"bg", time = 1000, rule = "083r", wait = 250, file = "black", path = ":bg/", vague = 40},
+        {"excall", file = "01_05過去編_06"},
+        {"text"},
+        linkback = "block_00294",
+        line = 1300
+    },
+    label = {
+        top = {block = "block_00000", label = 1},
+        scene = {block = "block_00013", label = 1}
+    }
+}

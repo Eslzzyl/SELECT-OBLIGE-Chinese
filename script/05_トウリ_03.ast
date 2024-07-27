@@ -1,0 +1,4928 @@
+astver = 2.0
+astname = "ast"
+ast = {
+    block_00000 = {
+        {"savetitle", text = "ライバル同士な勉強会"},
+        {"bg", speed = 80000, time = 2000, file = "zbg099a", path = ":bg/", x2 = 0, y2 = -360, x = 0, y = 360, ax = 1280, ay = 720, bx = -640, by = -360},
+        {"bgm", file = "bgm05"},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "第二天，我脑海中依然萦绕着",
+                    {"rt2"},
+                    "灯理那诱人的身影。"
+                }
+            }
+        },
+        linknext = "block_00001",
+        line = 16
+    },
+    block_00001 = {
+        {"text"},
+        text = {
+            ja = {
+                {"即使试图集中上课，意识却总是不知不觉被灯理吸引。"}
+            }
+        },
+        linkback = "block_00000",
+        linknext = "block_00002",
+        line = 22
+    },
+    block_00002 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "这样下去可不行，于是放学后，我找到了身边的朋友，开口叫",
+                    {"rt2"},
+                    "住了他。"
+                }
+            }
+        },
+        linkback = "block_00001",
+        linknext = "block_00003",
+        line = 25
+    },
+    block_00003 = {
+        {"msgoff"},
+        {"bg", file = "bg023a", path = ":bg/", sync = 0},
+        {"fg", ch = "帝雄", size = "no", mode = 3, path = ":fg/tei/no/", file = "tei_noa0200", face = "a0001", head = "tei_noa", lv = 3, id = 13, sync = 0},
+        {"extrans"},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「帝雄，能帮我一下吗？」"
+                }
+            }
+        },
+        linkback = "block_00002",
+        linknext = "block_00004",
+        line = 36
+    },
+    block_00004 = {
+        {"fg", ch = "帝雄", size = "no", mode = 3, path = ":fg/tei/no/", file = "tei_noa0200", face = "a0003", head = "tei_noa", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00447", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「凪君主动邀请我可是很少见呢。」"
+                }
+            }
+        },
+        linkback = "block_00003",
+        linknext = "block_00005",
+        line = 41
+    },
+    block_00005 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「有点事情，单靠我自己",
+                    {"rt2"},
+                    "解决不了，所以想请你帮忙。」"
+                }
+            }
+        },
+        linkback = "block_00004",
+        linknext = "block_00006",
+        line = 45
+    },
+    block_00006 = {
+        {"fg", ch = "帝雄", size = "no", mode = 3, path = ":fg/tei/no/", file = "tei_noa0200", face = "a0051", head = "tei_noa", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00448", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「找我咨询！责任重大啊，",
+                    {"rt2"},
+                    "我会全力倾听的！」"
+                }
+            }
+        },
+        linkback = "block_00005",
+        linknext = "block_00007",
+        line = 52
+    },
+    block_00007 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「你真可靠，不过，",
+                    {"rt2"},
+                    "没必要那么激动。」"
+                }
+            }
+        },
+        linkback = "block_00006",
+        linknext = "block_00008",
+        line = 56
+    },
+    block_00008 = {
+        {"fg", ch = "帝雄", size = "no", mode = 3, path = ":fg/tei/no/", file = "tei_noa0200", face = "a0014", head = "tei_noa", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00449", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「啊，对哦……我冷静一下。」"
+                }
+            }
+        },
+        linkback = "block_00007",
+        linknext = "block_00009",
+        line = 61
+    },
+    block_00009 = {
+        {"bg", y = 100, speed = 120000, file = "zbg023a", path = ":bg/", x2 = 640, y2 = 100, x = -640, ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "与上课时的休息时间不同，教室里已经没有学生，大家都被拉",
+                    {"rt2"},
+                    "去参加社团活动等。"
+                }
+            }
+        },
+        linkback = "block_00008",
+        linknext = "block_00010",
+        line = 66
+    },
+    block_00010 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我坐在空着的座位上，向帝雄解释了昨天发生的事情。"}
+            }
+        },
+        linkback = "block_00009",
+        linknext = "block_00011",
+        line = 69
+    },
+    block_00011 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 1, resize = 1, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0019", head = "tei_z1a", lv = 4, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00450", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「哇，真像游戏里的情节呢……」"
+                }
+            }
+        },
+        linkback = "block_00010",
+        linknext = "block_00012",
+        line = 74
+    },
+    block_00012 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「这种游戏也存在吗？」"
+                }
+            }
+        },
+        linkback = "block_00011",
+        linknext = "block_00013",
+        line = 77
+    },
+    block_00013 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 1, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0001", head = "tei_z1a", lv = 4, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00451", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「虽然游戏中心没有，但家庭用游戏机上……",
+                    {"rt2"},
+                    "恋爱类的游戏可多了。」"
+                }
+            }
+        },
+        linkback = "block_00012",
+        linknext = "block_00014",
+        line = 83
+    },
+    block_00014 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 1, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0009", head = "tei_z1a", lv = 4, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00452", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「那么，凪君你在烦恼什么呢？」"
+                }
+            }
+        },
+        linkback = "block_00013",
+        linknext = "block_00015",
+        line = 88
+    },
+    block_00015 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「……我不知道对灯理的感情。」"
+                }
+            }
+        },
+        linkback = "block_00014",
+        linknext = "block_00016",
+        line = 91
+    },
+    block_00016 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「有时觉得她是妹妹，有时又觉得她是女人。」"
+                }
+            }
+        },
+        linkback = "block_00015",
+        linknext = "block_00017",
+        line = 94
+    },
+    block_00017 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 1, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0001", head = "tei_z1a", lv = 4, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00453", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「原来如此，所以你才困惑，",
+                    {"rt2"},
+                    "才会找我倾诉。」"
+                }
+            }
+        },
+        linkback = "block_00016",
+        linknext = "block_00018",
+        line = 100
+    },
+    block_00018 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 1, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0009", head = "tei_z1a", lv = 4, id = 200},
+        {"text"},
+        text = {
+            ja = {
+                {"他在我面前交叉着手臂，嗯嗯地思考着。"}
+            }
+        },
+        linkback = "block_00017",
+        linknext = "block_00019",
+        line = 104
+    },
+    block_00019 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "对于这样的烦恼，他能认真思考，真的让我很感激。",
+                    {"rt2"},
+                    "找帝雄咨询真是个正确的选择。"
+                }
+            }
+        },
+        linkback = "block_00018",
+        linknext = "block_00020",
+        line = 107
+    },
+    block_00020 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", y = -20, file = "zbg023a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0015", head = "tei_z1a", lv = 4, id = 13, sync = 0},
+        {"extrans"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00454", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「我觉得没必要想得那么复杂。」"
+                }
+            }
+        },
+        linkback = "block_00019",
+        linknext = "block_00021",
+        line = 117
+    },
+    block_00021 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0009", head = "tei_z1a", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00455", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「基本上，人对家人似乎不会感受到异性的魅力。」"
+                }
+            }
+        },
+        linkback = "block_00020",
+        linknext = "block_00022",
+        line = 123
+    },
+    block_00022 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0001", head = "tei_z1a", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00456", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「不过，凪和灯理之间没有血缘关系，",
+                    {"rt2"},
+                    "所以会感受到作为女性的魅力也很正常。」"
+                }
+            }
+        },
+        linkback = "block_00021",
+        linknext = "block_00023",
+        line = 129
+    },
+    block_00023 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我明白为什么会把她看作女性。",
+                    {"rt2"},
+                    "但同时，感觉她是妹妹又是怎么回事呢？」"
+                }
+            }
+        },
+        linkback = "block_00022",
+        linknext = "block_00024",
+        line = 133
+    },
+    block_00024 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0019", head = "tei_z1a", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00457", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「这也是没办法的事吧。」"
+                }
+            }
+        },
+        linkback = "block_00023",
+        linknext = "block_00025",
+        line = 138
+    },
+    block_00025 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0009", head = "tei_z1a", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00458", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「对凪来说，灯理即使没有血缘关系，",
+                    {"rt2"},
+                    "也是和家人一样亲近的人。」"
+                }
+            }
+        },
+        linkback = "block_00024",
+        linknext = "block_00026",
+        line = 144
+    },
+    block_00026 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0003", head = "tei_z1a", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00459", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「就算被告白了，作为家人一起度过的",
+                    {"rt2"},
+                    "那些日子也不会消失。」"
+                }
+            }
+        },
+        linkback = "block_00025",
+        linknext = "block_00027",
+        line = 150
+    },
+    block_00027 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「同时感受到异性和妹妹的存在，这并不奇怪。」"
+                }
+            }
+        },
+        linkback = "block_00026",
+        linknext = "block_00028",
+        line = 153
+    },
+    block_00028 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0001", head = "tei_z1a", lv = 4, id = 13},
+        {"fgact", ch = "帝雄", act = "うなづく", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00460", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「嗯。如果到现在为止凪没有那种感觉的话，",
+                    {"rt2"},
+                    "他应该不会把灯理当作异性来看待。」"
+                }
+            }
+        },
+        linkback = "block_00027",
+        linknext = "block_00029",
+        line = 160
+    },
+    block_00029 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0003", head = "tei_z1a", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00461", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「接下来就要考虑一下，凪希望看到的是妹妹的灯理还是异性",
+                    {"rt2"},
+                    "的灯理。」"
+                }
+            }
+        },
+        linkback = "block_00028",
+        linknext = "block_00030",
+        line = 166
+    },
+    block_00030 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「剩下的就是我的心情了，呃……」"
+                }
+            }
+        },
+        linkback = "block_00029",
+        linknext = "block_00031",
+        line = 169
+    },
+    block_00031 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「得到了很好的提示。",
+                    {"rt2"},
+                    "谢谢你，帝雄。」"
+                }
+            }
+        },
+        linkback = "block_00030",
+        linknext = "block_00032",
+        line = 173
+    },
+    block_00032 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0051", head = "tei_z1a", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00462", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「能帮上忙就好。」"
+                }
+            }
+        },
+        linkback = "block_00031",
+        linknext = "block_00033",
+        line = 178
+    },
+    block_00033 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「你在说什么呢，真是太帮忙了。」"
+                }
+            }
+        },
+        linkback = "block_00032",
+        linknext = "block_00034",
+        line = 181
+    },
+    block_00034 = {
+        {"se", file = "se歩き(革靴)", time = 500, id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "正当我向帝雄表达感激之情时，",
+                    {"rt2"},
+                    "背后传来了脚步声。"
+                }
+            }
+        },
+        linkback = "block_00033",
+        linknext = "block_00035",
+        line = 186
+    },
+    block_00035 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "bg023a", path = ":bg/", sync = 0},
+        {"fg", ch = "帝雄", size = "no", mode = 3, resize = 1, path = ":fg/tei/no/", file = "tei_noa0200", face = "a0001", head = "tei_noa", x = 230, lv = 3, id = 10, sync = 0},
+        {"fg", ch = "イヴ", size = "no", mode = 3, path = ":fg/eve/no/", file = "eve_noa0210", face = "a0001", head = "eve_noa", ex05 = "eve_noa0010", x = -230, lv = 3, id = 9, sync = 0},
+        {"extrans", time = 500},
+        {"se", stop = 1, time = 500, id = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03468", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「两个男生在聊什么呢？恋爱咨询吗？」"
+                }
+            }
+        },
+        linkback = "block_00034",
+        linknext = "block_00036",
+        line = 203
+    },
+    block_00036 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「秘密。」"
+                }
+            }
+        },
+        linkback = "block_00035",
+        linknext = "block_00037",
+        line = 206
+    },
+    block_00037 = {
+        {"fg", ch = "イヴ", size = "no", mode = 3, path = ":fg/eve/no/", file = "eve_noa0200", face = "a0006", head = "eve_noa", ex05 = "eve_noa0000", x = -230, lv = 3, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03469", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「哦？那我去问成宫小姐好了。」"
+                }
+            }
+        },
+        linkback = "block_00036",
+        linknext = "block_00038",
+        line = 211
+    },
+    block_00038 = {
+        {"fg", ch = "帝雄", size = "no", mode = 3, path = ":fg/tei/no/", file = "tei_noa0200", face = "a0015", head = "tei_noa", x = 230, lv = 3, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00463", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「不、不是……我没什么好说的……」"
+                }
+            }
+        },
+        linkback = "block_00037",
+        linknext = "block_00039",
+        line = 216
+    },
+    block_00039 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「别给帝雄施加压力。",
+                    {"rt2"},
+                    "有时候男生之间也想聊聊的。」"
+                }
+            }
+        },
+        linkback = "block_00038",
+        linknext = "block_00040",
+        line = 220
+    },
+    block_00040 = {
+        {"fg", ch = "イヴ", size = "no", mode = 3, path = ":fg/eve/no/", file = "eve_nob0200", face = "b0002", head = "eve_nob", ex05 = "eve_nob0000", x = -230, lv = 3, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03470", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「那就这么定了吧。」"
+                }
+            }
+        },
+        linkback = "block_00039",
+        linknext = "block_00041",
+        line = 225
+    },
+    block_00041 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「那么，你有什么事吗？」"
+                }
+            }
+        },
+        linkback = "block_00040",
+        linknext = "block_00042",
+        line = 228
+    },
+    block_00042 = {
+        {"fg", ch = "イヴ", size = "no", mode = 3, path = ":fg/eve/no/", file = "eve_noa0210", face = "a0001", head = "eve_noa", ex05 = "eve_noa0010", x = -230, lv = 3, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03471", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「今天我有空，",
+                    {"rt2"},
+                    "想帮你复习一下。」"
+                }
+            }
+        },
+        linkback = "block_00041",
+        linknext = "block_00043",
+        line = 234
+    },
+    block_00043 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「啊，那太好了。」"
+                }
+            }
+        },
+        linkback = "block_00042",
+        linknext = "block_00044",
+        line = 237
+    },
+    block_00044 = {
+        {"fg", ch = "イヴ", size = "no", mode = 3, path = ":fg/eve/no/", file = "eve_nob0210", face = "b0003", head = "eve_nob", ex05 = "eve_nob0010", x = -230, lv = 3, id = 9},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "イヴ", size = "no", mode = 3, path = ":fg/eve/no/", file = "eve_nob0210", face = "b0054", head = "eve_nob", ex05 = "eve_nob0010", x = -230, lv = 3, id = 9}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03472", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「好，快点走吧！",
+                    {"rt2"},
+                    "快点，快点！」"
+                }
+            }
+        },
+        linkback = "block_00043",
+        linknext = "block_00045",
+        line = 244
+    },
+    block_00045 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「抱歉了，帝雄，我要出去了。」"
+                }
+            }
+        },
+        linkback = "block_00044",
+        linknext = "block_00046",
+        line = 247
+    },
+    block_00046 = {
+        {"fg", ch = "帝雄", size = "no", mode = 3, path = ":fg/tei/no/", file = "tei_noa0200", face = "a0051", head = "tei_noa", x = 230, lv = 3, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00464", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「嗯，我也要去社团了。",
+                    {"rt2"},
+                    "凪，加油学习哦。」"
+                }
+            }
+        },
+        linkback = "block_00045",
+        linknext = "block_00047",
+        line = 253
+    },
+    block_00047 = {
+        {"bgm", stop = 1},
+        {"cgdel", id = -1},
+        {"bg", time = 1000, rule = "083r", wait = 250, file = "black", path = ":bg/", vague = 40},
+        {"msgoff"},
+        {"bg", file = "bg020a", path = ":bg/", sync = 0},
+        {"extrans", rule = "083r", vague = 40},
+        {"text"},
+        text = {
+            ja = {
+                {"一进图书馆，就遇到了熟悉的面孔。"}
+            }
+        },
+        linkback = "block_00046",
+        linknext = "block_00048",
+        line = 268
+    },
+    block_00048 = {
+        {"bgm", file = "bgm06"},
+        {"fg", ch = "イヴ", size = "no", mx = -40, mode = 3, path = ":fg/eve/no/", file = "eve_nob0200", face = "b0018", head = "eve_nob", ex05 = "eve_nob0000", x = -230, lv = 3, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03473", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「灯理也在这里……这是巧合吗？」"
+                }
+            }
+        },
+        linkback = "block_00047",
+        linknext = "block_00049",
+        line = 279
+    },
+    block_00049 = {
+        {"fg", ch = "トウリ", size = "no", mx = 40, mode = 3, path = ":fg/tou/no/", file = "tou_noa0200", face = "a0054", head = "tou_noa", ex05 = "tou_noa0000", x = 230, lv = 3, id = 10},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "トウリ", size = "no", mode = 3, path = ":fg/tou/no/", file = "tou_noa0210", face = "a0051", head = "tou_noa", ex05 = "tou_noa0010", x = 230, lv = 3, id = 10}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01101", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「这可真是毫无预兆的巧合。",
+                    {"rt2"},
+                    "我也是在这里学习的啊。」"
+                }
+            }
+        },
+        linkback = "block_00048",
+        linknext = "block_00050",
+        line = 286
+    },
+    block_00050 = {
+        {"fg", ch = "イヴ", size = "no", mode = 3, path = ":fg/eve/no/", file = "eve_noa0200", face = "a0013", head = "eve_noa", ex05 = "eve_noa0000", x = -230, lv = 3, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03474", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「嗯，",
+                    {"rt2"},
+                    "是说不应该抢先吗？」"
+                }
+            }
+        },
+        linkback = "block_00049",
+        linknext = "block_00051",
+        line = 292
+    },
+    block_00051 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「原来是有心机的邀请啊。」"
+                }
+            }
+        },
+        linkback = "block_00050",
+        linknext = "block_00052",
+        line = 295
+    },
+    block_00052 = {
+        {"fg", ch = "イヴ", size = "no", mode = 3, path = ":fg/eve/no/", file = "eve_nob0200", face = "b0001", head = "eve_nob", ex05 = "eve_nob0000", x = -230, lv = 3, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03475", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「那是当然的。",
+                    {"rt2"},
+                    "和凪在一起的时间越多越好。」"
+                }
+            }
+        },
+        linkback = "block_00051",
+        linknext = "block_00053",
+        line = 301
+    },
+    block_00053 = {
+        {"fg", ch = "イヴ", size = "no", mode = 3, path = ":fg/eve/no/", file = "eve_nob0210", face = "b0054", head = "eve_nob", ex05 = "eve_nob0010", x = -230, lv = 3, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03476", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「不过既然来了，不如大家一起学习吧。」"
+                }
+            }
+        },
+        linkback = "block_00052",
+        linknext = "block_00054",
+        line = 306
+    },
+    block_00054 = {
+        {"fg", ch = "トウリ", size = "no", mode = 3, path = ":fg/tou/no/", file = "tou_noa0210", face = "a0019", head = "tou_noa", ex05 = "tou_noa0010", x = 230, lv = 3, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01102", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「可以吗？」"
+                }
+            }
+        },
+        linkback = "block_00053",
+        linknext = "block_00055",
+        line = 311
+    },
+    block_00055 = {
+        {"fg", ch = "イヴ", size = "no", mode = 3, path = ":fg/eve/no/", file = "eve_nob0210", face = "b0052", head = "eve_nob", ex05 = "eve_nob0010", x = -230, lv = 3, id = 9},
+        {"fgact", ch = "イヴ", act = "うなづく", lv = 3, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03477", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「嗯，凪和灯理，我都会一起照顾的。」"
+                }
+            }
+        },
+        linkback = "block_00054",
+        linknext = "block_00056",
+        line = 317
+    },
+    block_00056 = {
+        {"fg", ch = "トウリ", size = "no", mode = 3, path = ":fg/tou/no/", file = "tou_nob0210", face = "b0051", head = "tou_nob", ex05 = "tou_nob0010", x = 230, lv = 3, id = 10},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "トウリ", size = "no", mode = 3, path = ":fg/tou/no/", file = "tou_nob0210", face = "b0004", head = "tou_nob", ex05 = "tou_nob0010", x = 230, lv = 3, id = 10}
+            },
+            vl02 = {
+                {"fgact", ch = "トウリ", act = "おじぎ", lv = 3, id = 10}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01103", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「那就让伊舞当中间人吧～，",
+                    {"rt2"},
+                    "老师请多关照。」"
+                }
+            }
+        },
+        linkback = "block_00055",
+        linknext = "block_00057",
+        line = 325
+    },
+    block_00057 = {
+        {"bg", y = 0, speed = 120000, file = "zbg020a", path = ":bg/", x2 = 640, y2 = 0, x = -640, ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我们三个人围着伊舞，",
+                    {"rt2"},
+                    "并排坐下，打开课本。"
+                }
+            }
+        },
+        linkback = "block_00056",
+        linknext = "block_00058",
+        line = 330
+    },
+    block_00058 = {
+        {"text"},
+        text = {
+            ja = {
+                {"听到灯理在笔记本上写字的声音。"}
+            }
+        },
+        linkback = "block_00057",
+        linknext = "block_00059",
+        line = 332
+    },
+    block_00059 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "但是，我却无法专心学习，",
+                    {"rt2"},
+                    "脑海中全是灯理的身影。"
+                }
+            }
+        },
+        linkback = "block_00058",
+        linknext = "block_00060",
+        line = 335
+    },
+    block_00060 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "灯理那家伙，明明说喜欢我，",
+                    {"rt2"},
+                    "在这种情况下却一点嫉妒都没有。"
+                }
+            }
+        },
+        linkback = "block_00059",
+        linknext = "block_00061",
+        line = 338
+    },
+    block_00061 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "如果她真的想和我成为男女关系，",
+                    {"rt2"},
+                    "那么再嫉妒一点也没问题吧……？"
+                }
+            }
+        },
+        linkback = "block_00060",
+        linknext = "block_00062",
+        line = 341
+    },
+    block_00062 = {
+        {"text"},
+        text = {
+            ja = {
+                {"哈！难道说，她对我的执着被误认为是对异性的情感……？"}
+            }
+        },
+        linkback = "block_00061",
+        linknext = "block_00063",
+        line = 344
+    },
+    block_00063 = {
+        {"fg", ch = "イヴ", size = "no", mode = 1, path = ":fg/eve/no/", file = "eve_nob0200", face = "b0019", head = "eve_nob", ex05 = "eve_nob0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03478", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「凪先生，没事吧？有什么不明白的地方吗？」"
+                }
+            }
+        },
+        linkback = "block_00062",
+        linknext = "block_00064",
+        line = 349
+    },
+    block_00064 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「啊，不，抱歉。我在思考。」"
+                }
+            }
+        },
+        linkback = "block_00063",
+        linknext = "block_00065",
+        line = 352
+    },
+    block_00065 = {
+        {"fg", ch = "イヴ", size = "no", mode = 1, path = ":fg/eve/no/", file = "eve_noa0200", face = "a0001", head = "eve_noa", ex05 = "eve_noa0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03479", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「嗯，你在想什么呢？」"
+                }
+            }
+        },
+        linkback = "block_00064",
+        linknext = "block_00066",
+        line = 357
+    },
+    block_00066 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「呃……就是，",
+                    {"rt2"},
+                    "灯理在学习真是少见。」"
+                }
+            }
+        },
+        linkback = "block_00065",
+        linknext = "block_00067",
+        line = 361
+    },
+    block_00067 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "继昨天之后，我又撒了个谎。",
+                    {"rt2"},
+                    "明明问一下就好了，为什么就是说不出口呢……？"
+                }
+            }
+        },
+        linkback = "block_00066",
+        linknext = "block_00068",
+        line = 364
+    },
+    block_00068 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "在我纠结的时候，",
+                    {"rt2"},
+                    "灯理得意地挺起胸膛。"
+                }
+            }
+        },
+        linkback = "block_00067",
+        linknext = "block_00069",
+        line = 367
+    },
+    block_00069 = {
+        {"msgoff"},
+        {"bg", x = -400, y = 50, file = "zbg020a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "トウリ", size = "z1", mode = 3, resize = 1, path = ":fg/tou/z1/", file = "tou_z1a0210", face = "a0005", head = "tou_z1a", ex05 = "tou_z1a0010", lv = 4, id = 10, sync = 0},
+        {"extrans"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01104", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哼哼，其实你不知道而已，",
+                    {"rt2"},
+                    "这并不是那么罕见哦。」"
+                }
+            }
+        },
+        linkback = "block_00068",
+        linknext = "block_00070",
+        line = 377
+    },
+    block_00070 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0200", face = "a0054", head = "tou_z1a", ex05 = "tou_z1a0000", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01105", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「我每天都在自己的房间里学习。」"
+                }
+            }
+        },
+        linkback = "block_00069",
+        linknext = "block_00071",
+        line = 382
+    },
+    block_00071 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0200", face = "b0005", head = "tou_z1b", ex05 = "tou_z1b0000", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01106", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「今天只是想换换心情，",
+                    {"rt2"},
+                    "所以来图书馆看看。」"
+                }
+            }
+        },
+        linkback = "block_00070",
+        linknext = "block_00072",
+        line = 388
+    },
+    block_00072 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 1, resize = 1, path = ":fg/eve/z1/", file = "eve_z1b0210", face = "b0019", head = "eve_z1b", ex05 = "eve_z1b0010", lv = 4, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03480", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「没想到灯理这么努力学习，",
+                    {"rt2"},
+                    "我还真不知道呢。」"
+                }
+            }
+        },
+        linkback = "block_00071",
+        linknext = "block_00073",
+        line = 394
+    },
+    block_00073 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0210", face = "a0003", head = "tou_z1a", ex05 = "tou_z1a0010", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01107", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「毕竟我是在樱元学园上学，",
+                    {"rt2"},
+                    "当然要好好利用这段时间了～」"
+                }
+            }
+        },
+        linkback = "block_00072",
+        linknext = "block_00074",
+        line = 400
+    },
+    block_00074 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0210", face = "b0009", head = "tou_z1b", ex05 = "tou_z1b0010", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01108", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「而且，我觉得要在一色家工作，",
+                    {"rt2"},
+                    "还缺少很多东西呢。」"
+                }
+            }
+        },
+        linkback = "block_00073",
+        linknext = "block_00075",
+        line = 406
+    },
+    block_00075 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0210", face = "b0051", head = "tou_z1b", ex05 = "tou_z1b0010", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01109", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「所以最近我增加了学习的时间。」"
+                }
+            }
+        },
+        linkback = "block_00074",
+        linknext = "block_00076",
+        line = 411
+    },
+    block_00076 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0210", face = "b0018", head = "tou_z1b", ex05 = "tou_z1b0010", lv = 4, id = 10},
+        {"fg", ch = "トウリ", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0210", face = "b0018", head = "tou_z1b", ex05 = "tou_z1b0010", x2 = 0, x = 280, lv = 4, id = 10},
+        {"fg", ch = "イヴ", size = "z1", mx = -40, mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0018", head = "eve_z1a", ex05 = "eve_z1a0010", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03481", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「哎，灯理要在一色家工作！？",
+                    {"rt2"},
+                    "我还是第一次听说呢！」"
+                }
+            }
+        },
+        linkback = "block_00075",
+        linknext = "block_00077",
+        line = 419
+    },
+    block_00077 = {
+        {"text"},
+        text = {
+            ja = {
+                {"伊舞的声音在图书馆里回荡。"}
+            }
+        },
+        linkback = "block_00076",
+        linknext = "block_00078",
+        line = 421
+    },
+    block_00078 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我能理解你的惊讶，但声音有点大了哦。」"
+                }
+            }
+        },
+        linkback = "block_00077",
+        linknext = "block_00079",
+        line = 424
+    },
+    block_00079 = {
+        {"text"},
+        text = {
+            ja = {
+                {"看着我们，图书管理员清了清嗓子。"}
+            }
+        },
+        linkback = "block_00078",
+        linknext = "block_00080",
+        line = 426
+    },
+    block_00080 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0210", face = "b0020", head = "eve_z1b", ex05 = "eve_z1b0010", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03482", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「诶、啊……」"
+                }
+            }
+        },
+        linkback = "block_00079",
+        linknext = "block_00081",
+        line = 431
+    },
+    block_00081 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0210", face = "b0009", head = "eve_z1b", ex05 = "eve_z1b0010", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "伊舞捂住嘴，",
+                    {"rt2"},
+                    "低头向周围的人致歉，像小狗一样缩成一团。"
+                }
+            }
+        },
+        linkback = "block_00080",
+        linknext = "block_00082",
+        line = 436
+    },
+    block_00082 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "运动部总负责人低头的样子。",
+                    {"rt2"},
+                    "这可真是难得一见的场景呢。"
+                }
+            }
+        },
+        linkback = "block_00081",
+        linknext = "block_00083",
+        line = 439
+    },
+    block_00083 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0200", face = "a0054", head = "tou_z1a", ex05 = "tou_z1a0000", x = 280, lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01110", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「这真让人惊讶呢。",
+                    {"rt2"},
+                    "我被邀请的时候也吓了一跳。」"
+                }
+            }
+        },
+        linkback = "block_00082",
+        linknext = "block_00084",
+        line = 445
+    },
+    block_00084 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0018", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03483", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「因为是那一色家啊。",
+                    {"rt2"},
+                    "这种事可不是随便说说的。」"
+                }
+            }
+        },
+        linkback = "block_00083",
+        linknext = "block_00085",
+        line = 451
+    },
+    block_00085 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0200", face = "a0010", head = "eve_z1a", ex05 = "eve_z1a0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03484", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「……啊，凪君，这里错了。」"
+                }
+            }
+        },
+        linkback = "block_00084",
+        linknext = "block_00086",
+        line = 456
+    },
+    block_00086 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「真的吗……你真是注意到了呢。」"
+                }
+            }
+        },
+        linkback = "block_00085",
+        linknext = "block_00087",
+        line = 459
+    },
+    block_00087 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0200", face = "a0054", head = "eve_z1a", ex05 = "eve_z1a0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03485", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「我对观察力很有自信哦。」"
+                }
+            }
+        },
+        linkback = "block_00086",
+        linknext = "block_00088",
+        line = 464
+    },
+    block_00088 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「可是你没注意到灯理被奏命邀请的事呢。」"
+                }
+            }
+        },
+        linkback = "block_00087",
+        linknext = "block_00089",
+        line = 468
+    },
+    block_00089 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0210", face = "b0020", head = "eve_z1b", ex05 = "eve_z1b0010", x = -280, lv = 4, id = 9},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0210", face = "b0011", head = "eve_z1b", ex05 = "eve_z1b0010", x = -280, lv = 4, id = 9}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03486", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「那、那是因为没有什么能让我察觉的事情嘛。",
+                    {"rt2"},
+                    "灯理的生活也没什么大变化吧？」"
+                }
+            }
+        },
+        linkback = "block_00088",
+        linknext = "block_00090",
+        line = 475
+    },
+    block_00090 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0200", face = "b0003", head = "tou_z1b", ex05 = "tou_z1b0000", x = 280, lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01111", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「和以前一样哦～」"
+                }
+            }
+        },
+        linkback = "block_00089",
+        linknext = "block_00091",
+        line = 480
+    },
+    block_00091 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0210", face = "a0019", head = "tou_z1a", ex05 = "tou_z1a0010", x = 280, lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01112", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「啊，不过奏命姐让我每周抽一天放学后去看看某个社团。」"
+                }
+            }
+        },
+        linkback = "block_00090",
+        linknext = "block_00092",
+        line = 486
+    },
+    block_00092 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0210", face = "b0019", head = "eve_z1b", ex05 = "eve_z1b0010", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「这是为了什么？」"
+                }
+            }
+        },
+        linkback = "block_00091",
+        linknext = "block_00093",
+        line = 491
+    },
+    block_00093 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0200", face = "a0051", head = "tou_z1a", ex05 = "tou_z1a0000", x = 280, lv = 4, id = 10},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0200", face = "a0004", head = "tou_z1a", ex05 = "tou_z1a0000", x = 280, lv = 4, id = 10}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01113", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「好像是为了开阔眼界。",
+                    {"rt2"},
+                    "所以上周我去参观了美术部。」"
+                }
+            }
+        },
+        linkback = "block_00092",
+        linknext = "block_00094",
+        line = 498
+    },
+    block_00094 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0210", face = "b0052", head = "tou_z1b", ex05 = "tou_z1b0010", x = 280, lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01114", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「昨天买了泳衣，产生了兴趣，",
+                    {"rt2"},
+                    "所以这周打算去游泳部看看。」"
+                }
+            }
+        },
+        linkback = "block_00093",
+        linknext = "block_00095",
+        line = 504
+    },
+    block_00095 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「这可真是个不小的变化啊。」"
+                }
+            }
+        },
+        linkback = "block_00094",
+        linknext = "block_00096",
+        line = 507
+    },
+    block_00096 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0041", head = "eve_z1a", ex05 = "eve_z1a0010", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03487", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「呜、呜呜……",
+                    {"rt2"},
+                    "我好像得更加努力了呢。」"
+                }
+            }
+        },
+        linkback = "block_00095",
+        linknext = "block_00097",
+        line = 513
+    },
+    block_00097 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「喂，别这么沮丧啊。这是开玩笑的吧。」"
+                }
+            }
+        },
+        linkback = "block_00096",
+        linknext = "block_00098",
+        line = 516
+    },
+    block_00098 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0210", face = "a0019", head = "tou_z1a", ex05 = "tou_z1a0010", x = 280, lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01115", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「没错啊。伊舞的工作只是，",
+                    {"rt2"},
+                    "观察奏命姐的动向而已。」"
+                }
+            }
+        },
+        linkback = "block_00097",
+        linknext = "block_00099",
+        line = 522
+    },
+    block_00099 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0200", face = "a0003", head = "tou_z1a", ex05 = "tou_z1a0000", x = 280, lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01116", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「本来，我和奏命姐就有交流，",
+                    {"rt2"},
+                    "没注意到也是没办法的事。」"
+                }
+            }
+        },
+        linkback = "block_00098",
+        linknext = "block_00100",
+        line = 528
+    },
+    block_00100 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0210", face = "b0041", head = "eve_z1b", ex05 = "eve_z1b0010", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03488", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「呜……温柔反而让我感到痛苦……」"
+                }
+            }
+        },
+        linkback = "block_00099",
+        linknext = "block_00101",
+        line = 533
+    },
+    block_00101 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0009", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03489", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「确实错过了与一色家有关的变化，",
+                    {"rt2"},
+                    "今后我会更加开阔视野……」"
+                }
+            }
+        },
+        linkback = "block_00100",
+        linknext = "block_00102",
+        line = 539
+    },
+    block_00102 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0200", face = "a0001", head = "eve_z1a", ex05 = "eve_z1a0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03490", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊，灯理，你用的公式错了。",
+                    {"rt2"},
+                    "这样的话是解不出来的。试着计算一下吧。」"
+                }
+            }
+        },
+        linkback = "block_00101",
+        linknext = "block_00103",
+        line = 545
+    },
+    block_00103 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0200", face = "b0018", head = "tou_z1b", ex05 = "tou_z1b0000", x = 280, lv = 4, id = 10},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0210", face = "b0020", head = "tou_z1b", ex05 = "tou_z1b0010", x = 280, lv = 4, id = 10}
+            },
+            vl02 = {
+                {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0200", face = "a0020", head = "tou_z1a", ex05 = "tou_z1a0000", x = 280, lv = 4, id = 10}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01117", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「诶？……真的，搞得一团糟了。",
+                    {"rt2"},
+                    "伊舞小姐，你能教我该怎么做吗？」"
+                }
+            }
+        },
+        linkback = "block_00102",
+        linknext = "block_00104",
+        line = 553
+    },
+    block_00104 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0002", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03491", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「这种时候要用这个公式哦。」"
+                }
+            }
+        },
+        linkback = "block_00103",
+        linknext = "block_00105",
+        line = 558
+    },
+    block_00105 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", x = 400, y = 50, file = "zbg020a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0002", head = "eve_z1b", ex05 = "eve_z1b0000", lv = 4, id = 9, sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「伊舞在涉及奏命的事情时，",
+                    {"rt2"},
+                    "似乎特别容易变得目光狭窄呢。」"
+                }
+            }
+        },
+        linkback = "block_00104",
+        linknext = "block_00106",
+        line = 571
+    },
+    block_00106 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0210", face = "b0018", head = "eve_z1b", ex05 = "eve_z1b0010", lv = 4, id = 9},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0210", face = "b0022", head = "eve_z1b", ex05 = "eve_z1b0010", lv = 4, id = 9}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03492", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「这种事……可能是有吧。」"
+                }
+            }
+        },
+        linkback = "block_00105",
+        linknext = "block_00107",
+        line = 577
+    },
+    block_00107 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0006", head = "eve_z1a", ex05 = "eve_z1a0010", lv = 4, id = 9},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0200", face = "a0005", head = "eve_z1a", ex05 = "eve_z1a0000", lv = 4, id = 9}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03493", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「但既然决定了要努力，就绝不会马虎。",
+                    {"rt2"},
+                    "从今天开始，不会错过任何细微的变化！」"
+                }
+            }
+        },
+        linkback = "block_00106",
+        linknext = "block_00108",
+        line = 584
+    },
+    block_00108 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0200", face = "a0054", head = "eve_z1a", ex05 = "eve_z1a0000", lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03494", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「为了培养我的观察力，",
+                    {"rt2"},
+                    "你们两个要多多解题哦！」"
+                }
+            }
+        },
+        linkback = "block_00107",
+        linknext = "block_00109",
+        line = 590
+    },
+    block_00109 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「就这么简单地说也不是那么容易啊。」"
+                }
+            }
+        },
+        linkback = "block_00108",
+        linknext = "block_00110",
+        line = 593
+    },
+    block_00110 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 1, path = ":fg/tou/z1/", file = "tou_z1a0200", face = "a0004", head = "tou_z1a", ex05 = "tou_z1a0000", lv = 4, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01118", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「我会努力的！」"
+                }
+            }
+        },
+        linkback = "block_00109",
+        linknext = "block_00111",
+        line = 598
+    },
+    block_00111 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0054", head = "eve_z1b", ex05 = "eve_z1b0000", lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03495", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「灯理，真棒！",
+                    {"rt2"},
+                    "灯理和凪不一样，真是直率呢～」"
+                }
+            }
+        },
+        linkback = "block_00110",
+        linknext = "block_00112",
+        line = 604
+    },
+    block_00112 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0210", face = "b0033", head = "eve_z1b", ex05 = "eve_z1b0010", lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03496", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「虽然是竞争对手，但我总是忍不住想要照顾灯理。」"
+                }
+            }
+        },
+        linkback = "block_00111",
+        linknext = "block_00113",
+        line = 609
+    },
+    block_00113 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0052", head = "eve_z1a", ex05 = "eve_z1a0010", lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03497", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「温柔可爱，做的菜也很好吃。」"
+                }
+            }
+        },
+        linkback = "block_00112",
+        linknext = "block_00114",
+        line = 614
+    },
+    block_00114 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0200", face = "a0002", head = "eve_z1a", ex05 = "eve_z1a0000", lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03498", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「虽然集结了女孩的理想，",
+                    {"rt2"},
+                    "但并不是那种只会被保护的公主类型呢。」"
+                }
+            }
+        },
+        linkback = "block_00113",
+        linknext = "block_00115",
+        line = 620
+    },
+    block_00115 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0002", head = "eve_z1b", ex05 = "eve_z1b0000", lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03499", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「和凪一样聪明，能够懂得气氛，",
+                    {"rt2"},
+                    "也能和聪明的人交往。」"
+                }
+            }
+        },
+        linkback = "block_00114",
+        linknext = "block_00116",
+        line = 626
+    },
+    block_00116 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0052", head = "eve_z1a", ex05 = "eve_z1a0010", lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03500", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「而且还在会长那里打工，",
+                    {"rt2"},
+                    "跟玖玖瑠也是好朋友。」"
+                }
+            }
+        },
+        linkback = "block_00115",
+        linknext = "block_00117",
+        line = 632
+    },
+    block_00117 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0200", face = "a0006", head = "eve_z1a", ex05 = "eve_z1a0000", lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03501", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「绝对不能惹怒灯理哦。」"
+                }
+            }
+        },
+        linkback = "block_00116",
+        linknext = "block_00118",
+        line = 637
+    },
+    block_00118 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", y = 50, file = "zbg020a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0200", face = "b0039", head = "tou_z1b", ex05 = "tou_z1b0000", x = 280, lv = 4, id = 10, sync = 0},
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0200", face = "a0006", head = "eve_z1a", ex05 = "eve_z1a0000", x = -280, lv = 4, id = 9, sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01119", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「虽然被说了很多，但，",
+                    {"rt2"},
+                    "可以理解成是在夸奖我吧？」"
+                }
+            }
+        },
+        linkback = "block_00117",
+        linknext = "block_00119",
+        line = 649
+    },
+    block_00119 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0054", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03502", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「当然了。我真的很夸奖你，",
+                    {"rt2"},
+                    "也觉得你非常了不起呢。」"
+                }
+            }
+        },
+        linkback = "block_00118",
+        linknext = "block_00120",
+        line = 655
+    },
+    block_00120 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0200", face = "b0038", head = "tou_z1b", ex05 = "tou_z1b0000", x = 280, lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01120", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「嗯，原来如此～」"
+                }
+            }
+        },
+        linkback = "block_00119",
+        linknext = "block_00121",
+        line = 660
+    },
+    block_00121 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0200", face = "a0054", head = "tou_z1a", ex05 = "tou_z1a0000", x = 280, lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01121", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「听了伊舞的话，我稍微安心了一些。」"
+                }
+            }
+        },
+        linkback = "block_00120",
+        linknext = "block_00122",
+        line = 666
+    },
+    block_00122 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0019", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「安心？」"
+                }
+            }
+        },
+        linkback = "block_00121",
+        linknext = "block_00123",
+        line = 671
+    },
+    block_00123 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0210", face = "a0015", head = "tou_z1a", ex05 = "tou_z1a0010", x = 280, lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01122", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「之前奏命也跟我说过类似的话，",
+                    {"rt2"},
+                    "但我自己并没有太明白。」"
+                }
+            }
+        },
+        linkback = "block_00122",
+        linknext = "block_00124",
+        line = 677
+    },
+    block_00124 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0210", face = "b0015", head = "tou_z1b", ex05 = "tou_z1b0010", x = 280, lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01123", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「我真的有能力在一色家好好做事吗？",
+                    {"rt2"},
+                    "这让我有点不安。」"
+                }
+            }
+        },
+        linkback = "block_00123",
+        linknext = "block_00125",
+        line = 683
+    },
+    block_00125 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0200", face = "a0004", head = "tou_z1a", ex05 = "tou_z1a0000", x = 280, lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01124", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「不过，重新听了伊舞的夸奖，",
+                    {"rt2"},
+                    "我觉得自己有信心了。」"
+                }
+            }
+        },
+        linkback = "block_00124",
+        linknext = "block_00126",
+        line = 689
+    },
+    block_00126 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0200", face = "a0054", head = "eve_z1a", ex05 = "eve_z1a0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03503", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「呵呵，我说的不是夸奖，只是把事实说出来而已。」"
+                }
+            }
+        },
+        linkback = "block_00125",
+        linknext = "block_00127",
+        line = 695
+    },
+    block_00127 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0052", head = "eve_z1a", ex05 = "eve_z1a0010", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03504", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「虽然可能会有不安，但灯理身边有",
+                    {"rt2"},
+                    "很多支持你的人。」"
+                }
+            }
+        },
+        linkback = "block_00126",
+        linknext = "block_00128",
+        line = 701
+    },
+    block_00128 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0210", face = "b0054", head = "eve_z1b", ex05 = "eve_z1b0010", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03505", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「所以我觉得灯理只要向前看就好了。」"
+                }
+            }
+        },
+        linkback = "block_00127",
+        linknext = "block_00129",
+        line = 706
+    },
+    block_00129 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0210", face = "b0051", head = "tou_z1b", ex05 = "tou_z1b0010", x = 280, lv = 4, id = 10},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0210", face = "b0004", head = "tou_z1b", ex05 = "tou_z1b0010", x = 280, lv = 4, id = 10}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01125", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「嗯，真的谢谢你。我果然还是很喜欢",
+                    {"rt2"},
+                    "伊舞呢～」"
+                }
+            }
+        },
+        linkback = "block_00128",
+        linknext = "block_00130",
+        line = 713
+    },
+    block_00130 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0004", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03506", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「我也很高兴能够被你信任。」"
+                }
+            }
+        },
+        linkback = "block_00129",
+        linknext = "block_00131",
+        line = 719
+    },
+    block_00131 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0200", face = "a0051", head = "eve_z1a", ex05 = "eve_z1a0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03507", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「而且今后如果灯理能在我的工作上帮忙，那就太好了。」"
+                }
+            }
+        },
+        linkback = "block_00130",
+        linknext = "block_00132",
+        line = 725
+    },
+    block_00132 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0210", face = "a0009", head = "tou_z1a", ex05 = "tou_z1a0010", x = 280, lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01126", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「那就得和奏命小姐商量一下了～」"
+                }
+            }
+        },
+        linkback = "block_00131",
+        linknext = "block_00133",
+        line = 730
+    },
+    block_00133 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0009", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03508", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「是啊～……」"
+                }
+            }
+        },
+        linkback = "block_00132",
+        linknext = "block_00134",
+        line = 735
+    },
+    block_00134 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0001", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「这么想的话，灯理真的是个了不起的人才。」"
+                }
+            }
+        },
+        linkback = "block_00133",
+        linknext = "block_00135",
+        line = 741
+    },
+    block_00135 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「目标是成为第二个奶奶！没错吧！」"
+                }
+            }
+        },
+        linkback = "block_00134",
+        linknext = "block_00136",
+        line = 744
+    },
+    block_00136 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0200", face = "a0023", head = "tou_z1a", ex05 = "tou_z1a0000", x = 280, lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01127", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「这个目标有点太高了～」"
+                }
+            }
+        },
+        linkback = "block_00135",
+        linknext = "block_00137",
+        line = 749
+    },
+    block_00137 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0200", face = "a0019", head = "eve_z1a", ex05 = "eve_z1a0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03509", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「奶奶就是之前我们见过的那个人，对吧？」"
+                }
+            }
+        },
+        linkback = "block_00136",
+        linknext = "block_00138",
+        line = 754
+    },
+    block_00138 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0200", face = "a0052", head = "tou_z1a", ex05 = "tou_z1a0000", x = 280, lv = 4, id = 10},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「嗯，她一个人经营着我们成长的桃子园。」"
+                }
+            }
+        },
+        linkback = "block_00137",
+        linknext = "block_00139",
+        line = 760
+    },
+    block_00139 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0002", head = "eve_z1a", ex05 = "eve_z1a0010", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03510", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「那时候我们只聊了一点，",
+                    {"rt2"},
+                    "我真的很想再见见她。」"
+                }
+            }
+        },
+        linkback = "block_00138",
+        linknext = "block_00140",
+        line = 766
+    },
+    block_00140 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0210", face = "b0004", head = "eve_z1b", ex05 = "eve_z1b0010", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03511", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「凪哥哥和灯理都非常优秀，我想看看孤儿院的孩子们接受了",
+                    {"rt2"},
+                    "怎样的教育。」"
+                }
+            }
+        },
+        linkback = "block_00139",
+        linknext = "block_00141",
+        line = 772
+    },
+    block_00141 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「教育嘛……。跟樱元学园比起来，我觉得没什么意思。」"
+                }
+            }
+        },
+        linkback = "block_00140",
+        linknext = "block_00142",
+        line = 776
+    },
+    block_00142 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0052", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0051", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03512", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「那只是凪哥哥你的想法吧？不看看怎么知道呢。」"
+                }
+            }
+        },
+        linkback = "block_00141",
+        linknext = "block_00143",
+        line = 783
+    },
+    block_00143 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0052", head = "eve_z1a", ex05 = "eve_z1a0010", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03513", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「我总有一天也会成为培养别人的人，",
+                    {"rt2"},
+                    "在那之前我想学到能学的东西。」"
+                }
+            }
+        },
+        linkback = "block_00142",
+        linknext = "block_00144",
+        line = 789
+    },
+    block_00144 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「见到奶奶本身并不难。」"
+                }
+            }
+        },
+        linkback = "block_00143",
+        linknext = "block_00145",
+        line = 792
+    },
+    block_00145 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「下次带伊舞一起，",
+                    {"rt2"},
+                    "回去看看也不错。」"
+                }
+            }
+        },
+        linkback = "block_00144",
+        linknext = "block_00146",
+        line = 796
+    },
+    block_00146 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0200", face = "b0051", head = "tou_z1b", ex05 = "tou_z1b0000", x = 280, lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01128", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「这主意不错。",
+                    {"rt2"},
+                    "我也想尽快见见大家的脸。」"
+                }
+            }
+        },
+        linkback = "block_00145",
+        linknext = "block_00147",
+        line = 802
+    },
+    block_00147 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0054", head = "eve_z1a", ex05 = "eve_z1a0010", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03514", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「那下次约会就定在珠贺良区吧。」"
+                }
+            }
+        },
+        linkback = "block_00146",
+        linknext = "block_00148",
+        line = 807
+    },
+    block_00148 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「这也算约会吗？」"
+                }
+            }
+        },
+        linkback = "block_00147",
+        linknext = "block_00149",
+        line = 810
+    },
+    block_00149 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0054", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03515", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「当然。",
+                    {"rt2"},
+                    "拜访喜欢人的家可是大事件呢！」"
+                }
+            }
+        },
+        linkback = "block_00148",
+        linknext = "block_00150",
+        line = 816
+    },
+    block_00150 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「原来可以这样看待。」"
+                }
+            }
+        },
+        linkback = "block_00149",
+        linknext = "block_00151",
+        line = 819
+    },
+    block_00151 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0052", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03516", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「我也想更多地了解你们成长的地方呢。」"
+                }
+            }
+        },
+        linkback = "block_00150",
+        linknext = "block_00152",
+        line = 825
+    },
+    block_00152 = {
+        {"bg", y = 100, speed = 120000, file = "zbg020a", path = ":bg/", x2 = 640, y2 = 100, x = -640, ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            ja = {
+                {"这样聊着聊着，深刻感受到灯理有个好朋友。"}
+            }
+        },
+        linkback = "block_00151",
+        linknext = "block_00153",
+        line = 830
+    },
+    block_00153 = {
+        {"text"},
+        text = {
+            ja = {
+                {"同时也让我觉得自己很无能。"}
+            }
+        },
+        linkback = "block_00152",
+        linknext = "block_00154",
+        line = 832
+    },
+    block_00154 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "一直跟在我身后的灯理，",
+                    {"rt2"},
+                    "现在已经决定了自己的道路。"
+                }
+            }
+        },
+        linkback = "block_00153",
+        linknext = "block_00155",
+        line = 835
+    },
+    block_00155 = {
+        {"text"},
+        text = {
+            ja = {
+                {"而我呢？"}
+            }
+        },
+        linkback = "block_00154",
+        linknext = "block_00156",
+        line = 837
+    },
+    block_00156 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "搭上富贵之路，",
+                    {"rt2"},
+                    "让皮奇·菲尔德的大家幸福。"
+                }
+            }
+        },
+        linkback = "block_00155",
+        linknext = "block_00157",
+        line = 840
+    },
+    block_00157 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "明明目标已经定下，",
+                    {"rt2"},
+                    "却空白得一无所知。"
+                }
+            }
+        },
+        linkback = "block_00156",
+        linknext = "block_00158",
+        line = 843
+    },
+    block_00158 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我也得考虑一下今后的打算了。」"
+                }
+            }
+        },
+        linkback = "block_00157",
+        linknext = "block_00159",
+        line = 846
+    },
+    block_00159 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 1, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0001", head = "eve_z1a", ex05 = "eve_z1a0010", lv = 4, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03517", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「凪哥哥，你没有想做的事情吗？」"
+                }
+            }
+        },
+        linkback = "block_00158",
+        linknext = "block_00160",
+        line = 851
+    },
+    block_00160 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「如果找到了那个，早就开始行动了。",
+                    {"rt2"},
+                    "因为不知道，所以暂时在学习。」"
+                }
+            }
+        },
+        linkback = "block_00159",
+        linknext = "block_00161",
+        line = 855
+    },
+    block_00161 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「顺便问一下，灯理在一色家，",
+                    {"rt2"},
+                    "打算做什么工作呢？」"
+                }
+            }
+        },
+        linkback = "block_00160",
+        linknext = "block_00162",
+        line = 859
+    },
+    block_00162 = {
+        {"msgoff"},
+        {"bg", x = -400, y = 50, file = "zbg020a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0210", face = "a0009", head = "tou_z1a", ex05 = "tou_z1a0010", lv = 4, id = 10, sync = 0},
+        {"extrans"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01129", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「具体要做什么工作，我还没听说呢。」"
+                }
+            }
+        },
+        linkback = "block_00161",
+        linknext = "block_00163",
+        line = 869
+    },
+    block_00163 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0200", face = "a0003", head = "tou_z1a", ex05 = "tou_z1a0000", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01130", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「我想尝试做一些人和人之间的连接工作。」"
+                }
+            }
+        },
+        linkback = "block_00162",
+        linknext = "block_00164",
+        line = 874
+    },
+    block_00164 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 1, path = ":fg/eve/z1/", file = "eve_z1a0200", face = "a0019", head = "eve_z1a", ex05 = "eve_z1a0000", lv = 4, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03518", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「那应该就是人材协调员吧？」"
+                }
+            }
+        },
+        linkback = "block_00163",
+        linknext = "block_00165",
+        line = 879
+    },
+    block_00165 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0200", face = "a0004", head = "tou_z1a", ex05 = "tou_z1a0000", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01131", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「嘿嘿，我觉得有点太酷了，",
+                    {"rt2"},
+                    "但大概就是这样的感觉。」"
+                }
+            }
+        },
+        linkback = "block_00164",
+        linknext = "block_00166",
+        line = 885
+    },
+    block_00166 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0200", face = "b0052", head = "tou_z1b", ex05 = "tou_z1b0000", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01132", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「寻找符合工作内容的人，然后把他们连接起来。」"
+                }
+            }
+        },
+        linkback = "block_00165",
+        linknext = "block_00167",
+        line = 890
+    },
+    block_00167 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0210", face = "b0051", head = "tou_z1b", ex05 = "tou_z1b0010", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01133", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「为想工作的人准备一个合适的工作",
+                    {"rt2"},
+                    "场所。」"
+                }
+            }
+        },
+        linkback = "block_00166",
+        linknext = "block_00168",
+        line = 896
+    },
+    block_00168 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0210", face = "a0052", head = "tou_z1a", ex05 = "tou_z1a0010", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01134", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「就这样一点一点积累下去……」"
+                }
+            }
+        },
+        linkback = "block_00167",
+        linknext = "block_00169",
+        line = 901
+    },
+    block_00169 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0210", face = "a0054", head = "tou_z1a", ex05 = "tou_z1a0010", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01135", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「然后有一天，我想为皮奇·菲尔德的大家",
+                    {"rt2"},
+                    "创造一个可以工作的地方。」"
+                }
+            }
+        },
+        linkback = "block_00168",
+        linknext = "block_00170",
+        line = 907
+    },
+    block_00170 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0210", face = "b0054", head = "tou_z1b", ex05 = "tou_z1b0010", lv = 4, id = 10},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0210", face = "b0009", head = "tou_z1b", ex05 = "tou_z1b0010", lv = 4, id = 10}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01136", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「这就是我的新梦想和目标。",
+                    {"rt2"},
+                    "怎么样……？」"
+                }
+            }
+        },
+        linkback = "block_00169",
+        linknext = "block_00171",
+        line = 914
+    },
+    block_00171 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「当然，我会支持你的。」"
+                }
+            }
+        },
+        linkback = "block_00170",
+        linknext = "block_00172",
+        line = 917
+    },
+    block_00172 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「灯理的话，真的能在与人相处中提供工作。」"
+                }
+            }
+        },
+        linkback = "block_00171",
+        linknext = "block_00173",
+        line = 921
+    },
+    block_00173 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「一定很适合你。这是你的天职。」"
+                }
+            }
+        },
+        linkback = "block_00172",
+        linknext = "block_00174",
+        line = 924
+    },
+    block_00174 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0200", face = "b0054", head = "tou_z1b", ex05 = "tou_z1b0000", lv = 4, id = 10},
+        {"fgact", ch = "トウリ", act = "うなづく", lv = 4, id = 10},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0200", face = "a0054", head = "tou_z1a", ex05 = "tou_z1a0000", lv = 4, id = 10}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01137", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「嗯，谢谢你。听到哥哥这么说，",
+                    {"rt2"},
+                    "我就有信心了，觉得没错。」"
+                }
+            }
+        },
+        linkback = "block_00173",
+        linknext = "block_00175",
+        line = 932
+    },
+    block_00175 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0210", face = "b0001", head = "tou_z1b", ex05 = "tou_z1b0010", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01138", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「不过还有很多不足之处，",
+                    {"rt2"},
+                    "所以首先得努力学习，让自己变得聪明起来。」"
+                }
+            }
+        },
+        linkback = "block_00174",
+        linknext = "block_00176",
+        line = 938
+    },
+    block_00176 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0210", face = "b0015", head = "tou_z1b", ex05 = "tou_z1b0010", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01139", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「如果为我准备工作的那个人很笨的话，",
+                    {"rt2"},
+                    "我会感到不安的。」"
+                }
+            }
+        },
+        linkback = "block_00175",
+        linknext = "block_00177",
+        line = 944
+    },
+    block_00177 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 1, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0052", head = "eve_z1b", ex05 = "eve_z1b0000", lv = 4, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03519", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「我觉得很好。",
+                    {"rt2"},
+                    "会长总是说知识不会骗人。」"
+                }
+            }
+        },
+        linkback = "block_00176",
+        linknext = "block_00178",
+        line = 950
+    },
+    block_00178 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「不过……怎么说呢，我感觉被抛在了一边。」"
+                }
+            }
+        },
+        linkback = "block_00177",
+        linknext = "block_00179",
+        line = 953
+    },
+    block_00179 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 1, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0004", head = "eve_z1a", ex05 = "eve_z1a0010", lv = 4, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03520", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「凪也不能输啊。」"
+                }
+            }
+        },
+        linkback = "block_00178",
+        linknext = "block_00180",
+        line = 958
+    },
+    block_00180 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0200", face = "a0004", head = "tou_z1a", ex05 = "tou_z1a0000", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01140", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「因为我得到了奏命小姐的启发，",
+                    {"rt2"},
+                    "所以才会这样做。」"
+                }
+            }
+        },
+        linkback = "block_00179",
+        linknext = "block_00181",
+        line = 964
+    },
+    block_00181 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0210", face = "a0051", head = "tou_z1a", ex05 = "tou_z1a0010", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01141", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「哥哥想做的事情，",
+                    {"rt2"},
+                    "到时候一定会很快明白的。」"
+                }
+            }
+        },
+        linkback = "block_00180",
+        linknext = "block_00182",
+        line = 970
+    },
+    block_00182 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0210", face = "a0009", head = "tou_z1a", ex05 = "tou_z1a0010", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01142", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「所以也不必着急吧？」"
+                }
+            }
+        },
+        linkback = "block_00181",
+        linknext = "block_00183",
+        line = 975
+    },
+    block_00183 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「不，我可不能这么悠闲。",
+                    {"rt2"},
+                    "从明天开始，我要认真考虑自己想做的事情。」"
+                }
+            }
+        },
+        linkback = "block_00182",
+        linknext = "block_00184",
+        line = 979
+    },
+    block_00184 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我希望能从事自己感兴趣的工作，",
+                    {"rt2"},
+                    "如果因为准备不足而放弃梦想，那可真是太可惜了。」"
+                }
+            }
+        },
+        linkback = "block_00183",
+        linknext = "block_00185",
+        line = 983
+    },
+    block_00185 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0200", face = "b0004", head = "tou_z1b", ex05 = "tou_z1b0000", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01143", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「嘿嘿嘿～」"
+                }
+            }
+        },
+        linkback = "block_00184",
+        linknext = "block_00186",
+        line = 988
+    },
+    block_00186 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「你怎么这么开心啊？」"
+                }
+            }
+        },
+        linkback = "block_00185",
+        linknext = "block_00187",
+        line = 991
+    },
+    block_00187 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0200", face = "a0052", head = "tou_z1a", ex05 = "tou_z1a0000", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01144", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「我其实很担心哥哥。",
+                    {"rt2"},
+                    "总是把自己的事情放在最后。」"
+                }
+            }
+        },
+        linkback = "block_00186",
+        linknext = "block_00188",
+        line = 997
+    },
+    block_00188 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0210", face = "a0003", head = "tou_z1a", ex05 = "tou_z1a0010", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01145", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「不过，你刚才说现在感兴趣的事情很好，对吧？」"
+                }
+            }
+        },
+        linkback = "block_00187",
+        linknext = "block_00189",
+        line = 1002
+    },
+    block_00189 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0210", face = "a0004", head = "tou_z1a", ex05 = "tou_z1a0010", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01146", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「听到这个，我真的很开心。」"
+                }
+            }
+        },
+        linkback = "block_00188",
+        linknext = "block_00190",
+        line = 1007
+    },
+    block_00190 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0200", face = "b0052", head = "tou_z1b", ex05 = "tou_z1b0000", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01147", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「在樱元学园度过的时光让我意识到了这一点。」"
+                }
+            }
+        },
+        linkback = "block_00189",
+        linknext = "block_00191",
+        line = 1012
+    },
+    block_00191 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0210", face = "b0001", head = "tou_z1b", ex05 = "tou_z1b0010", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01148", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「家庭的幸福固然重要，但自己的幸福也得好好珍惜。」"
+                }
+            }
+        },
+        linkback = "block_00190",
+        linknext = "block_00192",
+        line = 1018
+    },
+    block_00192 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0200", face = "a0015", head = "tou_z1a", ex05 = "tou_z1a0000", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01149", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「这对我们来说是前所未有的想法，因为我们曾经只顾着眼前",
+                    {"rt2"},
+                    "的事情。」"
+                }
+            }
+        },
+        linkback = "block_00191",
+        linknext = "block_00193",
+        line = 1024
+    },
+    block_00193 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1a0200", face = "a0001", head = "tou_z1a", ex05 = "tou_z1a0000", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01150", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「我和哥哥都在一点点地改变。所以……」"
+                }
+            }
+        },
+        linkback = "block_00192",
+        linknext = "block_00194",
+        line = 1030
+    },
+    block_00194 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0200", face = "b0003", head = "tou_z1b", ex05 = "tou_z1b0000", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01151", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「我希望能为像我们一样的皮奇·菲尔斯的大家，",
+                    {"rt2"},
+                    "创造一个能够这样思考的环境。」"
+                }
+            }
+        },
+        linkback = "block_00193",
+        linknext = "block_00195",
+        line = 1036
+    },
+    block_00195 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「嗯，是啊。」"
+                }
+            }
+        },
+        linkback = "block_00194",
+        linknext = "block_00196",
+        line = 1039
+    },
+    block_00196 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 3, path = ":fg/tou/z1/", file = "tou_z1b0200", face = "b0004", head = "tou_z1b", ex05 = "tou_z1b0000", lv = 4, id = 10},
+        {"text"},
+        text = {
+            ja = {
+                {"我轻轻抚摸了灯理的头，她像猫一样把头靠了过来。"}
+            }
+        },
+        linkback = "block_00195",
+        linknext = "block_00197",
+        line = 1044
+    },
+    block_00197 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", x = 400, y = 50, file = "zbg020a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0200", face = "a0013", head = "eve_z1a", ex05 = "eve_z1a0000", lv = 4, id = 9, sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03521", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「……………………」"
+                }
+            }
+        },
+        linkback = "block_00196",
+        linknext = "block_00198",
+        line = 1054
+    },
+    block_00198 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0210", face = "b0022", head = "eve_z1b", ex05 = "eve_z1b0010", lv = 4, id = 9},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0210", face = "b0026", head = "eve_z1b", ex05 = "eve_z1b0010", lv = 4, id = 9}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03522", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「因为是认真的话题我一直沉默，但现在已经到极限了！灯理",
+                    {"rt2"},
+                    "你太狡猾了！」"
+                }
+            }
+        },
+        linkback = "block_00197",
+        linknext = "block_00199",
+        line = 1062
+    },
+    block_00199 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「哇，伊舞……！？声音太大了……！」"
+                }
+            }
+        },
+        linkback = "block_00198",
+        linknext = "block_00200",
+        line = 1065
+    },
+    block_00200 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0210", face = "b0033", head = "eve_z1b", ex05 = "eve_z1b0010", lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03523", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「凪！快来摸我！",
+                    {"rt2"},
+                    "好好地……」"
+                }
+            }
+        },
+        linkback = "block_00199",
+        linknext = "block_00201",
+        line = 1071
+    },
+    block_00201 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0018h", head = "eve_z1a", ex05 = "eve_z1a0010", lv = 4, id = 9},
+        {"text"},
+        text = {
+            ja = {
+                {"咳咳，一声大咳传来，伊舞一下子回过神来。"}
+            }
+        },
+        linkback = "block_00200",
+        linknext = "block_00202",
+        line = 1076
+    },
+    block_00202 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0200", face = "a0020h", head = "eve_z1a", ex05 = "eve_z1a0000", lv = 4, id = 9},
+        {"text"},
+        text = {
+            ja = {
+                {"她环顾四周，许多同学远远地看着我们。"}
+            }
+        },
+        linkback = "block_00201",
+        linknext = "block_00203",
+        line = 1081
+    },
+    block_00203 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "其中还有那位咳嗽的图书管理员，",
+                    {"rt2"},
+                    "一边做着胜利手势一边看着我们。"
+                }
+            }
+        },
+        linkback = "block_00202",
+        linknext = "block_00204",
+        line = 1084
+    },
+    block_00204 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "不，这不是胜利手势。",
+                    {"rt2"},
+                    "这是第二次了？是在给我们施压。"
+                }
+            }
+        },
+        linkback = "block_00203",
+        linknext = "block_00205",
+        line = 1087
+    },
+    block_00205 = {
+        {"text"},
+        text = {
+            ja = {
+                {"第三次就要退出了。下次可没有了。"}
+            }
+        },
+        linkback = "block_00204",
+        linknext = "block_00206",
+        line = 1089
+    },
+    block_00206 = {
+        {"text"},
+        text = {
+            ja = {
+                {"这样的手势飞了过来。"}
+            }
+        },
+        linkback = "block_00205",
+        linknext = "block_00207",
+        line = 1091
+    },
+    block_00207 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 1, path = ":fg/tou/z1/", file = "tou_z1b0200", face = "b0024", head = "tou_z1b", ex05 = "tou_z1b0000", lv = 4, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01152", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「我们还是安静地学习吧……」"
+                }
+            }
+        },
+        linkback = "block_00206",
+        linknext = "block_00208",
+        line = 1096
+    },
+    block_00208 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「嗯……没错。」"
+                }
+            }
+        },
+        linkback = "block_00207",
+        linknext = "block_00209",
+        line = 1099
+    },
+    block_00209 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0210", face = "b0041", head = "eve_z1b", ex05 = "eve_z1b0010", lv = 4, id = 9},
+        {"fgact", ch = "イヴ", act = "おじぎ", lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03524", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「呜……我太兴奋了……」"
+                }
+            }
+        },
+        linkback = "block_00208",
+        linknext = "block_00210",
+        line = 1105
+    },
+    block_00210 = {
+        {"fg", ch = "トウリ", size = "z1", mode = 1, path = ":fg/tou/z1/", file = "tou_z1a0200", face = "a0054", head = "tou_z1a", ex05 = "tou_z1a0000", lv = 4, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_01153", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「好好，好了哦～」"
+                }
+            }
+        },
+        linkback = "block_00209",
+        linknext = "block_00211",
+        line = 1110
+    },
+    block_00211 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「好好」"
+                }
+            }
+        },
+        linkback = "block_00210",
+        linknext = "block_00212",
+        line = 1113
+    },
+    block_00212 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0020h", head = "eve_z1a", ex05 = "eve_z1a0010", lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_03525", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「我想要的并不是这种好好哦～！」"
+                }
+            }
+        },
+        linkback = "block_00211",
+        linknext = "block_00213",
+        line = 1118
+    },
+    block_00213 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "在害羞地缩起身子的伊舞头上轻轻抚摸了一下，",
+                    {"rt2"},
+                    "我们又重新开始学习了。"
+                }
+            }
+        },
+        linkback = "block_00212",
+        linknext = "block_00214",
+        line = 1121
+    },
+    block_00214 = {
+        {"bgm", stop = 1},
+        {"cgdel", id = -1},
+        {"bg", time = 1000, rule = 139, wait = 500, file = "black", path = ":bg/", vague = 40},
+        {"bg", y = 0, speed = 120000, rule = 139, vague = 40, file = "zbg017c", path = ":bg/", x2 = -640, y2 = 0, x = 640, ax = 1280, ay = 720, bx = -640, by = -360},
+        {"bgm", file = "bgm07"},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "结束学习会后，我和她们分别，",
+                    {"rt2"},
+                    "一个人开始了夜晚的散步。"
+                }
+            }
+        },
+        linkback = "block_00213",
+        linknext = "block_00215",
+        line = 1136
+    },
+    block_00215 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "从眼前看到的东西开始联想可以做的工作，",
+                    {"rt2"},
+                    "一个个数着。"
+                }
+            }
+        },
+        linkback = "block_00214",
+        linknext = "block_00216",
+        line = 1139
+    },
+    block_00216 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "在樱元学园的话，有教师、事务员、清洁工……，",
+                    {"rt2"},
+                    "草木的维护应该也会交给专业公司来做。"
+                }
+            }
+        },
+        linkback = "block_00215",
+        linknext = "block_00217",
+        line = 1142
+    },
+    block_00217 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "如果是在学园建立之前的话，可能有建筑和房地产，",
+                    {"rt2"},
+                    "以及各类设备的制造商流通……。"
+                }
+            }
+        },
+        linkback = "block_00216",
+        linknext = "block_00218",
+        line = 1148
+    },
+    block_00218 = {
+        {"text"},
+        text = {
+            ja = {
+                {"这么一想，工作种类真是多得惊人。"}
+            }
+        },
+        linkback = "block_00217",
+        linknext = "block_00219",
+        line = 1150
+    },
+    block_00219 = {
+        {"text"},
+        text = {
+            ja = {
+                {"唔，又想要提示了呢。"}
+            }
+        },
+        linkback = "block_00218",
+        linknext = "block_00220",
+        line = 1152
+    },
+    block_00220 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「这种时候就得依靠朋友！",
+                    {"rt2"},
+                    "赶紧回去找帝雄商量一下。」"
+                }
+            }
+        },
+        linkback = "block_00219",
+        linknext = "block_00221",
+        line = 1156
+    },
+    block_00221 = {
+        {"cgdel", id = -1},
+        {"bg", time = 1000, rule = "083r", wait = 250, file = "black", path = ":bg/", vague = 40},
+        {"msgoff"},
+        {"bg", file = "bg026c", path = ":bg/", sync = 0},
+        {"fg", ch = "帝雄", size = "no", mode = 3, path = ":fg/tei/no/", file = "tei_noa0200", face = "a0001", head = "tei_noa", lv = 3, id = 10, sync = 0},
+        {"extrans", rule = "083r", vague = 40},
+        {"text"},
+        text = {
+            ja = {
+                {"我匆匆回到男生宿舍，看到一个熟悉的背影。"}
+            }
+        },
+        linkback = "block_00220",
+        linknext = "block_00222",
+        line = 1171
+    },
+    block_00222 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「帝雄，辛苦了。你刚回吗？」"
+                }
+            }
+        },
+        linkback = "block_00221",
+        linknext = "block_00223",
+        line = 1174
+    },
+    block_00223 = {
+        {"fg", ch = "帝雄", size = "no", mode = 3, path = ":fg/tei/no/", file = "tei_noa0200", face = "a0003", head = "tei_noa", lv = 3, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00465", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「是啊，凪君你也辛苦了。」"
+                }
+            }
+        },
+        linkback = "block_00222",
+        linknext = "block_00224",
+        line = 1179
+    },
+    block_00224 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「抱歉这么快就问你，这会儿有空吗？",
+                    {"rt2"},
+                    "我有事情想请教你。」"
+                }
+            }
+        },
+        linkback = "block_00223",
+        linknext = "block_00225",
+        line = 1183
+    },
+    block_00225 = {
+        {"fg", ch = "帝雄", size = "no", mode = 3, path = ":fg/tei/no/", file = "tei_noa0200", face = "a0001", head = "tei_noa", lv = 3, id = 10},
+        {"fgact", ch = "帝雄", act = "うなづく", lv = 3, id = 10},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "帝雄", size = "no", mode = 3, path = ":fg/tei/no/", file = "tei_noa0200", face = "a0003", head = "tei_noa", lv = 3, id = 10}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00466", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「没问题。对了，凪君晚饭吃了吗？」"
+                }
+            }
+        },
+        linkback = "block_00224",
+        linknext = "block_00226",
+        line = 1190
+    },
+    block_00226 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「还没吃呢。」"
+                }
+            }
+        },
+        linkback = "block_00225",
+        linknext = "block_00227",
+        line = 1193
+    },
+    block_00227 = {
+        {"fg", ch = "帝雄", size = "no", mode = 3, path = ":fg/tei/no/", file = "tei_noa0200", face = "a0002", head = "tei_noa", lv = 3, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00467", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「那我们一起吃饭吧。」"
+                }
+            }
+        },
+        linkback = "block_00226",
+        linknext = "block_00228",
+        line = 1198
+    },
+    block_00228 = {
+        {"msgoff"},
+        {"bg", y = 30, file = "zbg026c", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "帝雄", size = "z1", mode = 3, resize = 1, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0009", head = "tei_z1a", lv = 4, id = 10, sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0011", head = "tei_z1a", lv = 4, id = 10}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00468", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「其实我也有事情想咨询……呃，是关于一个朋友的……」"
+                }
+            }
+        },
+        linkback = "block_00227",
+        linknext = "block_00229",
+        line = 1210
+    },
+    block_00229 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「别藏着掖着的，龙司吧？」"
+                }
+            }
+        },
+        linkback = "block_00228",
+        linknext = "block_00230",
+        line = 1213
+    },
+    block_00230 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0022", head = "tei_z1a", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00469", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「呃……对不起。」"
+                }
+            }
+        },
+        linkback = "block_00229",
+        linknext = "block_00231",
+        line = 1218
+    },
+    block_00231 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0011", head = "tei_z1a", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00470", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「我知道不该向凪君咨询这个，但实在没有其他可以倾诉的人",
+                    {"rt2"},
+                    "了……」"
+                }
+            }
+        },
+        linkback = "block_00230",
+        linknext = "block_00232",
+        line = 1224
+    },
+    block_00232 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「没关系。虽然那家伙自作自受，但我能理解提奥现在看着龙",
+                    {"rt2"},
+                    "司的心情。」"
+                }
+            }
+        },
+        linkback = "block_00231",
+        linknext = "block_00233",
+        line = 1230
+    },
+    block_00233 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「就我而言，如果龙司想要东山再起，我绝对不会去阻碍他。」"
+                }
+            }
+        },
+        linkback = "block_00232",
+        linknext = "block_00234",
+        line = 1234
+    },
+    block_00234 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「要是那样的话，我也会跟着他一起陷入麻烦。」"
+                }
+            }
+        },
+        linkback = "block_00233",
+        linknext = "block_00235",
+        line = 1238
+    },
+    block_00235 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0004", head = "tei_z1a", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00471", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「谢谢你，凪君……」"
+                }
+            }
+        },
+        linkback = "block_00234",
+        linknext = "block_00236",
+        line = 1243
+    },
+    block_00236 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「那么，你想咨询的是什么？」"
+                }
+            }
+        },
+        linkback = "block_00235",
+        linknext = "block_00237",
+        line = 1246
+    },
+    block_00237 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0009", head = "tei_z1a", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00472", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「嗯，其实……」"
+                }
+            }
+        },
+        linkback = "block_00236",
+        linknext = "block_00238",
+        line = 1251
+    },
+    block_00238 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0019", head = "tei_z1a", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00473", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「啊…………」"
+                }
+            }
+        },
+        linkback = "block_00237",
+        linknext = "block_00239",
+        line = 1258
+    },
+    block_00239 = {
+        {"se", file = "se歩き(革靴)", id = 1, time = 1000, loop = 1},
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "bg026c", path = ":bg/", sync = 0},
+        {"extrans", time = 500},
+        {"fg", ch = "龍司", size = "no", ex01 = "a0099", mx = -40, mode = 3, path = ":fg/ryu/no/", file = "ryu_noa0700", face = "a0014", head = "ryu_noa", lv = 3, id = 13},
+        {"text"},
+        text = {
+            ja = {
+                {"我们正要回宿舍，龙司却朝这边走来，正好与我们错身而过。"}
+            }
+        },
+        linkback = "block_00238",
+        linknext = "block_00240",
+        line = 1272
+    },
+    block_00240 = {
+        {"fg", ch = "龍司", size = "no", ex01 = "a0099", mode = 3, path = ":fg/ryu/no/", file = "ryu_noa0700", face = "a0014", head = "ryu_noa", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_ryu_00251", ch = "ryu"}
+            },
+            ja = {
+                {
+                    name = {"龙司"},
+                    "「…………」"
+                }
+            }
+        },
+        linkback = "block_00239",
+        linknext = "block_00241",
+        line = 1277
+    },
+    block_00241 = {
+        {"text"},
+        text = {
+            ja = {
+                {"比在校园内看到的更加安静，眼神空洞。"}
+            }
+        },
+        linkback = "block_00240",
+        linknext = "block_00242",
+        line = 1279
+    },
+    block_00242 = {
+        {"text"},
+        text = {
+            ja = {
+                {"那是一张我厌烦到不行，在珠贺良区见过的脸。"}
+            }
+        },
+        linkback = "block_00241",
+        linknext = "block_00243",
+        line = 1284
+    },
+    block_00243 = {
+        {"text"},
+        text = {
+            ja = {
+                {"异样的气氛让帝雄在旁边屏住了呼吸。"}
+            }
+        },
+        linkback = "block_00242",
+        linknext = "block_00244",
+        line = 1286
+    },
+    block_00244 = {
+        {"fg", ch = "龍司", mx = 40, mode = -1, lv = 3, id = 13},
+        {"se", stop = 1, id = 1, time = 1000},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "龙司在擦肩而过的一瞬间瞥了我们一眼，",
+                    {"rt2"},
+                    "却什么也没做，就这样离开了。"
+                }
+            }
+        },
+        linkback = "block_00243",
+        linknext = "block_00245",
+        line = 1295
+    },
+    block_00245 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"cgdel", lv = 5, id = 5, rule = "cinema", time = 400, sync = 0},
+        {"bg", y = 30, file = "zbg026c", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0018", head = "tei_z1a", lv = 4, id = 10, sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「那家伙……」"
+                }
+            }
+        },
+        linkback = "block_00244",
+        linknext = "block_00246",
+        line = 1308
+    },
+    block_00246 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0011", head = "tei_z1a", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00474", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「果然，状况很不对劲呢，",
+                    {"rt2"},
+                    "最近越来越严重了。」"
+                }
+            }
+        },
+        linkback = "block_00245",
+        linknext = "block_00247",
+        line = 1314
+    },
+    block_00247 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0014", head = "tei_z1a", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00475", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「听说他每晚都很晚才回宿舍……",
+                    {"rt2"},
+                    "到底在干什么呢？」"
+                }
+            }
+        },
+        linkback = "block_00246",
+        linknext = "block_00248",
+        line = 1320
+    },
+    block_00248 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「看起来并不是在桜元学园外找到新去处的样子。」"
+                }
+            }
+        },
+        linkback = "block_00247",
+        linknext = "block_00249",
+        line = 1324
+    },
+    block_00249 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0011", head = "tei_z1a", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00476", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「难道又想对凪君做些什么吗……」"
+                }
+            }
+        },
+        linkback = "block_00248",
+        linknext = "block_00250",
+        line = 1329
+    },
+    block_00250 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「那样的情况可不可能呢？」"
+                }
+            }
+        },
+        linkback = "block_00249",
+        linknext = "block_00251",
+        line = 1332
+    },
+    block_00251 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「而且龙司被奏命按住了脑袋，",
+                    {"rt2"},
+                    "能用的手段比以前更有限了。」"
+                }
+            }
+        },
+        linkback = "block_00250",
+        linknext = "block_00252",
+        line = 1336
+    },
+    block_00252 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「如果再做什么的话，家里可能会被抹去。」"
+                }
+            }
+        },
+        linkback = "block_00251",
+        linknext = "block_00253",
+        line = 1339
+    },
+    block_00253 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「抱着这么大的缺点，",
+                    {"rt2"},
+                    "他应该不会想着去做吧。」"
+                }
+            }
+        },
+        linkback = "block_00252",
+        linknext = "block_00254",
+        line = 1343
+    },
+    block_00254 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「嘛，如果他真的是个彻底的傻瓜，或许会选择不同的道路…",
+                    {"rt2"},
+                    "…」"
+                }
+            }
+        },
+        linkback = "block_00253",
+        linknext = "block_00255",
+        line = 1347
+    },
+    block_00255 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「不过他似乎只是视野狭窄而已，还挺聪明的。",
+                    {"rt2"},
+                    "我希望不会变成那样。」"
+                }
+            }
+        },
+        linkback = "block_00254",
+        linknext = "block_00256",
+        line = 1351
+    },
+    block_00256 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「总之，我也会关注龙司的情况。」"
+                }
+            }
+        },
+        linkback = "block_00255",
+        linknext = "block_00257",
+        line = 1354
+    },
+    block_00257 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0001", head = "tei_z1a", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00477", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「谢谢你，凪君。」"
+                }
+            }
+        },
+        linkback = "block_00256",
+        linknext = "block_00258",
+        line = 1359
+    },
+    block_00258 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「那么，差不多该去食堂了。",
+                    {"rt2"},
+                    "我饿得受不了。」"
+                }
+            }
+        },
+        linkback = "block_00257",
+        linknext = "block_00259",
+        line = 1363
+    },
+    block_00259 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0051", head = "tei_z1a", lv = 4, id = 10},
+        {"fgact", ch = "帝雄", act = "うなづく", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00478", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「嗯！」"
+                }
+            }
+        },
+        linkback = "block_00258",
+        linknext = "block_00260",
+        line = 1369
+    },
+    block_00260 = {
+        {"cgdel", id = -1},
+        {"bg", time = 1000, rule = 139, wait = 500, file = "black", path = ":bg/", vague = 40},
+        {"msgoff"},
+        {"bg", y = -80, file = "zbg027c", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0009", head = "tei_z1a", lv = 4, id = 10, sync = 0},
+        {"extrans", rule = 139, vague = 40},
+        {"text"},
+        text = {
+            ja = {
+                {"吃完饭后，我告诉帝雄我在为未来烦恼。"}
+            }
+        },
+        linkback = "block_00259",
+        linknext = "block_00261",
+        line = 1382
+    },
+    block_00261 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0019", head = "tei_z1a", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00479", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「凪君的未来啊……」"
+                }
+            }
+        },
+        linkback = "block_00260",
+        linknext = "block_00262",
+        line = 1387
+    },
+    block_00262 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我、完全想不出来啊。",
+                    {"rt2"},
+                    "帝雄你是做游戏相关的吧？」"
+                }
+            }
+        },
+        linkback = "block_00261",
+        linknext = "block_00263",
+        line = 1391
+    },
+    block_00263 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0001", head = "tei_z1a", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00480", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「我还没决定是创业还是加入公司，但打算朝开发方面发展。」"
+                }
+            }
+        },
+        linkback = "block_00262",
+        linknext = "block_00264",
+        line = 1397
+    },
+    block_00264 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0003", head = "tei_z1a", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00481", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「凪君也喜欢游戏的话，",
+                    {"rt2"},
+                    "这样挺好的吧？做游戏相关的。」"
+                }
+            }
+        },
+        linkback = "block_00263",
+        linknext = "block_00265",
+        line = 1403
+    },
+    block_00265 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我喜欢游戏，但明显知识不足。」"
+                }
+            }
+        },
+        linkback = "block_00264",
+        linknext = "block_00266",
+        line = 1407
+    },
+    block_00266 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我觉得自己根本无法开发。」"
+                }
+            }
+        },
+        linkback = "block_00265",
+        linknext = "block_00267",
+        line = 1410
+    },
+    block_00267 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0002", head = "tei_z1a", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00482", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「说到游戏，可不只是开发而已哦。」"
+                }
+            }
+        },
+        linkback = "block_00266",
+        linknext = "block_00268",
+        line = 1415
+    },
+    block_00268 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0001", head = "tei_z1a", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00483", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「还有销售、广告、营业……游戏店和游戏中心的运营也有啊。",
+                    {"rt2"},
+                    "」"
+                }
+            }
+        },
+        linkback = "block_00267",
+        linknext = "block_00269",
+        line = 1421
+    },
+    block_00269 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「那听起来有点有趣呢。」"
+                }
+            }
+        },
+        linkback = "block_00268",
+        linknext = "block_00270",
+        line = 1424
+    },
+    block_00270 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0005", head = "tei_z1a", lv = 4, id = 10},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0002", head = "tei_z1a", lv = 4, id = 10}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00484", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「对吧？",
+                    {"rt2"},
+                    "凪君，明天放学后有空吗？」"
+                }
+            }
+        },
+        linkback = "block_00269",
+        linknext = "block_00271",
+        line = 1431
+    },
+    block_00271 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0003", head = "tei_z1a", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00485", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「如果有时间的话，",
+                    {"rt2"},
+                    "要不要来游戏社看看？」"
+                }
+            }
+        },
+        linkback = "block_00270",
+        linknext = "block_00272",
+        line = 1437
+    },
+    block_00272 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0004", head = "tei_z1a", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00486", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「如果想考虑能否当成工作的话，",
+                    {"rt2"},
+                    "得亲自看一看、摸一摸才行。」"
+                }
+            }
+        },
+        linkback = "block_00271",
+        linknext = "block_00273",
+        line = 1443
+    },
+    block_00273 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「那太好了，真是帮了我大忙。」"
+                }
+            }
+        },
+        linkback = "block_00272",
+        linknext = "block_00274",
+        line = 1446
+    },
+    block_00274 = {
+        {"fg", ch = "帝雄", size = "z1", mode = 3, path = ":fg/tei/z1/", file = "tei_z1a0200", face = "a0051", head = "tei_z1a", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_tei_00487", ch = "tei"}
+            },
+            ja = {
+                {
+                    name = {"帝雄"},
+                    "「那我明天就期待着哦。晚安！」"
+                }
+            }
+        },
+        linkback = "block_00273",
+        linknext = "block_00275",
+        line = 1451
+    },
+    block_00275 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「哦，明天见。」"
+                }
+            }
+        },
+        linkback = "block_00274",
+        linknext = "block_00276",
+        line = 1454
+    },
+    block_00276 = {
+        {"cgdel", id = -1},
+        {"bg", time = 1000, rule = "083r", wait = 250, file = "black", path = ":bg/", vague = 40},
+        {"bg", y = -360, speed = 80000, rule = "083r", vague = 40, file = "zbg027c", path = ":bg/", x2 = 0, y2 = 360, x = 0, ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我跟帝雄道别后，",
+                    {"rt2"},
+                    "下了楼，朝玄关走去。"
+                }
+            }
+        },
+        linkback = "block_00275",
+        linknext = "block_00277",
+        line = 1460
+    },
+    block_00277 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我打开了龙司的鞋柜。"}
+            }
+        },
+        linkback = "block_00276",
+        linknext = "block_00278",
+        line = 1462
+    },
+    block_00278 = {
+        {"text"},
+        text = {
+            ja = {
+                {"有他上学时穿的皮鞋，但刚才穿的鞋子却不在。"}
+            }
+        },
+        linkback = "block_00277",
+        linknext = "block_00279",
+        line = 1465
+    },
+    block_00279 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「真是的，那家伙……",
+                    {"rt2"},
+                    "到这个时候还在干什么？」"
+                }
+            }
+        },
+        linkback = "block_00278",
+        linknext = "block_00280",
+        line = 1469
+    },
+    block_00280 = {
+        {"text"},
+        text = {
+            ja = {
+                {"虽然希望什么都没有，但龙司的情况显然不对劲。"}
+            }
+        },
+        linkback = "block_00279",
+        linknext = "block_00281",
+        line = 1472
+    },
+    block_00281 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "考虑到上次的教训，",
+                    {"rt2"},
+                    "这次我想先下手为强。"
+                }
+            }
+        },
+        linkback = "block_00280",
+        linknext = "block_00282",
+        line = 1475
+    },
+    block_00282 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「明天去桜元学园看看他的情况吧。」"
+                }
+            }
+        },
+        linkback = "block_00281",
+        linknext = "block_00283",
+        line = 1478
+    },
+    block_00283 = {
+        {"bgm", stop = 1, time = 3000},
+        {"se", stop = 1, id = -1, time = 3000},
+        {"vostop", stop = 1, time = 3000},
+        {"ntclear"},
+        {"cgdel", id = -1},
+        {"bg", time = 3000, file = "black", path = ":bg/"},
+        {"cacheclear"},
+        {"ex", time = 1000, func = "wait"},
+        {"bg", file = "catch01", id = 9, lv = 9, time = 500, path = ":cg/"},
+        {"bgm", file = "bgm94", loop = 0},
+        {"ex", time = 6000, func = "wait"},
+        {"bgm", stop = 1, time = 1000},
+        {"se", stop = 1, id = -1, time = 1000},
+        {"vostop", stop = 1, time = 1000},
+        {"ntclear"},
+        {"cgdel", id = -1},
+        {"bg", time = 1000, file = "black", path = ":bg/"},
+        {"cacheclear"},
+        {"ex", time = 1000, func = "wait"},
+        {"excall", file = "05_トウリ_04_1"},
+        {"text"},
+        linkback = "block_00282",
+        line = 1483
+    },
+    label = {
+        top = {block = "block_00000", label = 1}
+    }
+}

@@ -1,0 +1,2292 @@
+astver = 2.0
+astname = "ast"
+ast = {
+    block_00000 = {
+        {"cgdel", id = -1},
+        {"bg", time = 1000, file = "white", path = ":bg/"},
+        {"bg", zoom = 80, speed = 3800, file = "zev_kuk_c04_01", path = ":ev/ev_kuk_c04/", x2 = 120, y2 = -210, x = -100, y = 100, set = "ev_kuk_c04", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"ex", time = 3000, func = "wait"},
+        {"bg", file = "ev_kuk_c04_01", path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"bgm", file = "bgm09"},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「那个……，真的能吃完吗？」"
+                }
+            }
+        },
+        linknext = "block_00001",
+        line = 11
+    },
+    block_00001 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01198", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「刚才也说过了。没问题的」"
+                }
+            }
+        },
+        linkback = "block_00000",
+        linknext = "block_00002",
+        line = 14
+    },
+    block_00002 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「倒也是这么说……但是菜品的数量实在太多了」"
+                }
+            }
+        },
+        linkback = "block_00001",
+        linknext = "block_00003",
+        line = 17
+    },
+    block_00003 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01199", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「完全没问题。不是连自己的食量都不知道的孩子」"
+                }
+            }
+        },
+        linkback = "block_00002",
+        linknext = "block_00004",
+        line = 21
+    },
+    block_00004 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_02", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01200", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「凪你反而在客气吧？想吃的东西尽管点就好哦」"
+                }
+            }
+        },
+        linkback = "block_00003",
+        linknext = "block_00005",
+        line = 27
+    },
+    block_00005 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01201", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「毕竟是要合作的，钱我不会吝啬的」"
+                }
+            }
+        },
+        linkback = "block_00004",
+        linknext = "block_00006",
+        line = 30
+    },
+    block_00006 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「如果需要的话，我会追加订单的」"
+                }
+            }
+        },
+        linkback = "block_00005",
+        linknext = "block_00007",
+        line = 33
+    },
+    block_00007 = {
+        {"text"},
+        text = {
+            ja = {
+                {"如果需要的话，当然。"}
+            }
+        },
+        linkback = "block_00006",
+        linknext = "block_00008",
+        line = 35
+    },
+    block_00008 = {
+        {"text"},
+        text = {
+            ja = {
+                {"……眼前高热量的食物以惊人的速度消失，这是显而易见的。"}
+            }
+        },
+        linkback = "block_00007",
+        linknext = "block_00009",
+        line = 38
+    },
+    block_00009 = {
+        {"text"},
+        text = {
+            ja = {
+                {"光是想到那种场景就可能会引起胃痛，所以我点了少一点。"}
+            }
+        },
+        linkback = "block_00008",
+        linknext = "block_00010",
+        line = 41
+    },
+    block_00010 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01202", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯——，闻起来真香。",
+                    {"rt2"},
+                    "凪在桜元学园入学之前常来这里吗？」"
+                }
+            }
+        },
+        linkback = "block_00009",
+        linknext = "block_00011",
+        line = 45
+    },
+    block_00011 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「偶尔来一下，",
+                    {"rt2"},
+                    "工作关系的姐姐们请我吃过。」"
+                }
+            }
+        },
+        linkback = "block_00010",
+        linknext = "block_00012",
+        line = 49
+    },
+    block_00012 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_01", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01203", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「那是个特别的地方？」"
+                }
+            }
+        },
+        linkback = "block_00011",
+        linknext = "block_00013",
+        line = 54
+    },
+    block_00013 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「嗯，可能是吧。",
+                    {"rt2"},
+                    "偶尔能吃到真的很开心……」"
+                }
+            }
+        },
+        linkback = "block_00012",
+        linknext = "block_00014",
+        line = 58
+    },
+    block_00014 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_02", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01204", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「果然，要不要再点一些？」"
+                }
+            }
+        },
+        linkback = "block_00013",
+        linknext = "block_00015",
+        line = 63
+    },
+    block_00015 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我说了没事。」"
+                }
+            }
+        },
+        linkback = "block_00014",
+        linknext = "block_00016",
+        line = 66
+    },
+    block_00016 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_04", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01205", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「唔……好吧。",
+                    {"rt2"},
+                    "菜还没来吗，我肚子饿得咕咕叫。」"
+                }
+            }
+        },
+        linkback = "block_00015",
+        linknext = "block_00017",
+        line = 72
+    },
+    block_00017 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「吃完之后打算怎么做？」"
+                }
+            }
+        },
+        linkback = "block_00016",
+        linknext = "block_00018",
+        line = 75
+    },
+    block_00018 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_02", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01206", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯——，不知道，不过，",
+                    {"rt2"},
+                    "等肚子饱了再想。」"
+                }
+            }
+        },
+        linkback = "block_00017",
+        linknext = "block_00019",
+        line = 81
+    },
+    block_00019 = {
+        {"text"},
+        delay = {
+            vl01 = {
+                {"bg", sync = 0, face = 1, file = "ev_kuk_c04_03", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01207", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「……哈！？不对不对！」"
+                }
+            }
+        },
+        linkback = "block_00018",
+        linknext = "block_00020",
+        line = 86
+    },
+    block_00020 = {
+        {"text"},
+        text = {
+            ja = {
+                {"微笑着的玖玖瑠，突然摇了摇头。"}
+            }
+        },
+        linkback = "block_00019",
+        linknext = "block_00021",
+        line = 88
+    },
+    block_00021 = {
+        {"bg", zoom = 70, x = -100, y = 90, time = 500, file = "zev_kuk_c04_03", path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「嗯？有什么不同吗，是点错了什么吗？」"
+                }
+            }
+        },
+        linkback = "block_00020",
+        linknext = "block_00022",
+        line = 93
+    },
+    block_00022 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_c04_04", time = 400, path = ":ev/ev_kuk_c04/", zoom = 70, set = "ev_kuk_c04", ax = 1280, ay = 720, bx = -640, by = -360, x = -100, y = 90},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01208", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「不是的，我是因为肚子饿了，",
+                    {"rt2"},
+                    "才忘记了来这里的目的。」"
+                }
+            }
+        },
+        linkback = "block_00021",
+        linknext = "block_00023",
+        line = 99
+    },
+    block_00023 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01209", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「这次约会是为了对对方产生恋爱感情，",
+                    {"rt2"},
+                    "甚至是性欲。」"
+                }
+            }
+        },
+        linkback = "block_00022",
+        linknext = "block_00024",
+        line = 103
+    },
+    block_00024 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01210", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「如果满足了食欲，其他的欲望也会减弱。」"
+                }
+            }
+        },
+        linkback = "block_00023",
+        linknext = "block_00025",
+        line = 106
+    },
+    block_00025 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「原来是这样的吗？」"
+                }
+            }
+        },
+        linkback = "block_00024",
+        linknext = "block_00026",
+        line = 109
+    },
+    block_00026 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_c04_01", time = 400, path = ":ev/ev_kuk_c04/", zoom = 70, set = "ev_kuk_c04", ax = 1280, ay = 720, bx = -640, by = -360, x = -100, y = 90},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01211", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「三大欲求是相互影响的。」"
+                }
+            }
+        },
+        linkback = "block_00025",
+        linknext = "block_00027",
+        line = 114
+    },
+    block_00027 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01212", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「即使睡眠欲很强，但因为某些原因无法入睡，",
+                    {"rt2"},
+                    "人就会想要满足其他的欲求，因此食欲会增强。」"
+                }
+            }
+        },
+        linkback = "block_00026",
+        linknext = "block_00028",
+        line = 118
+    },
+    block_00028 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01213", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「也就是说，如果在这里吃得太饱，",
+                    {"rt2"},
+                    "性欲可能会减弱……」"
+                }
+            }
+        },
+        linkback = "block_00027",
+        linknext = "block_00029",
+        line = 122
+    },
+    block_00029 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「嘿，人类就是这样构成的啊……」"
+                }
+            }
+        },
+        linkback = "block_00028",
+        linknext = "block_00030",
+        line = 125
+    },
+    block_00030 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_c04_02", time = 400, path = ":ev/ev_kuk_c04/", zoom = 70, set = "ev_kuk_c04", ax = 1280, ay = 720, bx = -640, by = -360, x = -100, y = 90},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01214", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「虽然有很多说法，但……」"
+                }
+            }
+        },
+        linkback = "block_00029",
+        linknext = "block_00031",
+        line = 130
+    },
+    block_00031 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「啊，菜上来了！」"
+                }
+            }
+        },
+        linkback = "block_00030",
+        linknext = "block_00032",
+        line = 133
+    },
+    block_00032 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_c04_03", time = 400, path = ":ev/ev_kuk_c04/", zoom = 70, set = "ev_kuk_c04", ax = 1280, ay = 720, bx = -640, by = -360, x = -100, y = 90},
+        {"quake", mode = "mw"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01215", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「诶！？等一下，我还没做好心理准备……」"
+                }
+            }
+        },
+        linkback = "block_00031",
+        linknext = "block_00033",
+        line = 139
+    },
+    block_00033 = {
+        {"text"},
+        text = {
+            ja = {
+                {"吃东西不需要心理准备，这种突っ込み就先不说了。"}
+            }
+        },
+        linkback = "block_00032",
+        linknext = "block_00034",
+        line = 142
+    },
+    block_00034 = {
+        {"text"},
+        text = {
+            ja = {
+                {"第一道菜一上桌，接着大量的菜品陆续送来。"}
+            }
+        },
+        linkback = "block_00033",
+        linknext = "block_00035",
+        line = 145
+    },
+    block_00035 = {
+        {"bg", time = 500, file = "ev_kuk_c04_11", path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01216", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「哈啊……呜，太香了……为了研究我得忍住，但呜……」"
+                }
+            }
+        },
+        linkback = "block_00034",
+        linknext = "block_00036",
+        line = 151
+    },
+    block_00036 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「哈哈，热衷于研究的玖玖瑠在美食面前也会动摇啊。」"
+                }
+            }
+        },
+        linkback = "block_00035",
+        linknext = "block_00037",
+        line = 155
+    },
+    block_00037 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_09", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01217", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「对我来说，食欲是特别的东西。",
+                    {"rt2"},
+                    "也是我和灯理加深友谊的契机。」"
+                }
+            }
+        },
+        linkback = "block_00036",
+        linknext = "block_00038",
+        line = 161
+    },
+    block_00038 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_10", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01218", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「所以……但是……呜……」"
+                }
+            }
+        },
+        linkback = "block_00037",
+        linknext = "block_00039",
+        line = 166
+    },
+    block_00039 = {
+        {"se", file = "seお腹が鳴る1", id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「既然是难得的约会，忍耐也不好，",
+                    {"rt2"},
+                    "不如尝试一下？」"
+                }
+            }
+        },
+        linkback = "block_00038",
+        linknext = "block_00040",
+        line = 174
+    },
+    block_00040 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「如果食欲得到满足，",
+                    {"rt2"},
+                    "对对方的关注程度会降低到什么程度呢？」"
+                }
+            }
+        },
+        linkback = "block_00039",
+        linknext = "block_00041",
+        line = 178
+    },
+    block_00041 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_07", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01219", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「原来如此。你说得很好。」"
+                }
+            }
+        },
+        linkback = "block_00040",
+        linknext = "block_00042",
+        line = 183
+    },
+    block_00042 = {
+        {"se", stop = 1, time = 500, id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「而且如果玖玖瑠不在这里吃，",
+                    {"rt2"},
+                    "那现在的状态还能继续约会吗？」"
+                }
+            }
+        },
+        linkback = "block_00041",
+        linknext = "block_00043",
+        line = 189
+    },
+    block_00043 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_08", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01220", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「这个……我觉得很有可能做不到。」"
+                }
+            }
+        },
+        linkback = "block_00042",
+        linknext = "block_00044",
+        line = 194
+    },
+    block_00044 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「那我们就吃吧。",
+                    {"rt2"},
+                    "今天的约会不一定要全部决定。」"
+                }
+            }
+        },
+        linkback = "block_00043",
+        linknext = "block_00045",
+        line = 198
+    },
+    block_00045 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「如果不行，下次还可以再试。」"
+                }
+            }
+        },
+        linkback = "block_00044",
+        linknext = "block_00046",
+        line = 201
+    },
+    block_00046 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_08", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01221", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「我不想拖得太久……",
+                    {"rt2"},
+                    "为了这个我昨天也做了准备。」"
+                }
+            }
+        },
+        linkback = "block_00045",
+        linknext = "block_00047",
+        line = 207
+    },
+    block_00047 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「准备是什么准备？」"
+                }
+            }
+        },
+        linkback = "block_00046",
+        linknext = "block_00048",
+        line = 210
+    },
+    block_00048 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_06", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01222", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「没事，没什么。",
+                    {"rt2"},
+                    "菜冷了就不好了，快吃吧。」"
+                }
+            }
+        },
+        linkback = "block_00047",
+        linknext = "block_00049",
+        line = 216
+    },
+    block_00049 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_12", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "玖玖瑠判断不需要担心，",
+                    {"rt2"},
+                    "毫不犹豫地开始吃起了菜。"
+                }
+            }
+        },
+        linkback = "block_00048",
+        linknext = "block_00050",
+        line = 221
+    },
+    block_00050 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "明明之前还很犹豫，现在却像仓鼠一样，",
+                    {"rt2"},
+                    "鼓起了脸颊。"
+                }
+            }
+        },
+        linkback = "block_00049",
+        linknext = "block_00051",
+        line = 224
+    },
+    block_00051 = {
+        {"text"},
+        text = {
+            ja = {
+                {"实在太可爱了，不禁笑出声来。"}
+            }
+        },
+        linkback = "block_00050",
+        linknext = "block_00052",
+        line = 226
+    },
+    block_00052 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_08", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01223", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯……？　你为什么在笑？」"
+                }
+            }
+        },
+        linkback = "block_00051",
+        linknext = "block_00053",
+        line = 231
+    },
+    block_00053 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「没事，只是觉得你吃得这么好看，",
+                    {"rt2"},
+                    "有点可爱而已。」"
+                }
+            }
+        },
+        linkback = "block_00052",
+        linknext = "block_00054",
+        line = 235
+    },
+    block_00054 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_06", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01224", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「……灯理和凪的感性很相似呢。",
+                    {"rt2"},
+                    "灯理每次也会这么说。」"
+                }
+            }
+        },
+        linkback = "block_00053",
+        linknext = "block_00055",
+        line = 241
+    },
+    block_00055 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「哦，原来你习惯被这么说了啊。」"
+                }
+            }
+        },
+        linkback = "block_00054",
+        linknext = "block_00056",
+        line = 244
+    },
+    block_00056 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_09", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01225", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「我对自己的容貌是有自知之明的。",
+                    {"rt2"},
+                    "所以，即使被说也不会感到害羞。」"
+                }
+            }
+        },
+        linkback = "block_00055",
+        linknext = "block_00057",
+        line = 250
+    },
+    block_00057 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我觉得玖玖瑠可爱，",
+                    {"rt2"},
+                    "并不仅仅是外表的问题。"
+                }
+            }
+        },
+        linkback = "block_00056",
+        linknext = "block_00058",
+        line = 253
+    },
+    block_00058 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "不过如果这么说的话，话题可能会变得复杂，",
+                    {"rt2"},
+                    "还是算了吧。"
+                }
+            }
+        },
+        linkback = "block_00057",
+        linknext = "block_00059",
+        line = 256
+    },
+    block_00059 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_13", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01226", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「咕噜咕噜，咕咕……咕噜咕噜。」"
+                }
+            }
+        },
+        linkback = "block_00058",
+        linknext = "block_00060",
+        line = 261
+    },
+    block_00060 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「说实话，你真是吃得很厉害啊……",
+                    {"rt2"},
+                    "而且，怎么能塞那么多东西进嘴里呢？」"
+                }
+            }
+        },
+        linkback = "block_00059",
+        linknext = "block_00061",
+        line = 265
+    },
+    block_00061 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_10", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01227", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「……不如别一直盯着我，自己吃自己的就好。",
+                    {"rt2"},
+                    "被盯着的话，真的很难吃。」"
+                }
+            }
+        },
+        linkback = "block_00060",
+        linknext = "block_00062",
+        line = 271
+    },
+    block_00062 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「果然有点害羞吧？」"
+                }
+            }
+        },
+        linkback = "block_00061",
+        linknext = "block_00063",
+        line = 274
+    },
+    block_00063 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01228", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「都是因为你一直看着我。",
+                    {"rt2"},
+                    "我也要报复一下，看看你。」"
+                }
+            }
+        },
+        linkback = "block_00062",
+        linknext = "block_00064",
+        line = 278
+    },
+    block_00064 = {
+        {"bg", zoom = 70, x = -100, y = 90, time = 500, file = "zev_kuk_c04_06", path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            ja = {
+                {"玖玖瑠一边咀嚼，一边认真地盯着我看。"}
+            }
+        },
+        linkback = "block_00063",
+        linknext = "block_00065",
+        line = 283
+    },
+    block_00065 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_c04_08", time = 400, path = ":ev/ev_kuk_c04/", zoom = 70, set = "ev_kuk_c04", ax = 1280, ay = 720, bx = -640, by = -360, x = -100, y = 90},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01229", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「果然你的饭量不算多吧？",
+                    {"rt2"},
+                    "真的只吃这么一点就够了吗？」"
+                }
+            }
+        },
+        linkback = "block_00064",
+        linknext = "block_00066",
+        line = 289
+    },
+    block_00066 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「不，这就是正常的量。快点意识到自己肚子的",
+                    {"rt2"},
+                    "容量有点问题吧。」"
+                }
+            }
+        },
+        linkback = "block_00065",
+        linknext = "block_00067",
+        line = 293
+    },
+    block_00067 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_c04_09", time = 400, path = ":ev/ev_kuk_c04/", zoom = 70, set = "ev_kuk_c04", ax = 1280, ay = 720, bx = -640, by = -360, x = -100, y = 90},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01230", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「人类的胃会随着食物的摄入而扩张。",
+                    {"rt2"},
+                    "大食的人喝大量水进行训练也是这个原因。」"
+                }
+            }
+        },
+        linkback = "block_00066",
+        linknext = "block_00068",
+        line = 299
+    },
+    block_00068 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_c04_07", time = 400, path = ":ev/ev_kuk_c04/", zoom = 70, set = "ev_kuk_c04", ax = 1280, ay = 720, bx = -640, by = -360, x = -100, y = 90},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01231", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「之前我只把一点点果冻当主食，",
+                    {"rt2"},
+                    "我的胃容量怎么可能大呢？」"
+                }
+            }
+        },
+        linkback = "block_00067",
+        linknext = "block_00069",
+        line = 305
+    },
+    block_00069 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01232", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「我绝对认为其他人只是食量小而已。」"
+                }
+            }
+        },
+        linkback = "block_00068",
+        linknext = "block_00070",
+        line = 308
+    },
+    block_00070 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「正因为我有这种确信，",
+                    {"rt2"},
+                    "所以我才觉得有必要指出这些……」"
+                }
+            }
+        },
+        linkback = "block_00069",
+        linknext = "block_00071",
+        line = 312
+    },
+    block_00071 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_c04_08", time = 400, path = ":ev/ev_kuk_c04/", zoom = 70, set = "ev_kuk_c04", ax = 1280, ay = 720, bx = -640, by = -360, x = -100, y = 90},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01233", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「每次看着凪我都会很担心。",
+                    {"rt2"},
+                    "你没在忍耐吧？会不会变瘦？」"
+                }
+            }
+        },
+        linkback = "block_00070",
+        linknext = "block_00072",
+        line = 318
+    },
+    block_00072 = {
+        {"quake", mode = "mw"},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「怎么可能会瘦！",
+                    {"rt2"},
+                    "我可是吃得跟普通人一样多。」"
+                }
+            }
+        },
+        linkback = "block_00071",
+        linknext = "block_00073",
+        line = 324
+    },
+    block_00073 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01234", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「是吗……虽然对女性来说还好，但",
+                    {"rt2"},
+                    "作为男性不爱吃东西却不瘦，这真的很奇怪。」"
+                }
+            }
+        },
+        linkback = "block_00072",
+        linknext = "block_00074",
+        line = 328
+    },
+    block_00074 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「在我看来，玖玖瑠你体重不增加反而更让人感到奇怪。」"
+                }
+            }
+        },
+        linkback = "block_00073",
+        linknext = "block_00075",
+        line = 332
+    },
+    block_00075 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「等自动机的研究结束后，",
+                    {"rt2"},
+                    "我甚至想研究一下你的身体。」"
+                }
+            }
+        },
+        linkback = "block_00074",
+        linknext = "block_00076",
+        line = 336
+    },
+    block_00076 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_c04_10", time = 400, path = ":ev/ev_kuk_c04/", zoom = 70, set = "ev_kuk_c04", ax = 1280, ay = 720, bx = -640, by = -360, x = -100, y = 90},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01235", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「…………」"
+                }
+            }
+        },
+        linkback = "block_00075",
+        linknext = "block_00077",
+        line = 341
+    },
+    block_00077 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01236", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「……听凪这么说，感觉有点猥亵呢。」"
+                }
+            }
+        },
+        linkback = "block_00076",
+        linknext = "block_00078",
+        line = 344
+    },
+    block_00078 = {
+        {"quake", mode = "mw"},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「哎！？」"
+                }
+            }
+        },
+        linkback = "block_00077",
+        linknext = "block_00079",
+        line = 349
+    },
+    block_00079 = {
+        {"cgdel", id = -1},
+        {"bg", time = 1000, rule = 139, wait = 500, file = "black", path = ":bg/", vague = 40},
+        {"bg", rule = 139, vague = 40, file = "ev_kuk_c04_01", path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "过了一会儿，我们点的菜肴",
+                    {"rt2"},
+                    "全部都干干净净地消失了。"
+                }
+            }
+        },
+        linkback = "block_00078",
+        linknext = "block_00080",
+        line = 357
+    },
+    block_00080 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「真的吃完了呢……」"
+                }
+            }
+        },
+        linkback = "block_00079",
+        linknext = "block_00081",
+        line = 360
+    },
+    block_00081 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "不仅没有剩下米粒，",
+                    {"rt2"},
+                    "看着你吃得那么痛快，真让人心情舒畅。"
+                }
+            }
+        },
+        linkback = "block_00080",
+        linknext = "block_00082",
+        line = 363
+    },
+    block_00082 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_02", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01237", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯，真的很好吃。",
+                    {"rt2"},
+                    "顺便点个甜点，给小费吧。」"
+                }
+            }
+        },
+        linkback = "block_00081",
+        linknext = "block_00083",
+        line = 369
+    },
+    block_00083 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「诶？」"
+                }
+            }
+        },
+        linkback = "block_00082",
+        linknext = "block_00084",
+        line = 372
+    },
+    block_00084 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_01", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01238", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯？给小费是失礼吗？」"
+                }
+            }
+        },
+        linkback = "block_00083",
+        linknext = "block_00085",
+        line = 377
+    },
+    block_00085 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「不是，我觉得那是受欢迎的，但不是这个意思。",
+                    {"rt2"},
+                    "你还打算继续吃吗？」"
+                }
+            }
+        },
+        linkback = "block_00084",
+        linknext = "block_00086",
+        line = 381
+    },
+    block_00086 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_02", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01239", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「特别为了你，我要现场展示一下",
+                    {"rt2"},
+                    "女孩子对甜食的特殊胃口。」"
+                }
+            }
+        },
+        linkback = "block_00085",
+        linknext = "block_00087",
+        line = 387
+    },
+    block_00087 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「有点害怕了……",
+                    {"rt2"},
+                    "等等，这家店有甜点吗？」"
+                }
+            }
+        },
+        linkback = "block_00086",
+        linknext = "block_00088",
+        line = 391
+    },
+    block_00088 = {
+        {"text"},
+        text = {
+            ja = {
+                {"查看菜单，但没有这样的项目。"}
+            }
+        },
+        linkback = "block_00087",
+        linknext = "block_00089",
+        line = 393
+    },
+    block_00089 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「看起来是没有。可以喝果汁吗？」"
+                }
+            }
+        },
+        linkback = "block_00088",
+        linknext = "block_00090",
+        line = 396
+    },
+    block_00090 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_04", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01240", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「真遗憾……这家店的甜点绝对好吃。」"
+                }
+            }
+        },
+        linkback = "block_00089",
+        linknext = "block_00091",
+        line = 402
+    },
+    block_00091 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_och_00001", ch = "och"}
+            },
+            ja = {
+                {
+                    name = {"おっちゃん"},
+                    "「我听你说的事了。」"
+                }
+            }
+        },
+        linkback = "block_00090",
+        linknext = "block_00092",
+        line = 405
+    },
+    block_00092 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_02", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01241", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「哦，店主。",
+                    {"rt2"},
+                    "味道真棒，谢谢你。」"
+                }
+            }
+        },
+        linkback = "block_00091",
+        linknext = "block_00093",
+        line = 411
+    },
+    block_00093 = {
+        {"text"},
+        text = {
+            ja = {
+                {"玖玖瑠把折叠好的钞票递给店主。"}
+            }
+        },
+        linkback = "block_00092",
+        linknext = "block_00094",
+        line = 413
+    },
+    block_00094 = {
+        {"quake", mode = "mw"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_och_00002", ch = "och"}
+            },
+            ja = {
+                {
+                    name = {"おっちゃん"},
+                    "「哇！？真是大方啊。」"
+                }
+            }
+        },
+        linkback = "block_00093",
+        linknext = "block_00095",
+        line = 418
+    },
+    block_00095 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01242", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「有价值的东西应该有相应的回报。",
+                    {"rt2"},
+                    "我想为店主的料理付钱。」"
+                }
+            }
+        },
+        linkback = "block_00094",
+        linknext = "block_00096",
+        line = 422
+    },
+    block_00096 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_och_00003", ch = "och"}
+            },
+            ja = {
+                {
+                    name = {"おっちゃん"},
+                    "「哈哈，吃得也不错，",
+                    {"rt2"},
+                    "而且人也很爽快。」"
+                }
+            }
+        },
+        linkback = "block_00095",
+        linknext = "block_00097",
+        line = 426
+    },
+    block_00097 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_och_00004", ch = "och"}
+            },
+            ja = {
+                {
+                    name = {"おっちゃん"},
+                    "「这么说的话，我就得准备了。」"
+                }
+            }
+        },
+        linkback = "block_00096",
+        linknext = "block_00098",
+        line = 429
+    },
+    block_00098 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_01", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01243", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「有甜点吗？」"
+                }
+            }
+        },
+        linkback = "block_00097",
+        linknext = "block_00099",
+        line = 434
+    },
+    block_00099 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_och_00005", ch = "och"}
+            },
+            ja = {
+                {
+                    name = {"おっちゃん"},
+                    "「本来是我自己的零食，",
+                    {"rt2"},
+                    "但为了小姐你的心意，我可不能让男人失礼啊。」"
+                }
+            }
+        },
+        linkback = "block_00098",
+        linknext = "block_00100",
+        line = 438
+    },
+    block_00100 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_05", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01244", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「谢谢你！我已经想吃甜点了，",
+                    {"rt2"},
+                    "不吃就没法满足。」"
+                }
+            }
+        },
+        linkback = "block_00099",
+        linknext = "block_00101",
+        line = 444
+    },
+    block_00101 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_och_00006", ch = "och"}
+            },
+            ja = {
+                {
+                    name = {"おっちゃん"},
+                    "「好的！那我去拿，",
+                    {"rt2"},
+                    "稍等一下。」"
+                }
+            }
+        },
+        linkback = "block_00100",
+        linknext = "block_00102",
+        line = 448
+    },
+    block_00102 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01245", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「真是个细心的叔叔。菜做得也很好，",
+                    {"rt2"},
+                    "这里真是个好店。」"
+                }
+            }
+        },
+        linkback = "block_00101",
+        linknext = "block_00103",
+        line = 452
+    },
+    block_00103 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「果然对食欲全力以赴啊……」"
+                }
+            }
+        },
+        linkback = "block_00102",
+        linknext = "block_00104",
+        line = 455
+    },
+    block_00104 = {
+        {"bgm", stop = 1},
+        {"cgdel", id = -1},
+        {"bg", time = 1000, rule = 139, wait = 500, file = "black", path = ":bg/", vague = 40},
+        {"bg", rule = 139, vague = 40, file = "ev_kuk_c04_02", path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_och_00007", ch = "och"}
+            },
+            ja = {
+                {
+                    name = {"おっちゃん"},
+                    "「久等了！这是我精心制作的",
+                    {"rt2"},
+                    "特别燃烧布丁！」"
+                }
+            }
+        },
+        linkback = "block_00103",
+        linknext = "block_00105",
+        line = 463
+    },
+    block_00105 = {
+        {"se", file = "seコミ_物を出す", id = 1},
+        {"msgoff"},
+        {"bg", time = 500, file = "ev_kuk_c04_21", path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04", sync = 0},
+        {"bg", lv = 8, id = 8, file = "line2", time = 400, notone = 1, path = ":ani/", sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "老头端来的大盘子上，放着一个惊人巨大、",
+                    {"rt2"},
+                    "配料满满的布丁。"
+                }
+            }
+        },
+        linkback = "block_00104",
+        linknext = "block_00106",
+        line = 474
+    },
+    block_00106 = {
+        {"se", stop = 1, time = 500, id = 1},
+        {"cgdel", lv = 8, id = 8, time = 400},
+        {"bgm", file = "bgm21"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01246", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「哇啊啊……好大……太厉害了……」"
+                }
+            }
+        },
+        linkback = "block_00105",
+        linknext = "block_00107",
+        line = 482
+    },
+    block_00107 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「老头，这样吃零食可是会死的。",
+                    {"rt2"},
+                    "要注意糖尿病和血压啊。」"
+                }
+            }
+        },
+        linkback = "block_00106",
+        linknext = "block_00108",
+        line = 486
+    },
+    block_00108 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_och_00008", ch = "och"}
+            },
+            ja = {
+                {
+                    name = {"おっちゃん"},
+                    "「你在说什么。",
+                    {"rt2"},
+                    "如果能吃到好东西就死，那也算是本愿吧。」"
+                }
+            }
+        },
+        linkback = "block_00107",
+        linknext = "block_00109",
+        line = 490
+    },
+    block_00109 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_20", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01247", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「没错没错～」"
+                }
+            }
+        },
+        linkback = "block_00108",
+        linknext = "block_00110",
+        line = 495
+    },
+    block_00110 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「呜、我的发言应该是正确的，",
+                    {"rt2"},
+                    "却没有支持我的人……！」"
+                }
+            }
+        },
+        linkback = "block_00109",
+        linknext = "block_00111",
+        line = 499
+    },
+    block_00111 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_och_00009", ch = "och"}
+            },
+            ja = {
+                {
+                    name = {"おっちゃん"},
+                    "「来来，姑娘。快吃吧」"
+                }
+            }
+        },
+        linkback = "block_00110",
+        linknext = "block_00112",
+        line = 502
+    },
+    block_00112 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「如果太多的话就直说啊」"
+                }
+            }
+        },
+        linkback = "block_00111",
+        linknext = "block_00113",
+        line = 505
+    },
+    block_00113 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_15", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01248", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「没问题，甜点是另一个胃嘛」"
+                }
+            }
+        },
+        linkback = "block_00112",
+        linknext = "block_00114",
+        line = 510
+    },
+    block_00114 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「……我也不想再说什么了」"
+                }
+            }
+        },
+        linkback = "block_00113",
+        linknext = "block_00115",
+        line = 513
+    },
+    block_00115 = {
+        {"bg", zoom = 70, x = -100, y = 90, time = 500, file = "zev_kuk_c04_18", path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "玖玖瑠用勺子舀起那高耸如山的布丁，",
+                    {"rt2"},
+                    "开始吃起来。"
+                }
+            }
+        },
+        linkback = "block_00114",
+        linknext = "block_00116",
+        line = 518
+    },
+    block_00116 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "虽然看起来吃得很美味，但因为勺子有点小，",
+                    {"rt2"},
+                    "布丁减少的速度却慢得很。"
+                }
+            }
+        },
+        linkback = "block_00115",
+        linknext = "block_00117",
+        line = 521
+    },
+    block_00117 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_c04_19", time = 400, path = ":ev/ev_kuk_c04/", zoom = 70, set = "ev_kuk_c04", ax = 1280, ay = 720, bx = -640, by = -360, x = -100, y = 90},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "只要玖玖瑠幸福的样子能持续，",
+                    {"rt2"},
+                    "那也没什么不好。"
+                }
+            }
+        },
+        linkback = "block_00116",
+        linknext = "block_00118",
+        line = 526
+    },
+    block_00118 = {
+        {"quake"},
+        {"se", file = "seスパンキング", id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {"正想着这些时，背后被重重拍了一下。"}
+            }
+        },
+        linkback = "block_00117",
+        linknext = "block_00119",
+        line = 532
+    },
+    block_00119 = {
+        {"se", stop = 1, time = 500, id = 1},
+        {"bg", time = 500, file = "ev_kuk_c04_19", path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_och_00010", ch = "och"}
+            },
+            ja = {
+                {
+                    name = {"おっちゃん"},
+                    "「凪，你真是找了个好女孩啊」"
+                }
+            }
+        },
+        linkback = "block_00118",
+        linknext = "block_00120",
+        line = 538
+    },
+    block_00120 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_16", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"quake", mode = "mw"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01249", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「嗯、呜……咳咳咳」"
+                }
+            }
+        },
+        linkback = "block_00119",
+        linknext = "block_00121",
+        line = 544
+    },
+    block_00121 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「喂，你没事吧？",
+                    {"rt2"},
+                    "这么急着吃可不行啊。」"
+                }
+            }
+        },
+        linkback = "block_00120",
+        linknext = "block_00122",
+        line = 548
+    },
+    block_00122 = {
+        {"text"},
+        delay = {
+            vl01 = {
+                {"bg", sync = 0, face = 1, file = "ev_kuk_c04_14", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01250", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「原因不是这个……我想可能是被误解了，",
+                    {"rt2"},
+                    "所以我得说，我们还不是女朋友的关系。」"
+                }
+            }
+        },
+        linkback = "block_00121",
+        linknext = "block_00123",
+        line = 554
+    },
+    block_00123 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_och_00011", ch = "och"}
+            },
+            ja = {
+                {
+                    name = {"おっちゃん"},
+                    "「还不是啊。至少说明还有机会嘛。」"
+                }
+            }
+        },
+        linkback = "block_00122",
+        linknext = "block_00124",
+        line = 557
+    },
+    block_00124 = {
+        {"bg", sync = 0, face = 1, file = "ev_kuk_c04_17", time = 400, path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01251", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「……我不喜欢你这样揪着小辫子。」"
+                }
+            }
+        },
+        linkback = "block_00123",
+        linknext = "block_00125",
+        line = 562
+    },
+    block_00125 = {
+        {"text"},
+        text = {
+            ja = {
+                {"虽然目光飘忽不定，玖玖瑠还是继续吃着布丁。"}
+            }
+        },
+        linkback = "block_00124",
+        linknext = "block_00126",
+        line = 564
+    },
+    block_00126 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "一旦害羞，她的表情就会明显变得僵硬，",
+                    {"rt2"},
+                    "真是个可爱的家伙。"
+                }
+            }
+        },
+        linkback = "block_00125",
+        linknext = "block_00127",
+        line = 567
+    },
+    block_00127 = {
+        {"bg", zoom = 70, x = -100, y = 90, time = 500, file = "zev_kuk_c04_17", path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            ja = {
+                {"我伸手抚摸了摸玖玖瑠的头。"}
+            }
+        },
+        linkback = "block_00126",
+        linknext = "block_00128",
+        line = 571
+    },
+    block_00128 = {
+        {"bg", sync = 0, face = 1, file = "zev_kuk_c04_14", time = 400, path = ":ev/ev_kuk_c04/", zoom = 70, set = "ev_kuk_c04", ax = 1280, ay = 720, bx = -640, by = -360, x = -100, y = 90},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01252", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「……什么？」"
+                }
+            }
+        },
+        linkback = "block_00127",
+        linknext = "block_00129",
+        line = 576
+    },
+    block_00129 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「没什么，只是感觉而已？」"
+                }
+            }
+        },
+        linkback = "block_00128",
+        linknext = "block_00130",
+        line = 579
+    },
+    block_00130 = {
+        {"text"},
+        delay = {
+            vl01 = {
+                {"bg", sync = 0, face = 1, file = "zev_kuk_c04_17", time = 400, path = ":ev/ev_kuk_c04/", zoom = 70, set = "ev_kuk_c04", ax = 1280, ay = 720, bx = -640, by = -360, x = -100, y = 90}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01253", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「……哼，没关系啦。",
+                    {"rt2"},
+                    "如果吃得不舒服就告诉我。」"
+                }
+            }
+        },
+        linkback = "block_00129",
+        linknext = "block_00131",
+        line = 585
+    },
+    block_00131 = {
+        {"bg", time = 500, file = "ev_kuk_c04_19", path = ":ev/ev_kuk_c04/", set = "ev_kuk_c04"},
+        {"text"},
+        text = {
+            ja = {
+                {"她的眼睛曾经看向这边，随后又回到了原来的方向。"}
+            }
+        },
+        linkback = "block_00130",
+        linknext = "block_00132",
+        line = 589
+    },
+    block_00132 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_och_00012", ch = "och"}
+            },
+            ja = {
+                {
+                    name = {"おっちゃん"},
+                    "「真是青春啊。」"
+                }
+            }
+        },
+        linkback = "block_00131",
+        linknext = "block_00133",
+        line = 592
+    },
+    block_00133 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_och_00013", ch = "och"}
+            },
+            ja = {
+                {
+                    name = {"おっちゃん"},
+                    "「我也很喜欢小姑娘你，",
+                    {"rt2"},
+                    "如果有机会再来这附近的话，记得来看看我哦？」"
+                }
+            }
+        },
+        linkback = "block_00132",
+        linknext = "block_00134",
+        line = 596
+    },
+    block_00134 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_och_00014", ch = "och"}
+            },
+            ja = {
+                {
+                    name = {"おっちゃん"},
+                    "「下次我还会给你服务的。」"
+                }
+            }
+        },
+        linkback = "block_00133",
+        linknext = "block_00135",
+        line = 599
+    },
+    block_00135 = {
+        {"text"},
+        text = {
+            ja = {
+                {"玖玖瑠一边点头，一边继续吃着布丁。"}
+            }
+        },
+        linkback = "block_00134",
+        linknext = "block_00136",
+        line = 602
+    },
+    block_00136 = {
+        {"bgm", stop = 1, time = 1000},
+        {"se", stop = 1, id = -1, time = 1000},
+        {"vostop", stop = 1, time = 1000},
+        {"ntclear"},
+        {"cgdel", id = -1},
+        {"bg", time = 1000, file = "black", path = ":bg/"},
+        {"cacheclear"},
+        {"ex", time = 1000, func = "wait"},
+        {"excall", file = "04_くくる_05_3"},
+        {"text"},
+        linkback = "block_00135",
+        line = 605
+    },
+    label = {
+        top = {block = "block_00000", label = 1}
+    }
+}

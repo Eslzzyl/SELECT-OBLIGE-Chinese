@@ -1,0 +1,1720 @@
+astver = 2.0
+astname = "ast"
+ast = {
+    block_00000 = {
+        {"savetitle", text = "くくるのために"},
+        {"bg", file = "bg099a", path = ":bg/"},
+        {"bgm", file = "bgm06"},
+        {"text"},
+        text = {
+            ja = {
+                {"期待已久的星期天终于来了。"}
+            }
+        },
+        linknext = "block_00001",
+        line = 16
+    },
+    block_00001 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "为了这一天，我读了很多少女漫画、",
+                    {"rt2"},
+                    "色情书籍和杂志。"
+                }
+            }
+        },
+        linkback = "block_00000",
+        linknext = "block_00002",
+        line = 19
+    },
+    block_00002 = {
+        {"text"},
+        text = {
+            ja = {
+                {"从テイオ—那里借来的游戏也已经通关。"}
+            }
+        },
+        linkback = "block_00001",
+        linknext = "block_00003",
+        line = 21
+    },
+    block_00003 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "一切准备就绪。",
+                    {"rt2"},
+                    "那么，玖玖瑠现在怎么样了……。"
+                }
+            }
+        },
+        linkback = "block_00002",
+        linknext = "block_00004",
+        line = 24
+    },
+    block_00004 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "想着这些，我朝着约定的地点，",
+                    {"rt2"},
+                    "科学部的研究室走去。"
+                }
+            }
+        },
+        linkback = "block_00003",
+        linknext = "block_00005",
+        line = 27
+    },
+    block_00005 = {
+        {"cgdel", id = -1},
+        {"bg", time = 1000, rule = "083r", wait = 250, file = "black", path = ":bg/", vague = 40},
+        {"se", file = "seドア(室内開き)", id = 1},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "bg018a", path = ":bg/", sync = 0},
+        {"fg", ch = "七", size = "no", mode = 3, path = ":fg/nan/no/", file = "nan_noa0410", face = "a0003", head = "nan_noa", ex05 = "nan_noa0010", lv = 3, id = 13, sync = 0},
+        {"extrans", rule = "083r", vague = 40},
+        {"se", stop = 1, time = 500, id = 1},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "七", size = "no", mode = 3, path = ":fg/nan/no/", file = "nan_noa0410", face = "a0004", head = "nan_noa", ex05 = "nan_noa0010", lv = 3, id = 13}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00203", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「嘿，布波能。",
+                    {"rt2"},
+                    "你来得比集合时间还早，真让人佩服。」"
+                }
+            }
+        },
+        linkback = "block_00004",
+        linknext = "block_00006",
+        line = 44
+    },
+    block_00006 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「因为我一直在期待今天啊。」"
+                }
+            }
+        },
+        linkback = "block_00005",
+        linknext = "block_00007",
+        line = 47
+    },
+    block_00007 = {
+        {"fg", ch = "七", size = "no", mode = 3, path = ":fg/nan/no/", file = "nan_noa0410", face = "a0018", head = "nan_noa", ex05 = "nan_noa0010", lv = 3, id = 13},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "七", size = "no", mode = 3, path = ":fg/nan/no/", file = "nan_noa0410", face = "a0015", head = "nan_noa", ex05 = "nan_noa0010", lv = 3, id = 13}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00204", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「哦，你这么渴望色情的话题啊。",
+                    {"rt2"},
+                    "青春期的男孩真是辛苦呢。」"
+                }
+            }
+        },
+        linkback = "block_00006",
+        linknext = "block_00008",
+        line = 54
+    },
+    block_00008 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我不否认，但也不仅仅是这个。」"
+                }
+            }
+        },
+        linkback = "block_00007",
+        linknext = "block_00009",
+        line = 57
+    },
+    block_00009 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我希望玖玖瑠能看少女漫画，",
+                    {"rt2"},
+                    "稍微多注意一下我就好了呢——。」"
+                }
+            }
+        },
+        linkback = "block_00008",
+        linknext = "block_00010",
+        line = 61
+    },
+    block_00010 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「得到更多知识的结果，果然还是不一样。",
+                    {"rt2"},
+                    "虽然可能会被说成这样。」"
+                }
+            }
+        },
+        linkback = "block_00009",
+        linknext = "block_00011",
+        line = 65
+    },
+    block_00011 = {
+        {"fg", ch = "七", size = "no", mode = 3, path = ":fg/nan/no/", file = "nan_noa0410", face = "a0009", head = "nan_noa", ex05 = "nan_noa0010", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00205", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「因为期待和恐惧各占一半，",
+                    {"rt2"},
+                    "所以肾上腺素比平时多分泌了。」"
+                }
+            }
+        },
+        linkback = "block_00010",
+        linknext = "block_00012",
+        line = 71
+    },
+    block_00012 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「别这么冷静分析。」"
+                }
+            }
+        },
+        linkback = "block_00011",
+        linknext = "block_00013",
+        line = 74
+    },
+    block_00013 = {
+        {"fg", ch = "七", size = "no", mode = 3, path = ":fg/nan/no/", file = "nan_noa0400", face = "a0051", head = "nan_noa", ex05 = "nan_noa0000", lv = 3, id = 13},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "七", size = "no", mode = 3, path = ":fg/nan/no/", file = "nan_noa0400", face = "a0002", head = "nan_noa", ex05 = "nan_noa0000", lv = 3, id = 13}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00206", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「在情感研究方面我的工作不多。",
+                    {"rt2"},
+                    "我想好好观察和跟进你们。」"
+                }
+            }
+        },
+        linkback = "block_00012",
+        linknext = "block_00014",
+        line = 81
+    },
+    block_00014 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「你可以讲讲七的恋爱经验啊。」"
+                }
+            }
+        },
+        linkback = "block_00013",
+        linknext = "block_00015",
+        line = 84
+    },
+    block_00015 = {
+        {"fg", ch = "七", size = "no", mode = 3, path = ":fg/nan/no/", file = "nan_noa0400", face = "a0014", head = "nan_noa", ex05 = "nan_noa0000", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00207", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「没有的东西是无法讲述的。",
+                    {"rt2"},
+                    "我和那种东西是无缘的。」"
+                }
+            }
+        },
+        linkback = "block_00014",
+        linknext = "block_00016",
+        line = 90
+    },
+    block_00016 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「七那么美，",
+                    {"rt2"},
+                    "我觉得有恋人也不奇怪……。」"
+                }
+            }
+        },
+        linkback = "block_00015",
+        linknext = "block_00017",
+        line = 94
+    },
+    block_00017 = {
+        {"fg", ch = "七", size = "no", mode = 3, path = ":fg/nan/no/", file = "nan_noa0400", face = "a0023", head = "nan_noa", ex05 = "nan_noa0000", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00208", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「如果有恋人，就不会在科学部的部室里",
+                    {"rt2"},
+                    "待这么久了。」"
+                }
+            }
+        },
+        linkback = "block_00016",
+        linknext = "block_00018",
+        line = 100
+    },
+    block_00018 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「基本上我就是在这里住下来了嘛。」"
+                }
+            }
+        },
+        linkback = "block_00017",
+        linknext = "block_00019",
+        line = 103
+    },
+    block_00019 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", y = 15, file = "zbg018a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "七", size = "z1", mode = 3, resize = 1, path = ":fg/nan/z1/", file = "nan_z1a0400", face = "a0001", head = "nan_z1a", ex05 = "nan_z1a0000", lv = 4, id = 13, sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「七的家很远吗？」"
+                }
+            }
+        },
+        linkback = "block_00018",
+        linknext = "block_00020",
+        line = 113
+    },
+    block_00020 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0400", face = "a0003", head = "nan_z1a", ex05 = "nan_z1a0000", lv = 4, id = 13},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0410", face = "a0010", head = "nan_z1a", ex05 = "nan_z1a0010", lv = 4, id = 13}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00209", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「不，我在宿舍租了个房间。",
+                    {"rt2"},
+                    "不过，回到房间也没什么事可做。」"
+                }
+            }
+        },
+        linkback = "block_00019",
+        linknext = "block_00021",
+        line = 120
+    },
+    block_00021 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0410", face = "a0014", head = "nan_z1a", ex05 = "nan_z1a0010", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00210", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「所以我就不知不觉待在部室继续研究。」"
+                }
+            }
+        },
+        linkback = "block_00020",
+        linknext = "block_00022",
+        line = 125
+    },
+    block_00022 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0410", face = "a0013", head = "nan_z1a", ex05 = "nan_z1a0010", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00211", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「即便如此，时间还是不够，真让人头疼。」"
+                }
+            }
+        },
+        linkback = "block_00021",
+        linknext = "block_00023",
+        line = 130
+    },
+    block_00023 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0410", face = "a0015", head = "nan_z1a", ex05 = "nan_z1a0010", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00212", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「如果没有课程的话，",
+                    {"rt2"},
+                    "我就能花更多时间在研究上了。」"
+                }
+            }
+        },
+        linkback = "block_00022",
+        linknext = "block_00024",
+        line = 136
+    },
+    block_00024 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「这话可真不像学生说的。」"
+                }
+            }
+        },
+        linkback = "block_00023",
+        linknext = "block_00025",
+        line = 139
+    },
+    block_00025 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0400", face = "a0052", head = "nan_z1a", ex05 = "nan_z1a0000", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00213", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「我们正在努力完成自动人偶这一伟大事业。」"
+                }
+            }
+        },
+        linkback = "block_00024",
+        linknext = "block_00026",
+        line = 145
+    },
+    block_00026 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0400", face = "a0005", head = "nan_z1a", ex05 = "nan_z1a0000", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00214", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「如果这个研究成功了，",
+                    {"rt2"},
+                    "将会对各个领域产生影响。」"
+                }
+            }
+        },
+        linkback = "block_00025",
+        linknext = "block_00027",
+        line = 151
+    },
+    block_00027 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0400", face = "a0053", head = "nan_z1a", ex05 = "nan_z1a0000", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00215", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「虽然是声望很高的樱元学园，但课程内容不过是",
+                    {"rt2"},
+                    "学生所需知识的程度罢了。」"
+                }
+            }
+        },
+        linkback = "block_00026",
+        linknext = "block_00028",
+        line = 157
+    },
+    block_00028 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0400", face = "a0006", head = "nan_z1a", ex05 = "nan_z1a0000", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00216", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「如果把自动人偶研究和其他相比，",
+                    {"rt2"},
+                    "哪个更重要显而易见。」"
+                }
+            }
+        },
+        linkback = "block_00027",
+        linknext = "block_00029",
+        line = 163
+    },
+    block_00029 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我知道是这样，但我基础薄弱。",
+                    {"rt2"},
+                    "能上课已经很感激了。」"
+                }
+            }
+        },
+        linkback = "block_00028",
+        linknext = "block_00030",
+        line = 167
+    },
+    block_00030 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0410", face = "a0010", head = "nan_z1a", ex05 = "nan_z1a0010", lv = 4, id = 13},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0410", face = "a0052", head = "nan_z1a", ex05 = "nan_z1a0010", lv = 4, id = 13}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00217", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「嗯，这倒也是……。那么为了这样的学生，",
+                    {"rt2"},
+                    "要不要考虑选择性课程呢？」"
+                }
+            }
+        },
+        linkback = "block_00029",
+        linknext = "block_00031",
+        line = 174
+    },
+    block_00031 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「那样的话，翘课的人会更多啊。」"
+                }
+            }
+        },
+        linkback = "block_00030",
+        linknext = "block_00032",
+        line = 177
+    },
+    block_00032 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0410", face = "a0024", head = "nan_z1a", ex05 = "nan_z1a0010", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00218", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「翘课……。",
+                    {"rt2"},
+                    "这种想法可不在我的考虑范围内。」"
+                }
+            }
+        },
+        linkback = "block_00031",
+        linknext = "block_00033",
+        line = 183
+    },
+    block_00033 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「没想到七居然这么认真呢。」"
+                }
+            }
+        },
+        linkback = "block_00032",
+        linknext = "block_00034",
+        line = 186
+    },
+    block_00034 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0410", face = "a0023", head = "nan_z1a", ex05 = "nan_z1a0010", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00219", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「认真倒谈不上，基本上是个书呆子。」"
+                }
+            }
+        },
+        linkback = "block_00033",
+        linknext = "block_00035",
+        line = 191
+    },
+    block_00035 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0410", face = "a0009", head = "nan_z1a", ex05 = "nan_z1a0010", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00220", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「我被教导要遵守规矩，",
+                    {"rt2"},
+                    "除非是非常特殊的情况，否则不会违反。」"
+                }
+            }
+        },
+        linkback = "block_00034",
+        linknext = "block_00036",
+        line = 197
+    },
+    block_00036 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0410", face = "a0013", head = "nan_z1a", ex05 = "nan_z1a0010", lv = 4, id = 13},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0410", face = "a0015", head = "nan_z1a", ex05 = "nan_z1a0010", lv = 4, id = 13}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00221", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「不……根本没有违反的想法。",
+                    {"rt2"},
+                    "我很听话地遵守规则。」"
+                }
+            }
+        },
+        linkback = "block_00035",
+        linknext = "block_00037",
+        line = 204
+    },
+    block_00037 = {
+        {"bg", y = 360, speed = 60000, file = "zbg018a", path = ":bg/", x2 = 0, y2 = -360, x = 0, ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            ja = {
+                {"七看向了显示器。"}
+            }
+        },
+        linkback = "block_00036",
+        linknext = "block_00038",
+        line = 208
+    },
+    block_00038 = {
+        {"fg", ch = "七", size = "no", mode = 1, resize = 1, path = ":fg/nan/no/", file = "nan_noa0400", face = "a0052", head = "nan_noa", ex05 = "nan_noa0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00222", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「不过，",
+                    {"rt2"},
+                    "比起蒙斯特拉，我还是灵活得多呢。」"
+                }
+            }
+        },
+        linkback = "block_00037",
+        linknext = "block_00039",
+        line = 214
+    },
+    block_00039 = {
+        {"fg", ch = "七", size = "no", mode = 1, path = ":fg/nan/no/", file = "nan_noa0400", face = "a0001", head = "nan_noa", ex05 = "nan_noa0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00223", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「喂，布波能。你觉得给自动人偶装载情感和心灵这件事怎么",
+                    {"rt2"},
+                    "样？」"
+                }
+            }
+        },
+        linkback = "block_00038",
+        linknext = "block_00040",
+        line = 220
+    },
+    block_00040 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「怎么了……？」"
+                }
+            }
+        },
+        linkback = "block_00039",
+        linknext = "block_00041",
+        line = 223
+    },
+    block_00041 = {
+        {"fg", ch = "七", size = "no", mode = 1, path = ":fg/nan/no/", file = "nan_noa0410", face = "a0024", head = "nan_noa", ex05 = "nan_noa0010", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00224", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「我觉得自己就是个矛盾的集合体。」"
+                }
+            }
+        },
+        linkback = "block_00040",
+        linknext = "block_00042",
+        line = 228
+    },
+    block_00042 = {
+        {"fg", ch = "七", size = "no", mode = 1, path = ":fg/nan/no/", file = "nan_noa0410", face = "a0009", head = "nan_noa", ex05 = "nan_noa0010", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00225", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「要顺从，要准确，要正常。」"
+                }
+            }
+        },
+        linkback = "block_00041",
+        linknext = "block_00043",
+        line = 233
+    },
+    block_00043 = {
+        {"fg", ch = "七", size = "no", mode = 1, path = ":fg/nan/no/", file = "nan_noa0410", face = "a0010", head = "nan_noa", ex05 = "nan_noa0010", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00226", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「在追求逻辑的事物上，赋予思考和心灵这些",
+                    {"rt2"},
+                    "充满矛盾的东西。」"
+                }
+            }
+        },
+        linkback = "block_00042",
+        linknext = "block_00044",
+        line = 239
+    },
+    block_00044 = {
+        {"fg", ch = "七", size = "no", mode = 1, path = ":fg/nan/no/", file = "nan_noa0410", face = "a0015", head = "nan_noa", ex05 = "nan_noa0010", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00227", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「不顺利是理所当然的，对吧？」"
+                }
+            }
+        },
+        linkback = "block_00043",
+        linknext = "block_00045",
+        line = 244
+    },
+    block_00045 = {
+        {"fg", ch = "七", size = "no", mode = 1, path = ":fg/nan/no/", file = "nan_noa0410", face = "a0001", head = "nan_noa", ex05 = "nan_noa0010", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00228", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「这个国家最早构想自动人偶的人，",
+                    {"rt2"},
+                    "到底是为了什么目的呢？」"
+                }
+            }
+        },
+        linkback = "block_00044",
+        linknext = "block_00046",
+        line = 250
+    },
+    block_00046 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", y = 15, file = "zbg018a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "七", size = "z1", mode = 3, resize = 1, path = ":fg/nan/z1/", file = "nan_z1a0410", face = "a0001", head = "nan_z1a", ex05 = "nan_z1a0010", lv = 4, id = 13, sync = 0},
+        {"extrans"},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「七是因为想知道这个，",
+                    {"rt2"},
+                    "在研究自动人偶吗？」"
+                }
+            }
+        },
+        linkback = "block_00045",
+        linknext = "block_00047",
+        line = 261
+    },
+    block_00047 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0400", face = "a0052", head = "nan_z1a", ex05 = "nan_z1a0000", lv = 4, id = 13},
+        {"fgact", ch = "七", act = "いいえ", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00229", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「不，没错。」"
+                }
+            }
+        },
+        linkback = "block_00046",
+        linknext = "block_00048",
+        line = 267
+    },
+    block_00048 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0400", face = "a0001", head = "nan_z1a", ex05 = "nan_z1a0000", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00230", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「我的目的是创造出超越完全自律型自动人偶的东西，",
+                    {"rt2"},
+                    "把这项技术留给后世。」"
+                }
+            }
+        },
+        linkback = "block_00047",
+        linknext = "block_00049",
+        line = 273
+    },
+    block_00049 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0400", face = "a0010", head = "nan_z1a", ex05 = "nan_z1a0000", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00231", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「如果在这个过程中能明白那个人当时的想法，",
+                    {"rt2"},
+                    "那对我来说就没有比这更大的成就了……」"
+                }
+            }
+        },
+        linkback = "block_00048",
+        linknext = "block_00050",
+        line = 279
+    },
+    block_00050 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0400", face = "a0002", head = "nan_z1a", ex05 = "nan_z1a0000", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00232", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「这只是顺便提到的事情而已。」"
+                }
+            }
+        },
+        linkback = "block_00049",
+        linknext = "block_00051",
+        line = 284
+    },
+    block_00051 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0400", face = "a0006", head = "nan_z1a", ex05 = "nan_z1a0000", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00233", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「顺便提一下，我说这个故事是因为布波能是第二个。",
+                    {"rt2"},
+                    "你可得好好记住。」"
+                }
+            }
+        },
+        linkback = "block_00050",
+        linknext = "block_00052",
+        line = 290
+    },
+    block_00052 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「这么印象深刻的对话，怎么可能忘记呢。」"
+                }
+            }
+        },
+        linkback = "block_00051",
+        linknext = "block_00053",
+        line = 293
+    },
+    block_00053 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0400", face = "a0015", head = "nan_z1a", ex05 = "nan_z1a0000", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00234", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「……我也希望如此。」"
+                }
+            }
+        },
+        linkback = "block_00052",
+        linknext = "block_00054",
+        line = 298
+    },
+    block_00054 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "bg018a", path = ":bg/", sync = 0},
+        {"fg", ch = "七", size = "no", mode = 3, resize = 1, path = ":fg/nan/no/", file = "nan_noa0410", face = "a0022", head = "nan_noa", ex05 = "nan_noa0010", lv = 3, id = 13, sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00235", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「不过，玖玖瑠还没来呢。",
+                    {"rt2"},
+                    "这也太迟了吧？」"
+                }
+            }
+        },
+        linkback = "block_00053",
+        linknext = "block_00055",
+        line = 309
+    },
+    block_00055 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「有点担心，要不要去看看她的情况。」"
+                }
+            }
+        },
+        linkback = "block_00054",
+        linknext = "block_00056",
+        line = 312
+    },
+    block_00056 = {
+        {"fg", ch = "七", size = "no", mode = 3, path = ":fg/nan/no/", file = "nan_noa0410", face = "a0014", head = "nan_noa", ex05 = "nan_noa0010", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00236", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「希望她没有因为太过用力而倒下……」"
+                }
+            }
+        },
+        linkback = "block_00055",
+        linknext = "block_00057",
+        line = 317
+    },
+    block_00057 = {
+        {"bgm", stop = 1},
+        {"cgdel", id = -1},
+        {"bg", time = 1000, rule = "083r", wait = 250, file = "black", path = ":bg/", vague = 40},
+        {"text"},
+        text = {
+            ja = {
+                {"我快步走向玖玖瑠的房间。"}
+            }
+        },
+        linkback = "block_00056",
+        linknext = "block_00058",
+        line = 322
+    },
+    block_00058 = {
+        {"se", file = "seノック(木の扉)", id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {"我敲了敲玖玖瑠房间的门，但没有回应。"}
+            }
+        },
+        linkback = "block_00057",
+        linknext = "block_00059",
+        line = 328
+    },
+    block_00059 = {
+        {"fg", ch = "七", size = "no", mode = 1, path = ":fg/nan/no/", file = "nan_noa0400", face = "a0022", head = "nan_noa", ex05 = "nan_noa0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00237", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「玖玖瑠，你能听到吗？」"
+                }
+            }
+        },
+        linkback = "block_00058",
+        linknext = "block_00060",
+        line = 333
+    },
+    block_00060 = {
+        {"se", stop = 1, time = 500, id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「……不行啊。我要进去了。玖玖瑠，我要进来了！」"
+                }
+            }
+        },
+        linkback = "block_00059",
+        linknext = "block_00061",
+        line = 338
+    },
+    block_00061 = {
+        {"se", file = "seドア(室内開き)", id = 1},
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "bg019a", path = ":bg/", sync = 0},
+        {"extrans", rule = "083r", vague = 40},
+        {"se", stop = 1, time = 500, id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「打扰了……」"
+                }
+            }
+        },
+        linkback = "block_00060",
+        linknext = "block_00062",
+        line = 353
+    },
+    block_00062 = {
+        {"fg", ch = "七", size = "no", mx = 40, mode = 3, path = ":fg/nan/no/", file = "nan_noa0410", face = "a0018", head = "nan_noa", ex05 = "nan_noa0010", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00238", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「这、这是……！？」"
+                }
+            }
+        },
+        linkback = "block_00061",
+        linknext = "block_00063",
+        line = 358
+    },
+    block_00063 = {
+        {"cgdel", id = -1},
+        {"bg", time = 1000, file = "white", path = ":bg/"},
+        {"bg", file = "sd_kuk_c02_01", time = 400, lv = 5, id = 6, path = ":sd/sd_kuk_c02/", set = "sd_kuk_c02", tagreset = "1"},
+        {"bgm", file = "bgm21"},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我打开门，发现玖玖瑠埋在书山里。",
+                    {"rt2"},
+                    "她手里握着一台平板。"
+                }
+            }
+        },
+        linkback = "block_00062",
+        linknext = "block_00064",
+        line = 369
+    },
+    block_00064 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「怎么了，玖玖瑠？",
+                    {"rt2"},
+                    "玖玖瑠，你还好吗！？」"
+                }
+            }
+        },
+        linkback = "block_00063",
+        linknext = "block_00065",
+        line = 373
+    },
+    block_00065 = {
+        {"bg", sync = 0, face = 1, file = "sd_kuk_c02_02", time = 400, lv = 5, id = 6, path = ":sd/sd_kuk_c02/", set = "sd_kuk_c02"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01427", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「呜、呜呜……凪？」"
+                }
+            }
+        },
+        linkback = "block_00064",
+        linknext = "block_00066",
+        line = 378
+    },
+    block_00066 = {
+        {"fg", ch = "七", size = "no", mode = 1, path = ":fg/nan/no/", file = "nan_noa0410", face = "a0023", head = "nan_noa", ex05 = "nan_noa0010", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00239", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「太好了，看来她意识还在。」"
+                }
+            }
+        },
+        linkback = "block_00065",
+        linknext = "block_00067",
+        line = 383
+    },
+    block_00067 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「发生了什么啊。",
+                    {"rt2"},
+                    "是不是专注得连饭都忘了吃？」"
+                }
+            }
+        },
+        linkback = "block_00066",
+        linknext = "block_00068",
+        line = 387
+    },
+    block_00068 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01428", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「我自己也不太明白。",
+                    {"rt2"},
+                    "虽然不明白，但如果非要说的话……」"
+                }
+            }
+        },
+        linkback = "block_00067",
+        linknext = "block_00069",
+        line = 391
+    },
+    block_00069 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01429", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「是因为恋爱感情过度摄入，羞愧得快死了。」"
+                }
+            }
+        },
+        linkback = "block_00068",
+        linknext = "block_00070",
+        line = 394
+    },
+    block_00070 = {
+        {"fg", ch = "七", size = "no", mode = 1, path = ":fg/nan/no/", file = "nan_noa0410", face = "a0003", head = "nan_noa", ex05 = "nan_noa0010", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00240", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「原来如此，这是个好趋势。」"
+                }
+            }
+        },
+        linkback = "block_00069",
+        linknext = "block_00071",
+        line = 399
+    },
+    block_00071 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01430", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「人都在痛苦了，你竟然说这种话……？」"
+                }
+            }
+        },
+        linkback = "block_00070",
+        linknext = "block_00072",
+        line = 402
+    },
+    block_00072 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01431", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「还有，纯粹是容量超负荷，",
+                    {"rt2"},
+                    "一下子塞得太多了……」"
+                }
+            }
+        },
+        linkback = "block_00071",
+        linknext = "block_00073",
+        line = 406
+    },
+    block_00073 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01432", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「不过，还是有成果的。七……这个。」"
+                }
+            }
+        },
+        linkback = "block_00072",
+        linknext = "block_00074",
+        line = 409
+    },
+    block_00074 = {
+        {"fg", ch = "七", size = "no", mode = 1, path = ":fg/nan/no/", file = "nan_noa0410", face = "a0018", head = "nan_noa", ex05 = "nan_noa0010", lv = 3, id = 200},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "七", size = "no", mode = 1, path = ":fg/nan/no/", file = "nan_noa0410", face = "a0010", head = "nan_noa", ex05 = "nan_noa0010", lv = 3, id = 200}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00241", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「这本笔记到底是什么……嗯嗯。」"
+                }
+            }
+        },
+        linkback = "block_00073",
+        linknext = "block_00075",
+        line = 415
+    },
+    block_00075 = {
+        {"fg", ch = "七", size = "no", mode = 1, path = ":fg/nan/no/", file = "nan_noa0400", face = "a0052", head = "nan_noa", ex05 = "nan_noa0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00242", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「原来如此。这不是我应该看的，而是布波能应该记住的东西。",
+                    {"rt2"},
+                    "」"
+                }
+            }
+        },
+        linkback = "block_00074",
+        linknext = "block_00076",
+        line = 421
+    },
+    block_00076 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「嗯……是我吗？」"
+                }
+            }
+        },
+        linkback = "block_00075",
+        linknext = "block_00077",
+        line = 424
+    },
+    block_00077 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01433", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「诶，凪你也要看……？」"
+                }
+            }
+        },
+        linkback = "block_00076",
+        linknext = "block_00078",
+        line = 427
+    },
+    block_00078 = {
+        {"fg", ch = "七", size = "no", mode = 1, path = ":fg/nan/no/", file = "nan_noa0400", face = "a0015", head = "nan_noa", ex05 = "nan_noa0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00243", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「不这样就没有意义了吧。」"
+                }
+            }
+        },
+        linkback = "block_00077",
+        linknext = "block_00079",
+        line = 432
+    },
+    block_00079 = {
+        {"bg", sync = 0, face = 1, file = "sd_kuk_c02_01", time = 400, lv = 5, id = 6, path = ":sd/sd_kuk_c02/", set = "sd_kuk_c02"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01434", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「这倒是没错……呜呜……更想死了……」"
+                }
+            }
+        },
+        linkback = "block_00078",
+        linknext = "block_00080",
+        line = 437
+    },
+    block_00080 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "bg019a", path = ":bg/", sync = 0},
+        {"extrans"},
+        {"text"},
+        text = {
+            ja = {
+                {"这么说着，玖玖瑠把脸埋在七的膝盖上。"}
+            }
+        },
+        linkback = "block_00079",
+        linknext = "block_00081",
+        line = 447
+    },
+    block_00081 = {
+        {"se", file = "se紙系_ページめくり早", id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我打开了被递过来的笔记，",
+                    {"rt2"},
+                    "继续阅读那整齐排列的文字。"
+                }
+            }
+        },
+        linkback = "block_00080",
+        linknext = "block_00082",
+        line = 452
+    },
+    block_00082 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「这……是……」"
+                }
+            }
+        },
+        linkback = "block_00081",
+        linknext = "block_00083",
+        line = 455
+    },
+    block_00083 = {
+        {"se", stop = 1, time = 500, id = 1},
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", y = 30, file = "zbg019a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "七", size = "z1", mode = 3, resize = 1, path = ":fg/nan/z1/", file = "nan_z1a0410", face = "a0010", head = "nan_z1a", ex05 = "nan_z1a0010", lv = 4, id = 13, sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00244", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「这是从少女漫画中挑选出来的场景，",
+                    {"rt2"},
+                    "进行分析吧。」"
+                }
+            }
+        },
+        linkback = "block_00082",
+        linknext = "block_00084",
+        line = 467
+    },
+    block_00084 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「啊，原来是这样……这全部都是吗！？",
+                    {"rt2"},
+                    "量真是惊人啊。」"
+                }
+            }
+        },
+        linkback = "block_00083",
+        linknext = "block_00085",
+        line = 471
+    },
+    block_00085 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0410", face = "a0023", head = "nan_z1a", ex05 = "nan_z1a0010", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00245", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「这样倒下去也说得过去呢。」"
+                }
+            }
+        },
+        linkback = "block_00084",
+        linknext = "block_00086",
+        line = 476
+    },
+    block_00086 = {
+        {"fg", ch = "くくる", size = "no", mode = 1, path = ":fg/kuk/no/", file = "kuk_nob0500", face = "b0009h", head = "kuk_nob", ex05 = "kuk_nob0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_01435", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「哈呜……呜……呼……吸……」"
+                }
+            }
+        },
+        linkback = "block_00085",
+        linknext = "block_00087",
+        line = 481
+    },
+    block_00087 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0400", face = "a0052", head = "nan_z1a", ex05 = "nan_z1a0000", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00246", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「玖玖瑠似乎也累得睡着了，",
+                    {"rt2"},
+                    "我在照顾她，所以布波能就拜托你去检查内容了。」"
+                }
+            }
+        },
+        linkback = "block_00086",
+        linknext = "block_00088",
+        line = 487
+    },
+    block_00088 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「检查的话，具体是指什么呢？」"
+                }
+            }
+        },
+        linkback = "block_00087",
+        linknext = "block_00089",
+        line = 490
+    },
+    block_00089 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0400", face = "a0009", head = "nan_z1a", ex05 = "nan_z1a0000", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00247", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「既然是玖玖瑠挑选出来的，",
+                    {"rt2"},
+                    "那么相关部分一定有她的想法。」"
+                }
+            }
+        },
+        linkback = "block_00088",
+        linknext = "block_00090",
+        line = 496
+    },
+    block_00090 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0400", face = "a0010", head = "nan_z1a", ex05 = "nan_z1a0000", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00248", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「把玖玖瑠和你经历过的地方，以及还未体验的部分分开。」"
+                }
+            }
+        },
+        linkback = "block_00089",
+        linknext = "block_00091",
+        line = 502
+    },
+    block_00091 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「总觉得在做坏事呢。」"
+                }
+            }
+        },
+        linkback = "block_00090",
+        linknext = "block_00092",
+        line = 505
+    },
+    block_00092 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0400", face = "a0002", head = "nan_z1a", ex05 = "nan_z1a0000", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00249", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「想要研究的可是玖玖瑠哦。",
+                    {"rt2"},
+                    "如果你能解开她的心结，她一定会很高兴。」"
+                }
+            }
+        },
+        linkback = "block_00091",
+        linknext = "block_00093",
+        line = 511
+    },
+    block_00093 = {
+        {"fg", ch = "七", size = "z1", mode = 3, path = ":fg/nan/z1/", file = "nan_z1a0400", face = "a0006", head = "nan_z1a", ex05 = "nan_z1a0000", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_nan_00250", ch = "nan"}
+            },
+            ja = {
+                {
+                    name = {"七"},
+                    "「而且如果对玖玖瑠的理解加深，",
+                    {"rt2"},
+                    "你成功追到她的几率也会提高吧。」"
+                }
+            }
+        },
+        linkback = "block_00092",
+        linknext = "block_00094",
+        line = 517
+    },
+    block_00094 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「虽然感觉像是被七牵着鼻子走……",
+                    {"rt2"},
+                    "好吧，我就试试！」"
+                }
+            }
+        },
+        linkback = "block_00093",
+        linknext = "block_00095",
+        line = 521
+    },
+    block_00095 = {
+        {"bgm", stop = 1},
+        {"cgdel", id = -1},
+        {"bg", time = 1000, rule = 139, wait = 500, file = "black", path = ":bg/", vague = 40},
+        {"excall", file = "04_くくる_08_2"},
+        {"text"},
+        linkback = "block_00094",
+        line = 527
+    },
+    label = {
+        top = {block = "block_00000", label = 1}
+    }
+}

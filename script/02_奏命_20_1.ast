@@ -1,0 +1,2250 @@
+astver = 2.0
+astname = "ast"
+ast = {
+    block_00000 = {
+        {"savetitle", text = "灰色の枢機卿"},
+        {"bg", file = "black", path = ":bg/"},
+        {"text"},
+        text = {
+            ja = {
+                {"目まぐるしい日々が过ぎていく。"}
+            }
+        },
+        linknext = "block_00001",
+        line = 15
+    },
+    block_00001 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "明明该做的事情堆积如山，",
+                    {"rt2"},
+                    "但却没有以前那样的痛苦。"
+                }
+            }
+        },
+        linkback = "block_00000",
+        linknext = "block_00002",
+        line = 18
+    },
+    block_00002 = {
+        {"text"},
+        text = {
+            ja = {
+                {"就在一切准备就绪的时候，那一天终于来临了。"}
+            }
+        },
+        linkback = "block_00001",
+        linknext = "block_00003",
+        line = 20
+    },
+    block_00003 = {
+        {"bg", file = "bg099a", path = ":bg/"},
+        {"bgm", file = "bgm01"},
+        {"text"},
+        text = {
+            ja = {
+                {"由一色家主办的接待派对。"}
+            }
+        },
+        linkback = "block_00002",
+        linknext = "block_00004",
+        line = 28
+    },
+    block_00004 = {
+        {"text"},
+        text = {
+            ja = {
+                {"会场位于宅邸的一角，宽敞的大厅。"}
+            }
+        },
+        linkback = "block_00003",
+        linknext = "block_00005",
+        line = 30
+    },
+    block_00005 = {
+        {"text"},
+        text = {
+            ja = {
+                {"由于空和花的安排，接待陆续到来的VIP们顺利进行。"}
+            }
+        },
+        linkback = "block_00004",
+        linknext = "block_00006",
+        line = 33
+    },
+    block_00006 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "作为主办方的我和奏命在休息室里",
+                    {"rt2"},
+                    "等到了开始时间的最后一刻。"
+                }
+            }
+        },
+        linkback = "block_00005",
+        linknext = "block_00007",
+        line = 36
+    },
+    block_00007 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "途中，灯理、玖玖瑠、伊舞和提奥也",
+                    {"rt2"},
+                    "来看望我们，让我放松了很多。"
+                }
+            }
+        },
+        linkback = "block_00006",
+        linknext = "block_00008",
+        line = 39
+    },
+    block_00008 = {
+        {"text"},
+        text = {
+            ja = {
+                {"带着适度的紧张感，等待着活动的开始。"}
+            }
+        },
+        linkback = "block_00007",
+        linknext = "block_00009",
+        line = 41
+    },
+    block_00009 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02443", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「——时间到了，我们走吧。」"
+                }
+            }
+        },
+        linkback = "block_00008",
+        linknext = "block_00010",
+        line = 46
+    },
+    block_00010 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「啊，走吧！」"
+                }
+            }
+        },
+        linkback = "block_00009",
+        linknext = "block_00011",
+        line = 49
+    },
+    block_00011 = {
+        {"cgdel", id = -1},
+        {"bg", time = 1000, file = "white", path = ":bg/"},
+        {"bg", speed = 3000, file = "zev_kan_c06_01", path = ":ev/ev_kan_c06/", x2 = 400, y2 = -300, x = -550, y = 300, set = "ev_kan_c06", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"ex", time = 2000, func = "wait"},
+        {"bg", file = "ev_kan_c06_01", path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02444", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「各位，非常感谢您在百忙之中光临，",
+                    {"rt2"},
+                    "我由衷地表示感谢。」"
+                }
+            }
+        },
+        linkback = "block_00010",
+        linknext = "block_00012",
+        line = 64
+    },
+    block_00012 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02445", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「今天我有一些事情想要向大家报告，",
+                    {"rt2"},
+                    "因此才设立了这样一个场合。」"
+                }
+            }
+        },
+        linkback = "block_00011",
+        linknext = "block_00013",
+        line = 68
+    },
+    block_00013 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_c06_03", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02446", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「作为一色家的当主……",
+                    {"rt2"},
+                    "我，一色奏命，遇到了将与我共度一生的男性。」"
+                }
+            }
+        },
+        linkback = "block_00012",
+        linknext = "block_00014",
+        line = 74
+    },
+    block_00014 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_c06_02", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02447", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「请让我介绍他。他是布波能凪。」"
+                }
+            }
+        },
+        linkback = "block_00013",
+        linknext = "block_00015",
+        line = 79
+    },
+    block_00015 = {
+        {"msgoff"},
+        {"se", file = "se歓声4", id = 1},
+        {"ex", time = 3000, func = "wait"},
+        {"se", stop = 1, time = 1000, id = 1},
+        {"bg", sync = 0, face = 1, file = "ev_kan_c06_01", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02448", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「首先，我要告诉大家一件重要的事情。",
+                    {"rt2"},
+                    "他来自珠贺良区。」"
+                }
+            }
+        },
+        linkback = "block_00014",
+        linknext = "block_00016",
+        line = 94
+    },
+    block_00016 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02449", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「那么，我和他是如何相遇的呢？",
+                    {"rt2"},
+                    "可能很多人会对此感到疑惑。」"
+                }
+            }
+        },
+        linkback = "block_00015",
+        linknext = "block_00017",
+        line = 98
+    },
+    block_00017 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02450", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「他参加了「万之礼物」的抽奖，并且",
+                    {"rt2"},
+                    "进入了樱元学园。」"
+                }
+            }
+        },
+        linkback = "block_00016",
+        linknext = "block_00018",
+        line = 102
+    },
+    block_00018 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_c06_03", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02451", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「——第一次见到他的那一刻，",
+                    {"rt2"},
+                    "我觉得这个人真有趣。」"
+                }
+            }
+        },
+        linkback = "block_00017",
+        linknext = "block_00019",
+        line = 108
+    },
+    block_00019 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02452", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「来到樱元学园的他，已经有了自己的目的。」"
+                }
+            }
+        },
+        linkback = "block_00018",
+        linknext = "block_00020",
+        line = 112
+    },
+    block_00020 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_c06_01", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02453", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「为了让家人幸福，我毫不犹豫地牺牲自己。",
+                    {"rt2"},
+                    "就像古代的义贼一样，我怀揣着这样的梦想，",
+                    {"rt2"},
+                    "出现在我面前。」"
+                }
+            }
+        },
+        linkback = "block_00019",
+        linknext = "block_00021",
+        line = 119
+    },
+    block_00021 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02454", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「与我一起运营学生会的夜刀玖玖瑠和蓼科伊舞……",
+                    {"rt2"},
+                    "这个名字，您或许听说过。」"
+                }
+            }
+        },
+        linkback = "block_00020",
+        linknext = "block_00022",
+        line = 123
+    },
+    block_00022 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02455", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「她们并非是桜元学园的普通成员，",
+                    {"rt2"},
+                    "布波能凪必须获得她们的毕业批准。」"
+                }
+            }
+        },
+        linkback = "block_00021",
+        linknext = "block_00023",
+        line = 127
+    },
+    block_00023 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_c06_03", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02456", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「对于珠贺良区的人来说，这有多么困难，",
+                    {"rt2"},
+                    "想必不难想象。」"
+                }
+            }
+        },
+        linkback = "block_00022",
+        linknext = "block_00024",
+        line = 133
+    },
+    block_00024 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_c06_02", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02457", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「但是他在短时间内完成了这件事。",
+                    {"rt2"},
+                    "包括我在内，他赢得了学生会的信任。」"
+                }
+            }
+        },
+        linkback = "block_00023",
+        linknext = "block_00025",
+        line = 139
+    },
+    block_00025 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02458", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「我深信不疑。",
+                    {"rt2"},
+                    "他拥有罕见的运气和才能。」"
+                }
+            }
+        },
+        linkback = "block_00024",
+        linknext = "block_00026",
+        line = 143
+    },
+    block_00026 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02459", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「由于他的背景，",
+                    {"rt2"},
+                    "能够从我们所没有的角度看待事物。」"
+                }
+            }
+        },
+        linkback = "block_00025",
+        linknext = "block_00027",
+        line = 147
+    },
+    block_00027 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02460", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「一色家将在我的这一代迎来新的时代。",
+                    {"rt2"},
+                    "我们将迈向更高的巅峰。」"
+                }
+            }
+        },
+        linkback = "block_00026",
+        linknext = "block_00028",
+        line = 151
+    },
+    block_00028 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_c06_06", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02461", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「像他这样的人是不可或缺的。",
+                    {"rt2"},
+                    "因此，我和他誓言相爱，结为家族。」"
+                }
+            }
+        },
+        linkback = "block_00027",
+        linknext = "block_00029",
+        line = 157
+    },
+    block_00029 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_c06_03", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02462", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「这个选择是否错误呢？",
+                    {"rt2"},
+                    "或者，即使不是错误，也将是一条荆棘之路吗？」"
+                }
+            }
+        },
+        linkback = "block_00028",
+        linknext = "block_00030",
+        line = 163
+    },
+    block_00030 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_c06_04", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02463", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「不，这将是光辉的正道。",
+                    {"rt2"},
+                    "因此，我向大家承诺。」"
+                }
+            }
+        },
+        linkback = "block_00029",
+        linknext = "block_00031",
+        line = 169
+    },
+    block_00031 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_c06_02", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02464", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「一色家的发展。国家的繁荣。",
+                    {"rt2"},
+                    "大家的进一步利益。」"
+                }
+            }
+        },
+        linkback = "block_00030",
+        linknext = "block_00032",
+        line = 175
+    },
+    block_00032 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02465", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「请务必近距离观看这条常胜之路。」"
+                }
+            }
+        },
+        linkback = "block_00031",
+        linknext = "block_00033",
+        line = 178
+    },
+    block_00033 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02466", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「一色奏命，与布波能凪一起走正道吧！」"
+                }
+            }
+        },
+        linkback = "block_00032",
+        linknext = "block_00034",
+        line = 181
+    },
+    block_00034 = {
+        {"se", file = "se拍手3", time = 1000, id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {"会场响起热烈的掌声。"}
+            }
+        },
+        linkback = "block_00033",
+        linknext = "block_00035",
+        line = 188
+    },
+    block_00035 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "虽然事前的各种准备发挥了作用，",
+                    {"rt2"},
+                    "但充满力量的演讲才是称赞的来源。"
+                }
+            }
+        },
+        linkback = "block_00034",
+        linknext = "block_00036",
+        line = 191
+    },
+    block_00036 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "展现出女帝才华的奏命，",
+                    {"rt2"},
+                    "获得了热烈的掌声。"
+                }
+            }
+        },
+        linkback = "block_00035",
+        linknext = "block_00037",
+        line = 194
+    },
+    block_00037 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "(奏命……我也承诺) "
+                }
+            }
+        },
+        linkback = "block_00036",
+        linknext = "block_00038",
+        line = 197
+    },
+    block_00038 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "(在奏命身边，继续走正道。",
+                    {"rt2"},
+                    "永远支持她，超过任何人) "
+                }
+            }
+        },
+        linkback = "block_00037",
+        linknext = "block_00039",
+        line = 201
+    },
+    block_00039 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "(直到死亡将我们分开) "
+                }
+            }
+        },
+        linkback = "block_00038",
+        linknext = "block_00040",
+        line = 204
+    },
+    block_00040 = {
+        {"se", stop = 1, time = 500, id = 1},
+        {"bgm", stop = 1},
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0200", face = "a0026", head = "baa_noa", ex05 = "baa_noa0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00241", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「——等一下」"
+                }
+            }
+        },
+        linkback = "block_00039",
+        linknext = "block_00041",
+        line = 212
+    },
+    block_00041 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_c06_01", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            ja = {
+                {"清晰而响亮的声音在会场中回荡。"}
+            }
+        },
+        linkback = "block_00040",
+        linknext = "block_00042",
+        line = 216
+    },
+    block_00042 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0200", face = "a0024", head = "baa_noa", ex05 = "baa_noa0000", lv = 3, id = 200},
+        {"bgm", file = "bgm23"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00242", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「你们还有更多要说的吧？」"
+                }
+            }
+        },
+        linkback = "block_00041",
+        linknext = "block_00043",
+        line = 222
+    },
+    block_00043 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0200", face = "a0013", head = "baa_noa", ex05 = "baa_noa0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00243", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「隐瞒这些就结婚，是不被允许的。」"
+                }
+            }
+        },
+        linkback = "block_00042",
+        linknext = "block_00044",
+        line = 227
+    },
+    block_00044 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「奶奶……」"
+                }
+            }
+        },
+        linkback = "block_00043",
+        linknext = "block_00045",
+        line = 230
+    },
+    block_00045 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_c06_06", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02467", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「……欢迎你们的到来。」"
+                }
+            }
+        },
+        linkback = "block_00044",
+        linknext = "block_00046",
+        line = 235
+    },
+    block_00046 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "奏命没有表现出动摇。",
+                    {"rt2"},
+                    "就好像早已预料到她的到来一样。"
+                }
+            }
+        },
+        linkback = "block_00045",
+        linknext = "block_00047",
+        line = 238
+    },
+    block_00047 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "这是经过精心计划的事情，还是说，",
+                    {"rt2"},
+                    "对奏命来说这只是意料之中的事呢……。"
+                }
+            }
+        },
+        linkback = "block_00046",
+        linknext = "block_00048",
+        line = 241
+    },
+    block_00048 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "无论如何，作为她身边的人，",
+                    {"rt2"},
+                    "我始终保持着镇定自若的姿态。"
+                }
+            }
+        },
+        linkback = "block_00047",
+        linknext = "block_00049",
+        line = 244
+    },
+    block_00049 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_c06_02", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02468", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「在这个重要的时刻，",
+                    {"rt2"},
+                    "我非常高兴能够邀请到这段",
+                    {"txruby", text = "「··」"},
+                    "传说",
+                    {"txruby"},
+                    "。」"
+                }
+            }
+        },
+        linkback = "block_00048",
+        linknext = "block_00050",
+        line = 250
+    },
+    block_00050 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "man_rai_00001", ch = "rai"}
+            },
+            ja = {
+                {
+                    name = {"来客"},
+                    "「传说……？难道，那位是……」"
+                }
+            }
+        },
+        linkback = "block_00049",
+        linknext = "block_00051",
+        line = 253
+    },
+    block_00051 = {
+        {"text"},
+        text = {
+            ja = {
+                {"会场一片喧闹，奶奶仅用手势就让大家安静下来。"}
+            }
+        },
+        linkback = "block_00050",
+        linknext = "block_00052",
+        line = 255
+    },
+    block_00052 = {
+        {"bg", speed = 80000, file = "zev_kan_c06_01", path = ":ev/ev_kan_c06/", x2 = 600, y2 = 300, x = -600, y = -300, set = "ev_kan_c06", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0210", face = "a0024", head = "baa_noa", ex05 = "baa_noa0010", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00244", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「这种客套的寒暄就不用了。",
+                    {"rt2"},
+                    "快点把那件事公布出来。」"
+                }
+            }
+        },
+        linkback = "block_00051",
+        linknext = "block_00053",
+        line = 262
+    },
+    block_00053 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0210", face = "a0009", head = "baa_noa", ex05 = "baa_noa0010", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00245", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「如果你不说，那我就来说吧。」"
+                }
+            }
+        },
+        linkback = "block_00052",
+        linknext = "block_00054",
+        line = 267
+    },
+    block_00054 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0210", face = "a0026", head = "baa_noa", ex05 = "baa_noa0010", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00246", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「坐在那里的布波能凪，和一般人相比，",
+                    {"rt2"},
+                    "生殖能力明显要差得多。」"
+                }
+            }
+        },
+        linkback = "block_00053",
+        linknext = "block_00055",
+        line = 273
+    },
+    block_00055 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0210", face = "a0013", head = "baa_noa", ex05 = "baa_noa0010", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00247", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「如果选择那个男孩，一色家的血脉将会断绝。」"
+                }
+            }
+        },
+        linkback = "block_00054",
+        linknext = "block_00056",
+        line = 278
+    },
+    block_00056 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「……」"
+                }
+            }
+        },
+        linkback = "block_00055",
+        linknext = "block_00057",
+        line = 281
+    },
+    block_00057 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0210", face = "a0012", head = "baa_noa", ex05 = "baa_noa0010", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00248", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「你真的认为迎接那个男孩进入一色家，",
+                    {"rt2"},
+                    "就会有辉煌的未来等着你吗？」"
+                }
+            }
+        },
+        linkback = "block_00056",
+        linknext = "block_00058",
+        line = 287
+    },
+    block_00058 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0200", face = "a0025", head = "baa_noa", ex05 = "baa_noa0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00249", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「虽然看起来不怎么样，但你还是年轻的当主。",
+                    {"rt2"},
+                    "可能会因为一时的情感而误入歧途。」"
+                }
+            }
+        },
+        linkback = "block_00057",
+        linknext = "block_00059",
+        line = 293
+    },
+    block_00059 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0200", face = "a0026", head = "baa_noa", ex05 = "baa_noa0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00250", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「代代相传的东西有可能会消失。",
+                    {"rt2"},
+                    "这样的错误选择，是绝对不能忽视的。」"
+                }
+            }
+        },
+        linkback = "block_00058",
+        linknext = "block_00060",
+        line = 299
+    },
+    block_00060 = {
+        {"bg", file = "ev_kan_c06_03", path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02469", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「……感谢您的宝贵意见。」"
+                }
+            }
+        },
+        linkback = "block_00059",
+        linknext = "block_00061",
+        line = 304
+    },
+    block_00061 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_c06_01", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02470", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「不过，这只是杞人忧天。您难道忘了",
+                    {"rt2"},
+                    "一色家参与的最先进的瓦尔哈拉技术吗？」"
+                }
+            }
+        },
+        linkback = "block_00060",
+        linknext = "block_00062",
+        line = 310
+    },
+    block_00062 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0210", face = "a0025", head = "baa_noa", ex05 = "baa_noa0010", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00251", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「哈哈哈！最先进的技术啊。",
+                    {"rt2"},
+                    "真有那么方便吗？」"
+                }
+            }
+        },
+        linkback = "block_00061",
+        linknext = "block_00063",
+        line = 316
+    },
+    block_00063 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0210", face = "a0006", head = "baa_noa", ex05 = "baa_noa0010", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00252", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「就能解决基因层面上被操控、成长、完成后",
+                    {"rt2"},
+                    "的问题吗？」"
+                }
+            }
+        },
+        linkback = "block_00062",
+        linknext = "block_00064",
+        line = 322
+    },
+    block_00064 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0210", face = "a0024", head = "baa_noa", ex05 = "baa_noa0010", lv = 3, id = 200},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0210", face = "a0010", head = "baa_noa", ex05 = "baa_noa0010", lv = 3, id = 200}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00253", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「如果没有达到被称为神之业的水平，那是不可能的。",
+                    {"rt2"},
+                    "后悔可来不及了。布波能凪是无能为力的，家主。」"
+                }
+            }
+        },
+        linkback = "block_00063",
+        linknext = "block_00065",
+        line = 329
+    },
+    block_00065 = {
+        {"bg", x = 0, y = 200, time = 500, file = "zev_kan_c06_03", path = ":ev/ev_kan_c06/", set = "ev_kan_c06", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02471", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「——与生俱来的王者资格，并不在于血统。」"
+                }
+            }
+        },
+        linkback = "block_00064",
+        linknext = "block_00066",
+        line = 334
+    },
+    block_00066 = {
+        {"bg", sync = 0, face = 1, file = "zev_kan_c06_01", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06", ax = 1280, ay = 720, bx = -640, by = -360, x = 0, y = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02472", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「正因为结合了非凡的才能，",
+                    {"rt2"},
+                    "一色家才有了今天。」"
+                }
+            }
+        },
+        linkback = "block_00065",
+        linknext = "block_00067",
+        line = 340
+    },
+    block_00067 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02473", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「用雄性和雌性交配，以生物本能为基础，",
+                    {"rt2"},
+                    "所诞生的人类，便是代代相传的当主。」"
+                }
+            }
+        },
+        linkback = "block_00066",
+        linknext = "block_00068",
+        line = 344
+    },
+    block_00068 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02474", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「一色家的血脉，至少有千年以上的历史。",
+                    {"rt2"},
+                    "难道那其中只有成功，而没有失败吗？」"
+                }
+            }
+        },
+        linkback = "block_00067",
+        linknext = "block_00069",
+        line = 348
+    },
+    block_00069 = {
+        {"bg", sync = 0, face = 1, file = "zev_kan_c06_05", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06", ax = 1280, ay = 720, bx = -640, by = -360, x = 0, y = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02475", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「经历了一次次的失败，咀嚼着，通过流血般的努力，",
+                    {"rt2"},
+                    "才能将才能升华，使血脉拥有才华。」"
+                }
+            }
+        },
+        linkback = "block_00068",
+        linknext = "block_00070",
+        line = 354
+    },
+    block_00070 = {
+        {"bg", sync = 0, face = 1, file = "zev_kan_c06_03", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06", ax = 1280, ay = 720, bx = -640, by = -360, x = 0, y = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02476", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「一色家的血脉，拥有历史。",
+                    {"rt2"},
+                    "而设计师孩子，是没有历史的。」"
+                }
+            }
+        },
+        linkback = "block_00069",
+        linknext = "block_00071",
+        line = 360
+    },
+    block_00071 = {
+        {"bg", sync = 0, face = 1, file = "zev_kan_c06_02", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06", ax = 1280, ay = 720, bx = -640, by = -360, x = 0, y = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02477", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「你以为我会输吗？我怎么可能会输？哈哈哈哈哈」"
+                }
+            }
+        },
+        linkback = "block_00070",
+        linknext = "block_00072",
+        line = 365
+    },
+    block_00072 = {
+        {"bg", sync = 0, face = 1, file = "zev_kan_c06_01", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06", ax = 1280, ay = 720, bx = -640, by = -360, x = 0, y = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02478", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「刚才你说过，传承下来的东西有消失的可能性，对吧？」"
+                }
+            }
+        },
+        linkback = "block_00071",
+        linknext = "block_00073",
+        line = 371
+    },
+    block_00073 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02479", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「怎么可能消失呢。这一色家可不会。」"
+                }
+            }
+        },
+        linkback = "block_00072",
+        linknext = "block_00074",
+        line = 374
+    },
+    block_00074 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0210", face = "a0012", head = "baa_noa", ex05 = "baa_noa0010", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00254", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「历史终究是会断绝的。」"
+                }
+            }
+        },
+        linkback = "block_00073",
+        linknext = "block_00075",
+        line = 379
+    },
+    block_00075 = {
+        {"bg", sync = 0, face = 1, file = "zev_kan_c06_03", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06", ax = 1280, ay = 720, bx = -640, by = -360, x = 0, y = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02480", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「那可不是现在。",
+                    {"rt2"},
+                    "人类这种生物灭亡的时候，我们也会一起断绝。」"
+                }
+            }
+        },
+        linkback = "block_00074",
+        linknext = "block_00076",
+        line = 385
+    },
+    block_00076 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0210", face = "a0025", head = "baa_noa", ex05 = "baa_noa0010", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00255", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「真是傲慢呢。」"
+                }
+            }
+        },
+        linkback = "block_00075",
+        linknext = "block_00077",
+        line = 390
+    },
+    block_00077 = {
+        {"bg", sync = 0, face = 1, file = "zev_kan_c06_02", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06", ax = 1280, ay = 720, bx = -640, by = -360, x = 0, y = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02481", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「傲慢？哈哈哈，能够自负也是王者的素质哦。」"
+                }
+            }
+        },
+        linkback = "block_00076",
+        linknext = "block_00078",
+        line = 395
+    },
+    block_00078 = {
+        {"bg", sync = 0, face = 1, file = "zev_kan_c06_04", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06", ax = 1280, ay = 720, bx = -640, by = -360, x = 0, y = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02482", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「即便一色家的血脉被切断，",
+                    {"rt2"},
+                    "也要明白一色家不会消失。」"
+                }
+            }
+        },
+        linkback = "block_00077",
+        linknext = "block_00079",
+        line = 401
+    },
+    block_00079 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02483", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「它已经扎根于国家之中。",
+                    {"rt2"},
+                    "流淌在国家这个组织里的，正是我们的血脉。」"
+                }
+            }
+        },
+        linkback = "block_00078",
+        linknext = "block_00080",
+        line = 405
+    },
+    block_00080 = {
+        {"bg", sync = 0, face = 1, file = "zev_kan_c06_01", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06", ax = 1280, ay = 720, bx = -640, by = -360, x = 0, y = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02484", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「如果用桃子田来比喻的话，容易理解吗？",
+                    {"rt2"},
+                    "即使没有血缘关系，你的孩子们也是家人。」"
+                }
+            }
+        },
+        linkback = "block_00079",
+        linknext = "block_00081",
+        line = 411
+    },
+    block_00081 = {
+        {"bg", sync = 0, face = 1, file = "zev_kan_c06_02", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06", ax = 1280, ay = 720, bx = -640, by = -360, x = 0, y = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02485", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「布波能凪，和你很像呢。」"
+                }
+            }
+        },
+        linkback = "block_00080",
+        linknext = "block_00082",
+        line = 416
+    },
+    block_00082 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0210", face = "a0009", head = "baa_noa", ex05 = "baa_noa0010", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00256", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「…………」"
+                }
+            }
+        },
+        linkback = "block_00081",
+        linknext = "block_00083",
+        line = 421
+    },
+    block_00083 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「…………」"
+                }
+            }
+        },
+        linkback = "block_00082",
+        linknext = "block_00084",
+        line = 424
+    },
+    block_00084 = {
+        {"bg", time = 500, file = "ev_kan_c06_06", path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02486", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「自然地，思维方式和行为会变得相似吧。",
+                    {"rt2"},
+                    "她一定是发自内心地尊敬着你呢。」"
+                }
+            }
+        },
+        linkback = "block_00083",
+        linknext = "block_00085",
+        line = 430
+    },
+    block_00085 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_c06_03", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02487", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「一色家，已经扎根于这个国家了。」"
+                }
+            }
+        },
+        linkback = "block_00084",
+        linknext = "block_00086",
+        line = 435
+    },
+    block_00086 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_c06_05", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02488", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「即使不生孩子，一色的意志也不会消亡。那么，",
+                    {"rt2"},
+                    "你所担心的事情还有意义吗？」"
+                }
+            }
+        },
+        linkback = "block_00085",
+        linknext = "block_00087",
+        line = 441
+    },
+    block_00087 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0210", face = "a0013", head = "baa_noa", ex05 = "baa_noa0010", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00257", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「……这是诡辩呢。」"
+                }
+            }
+        },
+        linkback = "block_00086",
+        linknext = "block_00088",
+        line = 446
+    },
+    block_00088 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「那么，我来发表一下我的看法吧。」"
+                }
+            }
+        },
+        linkback = "block_00087",
+        linknext = "block_00089",
+        line = 449
+    },
+    block_00089 = {
+        {"text"},
+        text = {
+            ja = {
+                {"这里是奏命的舞台，我一直保持沉默，但已经结束了。"}
+            }
+        },
+        linkback = "block_00088",
+        linknext = "block_00090",
+        line = 451
+    },
+    block_00090 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我也想说几句话。"}
+            }
+        },
+        linkback = "block_00089",
+        linknext = "block_00091",
+        line = 453
+    },
+    block_00091 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我想和一色奏命生孩子。至少要三个。」"
+                }
+            }
+        },
+        linkback = "block_00090",
+        linknext = "block_00092",
+        line = 456
+    },
+    block_00092 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_c06_02", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02489", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「哎呀，三个吗？」"
+                }
+            }
+        },
+        linkback = "block_00091",
+        linknext = "block_00093",
+        line = 461
+    },
+    block_00093 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「那是最少的。我想要十个孩子。」"
+                }
+            }
+        },
+        linkback = "block_00092",
+        linknext = "block_00094",
+        line = 464
+    },
+    block_00094 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02490", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「十个。就算一年生一个，也得十年呢。」"
+                }
+            }
+        },
+        linkback = "block_00093",
+        linknext = "block_00095",
+        line = 467
+    },
+    block_00095 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我想和奏命一起建立一个新家庭。你觉得怎么样？」"
+                }
+            }
+        },
+        linkback = "block_00094",
+        linknext = "block_00096",
+        line = 470
+    },
+    block_00096 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_c06_06", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02491", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「不，我觉得很好。我们一定会生下来的。」"
+                }
+            }
+        },
+        linkback = "block_00095",
+        linknext = "block_00097",
+        line = 475
+    },
+    block_00097 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「就是这样，奶奶。在这里宣言的话，",
+                    {"rt2"},
+                    "我一定会实现的。你知道我的意志有多坚定吧？」"
+                }
+            }
+        },
+        linkback = "block_00096",
+        linknext = "block_00098",
+        line = 479
+    },
+    block_00098 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0210", face = "a0011", head = "baa_noa", ex05 = "baa_noa0010", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00258", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「……你真的能做到吗？」"
+                }
+            }
+        },
+        linkback = "block_00097",
+        linknext = "block_00099",
+        line = 484
+    },
+    block_00099 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我和一色奏命之间，没有不可能。」"
+                }
+            }
+        },
+        linkback = "block_00098",
+        linknext = "block_00100",
+        line = 487
+    },
+    block_00100 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0210", face = "a0009", head = "baa_noa", ex05 = "baa_noa0010", lv = 3, id = 200},
+        {"bgm", stop = 1},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00259", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「……………………」"
+                }
+            }
+        },
+        linkback = "block_00099",
+        linknext = "block_00101",
+        line = 493
+    },
+    block_00101 = {
+        {"text"},
+        text = {
+            ja = {
+                {"静寂在耳边回响。"}
+            }
+        },
+        linkback = "block_00100",
+        linknext = "block_00102",
+        line = 495
+    },
+    block_00102 = {
+        {"bgm", file = "bgm22"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01124", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「我――蓼科伊舞支持一色家的当主的判断。」"
+                }
+            }
+        },
+        linkback = "block_00101",
+        linknext = "block_00103",
+        line = 503
+    },
+    block_00103 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kuk_00761", ch = "kuk"}
+            },
+            ja = {
+                {
+                    name = {"玖玖瑠"},
+                    "「夜刀玖玖瑠也是一样。非常有趣。」"
+                }
+            }
+        },
+        linkback = "block_00102",
+        linknext = "block_00104",
+        line = 508
+    },
+    block_00104 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_tou_00700", ch = "tou"}
+            },
+            ja = {
+                {
+                    name = {"灯理"},
+                    "「泉灯理也是一样。因为可能性低就",
+                    {"rt2"},
+                    "断言放弃可不好呢。」"
+                }
+            }
+        },
+        linkback = "block_00103",
+        linknext = "block_00105",
+        line = 515
+    },
+    block_00105 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_c06_02", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"se", file = "se拍手3", time = 1000, id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {"同样――"}
+            }
+        },
+        linkback = "block_00104",
+        linknext = "block_00106",
+        line = 521
+    },
+    block_00106 = {
+        {"text"},
+        text = {
+            ja = {
+                {"同样――同样――同样――"}
+            }
+        },
+        linkback = "block_00105",
+        linknext = "block_00107",
+        line = 523
+    },
+    block_00107 = {
+        {"text"},
+        text = {
+            ja = {
+                {"传播开来，扩散开去。"}
+            }
+        },
+        linkback = "block_00106",
+        linknext = "block_00108",
+        line = 525
+    },
+    block_00108 = {
+        {"text"},
+        text = {
+            ja = {
+                {"无数的话语交织在一起，最终包裹住了整个会场。"}
+            }
+        },
+        linkback = "block_00107",
+        linknext = "block_00109",
+        line = 527
+    },
+    block_00109 = {
+        {"text"},
+        text = {
+            ja = {
+                {"最后，整个会场被雷鸣般的掌声包围。"}
+            }
+        },
+        linkback = "block_00108",
+        linknext = "block_00110",
+        line = 529
+    },
+    block_00110 = {
+        {"se", stop = 1, time = 2000, id = 1},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「大家……谢谢你们」"
+                }
+            }
+        },
+        linkback = "block_00109",
+        linknext = "block_00111",
+        line = 534
+    },
+    block_00111 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_c06_06", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02492", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「呵呵呵……伙伴真是让人感到安心呢」"
+                }
+            }
+        },
+        linkback = "block_00110",
+        linknext = "block_00112",
+        line = 539
+    },
+    block_00112 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0210", face = "a0025", head = "baa_noa", ex05 = "baa_noa0010", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00260", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「唉……」"
+                }
+            }
+        },
+        linkback = "block_00111",
+        linknext = "block_00113",
+        line = 544
+    },
+    block_00113 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0200", face = "a0002", head = "baa_noa", ex05 = "baa_noa0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00261", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「这么做的话，继续抱怨就显得太没意思了呢」"
+                }
+            }
+        },
+        linkback = "block_00112",
+        linknext = "block_00114",
+        line = 550
+    },
+    block_00114 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0200", face = "a0006", head = "baa_noa", ex05 = "baa_noa0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00262", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「我输了，家主。随便你怎么做」"
+                }
+            }
+        },
+        linkback = "block_00113",
+        linknext = "block_00115",
+        line = 555
+    },
+    block_00115 = {
+        {"bg", sync = 0, face = 1, file = "ev_kan_c06_02", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02493", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「谢谢您」"
+                }
+            }
+        },
+        linkback = "block_00114",
+        linknext = "block_00116",
+        line = 560
+    },
+    block_00116 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0200", face = "a0005", head = "baa_noa", ex05 = "baa_noa0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00263", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「凪。要好好加油哦」"
+                }
+            }
+        },
+        linkback = "block_00115",
+        linknext = "block_00117",
+        line = 565
+    },
+    block_00117 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「不需要你说我也知道」"
+                }
+            }
+        },
+        linkback = "block_00116",
+        linknext = "block_00118",
+        line = 568
+    },
+    block_00118 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02494", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「我和凪会让不可能变为可能的」"
+                }
+            }
+        },
+        linkback = "block_00117",
+        linknext = "block_00119",
+        line = 571
+    },
+    block_00119 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02495", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「我们将创造无数传说，学习布波能凪的养父母所做的一切，",
+                    {"rt2"},
+                    "变不可能为可能，知道吗」"
+                }
+            }
+        },
+        linkback = "block_00118",
+        linknext = "block_00120",
+        line = 575
+    },
+    block_00120 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0200", face = "a0025", head = "baa_noa", ex05 = "baa_noa0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00264", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「……呵呵，原来如此」"
+                }
+            }
+        },
+        linkback = "block_00119",
+        linknext = "block_00121",
+        line = 580
+    },
+    block_00121 = {
+        {"fg", ch = "バアさん", size = "no", mode = 1, path = ":fg/baa/no/", file = "baa_noa0210", face = "a0006", head = "baa_noa", ex05 = "baa_noa0010", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_baa_00265", ch = "baa"}
+            },
+            ja = {
+                {
+                    name = {"婆婆"},
+                    "「我会守护你们的，未来的两个人」"
+                }
+            }
+        },
+        linkback = "block_00120",
+        linknext = "block_00122",
+        line = 585
+    },
+    block_00122 = {
+        {"bg", x = 0, y = 200, time = 500, file = "zev_kan_c06_02", path = ":ev/ev_kan_c06/", set = "ev_kan_c06", ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02496", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「好了，打招呼的时间有点长了。",
+                    {"rt2"},
+                    "我们来干杯吧」"
+                }
+            }
+        },
+        linkback = "block_00121",
+        linknext = "block_00123",
+        line = 591
+    },
+    block_00123 = {
+        {"bg", sync = 0, face = 1, file = "zev_kan_c06_03", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06", ax = 1280, ay = 720, bx = -640, by = -360, x = 0, y = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02497", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「在场的每一个人，缺一不可」"
+                }
+            }
+        },
+        linkback = "block_00122",
+        linknext = "block_00124",
+        line = 596
+    },
+    block_00124 = {
+        {"bg", sync = 0, face = 1, file = "zev_kan_c06_04", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06", ax = 1280, ay = 720, bx = -640, by = -360, x = 0, y = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02498", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「让我们携手共进，",
+                    {"rt2"},
+                    "一起创造这个国家的未来吧」"
+                }
+            }
+        },
+        linkback = "block_00123",
+        linknext = "block_00125",
+        line = 602
+    },
+    block_00125 = {
+        {"bg", sync = 0, face = 1, file = "zev_kan_c06_02", time = 400, path = ":ev/ev_kan_c06/", set = "ev_kan_c06", ax = 1280, ay = 720, bx = -640, by = -360, x = 0, y = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_kan_02499", ch = "kan"}
+            },
+            ja = {
+                {
+                    name = {"奏命"},
+                    "「——干杯」"
+                }
+            }
+        },
+        linkback = "block_00124",
+        linknext = "block_00126",
+        line = 607
+    },
+    block_00126 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「干杯！」"
+                }
+            }
+        },
+        linkback = "block_00125",
+        linknext = "block_00127",
+        line = 610
+    },
+    block_00127 = {
+        {"bg", speed = 80000, file = "zbg099a", path = ":bg/", x2 = 0, y2 = -360, x = 0, y = 360, ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            ja = {
+                {"结束开幕致辞后的招待会，在轻松愉快的气氛中进行着。"}
+            }
+        },
+        linkback = "block_00126",
+        linknext = "block_00128",
+        line = 617
+    },
+    block_00128 = {
+        {"text"},
+        text = {
+            ja = {
+                {"聚集的人们纷纷祝福奏命和我的订婚。"}
+            }
+        },
+        linkback = "block_00127",
+        linknext = "block_00129",
+        line = 619
+    },
+    block_00129 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "作为珠贺良区出生，身为被创造的生命，我的特殊",
+                    {"rt2"},
+                    "身世没有人轻视，大家都对我表示关心。"
+                }
+            }
+        },
+        linkback = "block_00128",
+        linknext = "block_00130",
+        line = 622
+    },
+    block_00130 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "在与奶奶进行的演讲中，事先的准备工作取得了成功，我顺利",
+                    {"rt2"},
+                    "地被认可为一色家的一员。"
+                }
+            }
+        },
+        linkback = "block_00129",
+        linknext = "block_00131",
+        line = 624
+    },
+    block_00131 = {
+        {"bgm", stop = 1},
+        {"cgdel", id = -1},
+        {"bg", time = 1000, rule = 139, wait = 500, file = "black", path = ":bg/", vague = 40},
+        {"excall", file = "02_奏命_20_2"},
+        {"text"},
+        linkback = "block_00130",
+        line = 628
+    },
+    label = {
+        top = {block = "block_00000", label = 1}
+    }
+}

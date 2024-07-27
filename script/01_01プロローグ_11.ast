@@ -1,0 +1,1440 @@
+astver = 2.0
+astname = "ast"
+ast = {
+    block_00000 = {
+        {"savetitle", text = "アンダードッグ"},
+        {"bg", rule = 139, vague = 40, file = "bg024a", path = ":bg/"},
+        {"bgm", file = "bgm06"},
+        {"text"},
+        text = {
+            ja = {
+                {"走出学生会室后，等待我的五号带我去了学习塔的屋顶。"}
+            }
+        },
+        linknext = "block_00001",
+        line = 15
+    },
+    block_00001 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「呼———……」"
+                }
+            }
+        },
+        linkback = "block_00000",
+        linknext = "block_00002",
+        line = 18
+    },
+    block_00002 = {
+        {"text"},
+        text = {
+            ja = {
+                {"看来我比想象中更加专注了。"}
+            }
+        },
+        linkback = "block_00001",
+        linknext = "block_00003",
+        line = 20
+    },
+    block_00003 = {
+        {"text"},
+        text = {
+            ja = {
+                {"为了将体内积累的疲惫全部吐出来，我深深地吸了一口气。"}
+            }
+        },
+        linkback = "block_00002",
+        linknext = "block_00004",
+        line = 23
+    },
+    block_00004 = {
+        {"text"},
+        text = {
+            ja = {
+                {"常年开放的屋顶花园空气稍微有些凉，沁入身体。"}
+            }
+        },
+        linkback = "block_00003",
+        linknext = "block_00005",
+        line = 26
+    },
+    block_00005 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「视野很好，风也很舒服。",
+                    {"rt2"},
+                    "真是个放松心情的好地方呢——」"
+                }
+            }
+        },
+        linkback = "block_00004",
+        linknext = "block_00006",
+        line = 30
+    },
+    block_00006 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", y = 30, file = "zbg024a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "ファイブ", size = "z1", mode = 3, resize = 1, path = ":fg/fiv/z1/", file = "fiv_z1a0200", face = "a0001", head = "fiv_z1a", lv = 4, id = 13, sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00158", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「如果你喜欢，那我就很高兴了呢。」"
+                }
+            }
+        },
+        linkback = "block_00005",
+        linknext = "block_00007",
+        line = 42
+    },
+    block_00007 = {
+        {"fg", ch = "ファイブ", size = "z1", mode = 3, path = ":fg/fiv/z1/", file = "fiv_z1a0200", face = "a0010", head = "fiv_z1a", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00159", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「不过，你真是说了些大胆的话呢。」"
+                }
+            }
+        },
+        linkback = "block_00006",
+        linknext = "block_00008",
+        line = 47
+    },
+    block_00008 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「啊，果然被你听到了？」"
+                }
+            }
+        },
+        linkback = "block_00007",
+        linknext = "block_00009",
+        line = 50
+    },
+    block_00009 = {
+        {"fg", ch = "ファイブ", size = "z1", mode = 3, path = ":fg/fiv/z1/", file = "fiv_z1a0200", face = "a0024", head = "fiv_z1a", lv = 4, id = 13},
+        {"fgact", ch = "ファイブ", act = "おじぎ", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00160", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「当然听到了呢。」"
+                }
+            }
+        },
+        linkback = "block_00008",
+        linknext = "block_00010",
+        line = 56
+    },
+    block_00010 = {
+        {"fg", ch = "ファイブ", size = "z1", mode = 3, path = ":fg/fiv/z1/", file = "fiv_z1a0210", face = "a0019", head = "fiv_z1a", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00161", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「凪大人，恋爱经验有多少呢？」"
+                }
+            }
+        },
+        linkback = "block_00009",
+        linknext = "block_00011",
+        line = 61
+    },
+    block_00011 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「恋爱经验，这问题问得真突然。",
+                    {"rt2"},
+                    "你怎么突然问这个？」"
+                }
+            }
+        },
+        linkback = "block_00010",
+        linknext = "block_00012",
+        line = 65
+    },
+    block_00012 = {
+        {"fg", ch = "ファイブ", size = "z1", mode = 3, path = ":fg/fiv/z1/", file = "fiv_z1a0210", face = "a0024", head = "fiv_z1a", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00162", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「既然你会提出那样的建议，",
+                    {"rt2"},
+                    "想必一定让很多女性伤心过吧。」"
+                }
+            }
+        },
+        linkback = "block_00011",
+        linknext = "block_00013",
+        line = 71
+    },
+    block_00013 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「别这样说我。",
+                    {"rt2"},
+                    "根本就没有过，真的。」"
+                }
+            }
+        },
+        linkback = "block_00012",
+        linknext = "block_00014",
+        line = 75
+    },
+    block_00014 = {
+        {"fg", ch = "ファイブ", size = "z1", mode = 3, path = ":fg/fiv/z1/", file = "fiv_z1a0200", face = "a0019", head = "fiv_z1a", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00163", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「真的没有？一个人都没有交往过？」"
+                }
+            }
+        },
+        linkback = "block_00013",
+        linknext = "block_00015",
+        line = 80
+    },
+    block_00015 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我根本没那个闲工夫。",
+                    {"rt2"},
+                    "活着就已经很费劲了。」"
+                }
+            }
+        },
+        linkback = "block_00014",
+        linknext = "block_00016",
+        line = 84
+    },
+    block_00016 = {
+        {"fg", ch = "ファイブ", size = "z1", mode = 3, path = ":fg/fiv/z1/", file = "fiv_z1a0200", face = "a0010", head = "fiv_z1a", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00164", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「原来如此。」"
+                }
+            }
+        },
+        linkback = "block_00015",
+        linknext = "block_00017",
+        line = 89
+    },
+    block_00017 = {
+        {"fg", ch = "ファイブ", size = "z1", mode = 3, path = ":fg/fiv/z1/", file = "fiv_z1a0200", face = "a0009", head = "fiv_z1a", lv = 4, id = 13},
+        {"fgact", ch = "ファイブ", act = "おじぎ", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00165", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「希望你能成为不让女性感到不幸的男人。」"
+                }
+            }
+        },
+        linkback = "block_00016",
+        linknext = "block_00018",
+        line = 95
+    },
+    block_00018 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「喂喂喂，你把我当什么人啊？」"
+                }
+            }
+        },
+        linkback = "block_00017",
+        linknext = "block_00019",
+        line = 98
+    },
+    block_00019 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「结婚后我会好好对待妻子的。",
+                    {"rt2"},
+                    "我可不想成为一个无趣的人。」"
+                }
+            }
+        },
+        linkback = "block_00018",
+        linknext = "block_00020",
+        line = 102
+    },
+    block_00020 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我打算努力到被学生会的才女们选中。"}
+            }
+        },
+        linkback = "block_00019",
+        linknext = "block_00021",
+        line = 104
+    },
+    block_00021 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "bg024a", path = ":bg/", sync = 0},
+        {"fg", ch = "ファイブ", size = "no", mode = 3, resize = 1, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0019", head = "fiv_noa", lv = 3, id = 13, sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「啊，五号。我有个请求……」"
+                }
+            }
+        },
+        linkback = "block_00020",
+        linknext = "block_00022",
+        line = 114
+    },
+    block_00022 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「关于学生会的成员，能简单告诉我一下他们是怎样的人吗？」"
+                }
+            }
+        },
+        linkback = "block_00021",
+        linknext = "block_00023",
+        line = 118
+    },
+    block_00023 = {
+        {"text"},
+        text = {
+            ja = {
+                {"对我来说，学生会既可以是药，也可以是毒。"}
+            }
+        },
+        linkback = "block_00022",
+        linknext = "block_00024",
+        line = 120
+    },
+    block_00024 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "因为他们掌握着毕业的生死，所以以此为筹码，",
+                    {"rt2"},
+                    "他们很可能会策划一些事情。"
+                }
+            }
+        },
+        linkback = "block_00023",
+        linknext = "block_00025",
+        line = 125
+    },
+    block_00025 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「知己知彼，百战不殆，没错吧？」"
+                }
+            }
+        },
+        linkback = "block_00024",
+        linknext = "block_00026",
+        line = 128
+    },
+    block_00026 = {
+        {"fg", ch = "ファイブ", size = "no", mode = 3, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0024", head = "fiv_noa", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00166", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「想要详细了解未来的妻子候选人，没错吧？」"
+                }
+            }
+        },
+        linkback = "block_00025",
+        linknext = "block_00027",
+        line = 133
+    },
+    block_00027 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「可以这么说！」"
+                }
+            }
+        },
+        linkback = "block_00026",
+        linknext = "block_00028",
+        line = 136
+    },
+    block_00028 = {
+        {"bgm", stop = 1},
+        {"fg", ch = "ファイブ", size = "no", mode = 3, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0009", head = "fiv_noa", lv = 3, id = 13},
+        {"fgact", ch = "ファイブ", act = "おじぎ", lv = 3, id = 13},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "ファイブ", size = "no", mode = 3, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0022", head = "fiv_noa", lv = 3, id = 13}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00167", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「真是让人无奈。那么我就逐一解释吧。」"
+                }
+            }
+        },
+        linkback = "block_00027",
+        linknext = "block_00029",
+        line = 145
+    },
+    block_00029 = {
+        {"bg", file = "black", path = ":bg/"},
+        {"msgoff"},
+        {"fg", ch = "奏命", size = "z1", speed = 8000, mode = 3, resize = 1, path = ":fg/kan/z1/", file = "kan_z1a0200", face = "a0001", head = "kan_z1a", ex05 = "kan_z1a0000", y2 = -200, x = 0, y = 0, lv = 4, id = 13, sync = 0},
+        {"extrans"},
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0001", head = "fiv_noa", lv = 3, id = 200},
+        {"bgm", file = "bgm27"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00168", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「学生会长，一色奏命。",
+                    {"rt2"},
+                    "她是拥有巨大影响力的一色家的当主。」"
+                }
+            }
+        },
+        linkback = "block_00028",
+        linknext = "block_00030",
+        line = 164
+    },
+    block_00030 = {
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0210", face = "a0002", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00169", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「一色家是自明治时代以来，骄傲的永世华族家系。」"
+                }
+            }
+        },
+        linkback = "block_00029",
+        linknext = "block_00031",
+        line = 169
+    },
+    block_00031 = {
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0210", face = "a0001", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00170", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「作为这个家出生的长女，",
+                    {"rt2"},
+                    "我继承了已故父母的家业，成为了当主。」"
+                }
+            }
+        },
+        linkback = "block_00030",
+        linknext = "block_00032",
+        line = 175
+    },
+    block_00032 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「比我想象的还要厉害……」"
+                }
+            }
+        },
+        linkback = "block_00031",
+        linknext = "block_00033",
+        line = 178
+    },
+    block_00033 = {
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0210", face = "a0010", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00171", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「其他人也很厉害，但她是超S级的存在。」"
+                }
+            }
+        },
+        linkback = "block_00032",
+        linknext = "block_00034",
+        line = 183
+    },
+    block_00034 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "不想插入那些无聊的‘超S’之类的话，",
+                    {"rt2"},
+                    "继续说下去。"
+                }
+            }
+        },
+        linkback = "block_00033",
+        linknext = "block_00035",
+        line = 186
+    },
+    block_00035 = {
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0001", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00172", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「她在学校连续三年担任学生会长，",
+                    {"rt2"},
+                    "是仅次于校长的绝对权威存在。」"
+                }
+            }
+        },
+        linkback = "block_00034",
+        linknext = "block_00036",
+        line = 192
+    },
+    block_00036 = {
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0024", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00173", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「如果做出与她意愿相悖的事情，命就没了，",
+                    {"rt2"},
+                    "这可是流传已久的传言。」"
+                }
+            }
+        },
+        linkback = "block_00035",
+        linknext = "block_00037",
+        line = 198
+    },
+    block_00037 = {
+        {"msgoff"},
+        {"fg", ch = "奏命", size = "no", mode = 3, resize = 1, path = ":fg/kan/no/", file = "kan_noa0200", face = "a0001", head = "kan_noa", ex05 = "kan_noa0000", x = 0, y = 0, lv = 3, id = 13, sync = 0},
+        {"extrans", time = 700},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「真是太可怕了。」"
+                }
+            }
+        },
+        linkback = "block_00036",
+        linknext = "block_00038",
+        line = 206
+    },
+    block_00038 = {
+        {"fg", ch = "花", size = "no", time = 700, mode = 3, path = ":fg/han/no/", file = "han_noa0210", face = "a0001", head = "han_noa", ex05 = "han_noa0010", x = -380, lv = 3, id = 7},
+        {"fg", ch = "空", size = "no", time = 700, mode = 3, path = ":fg/sor/no/", file = "sor_noa0210", face = "a0001", head = "sor_noa", ex05 = "sor_noa0010", x = 380, lv = 3, id = 8},
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0001", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00174", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「副会长和书记，北条花和空，是世代为一色家",
+                    {"rt2"},
+                    "效劳的北条家的双胞胎。」"
+                }
+            }
+        },
+        linkback = "block_00037",
+        linknext = "block_00039",
+        line = 218
+    },
+    block_00039 = {
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0010", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00175", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「不仅在学校工作，",
+                    {"rt2"},
+                    "在私生活中也支持着一色奏命……」"
+                }
+            }
+        },
+        linkback = "block_00038",
+        linknext = "block_00040",
+        line = 224
+    },
+    block_00040 = {
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0210", face = "a0002", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00176", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「正是因为有两人的支持，才能说一色奏命的体制是坚如磐石",
+                    {"rt2"},
+                    "的。」"
+                }
+            }
+        },
+        linkback = "block_00039",
+        linknext = "block_00041",
+        line = 230
+    },
+    block_00041 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"fg", ch = "イヴ", size = "z1", speed = 8000, mode = 3, resize = 1, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0001", head = "eve_z1b", ex05 = "eve_z1b0000", y2 = -200, x = 0, y = 0, lv = 4, id = 13, sync = 0},
+        {"extrans"},
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0001", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00177", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「运动部总括，正式名称是蓼科·伊舞·麦克布莱德。」"
+                }
+            }
+        },
+        linkback = "block_00040",
+        linknext = "block_00042",
+        line = 244
+    },
+    block_00042 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「从名字就能猜到，伊舞身上有海外血统呢。」"
+                }
+            }
+        },
+        linkback = "block_00041",
+        linknext = "block_00043",
+        line = 248
+    },
+    block_00043 = {
+        {"text"},
+        text = {
+            ja = {
+                {"那样的身材，果然是欧美血统的结果啊。"}
+            }
+        },
+        linkback = "block_00042",
+        linknext = "block_00044",
+        line = 251
+    },
+    block_00044 = {
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0002", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00178", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「她是警察厅长官的独生女，是全警察职员中的最高位。」"
+                }
+            }
+        },
+        linkback = "block_00043",
+        linknext = "block_00045",
+        line = 256
+    },
+    block_00045 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「光听这个身份就让人不寒而栗啊。」"
+                }
+            }
+        },
+        linkback = "block_00044",
+        linknext = "block_00046",
+        line = 259
+    },
+    block_00046 = {
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0024", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00179", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「您害怕，是因为凪大人曾经受过她的照顾吗？」"
+                }
+            }
+        },
+        linkback = "block_00045",
+        linknext = "block_00047",
+        line = 264
+    },
+    block_00047 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「没有哦！？",
+                    {"rt2"},
+                    "无论公私都没有与警察有任何交往，十分健康！」"
+                }
+            }
+        },
+        linkback = "block_00046",
+        linknext = "block_00048",
+        line = 268
+    },
+    block_00048 = {
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0053", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0001", head = "fiv_noa", lv = 3, id = 200}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00180", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「我回到正题。她凭借自己的实力，成为了运动部总括的才女。",
+                    {"rt2"},
+                    "」"
+                }
+            }
+        },
+        linkback = "block_00047",
+        linknext = "block_00049",
+        line = 275
+    },
+    block_00049 = {
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0210", face = "a0002", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00181", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「在合气道方面，她的实力甚至足以在全国大会上夺冠，目前",
+                    {"rt2"},
+                    "为止是常胜无败的存在。」"
+                }
+            }
+        },
+        linkback = "block_00048",
+        linknext = "block_00050",
+        line = 281
+    },
+    block_00050 = {
+        {"msgoff"},
+        {"fg", ch = "イヴ", size = "no", mode = 3, resize = 1, path = ":fg/eve/no/", file = "eve_nob0200", face = "b0001", head = "eve_nob", ex05 = "eve_nob0000", x = 0, y = 0, lv = 3, id = 13, sync = 0},
+        {"extrans", time = 700},
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0210", face = "a0053", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00182", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「她的言辞礼貌，始终面带微笑，举止从容，",
+                    {"rt2"},
+                    "因此在运动部中人缘极好。」"
+                }
+            }
+        },
+        linkback = "block_00049",
+        linknext = "block_00051",
+        line = 292
+    },
+    block_00051 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"fg", ch = "くくる", size = "z1", speed = 8000, mode = 3, resize = 1, path = ":fg/kuk/z1/", file = "kuk_z1b0210", face = "b0001", head = "kuk_z1b", ex05 = "kuk_z1b0010", y2 = -200, x = 0, y = 0, lv = 4, id = 13, sync = 0},
+        {"extrans"},
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0001", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00183", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「文化部总括，夜刀玖玖瑠。因一代致富而闻名，",
+                    {"rt2"},
+                    "是著名投资家的孩子。」"
+                }
+            }
+        },
+        linkback = "block_00050",
+        linknext = "block_00052",
+        line = 306
+    },
+    block_00052 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「富有的女孩啊。跟之前的两个人比起来，她算是普通的。」"
+                }
+            }
+        },
+        linkback = "block_00051",
+        linknext = "block_00053",
+        line = 309
+    },
+    block_00053 = {
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0024", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0002", head = "fiv_noa", lv = 3, id = 200}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00184", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「可不是普通的哦。她在年纪尚小的时候，就将父母的资产",
+                    {"rt2"},
+                    "翻了好几倍，是个神童。」"
+                }
+            }
+        },
+        linkback = "block_00052",
+        linknext = "block_00054",
+        line = 316
+    },
+    block_00054 = {
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0210", face = "a0001", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00185", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「凭借敏锐的眼光和高超的编程技术，",
+                    {"rt2"},
+                    "持续获得巨额财富。」"
+                }
+            }
+        },
+        linkback = "block_00053",
+        linknext = "block_00055",
+        line = 322
+    },
+    block_00055 = {
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0210", face = "a0053", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00186", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「如果说武力之王是蓼科伊舞，那么，",
+                    {"rt2"},
+                    "财富之王就是夜刀玖玖瑠。」"
+                }
+            }
+        },
+        linkback = "block_00054",
+        linknext = "block_00056",
+        line = 328
+    },
+    block_00056 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「权力、武力，再加上财富。",
+                    {"rt2"},
+                    "真是不可思议的三巨头啊……」"
+                }
+            }
+        },
+        linkback = "block_00055",
+        linknext = "block_00057",
+        line = 332
+    },
+    block_00057 = {
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0025", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00187", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「你害怕了吗？」"
+                }
+            }
+        },
+        linkback = "block_00056",
+        linknext = "block_00058",
+        line = 337
+    },
+    block_00058 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「才不是呢。反而比刚才更想结婚了。」"
+                }
+            }
+        },
+        linkback = "block_00057",
+        linknext = "block_00059",
+        line = 340
+    },
+    block_00059 = {
+        {"msgoff"},
+        {"fg", ch = "くくる", size = "no", mode = 3, resize = 1, path = ":fg/kuk/no/", file = "kuk_nob0210", face = "b0001", head = "kuk_nob", ex05 = "kuk_nob0010", x = 0, y = 0, lv = 3, id = 13, sync = 0},
+        {"extrans", time = 700},
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0001", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00188", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「虽然是一年级，但她已经获得了文化部总括的位置，",
+                    {"rt2"},
+                    "所以她的能力和天赋都是真正的。」"
+                }
+            }
+        },
+        linkback = "block_00058",
+        linknext = "block_00060",
+        line = 351
+    },
+    block_00060 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"fg", ch = "龍司", size = "z1", ex01 = "a0099", speed = 8000, mode = 3, resize = 1, path = ":fg/ryu/z1/", file = "ryu_z1a0200", face = "a0001", head = "ryu_z1a", y2 = -200, x = 0, y = 0, lv = 4, id = 13, sync = 0},
+        {"extrans"},
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0001", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00191", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「最后是风纪委员会的委员会长，狮童龙司。」"
+                }
+            }
+        },
+        linkback = "block_00059",
+        linknext = "block_00061",
+        line = 384
+    },
+    block_00061 = {
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0024", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00192", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「与凪大人相处不到一天就成了犬猿之仲的人。」"
+                }
+            }
+        },
+        linkback = "block_00060",
+        linknext = "block_00062",
+        line = 389
+    },
+    block_00062 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「自尊心太强，看不起人的家伙，基本上和我不合。」"
+                }
+            }
+        },
+        linkback = "block_00061",
+        linknext = "block_00063",
+        line = 393
+    },
+    block_00063 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「不过龙司的才华和家世应该没问题吧？」"
+                }
+            }
+        },
+        linkback = "block_00062",
+        linknext = "block_00064",
+        line = 396
+    },
+    block_00064 = {
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0010", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00193", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「他是著名政治家的儿子，凭借个人才能被选入学生会，",
+                    {"rt2"},
+                    "现在担任这个职位。」"
+                }
+            }
+        },
+        linkback = "block_00063",
+        linknext = "block_00065",
+        line = 402
+    },
+    block_00065 = {
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0002", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00194", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「自从他成为风纪委员会长后，",
+                    {"rt2"},
+                    "学校内的问题投诉数量大幅减少。」"
+                }
+            }
+        },
+        linkback = "block_00064",
+        linknext = "block_00066",
+        line = 408
+    },
+    block_00066 = {
+        {"msgoff"},
+        {"fg", ch = "龍司", size = "no", ex01 = "a0099", mode = 3, resize = 1, path = ":fg/ryu/no/", file = "ryu_noa0200", face = "a0001", head = "ryu_noa", x = 0, y = 0, lv = 3, id = 13, sync = 0},
+        {"extrans", time = 700},
+        {"fg", ch = "ファイブ", size = "no", mode = 1, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0026", head = "fiv_noa", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00195", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「虽然我觉得他压制他人的方式有些不妥，",
+                    {"rt2"},
+                    "但毫无疑问是他维护了风纪。」"
+                }
+            }
+        },
+        linkback = "block_00065",
+        linknext = "block_00067",
+        line = 419
+    },
+    block_00067 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "bg024a", path = ":bg/", sync = 0},
+        {"fg", ch = "ファイブ", size = "no", mode = 3, path = ":fg/fiv/no/", file = "fiv_noa0200", face = "a0001", head = "fiv_noa", lv = 3, id = 13, sync = 0},
+        {"extrans"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_fiv_00196", ch = "fiv"}
+            },
+            ja = {
+                {
+                    name = {"五号"},
+                    "「关于学生会就是这些。」"
+                }
+            }
+        },
+        linkback = "block_00066",
+        linknext = "block_00068",
+        line = 433
+    },
+    block_00068 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「这所学园，真的是只有公子小姐啊。」"
+                }
+            }
+        },
+        linkback = "block_00067",
+        linknext = "block_00069",
+        line = 436
+    },
+    block_00069 = {
+        {"text"},
+        text = {
+            ja = {
+                {"正好与我完全相反的出生和成长经历。"}
+            }
+        },
+        linkback = "block_00068",
+        linknext = "block_00070",
+        line = 451
+    },
+    block_00070 = {
+        {"text"},
+        text = {
+            ja = {
+                {"那是我一直在寻找的结婚对象。"}
+            }
+        },
+        linkback = "block_00069",
+        linknext = "block_00071",
+        line = 453
+    },
+    block_00071 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "面前的壁垒高得远超想象……不过，如果能结婚的话，绝对没",
+                    {"rt2"},
+                    "有比这更好的优质选择了。"
+                }
+            }
+        },
+        linkback = "block_00070",
+        linknext = "block_00072",
+        line = 456
+    },
+    block_00072 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「剩下的就看我怎么做了。」"
+                }
+            }
+        },
+        linkback = "block_00071",
+        linknext = "block_00073",
+        line = 459
+    },
+    block_00073 = {
+        {"bg", file = "ev_com_c01_01", path = ":ev/ev_com_c01/", set = "ev_com_c01", sync = 0},
+        {"bg", file = "reco", id = 9, lv = 9, path = ":sys/", sync = 0},
+        {"extrans"},
+        {"text"},
+        text = {
+            ja = {
+                {"无论面前有多大的障碍，必定会有绕过或者突破的办法。"}
+            }
+        },
+        linkback = "block_00072",
+        linknext = "block_00074",
+        line = 467
+    },
+    block_00074 = {
+        {"text"},
+        text = {
+            ja = {
+                {"到现在为止，我一直都是这么做的。"}
+            }
+        },
+        linkback = "block_00073",
+        linknext = "block_00075",
+        line = 469
+    },
+    block_00075 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我并不是那么灵巧，所以也有失败的经历。",
+                    {"rt2"},
+                    "遇到生命危险的事情也不是一两次。"
+                }
+            }
+        },
+        linkback = "block_00074",
+        linknext = "block_00076",
+        line = 472
+    },
+    block_00076 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "有时候我不得不走上危险的道路。",
+                    {"rt2"},
+                    "那是在珠贺良区这个地方。"
+                }
+            }
+        },
+        linkback = "block_00075",
+        linknext = "block_00077",
+        line = 475
+    },
+    block_00077 = {
+        {"text"},
+        text = {
+            ja = {
+                {"而我所追求的目标是明确的。"}
+            }
+        },
+        linkback = "block_00076",
+        linknext = "block_00078",
+        line = 477
+    },
+    block_00078 = {
+        {"text"},
+        text = {
+            ja = {
+                {"让我弟妹过上轻松的生活，仅此而已。"}
+            }
+        },
+        linkback = "block_00077",
+        linknext = "block_00079",
+        line = 479
+    },
+    block_00079 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "bg024a", path = ":bg/", sync = 0},
+        {"extrans"},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「嘛，虽然笨拙，但我会尽量做到好的。」"
+                }
+            }
+        },
+        linkback = "block_00078",
+        linknext = "block_00080",
+        line = 488
+    },
+    block_00080 = {
+        {"bg", speed = 80000, file = "zbg099a", path = ":bg/", x2 = 0, y2 = -360, x = 0, y = 360, ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            ja = {
+                {"――就这样，事情开始动起来了。"}
+            }
+        },
+        linkback = "block_00079",
+        linknext = "block_00081",
+        line = 494
+    },
+    block_00081 = {
+        {"text"},
+        text = {
+            ja = {
+                {"仅仅因为出身于珠贺良区，就要从劣势开始？"}
+            }
+        },
+        linkback = "block_00080",
+        linknext = "block_00082",
+        line = 496
+    },
+    block_00082 = {
+        {"text"},
+        text = {
+            ja = {
+                {"那可真不错。我会扭转局面的。"}
+            }
+        },
+        linkback = "block_00081",
+        linknext = "block_00083",
+        line = 498
+    },
+    block_00083 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "这是一个关于",
+                    {"txruby", text = "下克上"},
+                    "逆袭者",
+                    {"txruby"},
+                    "的奋斗故事。"
+                }
+            }
+        },
+        linkback = "block_00082",
+        linknext = "block_00084",
+        line = 500
+    },
+    block_00084 = {
+        {"bgm", stop = 1},
+        {"bgm", stop = 1, time = 3000},
+        {"se", stop = 1, id = -1, time = 3000},
+        {"vostop", stop = 1, time = 3000},
+        {"ntclear"},
+        {"cgdel", id = -1},
+        {"bg", time = 3000, file = "black", path = ":bg/"},
+        {"cacheclear"},
+        {"ex", time = 1000, func = "wait"},
+        {"movie", file = "op"},
+        {"bgm", stop = 1, time = 1000},
+        {"se", stop = 1, id = -1, time = 1000},
+        {"vostop", stop = 1, time = 1000},
+        {"ntclear"},
+        {"cgdel", id = -1},
+        {"bg", time = 1000, file = "black", path = ":bg/"},
+        {"cacheclear"},
+        {"ex", time = 1000, func = "wait"},
+        {"excall", file = "01_02龍司編_01"},
+        {"text"},
+        linkback = "block_00083",
+        line = 514
+    },
+    label = {
+        top = {block = "block_00000", label = 1}
+    }
+}

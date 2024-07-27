@@ -1,0 +1,2556 @@
+astver = 2.0
+astname = "ast"
+ast = {
+    block_00000 = {
+        {"savetitle", text = "秘められた可能性"},
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", x = 400, y = 20, file = "zbg017a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "イヴ", size = "z1", mode = 3, resize = 1, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0019", head = "eve_z1b", ex05 = "eve_z1b0000", lv = 4, id = 13, sync = 0},
+        {"extrans"},
+        {"bgm", file = "bgm06"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01271", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「那是，汐莉？」"
+                }
+            }
+        },
+        linknext = "block_00001",
+        line = 27
+    },
+    block_00001 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「嗯？……啊，真的。",
+                    {"rt2"},
+                    "你又在找伊舞吧？」"
+                }
+            }
+        },
+        linkback = "block_00000",
+        linknext = "block_00002",
+        line = 31
+    },
+    block_00002 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0052", head = "eve_z1b", ex05 = "eve_z1b0000", lv = 4, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01272", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「要不要叫她一下？」"
+                }
+            }
+        },
+        linkback = "block_00001",
+        linknext = "block_00003",
+        line = 36
+    },
+    block_00003 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "就在我们靠近的瞬间，",
+                    {"rt2"},
+                    "汐莉转过头来。"
+                }
+            }
+        },
+        linkback = "block_00002",
+        linknext = "block_00004",
+        line = 42
+    },
+    block_00004 = {
+        {"text"},
+        text = {
+            ja = {
+                {"注意到伊舞的瞬间，她的眼睛开始闪闪发光。"}
+            }
+        },
+        linkback = "block_00003",
+        linknext = "block_00005",
+        line = 44
+    },
+    block_00005 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "bg017a", path = ":bg/", sync = 0},
+        {"fg", ch = "イヴ", size = "no", mode = 3, resize = 1, path = ":fg/eve/no/", file = "eve_nob0200", face = "b0052", head = "eve_nob", ex05 = "eve_nob0000", x = -280, lv = 3, id = 9, sync = 0},
+        {"fg", ch = "汐莉", size = "no", mode = 3, path = ":fg/sio/no/", file = "sio_noa0200", face = "a0003", head = "sio_noa", ex05 = "sio_noa0000", x = 280, lv = 3, id = 10, sync = 0},
+        {"extrans", time = 500},
+        {"fgact", ch = "汐莉", act = "ジャンプ", lv = 3, id = 10},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "汐莉", size = "no", mode = 3, path = ":fg/sio/no/", file = "sio_noa0200", face = "a0024", head = "sio_noa", ex05 = "sio_noa0000", x = 280, lv = 3, id = 10}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00058", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「伊舞前辈！……还有布波能前辈！」"
+                }
+            }
+        },
+        linkback = "block_00004",
+        linknext = "block_00006",
+        line = 59
+    },
+    block_00006 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「别露出那么明显的不情愿的表情。」"
+                }
+            }
+        },
+        linkback = "block_00005",
+        linknext = "block_00007",
+        line = 62
+    },
+    block_00007 = {
+        {"fg", ch = "汐莉", size = "no", mode = 3, path = ":fg/sio/no/", file = "sio_noa0200", face = "a0022", head = "sio_noa", ex05 = "sio_noa0000", x = 280, lv = 3, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00059", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「这也没办法啊……」"
+                }
+            }
+        },
+        linkback = "block_00006",
+        linknext = "block_00008",
+        line = 67
+    },
+    block_00008 = {
+        {"fg", ch = "汐莉", size = "no", mode = 3, path = ":fg/sio/no/", file = "sio_noa0210", face = "a0009", head = "sio_noa", ex05 = "sio_noa0010", x = 280, lv = 3, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00060", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「我是伊舞前辈的正式助手，",
+                    {"rt2"},
+                    "所以我也想理解这些事情。」"
+                }
+            }
+        },
+        linkback = "block_00007",
+        linknext = "block_00009",
+        line = 73
+    },
+    block_00009 = {
+        {"fg", ch = "汐莉", size = "no", mode = 3, path = ":fg/sio/no/", file = "sio_noa0210", face = "a0011", head = "sio_noa", ex05 = "sio_noa0010", x = 280, lv = 3, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00061", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「但是，每当看到布波能前辈，",
+                    {"rt2"},
+                    "我就会感到心里一阵烦躁！」"
+                }
+            }
+        },
+        linkback = "block_00008",
+        linknext = "block_00010",
+        line = 79
+    },
+    block_00010 = {
+        {"fg", ch = "イヴ", size = "no", mode = 3, path = ":fg/eve/no/", file = "eve_nob0200", face = "b0004", head = "eve_nob", ex05 = "eve_nob0000", x = -280, lv = 3, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01273", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「谢谢你忍耐。",
+                    {"rt2"},
+                    "下次我一定会好好补偿的。」"
+                }
+            }
+        },
+        linkback = "block_00009",
+        linknext = "block_00011",
+        line = 85
+    },
+    block_00011 = {
+        {"fg", ch = "汐莉", size = "no", mode = 3, path = ":fg/sio/no/", file = "sio_noa0200", face = "a0022", head = "sio_noa", ex05 = "sio_noa0000", x = 280, lv = 3, id = 10},
+        {"fgact", ch = "汐莉", act = "おじぎ", lv = 3, id = 10},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "汐莉", size = "no", mode = 3, path = ":fg/sio/no/", file = "sio_noa0200", face = "a0024", head = "sio_noa", ex05 = "sio_noa0000", x = 280, lv = 3, id = 10}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00062", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「嗯……补偿我很开心，但……",
+                    {"rt2"},
+                    "独占还是不太好吧。」"
+                }
+            }
+        },
+        linkback = "block_00010",
+        linknext = "block_00012",
+        line = 93
+    },
+    block_00012 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", x = -400, y = 20, file = "zbg017a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "汐莉", size = "z1", mode = 3, resize = 1, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0026", head = "sio_z1a", ex05 = "sio_z1a0000", lv = 4, id = 10, sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我并不是想独占啊……。",
+                    {"rt2"},
+                    "虽然觉得有点不好意思。」"
+                }
+            }
+        },
+        linkback = "block_00011",
+        linknext = "block_00013",
+        line = 107
+    },
+    block_00013 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0210", face = "a0019", head = "sio_z1a", ex05 = "sio_z1a0010", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00063", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「顺便问一下，伊舞前辈接下来有什么安排吗？」"
+                }
+            }
+        },
+        linkback = "block_00012",
+        linknext = "block_00014",
+        line = 112
+    },
+    block_00014 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0210", face = "a0022", head = "sio_z1a", ex05 = "sio_z1a0010", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00064", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「图书馆的学习区已经关闭，",
+                    {"rt2"},
+                    "现在还不能使用吧？」"
+                }
+            }
+        },
+        linkback = "block_00013",
+        linknext = "block_00015",
+        line = 118
+    },
+    block_00015 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「咦？汐莉你刚才也在图书馆吗？」"
+                }
+            }
+        },
+        linkback = "block_00014",
+        linknext = "block_00016",
+        line = 121
+    },
+    block_00016 = {
+        {"cgdel", id = -1},
+        {"bg", time = 1000, file = "white", path = ":bg/"},
+        {"bg", file = "bg099a", path = ":bg/", sync = 0},
+        {"bg", file = "reco", id = 9, lv = 9, path = ":sys/", sync = 0},
+        {"extrans", time = 2000},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "放学后，我们像往常一样，",
+                    {"rt2"},
+                    "朝着图书馆走去。"
+                }
+            }
+        },
+        linkback = "block_00015",
+        linknext = "block_00017",
+        line = 132
+    },
+    block_00017 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "平时安静的图书馆前。",
+                    {"rt2"},
+                    "但今天却聚集了很多人。"
+                }
+            }
+        },
+        linkback = "block_00016",
+        linknext = "block_00018",
+        line = 137
+    },
+    block_00018 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "我问发生了什么，",
+                    {"rt2"},
+                    "似乎是有只鸟从打开的窗户飞进来了。"
+                }
+            }
+        },
+        linkback = "block_00017",
+        linknext = "block_00019",
+        line = 140
+    },
+    block_00019 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "里面保安正在进行捕捉工作，",
+                    {"rt2"},
+                    "在捕到鸟之前，图书馆暂时关闭。"
+                }
+            }
+        },
+        linkback = "block_00018",
+        linknext = "block_00020",
+        line = 143
+    },
+    block_00020 = {
+        {"cgdel", id = -1},
+        {"bg", time = 1000, file = "white", path = ":bg/"},
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", y = 20, file = "zbg017a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "イヴ", size = "z1", mode = 3, resize = 1, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0002", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9, sync = 0},
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0001", head = "sio_z1a", ex05 = "sio_z1a0000", x = 280, lv = 4, id = 10, sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        text = {
+            ja = {
+                {"所以我们无所事事地在中庭散步……。"}
+            }
+        },
+        linkback = "block_00019",
+        linknext = "block_00021",
+        line = 156
+    },
+    block_00021 = {
+        {"fgact", ch = "汐莉", act = "うなづく", lv = 4, id = 10},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0015", head = "sio_z1a", ex05 = "sio_z1a0000", x = 280, lv = 4, id = 10}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00065", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「是啊。不过因为比你们晚到，",
+                    {"rt2"},
+                    "所以才不得不这样找你们……」"
+                }
+            }
+        },
+        linkback = "block_00020",
+        linknext = "block_00022",
+        line = 163
+    },
+    block_00022 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0019", head = "eve_z1a", ex05 = "eve_z1a0010", x = -280, lv = 4, id = 9},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0052", head = "eve_z1a", ex05 = "eve_z1a0010", x = -280, lv = 4, id = 9}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01274", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「原来如此。还没有其他安排呢。",
+                    {"rt2"},
+                    "图书馆一开就马上开始学习会……」"
+                }
+            }
+        },
+        linkback = "block_00021",
+        linknext = "block_00023",
+        line = 170
+    },
+    block_00023 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0210", face = "a0003", head = "sio_z1a", ex05 = "sio_z1a0010", x = 280, lv = 4, id = 10},
+        {"fgact", ch = "汐莉", act = "びっくり", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00066", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「没关系的，伊舞前辈！",
+                    {"rt2"},
+                    "从现在开始请和我交往吧！」"
+                }
+            }
+        },
+        linkback = "block_00022",
+        linknext = "block_00024",
+        line = 177
+    },
+    block_00024 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0004", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0002", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01275", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「好的。凪你呢？」"
+                }
+            }
+        },
+        linkback = "block_00023",
+        linknext = "block_00025",
+        line = 183
+    },
+    block_00025 = {
+        {"fgact", ch = "汐莉", act = "停止", lv = 4, id = 10},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「如果汐莉想的话我就跟着。",
+                    {"rt2"},
+                    "要做什么？」"
+                }
+            }
+        },
+        linkback = "block_00024",
+        linknext = "block_00026",
+        line = 189
+    },
+    block_00026 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0054", head = "sio_z1a", ex05 = "sio_z1a0000", x = 280, lv = 4, id = 10},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0010", head = "sio_z1a", ex05 = "sio_z1a0000", x = 280, lv = 4, id = 10}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00067", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「我想请你亲自教我合气道！",
+                    {"rt2"},
+                    "只要布波能前辈不打扰，就可以看着哦。」"
+                }
+            }
+        },
+        linkback = "block_00025",
+        linknext = "block_00027",
+        line = 196
+    },
+    block_00027 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「真是像对待小孩一样……。",
+                    {"rt2"},
+                    "那就这样吧。」"
+                }
+            }
+        },
+        linkback = "block_00026",
+        linknext = "block_00028",
+        line = 200
+    },
+    block_00028 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「那么，在哪里进行呢？」"
+                }
+            }
+        },
+        linkback = "block_00027",
+        linknext = "block_00029",
+        line = 203
+    },
+    block_00029 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0210", face = "a0051", head = "sio_z1a", ex05 = "sio_z1a0010", x = 280, lv = 4, id = 10},
+        {"fgact", ch = "汐莉", act = "びっくり", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00068", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「这里就可以。",
+                    {"rt2"},
+                    "移动时间太浪费了。」"
+                }
+            }
+        },
+        linkback = "block_00028",
+        linknext = "block_00030",
+        line = 210
+    },
+    block_00030 = {
+        {"fg", mode = -2, sync = 0},
+        {"bg", y = 20, x = -850, zoom = 120, file = "zbg017a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"extrans", time = 500},
+        {"fg", ch = "イヴ", size = "z1", mode = 1, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0052", head = "eve_z1a", ex05 = "eve_z1a0010", lv = 4, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01276", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「那边空着，我们去那里做吧。」"
+                }
+            }
+        },
+        linkback = "block_00029",
+        linknext = "block_00031",
+        line = 220
+    },
+    block_00031 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「不，可是……穿着制服这样可以吗？」"
+                }
+            }
+        },
+        linkback = "block_00030",
+        linknext = "block_00032",
+        line = 223
+    },
+    block_00032 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "bg017a", path = ":bg/", sync = 0},
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0003", head = "eve_z1a", ex05 = "eve_z1a0010", x = -280, lv = 4, id = 9, sync = 0},
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0210", face = "a0030", head = "sio_z1a", ex05 = "sio_z1a0010", x = 280, lv = 4, id = 10, sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00069", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「看到的话我就会压制住你们。」"
+                }
+            }
+        },
+        linkback = "block_00031",
+        linknext = "block_00033",
+        line = 234
+    },
+    block_00033 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0054", head = "eve_z1a", ex05 = "eve_z1a0010", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01277", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「我的可以看哦。」"
+                }
+            }
+        },
+        linkback = "block_00032",
+        linknext = "block_00034",
+        line = 239
+    },
+    block_00034 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0027", head = "sio_z1a", ex05 = "sio_z1a0000", x = 280, lv = 4, id = 10},
+        {"fgact", ch = "汐莉", act = "びっくり", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00070", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「不行！我会压制你的！」"
+                }
+            }
+        },
+        linkback = "block_00033",
+        linknext = "block_00035",
+        line = 245
+    },
+    block_00035 = {
+        {"cgdel", id = -1},
+        {"bg", time = 1000, rule = "083r", wait = 250, file = "black", path = ":bg/", vague = 40},
+        {"bg", speed = 150000, rule = "083r", vague = 40, file = "zbg099a", path = ":bg/", x2 = 640, y2 = 0, x = -640, y = 0, ax = 1280, ay = 720, bx = -640, by = -360},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "困惑的我被抛在一边，",
+                    {"rt2"},
+                    "两人开始确认动作的技巧。"
+                }
+            }
+        },
+        linkback = "block_00034",
+        linknext = "block_00036",
+        line = 252
+    },
+    block_00036 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "汐莉在施展技艺，伊舞则在接受，",
+                    {"rt2"},
+                    "她们以优雅的动作流畅地移动。"
+                }
+            }
+        },
+        linkback = "block_00035",
+        linknext = "block_00037",
+        line = 255
+    },
+    block_00037 = {
+        {"fg", ch = "汐莉", size = "no", mode = 1, resize = 1, path = ":fg/sio/no/", file = "sio_noa0200", face = "a0022", head = "sio_noa", ex05 = "sio_noa0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00071", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「这样可以吗？」"
+                }
+            }
+        },
+        linkback = "block_00036",
+        linknext = "block_00038",
+        line = 260
+    },
+    block_00038 = {
+        {"fg", ch = "イヴ", size = "no", mode = 1, resize = 1, path = ":fg/eve/no/", file = "eve_noa0210", face = "a0001", head = "eve_noa", ex05 = "eve_noa0010", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01278", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「对手腕的控制有点松，这样的话在投掷前",
+                    {"rt2"},
+                    "可能会被挣脱哦。」"
+                }
+            }
+        },
+        linkback = "block_00037",
+        linknext = "block_00039",
+        line = 266
+    },
+    block_00039 = {
+        {"fg", ch = "汐莉", size = "no", mode = 1, path = ":fg/sio/no/", file = "sio_noa0200", face = "a0019", head = "sio_noa", ex05 = "sio_noa0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00072", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「啊，明白了！",
+                    {"rt2"},
+                    "但是，我该怎么做呢？」"
+                }
+            }
+        },
+        linkback = "block_00038",
+        linknext = "block_00040",
+        line = 272
+    },
+    block_00040 = {
+        {"fg", ch = "イヴ", size = "no", mode = 1, path = ":fg/eve/no/", file = "eve_nob0200", face = "b0052", head = "eve_nob", ex05 = "eve_nob0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01279", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「不要想着用力量和速度来解决。",
+                    {"rt2"},
+                    "重要的是一步一步认真地进行每个步骤。」"
+                }
+            }
+        },
+        linkback = "block_00039",
+        linknext = "block_00041",
+        line = 278
+    },
+    block_00041 = {
+        {"fg", ch = "イヴ", size = "no", mode = 1, path = ":fg/eve/no/", file = "eve_nob0200", face = "b0002", head = "eve_nob", ex05 = "eve_nob0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01280", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「所以一开始不需要实战的速度。",
+                    {"rt2"},
+                    "不要着急，稳扎稳打地确认动作。」"
+                }
+            }
+        },
+        linkback = "block_00040",
+        linknext = "block_00042",
+        line = 284
+    },
+    block_00042 = {
+        {"fg", ch = "イヴ", size = "no", mode = 1, path = ":fg/eve/no/", file = "eve_nob0200", face = "b0004", head = "eve_nob", ex05 = "eve_nob0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01281", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「……所以，",
+                    {"rt2"},
+                    "我们再稍微调整一下手臂的角度吧。」"
+                }
+            }
+        },
+        linkback = "block_00041",
+        linknext = "block_00043",
+        line = 290
+    },
+    block_00043 = {
+        {"fg", ch = "汐莉", size = "no", mode = 1, path = ":fg/sio/no/", file = "sio_noa0200", face = "a0003", head = "sio_noa", ex05 = "sio_noa0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00073", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「明白了！",
+                    {"rt2"},
+                    "一步一步认真地进行每个步骤，对吧？」"
+                }
+            }
+        },
+        linkback = "block_00042",
+        linknext = "block_00044",
+        line = 296
+    },
+    block_00044 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "在我这个连合气道的基础都不知道的人眼中，",
+                    {"rt2"},
+                    "伊舞和汐莉就像是在跳舞。"
+                }
+            }
+        },
+        linkback = "block_00043",
+        linknext = "block_00045",
+        line = 299
+    },
+    block_00045 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "虽然地面不是榻榻米，所以并不是被投掷出去，",
+                    {"rt2"},
+                    "但她们正在反复练习到那一瞬间。"
+                }
+            }
+        },
+        linkback = "block_00044",
+        linknext = "block_00046",
+        line = 302
+    },
+    block_00046 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "bg017a", path = ":bg/", sync = 0},
+        {"fg", ch = "イヴ", size = "no", mode = 3, path = ":fg/eve/no/", file = "eve_nob0200", face = "b0001", head = "eve_nob", ex05 = "eve_nob0000", x = -230, lv = 3, id = 9, sync = 0},
+        {"fg", ch = "汐莉", size = "no", mode = 3, path = ":fg/sio/no/", file = "sio_noa0210", face = "a0003", head = "sio_noa", ex05 = "sio_noa0010", x = 230, lv = 3, id = 10, sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01282", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「另外……汐莉可能还需要多做一些核心训练，",
+                    {"rt2"},
+                    "这样会更好。」"
+                }
+            }
+        },
+        linkback = "block_00045",
+        linknext = "block_00047",
+        line = 314
+    },
+    block_00047 = {
+        {"fg", ch = "イヴ", size = "no", mode = 3, path = ":fg/eve/no/", file = "eve_nob0200", face = "b0002", head = "eve_nob", ex05 = "eve_nob0000", x = -230, lv = 3, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01283", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「如果要认真练习合气道，",
+                    {"rt2"},
+                    "锻炼核心是必不可少的。」"
+                }
+            }
+        },
+        linkback = "block_00046",
+        linknext = "block_00048",
+        line = 320
+    },
+    block_00048 = {
+        {"fg", ch = "汐莉", size = "no", mode = 3, path = ":fg/sio/no/", file = "sio_noa0200", face = "a0001", head = "sio_noa", ex05 = "sio_noa0000", x = 230, lv = 3, id = 10},
+        {"fgact", ch = "汐莉", act = "うなづく", lv = 3, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00074", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「明白了。我会调整我的日程安排。」"
+                }
+            }
+        },
+        linkback = "block_00047",
+        linknext = "block_00049",
+        line = 326
+    },
+    block_00049 = {
+        {"fg", ch = "イヴ", size = "no", mode = 3, path = ":fg/eve/no/", file = "eve_noa0210", face = "a0002", head = "eve_noa", ex05 = "eve_noa0010", x = -230, lv = 3, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01284", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「不要一下子全改，要在没有负荷的范围内进行哦。」"
+                }
+            }
+        },
+        linkback = "block_00048",
+        linknext = "block_00050",
+        line = 331
+    },
+    block_00050 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", y = 20, file = "zbg017a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "イヴ", size = "z1", mode = 3, resize = 1, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0002", head = "eve_z1a", ex05 = "eve_z1a0010", x = -280, lv = 4, id = 9, sync = 0},
+        {"fg", ch = "汐莉", size = "z1", mode = 3, resize = 1, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0001", head = "sio_z1a", ex05 = "sio_z1a0000", x = 280, lv = 4, id = 10, sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我对运动部的运作不是很了解，",
+                    {"rt2"},
+                    "合气道是必修科目吗？」"
+                }
+            }
+        },
+        linkback = "block_00049",
+        linknext = "block_00051",
+        line = 343
+    },
+    block_00051 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0004", head = "eve_z1a", ex05 = "eve_z1a0010", x = -280, lv = 4, id = 9},
+        {"fgact", ch = "イヴ", act = "いいえ", lv = 4, id = 9},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0052", head = "eve_z1a", ex05 = "eve_z1a0010", x = -280, lv = 4, id = 9}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01285", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「不，没有这样的规定。",
+                    {"rt2"},
+                    "体格什么的都有适合和不适合的情况。」"
+                }
+            }
+        },
+        linkback = "block_00050",
+        linknext = "block_00052",
+        line = 351
+    },
+    block_00052 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0210", face = "b0052", head = "eve_z1b", ex05 = "eve_z1b0010", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01286", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「究竟是专攻一门，还是广泛学习多种技能，",
+                    {"rt2"},
+                    "都由学生自主决定。」"
+                }
+            }
+        },
+        linkback = "block_00051",
+        linknext = "block_00053",
+        line = 357
+    },
+    block_00053 = {
+        {"fgact", ch = "イヴ", act = "停止", lv = 4, id = 9},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「哦……",
+                    {"rt2"},
+                    "那就是说，汐莉最近开始练合气道了？」"
+                }
+            }
+        },
+        linkback = "block_00052",
+        linknext = "block_00054",
+        line = 363
+    },
+    block_00054 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0003", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01287", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「嗯，是从入学以来开始的。」"
+                }
+            }
+        },
+        linkback = "block_00053",
+        linknext = "block_00055",
+        line = 368
+    },
+    block_00055 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0024", head = "sio_z1a", ex05 = "sio_z1a0000", x = 280, lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00075", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「……布波能前辈。",
+                    {"rt2"},
+                    "我们说好不打扰的，对吧？」"
+                }
+            }
+        },
+        linkback = "block_00054",
+        linknext = "block_00056",
+        line = 374
+    },
+    block_00056 = {
+        {"quake", mode = "mw"},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「抱歉！？",
+                    {"rt2"},
+                    "我以为这种闲聊是可以的。」"
+                }
+            }
+        },
+        linkback = "block_00055",
+        linknext = "block_00057",
+        line = 380
+    },
+    block_00057 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0210", face = "b0004", head = "eve_z1b", ex05 = "eve_z1b0010", x = -280, lv = 4, id = 9},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0210", face = "b0002", head = "eve_z1b", ex05 = "eve_z1b0010", x = -280, lv = 4, id = 9}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01288", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「通过闲聊增进感情也是很重要的哦。",
+                    {"rt2"},
+                    "汐莉之前主要练的是空手道，对吧？」"
+                }
+            }
+        },
+        linkback = "block_00056",
+        linknext = "block_00058",
+        line = 387
+    },
+    block_00058 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0026", head = "sio_z1a", ex05 = "sio_z1a0000", x = 280, lv = 4, id = 10},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0009", head = "sio_z1a", ex05 = "sio_z1a0000", x = 280, lv = 4, id = 10},
+                {"fgact", ch = "汐莉", act = "うなづく", lv = 4, id = 10}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00076", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「……………………哼！」"
+                }
+            }
+        },
+        linkback = "block_00057",
+        linknext = "block_00059",
+        line = 394
+    },
+    block_00059 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0054", head = "eve_z1a", ex05 = "eve_z1a0010", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01289", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「你看？」"
+                }
+            }
+        },
+        linkback = "block_00058",
+        linknext = "block_00060",
+        line = 399
+    },
+    block_00060 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0011", head = "sio_z1a", ex05 = "sio_z1a0000", x = 280, lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00077", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「……是的。自从进入桜元学园以来，",
+                    {"rt2"},
+                    "柔道也被纳入了课程。」"
+                }
+            }
+        },
+        linkback = "block_00059",
+        linknext = "block_00061",
+        line = 405
+    },
+    block_00061 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", x = 400, y = 20, file = "zbg017a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0002", head = "eve_z1a", ex05 = "eve_z1a0010", lv = 4, id = 9, sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01290", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「汐莉可是个优秀的人哦～。",
+                    {"rt2"},
+                    "运动神经超棒，在空手道比赛中屡屡获胜。」"
+                }
+            }
+        },
+        linkback = "block_00060",
+        linknext = "block_00062",
+        line = 417
+    },
+    block_00062 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0004", head = "eve_z1a", ex05 = "eve_z1a0010", lv = 4, id = 9},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0052", head = "eve_z1b", ex05 = "eve_z1b0000", lv = 4, id = 9}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01291", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「她是被桜元学园招募的，属于被特招的那一类。",
+                    {"rt2"},
+                    "也就是所谓的精英。」"
+                }
+            }
+        },
+        linkback = "block_00061",
+        linknext = "block_00063",
+        line = 424
+    },
+    block_00063 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0006", head = "eve_z1b", ex05 = "eve_z1b0000", lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01292", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「能从桜元学园被招募的人，",
+                    {"rt2"},
+                    "可真是屈指可数啊。」"
+                }
+            }
+        },
+        linkback = "block_00062",
+        linknext = "block_00064",
+        line = 430
+    },
+    block_00064 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「真的假的？」"
+                }
+            }
+        },
+        linkback = "block_00063",
+        linknext = "block_00065",
+        line = 433
+    },
+    block_00065 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", x = -400, y = 20, file = "zbg017a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0005", head = "sio_z1a", ex05 = "sio_z1a0000", lv = 4, id = 10, sync = 0},
+        {"extrans", time = 500},
+        {"fgact", ch = "汐莉", act = "びっくり", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00078", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「哼哼！你对我刮目相看了吗？」"
+                }
+            }
+        },
+        linkback = "block_00064",
+        linknext = "block_00066",
+        line = 445
+    },
+    block_00066 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「我只是普通地刮目相看，所以有点困扰。」"
+                }
+            }
+        },
+        linkback = "block_00065",
+        linknext = "block_00067",
+        line = 448
+    },
+    block_00067 = {
+        {"fgact", ch = "汐莉", act = "停止", lv = 4, id = 10},
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0210", face = "a0006", head = "sio_z1a", ex05 = "sio_z1a0010", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00079", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「你可以尊称我为汐莉大人哦！」"
+                }
+            }
+        },
+        linkback = "block_00066",
+        linknext = "block_00068",
+        line = 454
+    },
+    block_00068 = {
+        {"fg", ch = "イヴ", size = "no", mode = 1, resize = 1, path = ":fg/eve/no/", file = "eve_nob0200", face = "b0015", head = "eve_nob", ex05 = "eve_nob0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01293", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「除了空手道之外的技能还很不足，",
+                    {"rt2"},
+                    "可别得意忘形了。」"
+                }
+            }
+        },
+        linkback = "block_00067",
+        linknext = "block_00069",
+        line = 460
+    },
+    block_00069 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0015", head = "sio_z1a", ex05 = "sio_z1a0000", lv = 4, id = 10},
+        {"fgact", ch = "汐莉", act = "うんうん", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00080", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「嘿嘿，刚好是可以炫耀的场合，不小心就……」"
+                }
+            }
+        },
+        linkback = "block_00068",
+        linknext = "block_00070",
+        line = 466
+    },
+    block_00070 = {
+        {"fgact", ch = "汐莉", act = "停止", lv = 4, id = 10},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「但是专门向伊舞请教，",
+                    {"rt2"},
+                    "汐莉也会参加合气道比赛吗？」"
+                }
+            }
+        },
+        linkback = "block_00069",
+        linknext = "block_00071",
+        line = 472
+    },
+    block_00071 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0051", head = "sio_z1a", ex05 = "sio_z1a0000", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00081", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「不，我只是学习基础，",
+                    {"rt2"},
+                    "还没有达到实战水平。」"
+                }
+            }
+        },
+        linkback = "block_00070",
+        linknext = "block_00072",
+        line = 478
+    },
+    block_00072 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0001", head = "sio_z1a", ex05 = "sio_z1a0000", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00082", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「学习也是因为有知识的话，",
+                    {"rt2"},
+                    "以后可能会派上用场。」"
+                }
+            }
+        },
+        linkback = "block_00071",
+        linknext = "block_00073",
+        line = 484
+    },
+    block_00073 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「哦，真是勤奋啊。」"
+                }
+            }
+        },
+        linkback = "block_00072",
+        linknext = "block_00074",
+        line = 487
+    },
+    block_00074 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0210", face = "a0003", head = "sio_z1a", ex05 = "sio_z1a0010", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00083", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「我也在想，如果能追上伊舞前辈，",
+                    {"rt2"},
+                    "就能成为平等的立场了。」"
+                }
+            }
+        },
+        linkback = "block_00073",
+        linknext = "block_00075",
+        line = 493
+    },
+    block_00075 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「话虽如此……其实学习合气道，",
+                    {"rt2"},
+                    "是为了打倒伊舞吗？」"
+                }
+            }
+        },
+        linkback = "block_00074",
+        linknext = "block_00076",
+        line = 497
+    },
+    block_00076 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0024", head = "sio_z1a", ex05 = "sio_z1a0000", lv = 4, id = 10},
+        {"fgact", ch = "汐莉", act = "おじぎ", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00084", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「哈……怎么可能呢。",
+                    {"rt2"},
+                    "我在校期间赢她是不可能的。」"
+                }
+            }
+        },
+        linkback = "block_00075",
+        linknext = "block_00077",
+        line = 504
+    },
+    block_00077 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0010", head = "sio_z1a", ex05 = "sio_z1a0000", lv = 4, id = 10},
+        {"fgact", ch = "汐莉", act = "停止", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00085", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「就算只攻略合气道，",
+                    {"rt2"},
+                    "也不一定能赢伊舞前辈啊。」"
+                }
+            }
+        },
+        linkback = "block_00076",
+        linknext = "block_00078",
+        line = 511
+    },
+    block_00078 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「为什么呢？",
+                    {"rt2"},
+                    "如果了解对手使用的技巧，胜率应该会提高吧。」"
+                }
+            }
+        },
+        linkback = "block_00077",
+        linknext = "block_00079",
+        line = 515
+    },
+    block_00079 = {
+        {"fg", ch = "汐莉", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0010", head = "sio_z1a", ex05 = "sio_z1a0000", x2 = 0, x = 280, lv = 4, id = 10},
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0001", head = "sio_z1a", ex05 = "sio_z1a0000", x = 280, lv = 4, id = 10},
+        {"fg", ch = "イヴ", size = "z1", mx = -40, mode = 3, resize = 1, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0019", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01294", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「对了，我的比赛你看过了，但，",
+                    {"rt2"},
+                    "关于细节我还没跟凪说过呢。」"
+                }
+            }
+        },
+        linkback = "block_00078",
+        linknext = "block_00080",
+        line = 523
+    },
+    block_00080 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0001", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01295", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「我主要使用的是合气道，不过，",
+                    {"rt2"},
+                    "武术和格斗技全般都能用。」"
+                }
+            }
+        },
+        linkback = "block_00079",
+        linknext = "block_00081",
+        line = 529
+    },
+    block_00081 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「什么啊，这也太高规格了吧！」"
+                }
+            }
+        },
+        linkback = "block_00080",
+        linknext = "block_00082",
+        line = 532
+    },
+    block_00082 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0210", face = "b0015", head = "eve_z1b", ex05 = "eve_z1b0010", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01296", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「要是能这样就好了，实际上正好相反。",
+                    {"rt2"},
+                    "因为普通的方法赢不了，所以才增加了招式。」"
+                }
+            }
+        },
+        linkback = "block_00081",
+        linknext = "block_00083",
+        line = 538
+    },
+    block_00083 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0002", head = "eve_z1a", ex05 = "eve_z1a0010", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01297", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「我花了那么多时间，",
+                    {"rt2"},
+                    "如果可以的话，还想在其他领域多尝试。」"
+                }
+            }
+        },
+        linkback = "block_00082",
+        linknext = "block_00084",
+        line = 544
+    },
+    block_00084 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0003", head = "sio_z1a", ex05 = "sio_z1a0000", x = 280, lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00086", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「所以说，仅靠合气道的攻略想赢伊舞前辈，",
+                    {"rt2"},
+                    "这是不可能的。」"
+                }
+            }
+        },
+        linkback = "block_00083",
+        linknext = "block_00085",
+        line = 550
+    },
+    block_00085 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0005", head = "sio_z1a", ex05 = "sio_z1a0000", x = 280, lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00087", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「作为运动部的统筹，击退了无数挑战者，",
+                    {"rt2"},
+                    "至今仍然保持不败的理由你明白了吗？」"
+                }
+            }
+        },
+        linkback = "block_00084",
+        linknext = "block_00086",
+        line = 556
+    },
+    block_00086 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「这么说确实是这样。",
+                    {"rt2"},
+                    "看来我的想法太天真了。」"
+                }
+            }
+        },
+        linkback = "block_00085",
+        linknext = "block_00087",
+        line = 560
+    },
+    block_00087 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「抱歉，让你们浪费时间了。",
+                    {"rt2"},
+                    "我会安静一会儿，你们继续。」"
+                }
+            }
+        },
+        linkback = "block_00086",
+        linknext = "block_00088",
+        line = 564
+    },
+    block_00088 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0024", head = "sio_z1a", ex05 = "sio_z1a0000", x = 280, lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00088", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「既然在伊舞前辈身边，布波能前辈",
+                    {"rt2"},
+                    "更应该多了解伊舞前辈的事。」"
+                }
+            }
+        },
+        linkback = "block_00087",
+        linknext = "block_00089",
+        line = 570
+    },
+    block_00089 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0003", head = "sio_z1a", ex05 = "sio_z1a0000", x = 280, lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00089", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「来吧，伊舞前辈！继续吧！」"
+                }
+            }
+        },
+        linkback = "block_00088",
+        linknext = "block_00090",
+        line = 575
+    },
+    block_00090 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0004", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01298", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「有干劲真是太好了。我们今天就把这件事做到一个好的阶段",
+                    {"rt2"},
+                    "吧。」"
+                }
+            }
+        },
+        linkback = "block_00089",
+        linknext = "block_00091",
+        line = 581
+    },
+    block_00091 = {
+        {"cgdel", id = -1},
+        {"bg", time = 1000, rule = 139, wait = 500, file = "black", path = ":bg/", vague = 40},
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", x = -600, y = 20, file = "zbg017a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0003", head = "eve_z1a", ex05 = "eve_z1a0010", x = 0, lv = 4, id = 13, sync = 0},
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0210", face = "a0003", head = "sio_z1a", ex05 = "sio_z1a0010", x = 380, lv = 4, id = 8, sync = 0},
+        {"extrans", rule = 139, vague = 40},
+        {"text"},
+        text = {
+            ja = {
+                {"说到汐莉也是，伊舞给人一种被周围人崇拜的氛围。"}
+            }
+        },
+        linkback = "block_00090",
+        linknext = "block_00092",
+        line = 594
+    },
+    block_00092 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "感觉她在女生中也挺受欢迎的……。",
+                    {"rt2"},
+                    "实际上来看比赛的可不仅仅是男生。"
+                }
+            }
+        },
+        linkback = "block_00091",
+        linknext = "block_00093",
+        line = 597
+    },
+    block_00093 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", x = -600, y = -300, speed = 500, file = "zbg017a", path = ":bg/", y2 = 0, ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "イヴ", size = "z1", speed = 500, mode = 3, path = ":fg/eve/z1/", file = "eve_z1a0210", face = "a0003", head = "eve_z1a", ex05 = "eve_z1a0010", y2 = 0, x = 0, y = -600, lv = 4, id = 13, sync = 0},
+        {"fg", ch = "汐莉", size = "z1", speed = 500, mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0210", face = "a0003", head = "sio_z1a", ex05 = "sio_z1a0010", y2 = 0, x = 380, y = -600, lv = 4, id = 8, sync = 0},
+        {"bg", lv = 5, id = 5, rule = "cinema", file = "cinema01", alpha = 192, time = 400, path = ":sys/", vague = 40, sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "虽然知道两个人都很认真，但就是无法移开视线，",
+                    {"rt2"},
+                    "那飘动的裙子实在太吸引人了。"
+                }
+            }
+        },
+        linkback = "block_00092",
+        linknext = "block_00094",
+        line = 609
+    },
+    block_00094 = {
+        {"text"},
+        text = {
+            ja = {
+                {"我知道她们在认真训练，但就是忍不住想看。"}
+            }
+        },
+        linkback = "block_00093",
+        linknext = "block_00095",
+        line = 612
+    },
+    block_00095 = {
+        {"text"},
+        text = {
+            ja = {
+                {"这就是所谓的绝对领域吗……！！"}
+            }
+        },
+        linkback = "block_00094",
+        linknext = "block_00096",
+        line = 615
+    },
+    block_00096 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "bg017a", path = ":bg/", sync = 0},
+        {"fg", ch = "イヴ", size = "no", mode = 3, resize = 1, path = ":fg/eve/no/", file = "eve_noa0210", face = "a0003", head = "eve_noa", ex05 = "eve_noa0010", x = 0, lv = 3, id = 13, sync = 0},
+        {"fg", ch = "汐莉", size = "no", mode = 3, resize = 1, path = ":fg/sio/no/", file = "sio_noa0210", face = "a0022", head = "sio_noa", ex05 = "sio_noa0010", x = 380, lv = 3, id = 8, sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00090", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「伊舞前辈……感觉被一种像是在舔舐的视线盯着，真让人恶",
+                    {"rt2"},
+                    "心。」"
+                }
+            }
+        },
+        linkback = "block_00095",
+        linknext = "block_00097",
+        line = 627
+    },
+    block_00097 = {
+        {"fg", ch = "イヴ", size = "no", mode = 3, path = ":fg/eve/no/", file = "eve_noa0210", face = "a0004", head = "eve_noa", ex05 = "eve_noa0010", x = 0, lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01299", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「我也察觉到了，不过现在要专注于训练。」"
+                }
+            }
+        },
+        linkback = "block_00096",
+        linknext = "block_00098",
+        line = 632
+    },
+    block_00098 = {
+        {"fg", ch = "汐莉", size = "no", mode = 3, path = ":fg/sio/no/", file = "sio_noa0200", face = "a0010", head = "sio_noa", ex05 = "sio_noa0000", x = 380, lv = 3, id = 8},
+        {"fgact", ch = "汐莉", act = "おじぎ", lv = 3, id = 8},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "汐莉", size = "no", mode = 3, path = ":fg/sio/no/", file = "sio_noa0200", face = "a0014", head = "sio_noa", ex05 = "sio_noa0000", x = 380, lv = 3, id = 8}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00091", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「哎——……因为是布波能前辈对手，",
+                    {"rt2"},
+                    "难道就可以放松吗？」"
+                }
+            }
+        },
+        linkback = "block_00097",
+        linknext = "block_00099",
+        line = 640
+    },
+    block_00099 = {
+        {"fg", ch = "イヴ", size = "no", mode = 3, path = ":fg/eve/no/", file = "eve_nob0200", face = "b0052", head = "eve_nob", ex05 = "eve_nob0000", x = 0, lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01300", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「不是这样的，如果连这个程度都影响到专注力，那就不行了。",
+                    {"rt2"},
+                    "」"
+                }
+            }
+        },
+        linkback = "block_00098",
+        linknext = "block_00100",
+        line = 646
+    },
+    block_00100 = {
+        {"fg", ch = "イヴ", size = "no", mode = 3, path = ":fg/eve/no/", file = "eve_nob0200", face = "b0006", head = "eve_nob", ex05 = "eve_nob0000", x = 0, lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01301", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「而且作为女性，无论何时都要保持不让人感到羞愧的状态呢。",
+                    {"rt2"},
+                    "」"
+                }
+            }
+        },
+        linkback = "block_00099",
+        linknext = "block_00101",
+        line = 652
+    },
+    block_00101 = {
+        {"fg", ch = "汐莉", size = "no", mode = 3, path = ":fg/sio/no/", file = "sio_noa0200", face = "a0020", head = "sio_noa", ex05 = "sio_noa0000", x = 380, lv = 3, id = 8},
+        {"fgact", ch = "汐莉", act = "びっくり", lv = 3, id = 8},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00092", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「女、女性吗！？」"
+                }
+            }
+        },
+        linkback = "block_00100",
+        linknext = "block_00102",
+        line = 658
+    },
+    block_00102 = {
+        {"fg", ch = "汐莉", size = "no", mode = 3, path = ":fg/sio/no/", file = "sio_noa0200", face = "a0026", head = "sio_noa", ex05 = "sio_noa0000", x = 380, lv = 3, id = 8},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00093", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「我明白了！作为一个女性，",
+                    {"rt2"},
+                    "我会努力靠近伊舞前辈的！」"
+                }
+            }
+        },
+        linkback = "block_00101",
+        linknext = "block_00103",
+        line = 664
+    },
+    block_00103 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「没错！",
+                    {"rt2"},
+                    "为了伊舞和汐莉，我绝对不会停止观看的！」"
+                }
+            }
+        },
+        linkback = "block_00102",
+        linknext = "block_00104",
+        line = 668
+    },
+    block_00104 = {
+        {"fg", ch = "汐莉", size = "no", mode = 3, path = ":fg/sio/no/", file = "sio_noa0210", face = "a0027", head = "sio_noa", ex05 = "sio_noa0010", x = 380, lv = 3, id = 8},
+        {"fgact", ch = "汐莉", act = "ジャンプ", lv = 3, id = 8},
+        {"quake", mode = "mw"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00094", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「如果你听到了，就请马上停止吧！」"
+                }
+            }
+        },
+        linkback = "block_00103",
+        linknext = "block_00105",
+        line = 676
+    },
+    block_00105 = {
+        {"fg", ch = "イヴ", size = "no", mode = 3, path = ":fg/eve/no/", file = "eve_nob0200", face = "b0003", head = "eve_nob", ex05 = "eve_nob0000", x = 0, lv = 3, id = 13},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "イヴ", size = "no", mode = 3, path = ":fg/eve/no/", file = "eve_noa0210", face = "a0054", head = "eve_noa", ex05 = "eve_noa0010", x = 0, lv = 3, id = 13}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01302", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「啊哈哈！快点，集中精神！」"
+                }
+            }
+        },
+        linkback = "block_00104",
+        linknext = "block_00106",
+        line = 682
+    },
+    block_00106 = {
+        {"fg", ch = "汐莉", size = "no", mode = 3, path = ":fg/sio/no/", file = "sio_noa0200", face = "a0014", head = "sio_noa", ex05 = "sio_noa0000", x = 380, lv = 3, id = 8},
+        {"fgact", ch = "汐莉", act = "いいえ", lv = 3, id = 8},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00095", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「呜～～～」"
+                }
+            }
+        },
+        linkback = "block_00105",
+        linknext = "block_00107",
+        line = 688
+    },
+    block_00107 = {
+        {"fgact", ch = "汐莉", act = "停止", lv = 3, id = 8},
+        {"cgdel", id = -1},
+        {"bg", time = 1000, rule = 139, wait = 500, file = "black", path = ":bg/", vague = 40},
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", y = 20, file = "zbg017a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "イヴ", size = "z1", mode = 3, resize = 1, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0052", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9, sync = 0},
+        {"fg", ch = "汐莉", size = "z1", mode = 3, resize = 1, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0003", head = "sio_z1a", ex05 = "sio_z1a0000", x = 280, lv = 4, id = 10, sync = 0},
+        {"extrans", rule = 139, vague = 40},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "之后，汐莉活动完身体，",
+                    {"rt2"},
+                    "满脸笑容地结束了练习。"
+                }
+            }
+        },
+        linkback = "block_00106",
+        linknext = "block_00108",
+        line = 703
+    },
+    block_00108 = {
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0004", head = "sio_z1a", ex05 = "sio_z1a0000", x = 280, lv = 4, id = 10},
+                {"fgact", ch = "汐莉", act = "おじぎ", lv = 4, id = 10}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00096", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「果然和伊舞前辈在一起的时光是无可替代的。真的非常感谢",
+                    {"rt2"},
+                    "你。」"
+                }
+            }
+        },
+        linkback = "block_00107",
+        linknext = "block_00109",
+        line = 710
+    },
+    block_00109 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0004", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01303", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「不，我也很开心。",
+                    {"rt2"},
+                    "谢谢你邀请我哦。」"
+                }
+            }
+        },
+        linkback = "block_00108",
+        linknext = "block_00110",
+        line = 716
+    },
+    block_00110 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0210", face = "b0001", head = "eve_z1b", ex05 = "eve_z1b0010", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01304", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「我想你应该明白，武术是每天的积累，",
+                    {"rt2"},
+                    "即使我不在的时候也要坚持锻炼。」"
+                }
+            }
+        },
+        linkback = "block_00109",
+        linknext = "block_00111",
+        line = 722
+    },
+    block_00111 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0210", face = "a0003", head = "sio_z1a", ex05 = "sio_z1a0010", x = 280, lv = 4, id = 10},
+        {"fgact", ch = "汐莉", act = "うなづく", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00097", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「好的！我会遵守伊舞前辈的嘱咐，",
+                    {"rt2"},
+                    "继续努力的！」"
+                }
+            }
+        },
+        linkback = "block_00110",
+        linknext = "block_00112",
+        line = 729
+    },
+    block_00112 = {
+        {"fgact", ch = "汐莉", act = "停止", lv = 4, id = 10},
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0019", head = "sio_z1a", ex05 = "sio_z1a0000", x = 280, lv = 4, id = 10},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0011", head = "sio_z1a", ex05 = "sio_z1a0000", x = 280, lv = 4, id = 10}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00098", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「你们两个是要回图书馆吧。",
+                    {"rt2"},
+                    "我可以一起去吗？」"
+                }
+            }
+        },
+        linkback = "block_00111",
+        linknext = "block_00113",
+        line = 738
+    },
+    block_00113 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0010", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01305", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「嗯……」"
+                }
+            }
+        },
+        linkback = "block_00112",
+        linknext = "block_00114",
+        line = 743
+    },
+    block_00114 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0200", face = "b0015", head = "eve_z1b", ex05 = "eve_z1b0000", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01306", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「今天在图书馆的时间很少，",
+                    {"rt2"},
+                    "我想集中精力继续进行……抱歉。」"
+                }
+            }
+        },
+        linkback = "block_00113",
+        linknext = "block_00115",
+        line = 749
+    },
+    block_00115 = {
+        {"fg", ch = "イヴ", size = "z1", mode = 3, path = ":fg/eve/z1/", file = "eve_z1b0210", face = "b0052", head = "eve_z1b", ex05 = "eve_z1b0010", x = -280, lv = 4, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01307", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「指导的工作，还有凪。",
+                    {"rt2"},
+                    "对我来说都很重要。」"
+                }
+            }
+        },
+        linkback = "block_00114",
+        linknext = "block_00116",
+        line = 755
+    },
+    block_00116 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", y = 0, speed = 500, file = "zbg017a", path = ":bg/", x2 = 370, y2 = 0, x = 470, ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "イヴ", size = "z2", speed = 500, mode = 3, resize = 1, path = ":fg/eve/z2/", file = "eve_z2a0210", face = "a0002", head = "eve_z2a", ex05 = "eve_z2a0010", x2 = -100, x = 0, lv = 5, id = 9, sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        text = {
+            ja = {
+                {"伊舞站在我旁边，握住了我的手。"}
+            }
+        },
+        linkback = "block_00115",
+        linknext = "block_00117",
+        line = 764
+    },
+    block_00117 = {
+        {"fg", ch = "イヴ", size = "z2", mode = 3, path = ":fg/eve/z2/", file = "eve_z2a0210", face = "a0004", head = "eve_z2a", ex05 = "eve_z2a0010", x = 0, lv = 5, id = 9},
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "或许是我渐渐习惯了这种表达好意的行为，",
+                    {"rt2"},
+                    "不知不觉间也握回去了。"
+                }
+            }
+        },
+        linkback = "block_00116",
+        linknext = "block_00118",
+        line = 769
+    },
+    block_00118 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 1, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0014", head = "sio_z1a", ex05 = "sio_z1a0000", lv = 4, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00099", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「……………………」"
+                }
+            }
+        },
+        linkback = "block_00117",
+        linknext = "block_00119",
+        line = 774
+    },
+    block_00119 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", x = -400, y = 20, file = "zbg017a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0015", head = "sio_z1a", ex05 = "sio_z1a0000", lv = 4, id = 10, sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00100", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「……前辈们真的很要好呢。",
+                    {"rt2"},
+                    "伊舞前辈看起来比和我练习的时候更开心。」"
+                }
+            }
+        },
+        linkback = "block_00118",
+        linknext = "block_00120",
+        line = 785
+    },
+    block_00120 = {
+        {"fg", ch = "イヴ", size = "no", mode = 1, resize = 1, path = ":fg/eve/no/", file = "eve_nob0200", face = "b0052", head = "eve_nob", ex05 = "eve_nob0000", lv = 3, id = 200},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01308", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「和凪在一起的确很有趣。",
+                    {"rt2"},
+                    "但和汐莉的时光也总是快乐而重要的。」"
+                }
+            }
+        },
+        linkback = "block_00119",
+        linknext = "block_00121",
+        line = 791
+    },
+    block_00121 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0210", face = "a0013", head = "sio_z1a", ex05 = "sio_z1a0010", lv = 4, id = 10},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fgact", ch = "汐莉", act = "ジャンプ", lv = 4, id = 10},
+                {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0051", head = "sio_z1a", ex05 = "sio_z1a0000", lv = 4, id = 10}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00101", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「是啊……那就好，",
+                    {"rt2"},
+                    "肯定是我多心了！」"
+                }
+            }
+        },
+        linkback = "block_00120",
+        linknext = "block_00122",
+        line = 799
+    },
+    block_00122 = {
+        {"fg", ch = "汐莉", size = "z1", mode = 3, path = ":fg/sio/z1/", file = "sio_z1a0200", face = "a0054", head = "sio_z1a", ex05 = "sio_z1a0000", lv = 4, id = 10},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_sio_00102", ch = "sio"}
+            },
+            ja = {
+                {
+                    name = {"汐莉"},
+                    "「那么就这样吧。",
+                    {"rt2"},
+                    "伊舞前辈，工作加油哦！」"
+                }
+            }
+        },
+        linkback = "block_00121",
+        linknext = "block_00123",
+        line = 805
+    },
+    block_00123 = {
+        {"fg", ch = "汐莉", mx = 40, mode = -1, lv = 4, id = 10},
+        {"text"},
+        text = {
+            ja = {
+                {"我们一起目送轻快地奔跑着的汐莉。"}
+            }
+        },
+        linkback = "block_00122",
+        linknext = "block_00124",
+        line = 811
+    },
+    block_00124 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "她的身影消失后，",
+                    {"rt2"},
+                    "伊舞开始拉着我的手，催促我快点。"
+                }
+            }
+        },
+        linkback = "block_00123",
+        linknext = "block_00125",
+        line = 814
+    },
+    block_00125 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", y = 20, x = 470, file = "zbg017a", path = ":bg/", ax = 1280, ay = 720, bx = -640, by = -360, sync = 0},
+        {"fg", ch = "イヴ", size = "z2", mode = 3, resize = 1, path = ":fg/eve/z2/", file = "eve_z2a0210", face = "a0002", head = "eve_z2a", ex05 = "eve_z2a0010", lv = 5, id = 9, sync = 0},
+        {"extrans", time = 500},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "イヴ", size = "z2", mode = 3, path = ":fg/eve/z2/", file = "eve_z2a0210", face = "a0019", head = "eve_z2a", ex05 = "eve_z2a0010", lv = 5, id = 9}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01309", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「那我们走吧！参观没有无聊吧？」"
+                }
+            }
+        },
+        linkback = "block_00124",
+        linknext = "block_00126",
+        line = 826
+    },
+    block_00126 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「你们两个的动作都很优美，",
+                    {"rt2"},
+                    "比我想象中有趣多了。」"
+                }
+            }
+        },
+        linkback = "block_00125",
+        linknext = "block_00127",
+        line = 830
+    },
+    block_00127 = {
+        {"fg", ch = "イヴ", size = "z2", mode = 3, path = ":fg/eve/z2/", file = "eve_z2a0210", face = "a0004", head = "eve_z2a", ex05 = "eve_z2a0010", lv = 5, id = 9},
+        {"text"},
+        delay = {
+            vl01 = {
+                {"fg", ch = "イヴ", size = "z2", mode = 3, path = ":fg/eve/z2/", file = "eve_z2a0210", face = "a0005", head = "eve_z2a", ex05 = "eve_z2a0010", lv = 5, id = 9}
+            }
+        },
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01310", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「那就好。",
+                    {"rt2"},
+                    "不过可不能看汐莉的内裤哦？」"
+                }
+            }
+        },
+        linkback = "block_00126",
+        linknext = "block_00128",
+        line = 837
+    },
+    block_00128 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    name = {"凪"},
+                    "「那你们换好衣服再说吧。」"
+                }
+            }
+        },
+        linkback = "block_00127",
+        linknext = "block_00129",
+        line = 840
+    },
+    block_00129 = {
+        {"fg", ch = "イヴ", size = "z2", mode = 3, path = ":fg/eve/z2/", file = "eve_z2a0210", face = "a0054", head = "eve_z2a", ex05 = "eve_z2a0010", lv = 5, id = 9},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", file = "fem_eve_01311", ch = "eve"}
+            },
+            ja = {
+                {
+                    name = {"伊舞"},
+                    "「只要凪只看着我就解决了嘛。」"
+                }
+            }
+        },
+        linkback = "block_00128",
+        linknext = "block_00130",
+        line = 845
+    },
+    block_00130 = {
+        {"bg", time = 500, file = "bg099a", path = ":bg/"},
+        {"text"},
+        text = {
+            ja = {
+                {"两人就这样朝图书馆走去。"}
+            }
+        },
+        linkback = "block_00129",
+        linknext = "block_00131",
+        line = 849
+    },
+    block_00131 = {
+        {"text"},
+        text = {
+            ja = {
+                {
+                    "一直牵着的手在到达目的地之前",
+                    {"rt2"},
+                    "没有松开过。"
+                }
+            }
+        },
+        linkback = "block_00130",
+        linknext = "block_00132",
+        line = 852
+    },
+    block_00132 = {
+        {"bgm", stop = 1},
+        {"cgdel", id = -1},
+        {"bg", time = 1000, file = "black", path = ":bg/"},
+        {"excall", file = "03_イヴ_03_2"},
+        {"text"},
+        linkback = "block_00131",
+        line = 856
+    },
+    label = {
+        top = {block = "block_00000", label = 1}
+    }
+}
