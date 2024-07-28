@@ -39,6 +39,7 @@
 - `script_jp`：供参考的原日文脚本。
 - `tools`：实用工具。
 - `export_script.cmd`：用于导出汉化脚本的 cmd 脚本。
+- `pack_script.cmd`：用于打包汉化脚本的 cmd 脚本。
 - `README.md`：本文件。
 
 润色时，修改 `json_cn_gpt4omini` 中的 JSON 文件，修改后执行一遍 `export_script.cmd` 刷新 `script` 目录，然后发起 Pull Request。
@@ -50,6 +51,7 @@
   - 对于能力较强的模型（如 GPT-4 家族），可以适当调大每次请求发送的对话数量。此外并发量可以根据能力调高。翻译过程可以随时打断，GalTransl工具的缓存功能可以保留翻译记录，确保不会重复请求。
     - 供参考：本项目使用 GPT-4o-mini 完成除 H 外的初翻，每次发送 10 句对话，实际消耗额度约 $1。
 - 7B 大小的 SakuraLLM-GalTransl-v1.5 模型的翻译能力不及我的预期。如果希望保证翻译质量，尽量使用能力较强的闭源模型。
+- 根据翻译结果来看，GPT-4o-mini 的问题主要集中在人称和性别的区分上。 
 
 ## 特别鸣谢
 
